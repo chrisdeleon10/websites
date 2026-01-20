@@ -1,0 +1,117 @@
+/* HOMEPAGE TICKER */
+
+body .announcements-row,
+body .announcements-row .ticker-wrapper,
+body .announcements-row .ticker-wrapper .ticker,
+body .announcements-row .ticker-wrapper .ticker-title,
+body .announcements-row .ticker-wrapper .ticker-content {
+  background-color: #0369F4 !important;
+}
+
+body .announcements-row .ticker-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 1em;
+  font-size: 16px;
+  height: 0 !important;
+}
+
+body .announcements-row .ticker-wrapper .ticker-content {
+  text-wrap: inherit;
+  padding-top: 0;
+}
+
+body .announcements-row .ticker-wrapper .ticker-title {
+  padding-top: 0;
+}
+
+@media (max-width: 767px) {
+  body .announcements-row .ticker-wrapper {
+    font-size: 12px;
+  }
+}
+
+/* INTERACTION BAR ADJUSTMENTS */
+
+.scroll-item[data-item-name="Financing"], 
+.scroll-item[data-item-name="Search"],
+.scroll-item--default[data-item-name="Cars Under $30K"] {
+  display: none;
+}
+.scroll-item--custom[data-item-name="Cars Under $25K"],
+.scroll-item[data-item-name="Finance"] {
+	order: -1;
+}
+
+.scroll-item[data-item-name="New Vehicles"] {
+  order: -4;
+}
+
+.scroll-item[data-item-name="Pre-Owned Vehicles"] {
+  order: -3;
+}
+
+.scroll-item[data-item-name="Schedule Service"] {
+  order: -2;
+}
+
+.link-strong {
+  font-weight:800 !important; 
+  text-decoration: underline;
+}
+span .strong {
+  font-weight:800 !important; 
+}
+
+div#flexslider-home {
+  max-height: none !important;
+}
+
+/* TARGETING ALL SOKAL LINKS FOR STYLING UPDATES */
+
+body .sokal-btn:hover,
+body .sokal-link:hover,
+body .sokal-link:focus,
+body .sokal-link:hover .sokal-link-copy::after,
+body .sokal-link:focus .sokal-link-copy::after {
+  opacity: 0.9;
+}
+
+body .sokal-btn-primary.dark-theme:hover,
+body .sokal-btn-primary.dark-theme:focus {
+  color: var(--sokal-btn-color);
+}
+
+/* INTERACTION SEARCH BAR LUXURY */
+
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .interaction-bar-search-bar .search-bar .input-search, 
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .interaction-bar-search-bar .search-bar button {
+  height: 50px;
+}
+
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .ibar-btn {
+  padding: 8.25px 14px;
+}
+
+/* TABBED SEARCH FILTER LUXURY */
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury .tabbed-search-heading {
+  color: var(--pcd);
+}
+
+#tabbed-search-filter-v-search-bar-luxury[data-theme="ford"] {
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/866/637/original/grid-pattern.png?1768410421")repeat,radial-gradient(circle, rgba(6, 111, 239, 0.18) 0%, rgba(6, 111, 239, 0.05) 45%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 1) 100%)
+}
+
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .nav-tabs[data-placeholder-active="true"]::before {
+  background-color: #ffffff;
+}
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link:hover *,
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link:focus *,
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link:active *,
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .shop-by-results-btn[data-placeholder-active="true"]:hover, 
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .shop-by-results-btn[data-placeholder-active="true"]:focus,
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .shop-by-results-btn[data-placeholder-active="true"]:active {
+  opacity: 0.9;
+}

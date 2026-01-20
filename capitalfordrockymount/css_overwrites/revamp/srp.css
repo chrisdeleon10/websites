@@ -1,0 +1,37 @@
+/* Vehicle Features Modal */
+
+#vehicle-options-modal .vehicle-options-block h2 {
+  background-color: transparent;
+  color: #00095b;
+  text-align: left;
+}
+#vehicle-options-modal .table > tbody > tr > td {
+  border: 0px;
+}
+#vehicle-options-modal .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+/* Vehicle Buttons */
+
+.vehicle-buttons .test-drive-button {
+  display: none;
+}
+
+.search-button--test-drive-day {
+  display: none;
+}
+
+.vehicle-index-container .search-button--calc.accelerate-btn {
+  display: none !important;
+}
+
+.vehicle-index-container .btn-default.search-button.search-button--credit {
+  display: none;
+}
+
+/* "Start the buying Process" CTA adjustments - GR 12/19/25 */
+
+a#accelerateModalBtn {
+  display: none;
+}

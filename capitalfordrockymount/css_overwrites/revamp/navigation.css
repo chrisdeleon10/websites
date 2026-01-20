@@ -1,0 +1,87 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/460/743/original/CAG-Logo-072522-Sara-CFRM-Black.png?1683646756");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* MAKE A WISH ADDITIONS */
+
+@media (min-width: 768px) and (max-width: 1214px) {
+  .maw-additional a {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .maw-additional a {
+    max-width: 55px !important;
+    margin-left: 10px;
+  }
+}
+
+.maw-additional {
+	width: 15%;
+}
+
+.maw-additional a {
+  display: inline-block;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/366/000/original/CF-SP-121322-StarIcon-02.png?1675286501) !important;
+  height: 60px;
+  width: 115px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Vehicle Model Dropdown */
+
+body .vehicle-model-dropdown .models-wrapper .model-container .model-text {
+  letter-spacing: 0px;
+}
+
+/* EXTENDED NAV TOOLBAR */
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact {
+  --bg-color-hovered: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:hover::after,
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:focus::after {
+  background-color: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu {
+  border-radius: 10px;    
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:first-child:not(:only-child) a {
+  border-radius: 10px 10px 0 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:last-child:not(:only-child) a {
+  border-radius: 0 0 10px 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:not(:first-child):not(:last-child) a {
+  border-radius: 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:only-child a {
+  border-radius: 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .click-through-mobile-contact-bar {
+  border-bottom: solid 1px var(--nav-border-bottom-color);
+}

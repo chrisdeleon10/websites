@@ -1,0 +1,161 @@
+<div class="vehicle-unit-container new-{{is_new}} sokal-modern-styles">
+  <div class="vehicle-content sokal-flex sokal-flex-col sokal-justify-between sokal-h-full">
+    <div class="row row-no-gutters active-template-vehicle-top-content">
+      <div class="sokal-flex sokal-flex-row sokal-items-center sokal-justify-between sokal-gap">
+        <div class="active-template-vehicle-title-block">
+          <a href="{{link_to_vehicle}}" target="_blank" class="vehicle-link sokal-inline-block">
+            <span class="year sokal-color-dark text1">{{year}} </span>
+            <span class="make sokal-color-dark text1">{{make}}</span>
+            <br>
+            <span class="model sokal-color-accent weight-bold">{{model}}</span>
+          </a>
+        </div>
+        <div class="active-template-vehicle-stock-number text-right">
+          <p class="prop-label sokal-m-0 sokal-color-core-neutral-400 weight-bold text3">Stock</p>
+          <p class="prop-value sokal-m-0 sokal-color-dark weight-bold text3">#{{stock_number}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-group-vehicle-bottom-content">
+      <div class="active-template-vehicle-thumb vehicle-thumb">{{{srp_thumb}}}</div>
+      <div class="row row-no-gutters active-template-price-block">
+        <div class="col-xs-12">{{{price_block}}}</div>
+      </div>
+      <div class="row row-no-gutters active-template-tabbed-payment-and-features-block">
+        <div class="sokal-modern-tabs-track-container tabs-track-border sokal-px-025 sokal-py-025">
+          <ul class="nav no-padding sokal-before-none sokal-after-none sokal-flex sokal-items-center sokal-gap sokal-modern-tabs-track tabs-padding-sm" role="tablist">
+            <li class="sokal-flex-1 text-center active" role="presentation">
+              <a aria-controls="finance" class="sokal-block sokal-whitespace-nowrap sokal-color-dark text-center" data-toggle="tab" href="#vehicle-unit-{{vin}}-finance" role="tab" aria-expanded="true">Finance</a>
+            </li>
+            <li class="sokal-flex-1 text-center" role="presentation">
+              <a aria-controls="lease" class="sokal-block sokal-whitespace-nowrap sokal-color-dark text-center" data-toggle="tab" href="#vehicle-unit-{{vin}}-lease" role="tab">Lease</a>
+            </li>
+            <li class="sokal-flex-1 text-center" role="presentation">
+              <a aria-controls="features" class="sokal-block sokal-whitespace-nowrap sokal-color-dark text-center" data-toggle="tab" href="#vehicle-unit-{{vin}}-features" role="tab">Features</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sokal-space-y-1"></div>
+        <div class="active-template-lease-finance-features tab-content tabbed-payment-block-template-content sokal-px-05 sokal-py-1">
+          <div id="vehicle-unit-{{vin}}-finance" class="tab-pane tab-pane--finance fade in active vehicle-unit-finance-lease" role="tabpanel" data-payment-props="{{finance_rate}} {{finance_term}} {{finance_monthly_payment}}">
+            <div class="tabbed-payment-block-template-payment-preview sokal-flex sokal-flex-row sokal-items-start sokal-justify-between">
+              <div class="flex-group flex-group--label">
+                <p class="tabbed-payment-block-as-low-as-label sokal-m-0">Payments as low as</p>
+              </div>
+              <div class="flex-group flex-group--price text-right">
+                <p class="tabbed-payment-block-template-price-block sokal-m-0">
+                  <span class="tabbed-payment-block-template-price">{{finance_monthly_payment_dollars}}</span>
+                  <span class="tabbed-payment-block-template-incidental">/mo</span>
+                </p>
+                <div class="tabbed-payment-block-template-term-block sokal-flex sokal-flex-row sokal-items-center sokal-justify-end text3">
+                  <button class="tabbed-payment-block-template-disclaimer tooltip-light sokal-flex sokal-flex-row sokal-items-center sokal-p-0" data-placement="left" data-toggle="tooltip" title="{{payments_disclaimer}}" type="button">
+                    <span class="tabbed-payment-block-template-term">For {{finance_term}} mos.</span>
+                    <svg class="tabbed-payment-block-template-disclaimer-icon feather feather-info" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" x2="12" y1="16" y2="12"></line>
+                      <line x1="12" x2="12.01" y1="8" y2="8"></line>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tabbed-payment-block-template-contact sokal-block text-center sokal-hidden">
+              <a class="sokal-link sokal-link-secondary" href="/contact">
+                <div class="sokal-flex sokal-flex-row sokal-gap sokal-items-center sokal-justify-center">
+                  <span class="sokal-link-copy">Contact us for finance options</span>
+                  <svg class="feather feather-external-link" fill="none" height="1.6em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1.13em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div id="vehicle-unit-{{vin}}-lease" class="tab-pane tab-pane--lease fade vehicle-unit-finance-lease" role="tabpanel" data-payment-props="{{lease_rate}} {{lease_term}} {{lease_payment}}">
+            <div class="tabbed-payment-block-template-payment-preview sokal-flex sokal-flex-row sokal-items-start sokal-justify-between">
+              <div class="flex-group flex-group--label">
+                <p class="tabbed-payment-block-as-low-as-label sokal-m-0">Payments as low as</p>
+              </div>
+              <div class="flex-group flex-group--price text-right">
+                <p class="tabbed-payment-block-template-price-block sokal-m-0">
+                  <span class="tabbed-payment-block-template-price">{{lease_payment_dollars}}</span>
+                  <span class="tabbed-payment-block-template-incidental">/mo</span>
+                </p>
+                <div class="tabbed-payment-block-template-term-block sokal-flex sokal-flex-row sokal-items-center sokal-justify-end text3">
+                  <button class="tabbed-payment-block-template-disclaimer tooltip-light sokal-flex sokal-flex-row sokal-items-center sokal-p-0" data-placement="left" data-toggle="tooltip" title="{{payments_disclaimer}}" type="button">
+                    <span class="tabbed-payment-block-template-term">For {{lease_term}} mos.</span>
+                    <svg class="tabbed-payment-block-template-disclaimer-icon feather feather-info" fill="none" height="1em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" x2="12" y1="16" y2="12"></line>
+                      <line x1="12" x2="12.01" y1="8" y2="8"></line>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tabbed-payment-block-template-contact sokal-block text-center sokal-hidden">
+              <a class="sokal-link sokal-link-secondary" href="/contact">
+                <div class="sokal-flex sokal-flex-row sokal-gap sokal-items-center sokal-justify-center">
+                  <span class="sokal-link-copy">Contact us for lease options</span>
+                  <svg class="feather feather-external-link" fill="none" height="1.6em" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1.13em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="tab-pane fade tab-pane--features" id="vehicle-unit-{{vin}}-features" role="tabpanel">
+            <div class="active-template-vehicle-features-icons">{{{vehicle_features_icons}}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-no-gutters active-template-specs-block">
+        <div class="specs-block-wrapper sokal-px-1 sokal-py-1">
+          <div class="vehicle-spec vehicle-spec--ext-color">
+            <div class="sokal-flex sokal-flex-row sokal-items-center sokal-justify-between sokal-gap">
+              <p class="vehicle-spec-item vehicle-spec-label sokal-m-0 text3">
+                <span class="sokal-color-core-neutral-400 weight-semibold">Exterior Color</span>
+              </p>
+              <p class="vehicle-spec-item vehicle-spec-value sokal-m-0 text3 tooltip-light" data-toggle="tooltip" data-placement="top" title="{{color_ext}}">
+                <span class="sokal-color-dark weight-semibold">{{color_ext}}</span>
+              </p>
+            </div>
+          </div>
+          <div class="vertical-spacer sokal-space-y-1"></div>
+          <div class="vehicle-spec vehicle-spec--int-color">
+            <div class="sokal-flex sokal-flex-row sokal-items-center sokal-justify-between sokal-gap">
+              <p class="vehicle-spec-item vehicle-spec-label sokal-m-0 text3">
+                <span class="sokal-color-core-neutral-400 weight-semibold">Interior Color</span>
+              </p>
+              <p class="vehicle-spec-item vehicle-spec-value sokal-m-0 sokal-color-dark text3 tooltip-light" data-toggle="tooltip" data-placement="top" title="{{color_int}}">
+                <span class="sokal-color-dark weight-semibold">{{color_int}}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-no-gutters active-template-vehicle-buttons">
+        <div class="buttons-flex-wrapper sokal-flex sokal-flex-col sokal-items-center sokal-justify-center">
+          <a class="sokal-btn sokal-btn-primary has-border-radius" href="{{link_to_vehicle}}" target="_blank">
+            <div class="sokal-flex sokal-flex-row sokal-gap sokal-items-center sokal-justify-center">
+              <span class="sokal-btn-copy">View Vehicle</span>
+              <div class="sokal-btn-icon-slot" style="height: 1.6em;"></div>
+            </div>
+          </a>
+          <div class="dynamic-search-button-slot sokal-w-full sokal-relative font-size-base">
+            {{{index_button_0}}}
+            <a class="sokal-btn sokal-btn-secondary has-border-radius dynamic-search-button-fallback" href="https://capitalfordrockymount.com/kbb-instant-cash-offer" target="_blank">
+              <div class="sokal-flex sokal-flex-row sokal-gap sokal-items-center sokal-justify-center">
+                <span class="sokal-btn-copy">Max Trade Offer</span>
+                <div class="sokal-btn-icon-slot" style="height: 1.6em;"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

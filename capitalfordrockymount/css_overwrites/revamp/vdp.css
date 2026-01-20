@@ -1,0 +1,511 @@
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.overview-icons a[title="Download Window Sticker"],
+#before-you-buy,
+#v-badges {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+
+a#couponModalBtn {
+  background: #00095b;
+  border: 2px solid #00095b;
+  width: 100%;
+  border-radius: 50px;
+  color: white;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+-webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a#couponModalBtn:hover,
+a#couponModalBtn:active,
+a#couponModalBtn:focus {
+  background: #1700f4;
+  border: 2px solid #1700f4;
+  color: white;
+    -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Hiding $500 Coupon CTA on USED - GR 12/19/25 */
+.vehicle-top-info[data-inventory-type="used"] .vehicle-show-buttons-stacked .col-xs-6:nth-of-type(6){
+  display: none;
+}
+
+/* Hiding $500 Coupon CTA on NEW - GR 12/19/25 */
+.vehicle-top-info[data-inventory-type="new"] .vehicle-show-buttons-stacked .col-xs-6:nth-of-type(5) {
+  display: none;
+}
+
+/* "Start the buying Process" CTA adjustments - GR 12/19/25 */
+a#accelerateModalBtn {
+  margin: 0px;
+}
+
+/* VDP CTA'S */
+
+body .search-result-buttons .sokal-btn,
+body .search-result-buttons .payment-calculator-offer-btn {
+  --btn-br: 6px;
+}
+
+body .search-result-buttons .sokal-btn:hover,
+body .search-result-buttons .sokal-btn:focus,
+body .search-result-buttons .payment-calculator-offer-btn:hover,
+body .search-result-buttons .payment-calculator-offer-btn:focus {
+  opacity: 0.9;    
+}
+
+body .search-result-buttons .sokal-btn::after {
+  position: relative;
+}
+
+/* PRICE BLOCK EDITS THAT NEED TO BE ADDED TO APPLICATION */
+
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12 {
+  padding: 0;
+  border-top: none;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12 .applied-rebate {
+  padding: 20px;
+  border-radius: 0;
+  border-top: 2px solid #E5E5E5;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"] > * {
+  border: 2px solid #E5E5E5;
+}
+
+h5.incentive-label {
+  max-width: 65%;
+}
+
+/* PRICE BLOCK ADJUSTMENTS */
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"] .payment-calculator-offer-btn,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"] .add-arrow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"] .payment-calculator-offer-btn::after,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"] .add-arrow::after {
+  content: "";
+  display: inline-block;
+  width: 1.13em;
+  height: 1.6em;
+  margin-left: 0.5em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'/%3E%3Cpolyline points='12 5 19 12 12 19'/%3E%3C/svg%3E") no-repeat center;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'/%3E%3Cpolyline points='12 5 19 12 12 19'/%3E%3C/svg%3E") no-repeat center;
+  vertical-align: middle;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :not(:first-child) > button,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :not(:first-child) > a {
+  color: var(--pcd);
+  background-color: #ffffff;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"] .add-arrow::after {
+  background-color: var(--pc);
+}
+
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked > [class*="col-"]:first-child > *{
+  border-color: var(--pcd) !important;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"]:first-child .add-arrow::after {
+  background-color: #ffffff;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > [class*="col-"]:not(:first-child) .add-arrow:hover::after {
+  background-color: var(--pcd);
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :first-child > button,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :first-child > a {
+  background-color: var(--pcd);
+  color: #ffffff;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :not(:first-child) > button:hover,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :not(:first-child) > button:focus,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > :not(:first-child) > button:active,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked > :not(:first-child) > a:hover,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked > :not(:first-child) > a:focus,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked > :not(:first-child) > a:active {
+  color: var(--pcd);
+  border-color: var(--pcd);
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > button:focus,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked > a:focus {
+  outline: none;
+}
+  
+.price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .asking-price > * {
+  color: #ffffff !important;
+}
+
+/* VDP SUBNAV */
+  
+.vdp-custom-header[data-theme="ford"] {
+  --pc: var(--sc);
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .custom-header-col--left {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .subnav-vehicle-title, 
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .vehicle-trim-mileage {
+  margin: 5px auto 5px 0;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .vehicle-trim-mileage {
+  opacity: 0.7;
+}
+
+.page-template--vdp .vdp-custom-header .mobile-help-txt {
+  font-size: 0;
+  line-height: 0;
+}
+.page-template--vdp .vdp-custom-header .mobile-help-txt::after {
+  content: "Questions?";
+  font-size: 1.6rem;
+  line-height: normal;
+  font-family: 'FordF1-Regular';
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons {
+  width: 100%;
+  justify-content: center;
+  column-gap: 7.5px;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icon {
+  border-radius: 100%;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .fa {
+  background-color: #ffffff24;
+  color: #ffffff;
+  border-color: #ffffff;
+  padding: 7px;
+  font-size: 18px;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon[data-action="Contact Us"] {
+  order: -1;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon .fa::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon[data-action="Search"] .fa-search::before {
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M7.85742 13.3572C10.895 13.3572 13.3574 10.8947 13.3574 7.85718C13.3574 4.81961 10.895 2.35718 7.85742 2.35718C4.81986 2.35718 2.35742 4.81961 2.35742 7.85718C2.35742 10.8947 4.81986 13.3572 7.85742 13.3572Z' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.5004 16.5L11.7861 11.7857' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M7.85742 13.3572C10.895 13.3572 13.3574 10.8947 13.3574 7.85718C13.3574 4.81961 10.895 2.35718 7.85742 2.35718C4.81986 2.35718 2.35742 4.81961 2.35742 7.85718C2.35742 10.8947 4.81986 13.3572 7.85742 13.3572Z' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16.5004 16.5L11.7861 11.7857' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon[data-action="Contact Us"] .fa-envelope::before {
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M14.9289 3.92859H3.92885C3.06097 3.92859 2.35742 4.63214 2.35742 5.50002V13.3572C2.35742 14.225 3.06097 14.9286 3.92885 14.9286H14.9289C15.7967 14.9286 16.5003 14.225 16.5003 13.3572V5.50002C16.5003 4.63214 15.7967 3.92859 14.9289 3.92859Z' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M2.35742 5.5L9.42885 10.2143L16.5003 5.5' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M14.9289 3.92859H3.92885C3.06097 3.92859 2.35742 4.63214 2.35742 5.50002V13.3572C2.35742 14.225 3.06097 14.9286 3.92885 14.9286H14.9289C15.7967 14.9286 16.5003 14.225 16.5003 13.3572V5.50002C16.5003 4.63214 15.7967 3.92859 14.9289 3.92859Z' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M2.35742 5.5L9.42885 10.2143L16.5003 5.5' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon[data-action="Get Directions"] .fa-map::before {
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M7.07171 3.14288L2.35742 5.50003V15.7143L7.07171 13.3572M7.07171 3.14288L11.786 5.50003M7.07171 3.14288V13.3572M11.786 5.50003L16.5003 3.14288V13.3572L11.786 15.7143M11.786 5.50003V15.7143M11.786 15.7143L7.07171 13.3572' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 19 19'%3E%3Cpath d='M7.07171 3.14288L2.35742 5.50003V15.7143L7.07171 13.3572M7.07171 3.14288L11.786 5.50003M7.07171 3.14288V13.3572M11.786 5.50003L16.5003 3.14288V13.3572L11.786 15.7143M11.786 5.50003V15.7143M11.786 15.7143L7.07171 13.3572' fill='none' stroke='black' stroke-width='1.57143' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:hover,
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:active,
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:focus {
+  background-color: #ffffff;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:hover .fa,
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:active .fa,
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .mobile-help-icons .mobile-help-icon:focus .fa {
+  color: var(--pc);
+  outline: none;
+}
+
+.page-template--vdp .vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+  column-gap: 0;
+  flex-flow: column nowrap;
+  align-items: end;
+}
+
+.page-template--vdp .vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices * {
+  padding: 0;
+}
+
+.page-template--vdp .vdp-custom-header .vdp-header-price-button .unlock-price-button, 
+.page-template--vdp .vdp-custom-header .vdp-header-price-button .get-price-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0;
+  display: inline-flex;
+  column-gap: 10px;
+  align-items: center;
+  text-align: left;
+  border-radius: 0;
+}
+
+@media (max-width: 575px) {
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block>.container>.row {
+    display: flex;
+  }
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block .custom-header-col--left {
+    max-width: 50%;
+    row-gap: 2px;
+    margin: 0 auto 0 0;
+  }
+  
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block .subnav-vehicle-title {
+    margin: 0;
+  }
+  
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block .vehicle-trim-mileage {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+  }
+  
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+    width: fit-content;
+    margin: 0 0 0 auto;
+  }
+  
+  .page-template--vdp .vdp-subnav--title-trim-mileage-price-block .custom-header-col--right .vdp-header-price-block {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .page-template--vdp .vdp-custom-header .vdp-header-price-button .unlock-price-button, 
+  .page-template--vdp .vdp-custom-header .vdp-header-price-button .get-price-button {
+    column-gap: 5px;
+    font-size: 1.4rem;
+  }
+}
+
+/* VEHICLE OVERVIEW */
+
+.page-template--vdp .vehicle-overview-table .vehicle-overview-title {
+  font-size: 3.6rem;
+}
+@media (max-width: 575px) {
+  .page-template--vdp .vehicle-overview-table .vehicle-overview-title {
+    font-size: 3rem;
+  }
+}
+
+/* SOKAL PROFILE */
+
+#sokal-profile .profile-block {
+  --profile-bg-color: #ffffff;
+  --profile-border-color: #E5E5E5;
+  padding: 2em 0;
+}
+  
+#sokal-profile .profile-block .profile-block-item {
+  margin: 5px;
+  border: none;
+  min-height: 90px;
+  border-radius: 20px;
+  border: 2px solid #E5E5E5;
+}
+  
+#sokal-profile .profile-block .profile-block-items {
+  border-radius: 10px;
+  justify-content: start;
+}
+  
+#sokal-profile .profile-block .profile-block-header__title {
+  font-size: 2.4em;
+}
+  
+#sokal-profile .profile-block .profile-block-item__title {
+  width: 65%;
+}
+
+#sokal-profile .profile-block .profile-block-item__img {
+  width: calc(35% - var(--img-margin, 0px));
+  border-left: none;
+}
+
+#sokal-profile .profile-block .profile-block-item__img .pbi-img {
+  height: 45%;
+  width: 45%;
+}
+
+#sokal-profile .profile-block .profile-block-item[data-action="View Window Sticker"] .profile-block-item__img .pbi-img {
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/003/277/original/window-stsicker.png?1767815074") !important;
+}
+
+#sokal-profile .profile-block .profile-block-items.hovered .profile-block-item.active {
+  opacity: 1;
+  border-color: var(--sokal-sc-ford);
+}
+
+@media (max-width: 991px) {
+  #sokal-profile .profile-block .mobile-flex {
+  	flex-flow: row nowrap;
+  }
+  #sokal-profile .profile-block .profile-block-item {
+  	min-height: 65px;
+  }
+  
+  #sokal-profile .profile-block .profile-block-items {
+  	margin-bottom: 2.5em;
+  }
+  
+  #sokal-profile .profile-block .profile-block-item__img {
+  	border-top: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #sokal-profile .profile-block .profile-block-header {
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  #sokal-profile .profile-block .profile-block-header {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #sokal-profile .profile-block .profile-block-header__title {
+    font-size: 3rem;
+  }
+  #sokal-profile .profile-block .profile-block-item {
+  	flex: 1 1 100%;
+    margin: 2.5px 0;
+  }
+  #sokal-profile .profile-block .profile-block-item .pbi-title {
+  	margin-left: 0;
+    padding: 0 20px;
+    font-size: 1.6rem;
+  }
+  #sokal-profile .profile-block .profile-block-item__img .pbi-img {
+  	background-position: right;
+  }
+  #sokal-profile .profile-block .profile-block-item__title {
+  	width: 75%;
+  }
+  #sokal-profile .profile-block .profile-block-item__img {
+  	width: calc(25% - var(--img-margin, 0px));
+  }
+  #sokal-profile .profile-block .profile-block-item:nth-child(even) .profile-block-item__img,
+  #sokal-profile .profile-block .profile-block-item:nth-child(even) .profile-block-item__title {
+    background-color: #FAFAFA;
+  }
+}
+
+/* SIMILAR VEHICLES */
+
+.similar-vehicles-row {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles #hsSimilarVehicles {
+  --sv-width: 250px;
+}
+
+.similar-vehicles-row .sokal-container .vdp-section-title {
+  text-align: left;
+  font-size: 2.4em;
+  margin: 0;
+}
+
+.similar-vehicles-row .sokal-container .vdp-section-title::after {
+  background-color: #E5E5E5;
+  width: calc(100% - 30px);
+  margin: 30px auto 30px 0;
+  height: 1px;
+}
+  
+.similar-vehicles-row .similar-vehicle__thumbnail {
+  border-radius: 20px;
+}
+  
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle__link {
+  flex-flow: column nowrap;
+}
+
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle__text {
+  height: auto;
+  width: 100%;
+}
+
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle {
+  padding: 15px;
+  border: 1px solid #F0F0F0;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 20px -6px rgba(0, 0, 0, 0.08), 0 0 0 0 rgba(0, 0, 0, 0.20);
+}
+
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .sv-name-year-make-trim {
+  text-align: left;
+}
+  
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .sv-name-model {
+  align-items: start;
+  text-align: left;
+  color: var(--sokal-sc-ford);
+  padding: 5px 0;
+}
+
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle__name {
+  padding: 0;
+  color: var(--pcd);
+}
+  
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle__btn {
+  border-radius: 6px;
+  padding: 12px 16px;
+  background-color: var(--pcd);
+}
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle:hover .similar-vehicle__name,
+.similar-vehicles-row .horizontal-scroll-component--vdp-similar-vehicles .similar-vehicle:hover .similar-vehicle__btn {
+  opacity: 1;
+  height: auto;
+}
+
+/* To-do: Remove this once application update goes live */
+
+@media (min-width: 1501px) {
+  .page-template--vdp .sokal-vdp-component:not(.sokal-vdp-component-sticky) {
+    width: 100%;
+  }     
+}
