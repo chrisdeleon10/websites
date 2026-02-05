@@ -1,0 +1,209 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.buttons-title,
+.buttons-block {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+/*.badge-item[data-name="carfax-badge"] {
+    display: none;
+}*/
+
+/* Mooresville Ford Specific CSS - DO NOT COPY unless needed for your site */
+.dest-charges-incl:last-of-type {
+    display: none;
+}
+.vdp-container .col.left .block.card:nth-of-type(6) {
+    display: none;
+}
+/* CTA Description 8*/
+button.payment-calculator-offer-btn:after {
+    content: 'Understand your budget';
+    font-size: 10px;
+}
+button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.value-trade-button-sokal:after {
+    content: 'See what your vehicle is worth';
+    font-size: 10px;
+}
+.value-trade-button-sokal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sparkle-button.get-financing:after {
+    content: 'Get funded fast with flexible financing';
+    font-size: 10px;
+}
+.sparkle-button.get-financing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button.payment-calculator-offer-btn:after {
+    content: 'Understand your budget';
+    font-size: 10px;
+}
+button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.value-trade-button-sokal:after {
+    content: 'See what your vehicle is worth';
+    font-size: 10px;
+}
+.value-trade-button-sokal {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sparkle-button.get-financing:after {
+    content: 'Get funded fast with flexible financing';
+    font-size: 10px;
+}
+.sparkle-button.get-financing {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sparkle-button.test-drive-btn:after {
+    content: 'Ready for you on arrival';
+    font-size: 10px;
+}
+.sparkle-button.test-drive-btn:after {
+    content: 'Ready for you on arrival';
+    font-size: 10px;
+}
+.sparkle-button.test-drive-btn {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sparkle-button.price-alert-button-sokal:after {
+    content: 'Get notified instantly of price drops';
+    font-size: 10px;
+}
+.sparkle-button.price-alert-button-sokal{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-block a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+    margin-bottom: 10px;
+}
+
+div#custom_vehicle_form .vehicle-disclaimer,
+div#custom_vehicle_form .all-forms-disclaimer{
+    display: none;
+}
+
+[data-name="xcite-digital-window-sticker"] {
+    display: none !important;
+}
+
+a.toggle-custom-vehicle-form.btn.custom-vehicle-form-button.event-click.track-click.modal-trigger.btn-default.request-video-btn:after {
+    content: 'Tour it from anywhere';
+    font-size: 10px;
+}
+a.toggle-custom-vehicle-form.btn.custom-vehicle-form-button.event-click.track-click.modal-trigger.btn-default.request-video-btn {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vehicle-specials-row {
+    text-align: center;
+    padding: 30px 0;
+    background: #eeeeee;
+    border-radius: 8px;
+}
+.vdp-specials .special-title {
+    color: #020a5b;
+}
+.vehicle-specials-row .vdp-specials a {
+    color: #333333;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vehicle-specials-row .vdp-specials a:hover {
+    text-underline-offset: 6px;
+}
+
+.vehicle-show-container .price-alert-button-sokal {
+    display: none !important;
+}
+
+.vehicle-show-container .test-drive-btn {
+    display: none !important;
+}
+
+a#couponModalBtn {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a#couponModalBtn:after {
+    content: 'Claim Now';
+    font-size: 10px;
+}
+
+a.btn.btn-block.event-click.track-click.btn-default.btn.btn-block.event-click.track-click.sparkle-button.value-your-trade-btn:after {
+    content: 'See what your car is worth';
+    font-size: 10px;
+}
+a.btn.btn-block.event-click.track-click.btn-default.btn.btn-block.event-click.track-click.sparkle-button.value-your-trade-btn {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Show tabbed payment block on split vdp 
+
+body .split-vdp-tabbed-payment-block {
+  display: block;
+}*/
+
+/* Hide the tabs & show the label with payment type (if only 1 payment type present - lease/finance) */
+
+body .tabbed-payment-block-nav,
+body .tabbed-payment-block-as-low-as-label {
+  display: none;
+}
+
+body .tabbed-payment-block-as-low-as-label-with-type {
+  display: block;
+}
+
+.tabbed-payment-block-template-content.tab-content.sokal-px-05.sokal-py-1.sokal-h-auto {
+    margin-bottom: 15px;
+}
