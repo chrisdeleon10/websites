@@ -1,308 +1,838 @@
-/* Default Form Styles */
+body {
+  --sokal-core-color-neutral-125: #F3F3F3;
+  --sokal-core-color-neutral-150: #F0F0F0;
+  --sokal-core-color-neutral-200: #E5E5E5;
+  --sokal-core-color-neutral-400: #A3A3A3;
+}
 
-.streakform .radio label,
-.streakform .checkbox label {
-  padding-left: 25px;
+.sokal-color-core-neutral-400 {
+  color: var(--sokal-core-color-neutral-400);
 }
-.streakform .radio input[type="radio"],
-.streakform .radio-inline input[type="radio"],
-.streakform .checkbox input[type="checkbox"],
-.streakform .checkbox-inline input[type="checkbox"] {
-  margin-left: -25px;
+
+/* Branded Fonts */
+
+body #srp-options-filtering .toggle-vehicle-options-filter,
+body .vehicle-index-page .filter-menu-show-more-btn .show-more-text {
+  font-family: FordF1-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-input[type="checkbox"] {
-  position: relative;
+
+body .active-template-vehicle-buttons .search-button {
+  font-family: FordF1-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-input[type="radio"]::before,
-input[type="radio"]::after,
-input[type="checkbox"]::before,
-input[type="checkbox"]::after {
-  pointer-events: none;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+/* SRP Misc */
+
+body .vehicle-index-page #toggle-model-search {
+  display: none;
 }
-input[type="radio"]::before,
-input[type="radio"]::after {
-  border-radius: 100%;
+
+body .vehicle-index-page ~ .mobile-shortcut-btns {
+  display: none !important;
 }
-input[type="checkbox"]::before,
-input[type="checkbox"]::after {
-  border-radius: 3px;
-}
-input[type="radio"]::before,
-input[type="checkbox"]::before {
-  border: solid 1px #d5d5d5;
+
+body .vehicle-index-page ~ .footer-components {
   background-color: #ffffff;
+  padding-top: 4em;
 }
-input[type="radio"]::before {
-  width: 22px;
-  height: 22px;
+
+/* SRP Index Container */
+
+body .vehicle-index-page,
+body .vehicle-index-container .listing-page {
+  background: #ffffff !important;
 }
-input[type="radio"]::after,
-input[type="checkbox"]::after {
-  background-color: transparent;
+
+body .vehicle-index-page {
+  --sokal-srp-thumbnail-aspect-ratio: 373 / 280;
+  --sokal-srp-filter-menu-width: 300px;
 }
-input[type="radio"]::after {
-  width: 8px;
-  height: 8px;
-}
-input[type="checkbox"]::before,
-input[type="checkbox"]::after {
-  width: 22px;
-  height: 22px;
-}
-input.compare-vehicle-id[type="checkbox"] {
-  top: 0;
-}
-input[type="radio"]:checked::after,
-input[type="checkbox"]:checked::after {
-  background-color: #333333;
-  background-color: var(--pc);
-}
-input[type="checkbox"]:checked::after {
-  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/228/768/original/ss-gizmo-check-sm--white.png?1659970343);
-  background-position: center;
-  background-size: 12px;
-  background-repeat: no-repeat;
-}
-input[type="radio"]:disabled::before,
-input[type="checkbox"]:disabled::before {
-  border-color: #999999;
-}
-input[type="radio"]:disabled::before,
-input[type="checkbox"]:disabled::after {
-  background-color: #999999;
-}
-input:disabled {
-  opacity: 0.4 !important;
-}
-.has-error input,
-.has-error select,
-.has-error textarea {
-  background-color: #999999 !important;
-  border: solid 2px #333333 !important;
-  border: solid 2px var(--pc) !important;
-  color: #333333 !important;
-  color: var(--pc) !important;
-}
-.has-error input::placeholder,
-.has-error select::placeholder,
-.has-error textarea::placeholder {
-  color: #333333 !important;
-  color: var(--pc) !important;
-}
-.has-error label,
-.has-error .field-error-message {
-  color: #333333 !important;
-  color: var(--pc) !important;
-}
-.streakform > .col-md-push-6 > .form-top-text + .row {
-  margin-top: 45px;
-}
-.streakform
-  > .col-md-push-6
-  > .form-top-text
-  + .row
-  > .col-sm-6:nth-of-type(1)
-  > .form-group:nth-of-type(2)
-  > input:nth-of-type(1) {
-  margin-bottom: 15px;
-}
-.streakform .btn-primary {
-  background-color: #999999;
-  border-color: #999999;
-  display: inline-block;
-  border: 0px;
-  border-radius: 3px !important;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.streakform .btn-group[name="has_a_trade_in"] .btn-primary {
-  width: 49%;
-  margin: 0;
-}
-.streakform .btn-group[name="has_a_trade_in"] .btn-primary:nth-of-type(1) {
-  margin-right: 2%;
-}
-.streakform .btn-primary.active,
-.streakform .btn-primary.focus,
-.streakform .btn-primary.active.focus,
-.streakform .btn-primary:hover,
-.streakform .btn-primary:active,
-.streakform .btn-primary:focus {
-  background-color: #333333;
-  background-color: var(--pc);
-  border-color: #333333;
-  border-color: var(--pc);
-}
-@media (max-width: 991px) {
-  .streakform > .col-md-push-6 {
-    margin-bottom: 150px;
+
+@media (min-width: 992px) {
+  body .vehicle-index-container .listing-page > .row:nth-child(6) {
+    display: grid;
+    grid-template-columns: var(--sokal-srp-filter-menu-width) calc(100% - var(--sokal-srp-filter-menu-width) - 10px);
+    grid-auto-rows: auto;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  body .vehicle-index-container .listing-page > .row:nth-child(6)::before,
+  body .vehicle-index-container .listing-page > .row:nth-child(6)::after {
+    display: none;
+  }
+
+  body .vehicle-index-page .col-lg-2.col-md-3[role="complementary"],
+  body .vehicle-index-page #vehicles {
+    width: auto;
+    padding: 0;
+  }
+
+  body .vehicle-index-page .col-lg-2.col-md-3[role="complementary"] .sticky-side-menus {
+    width: 100%;
   }
 }
 
-/* Default Service Coupons */
+/* Vehicles Found Banner */
 
-.service-coupons .service-coupon {
-  min-height: 625px;
-  padding-top: 15px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
-    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
-  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
-    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
-  border: 0px;
+@media (min-width: 768px) {
+  body .vehicles-found-container > h1,
+  body .vehicles-found-container > h1 + div {
+    display: block;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+
+  body .vehicles-found-container > h1 {
+    float: left;
+    text-align: left;
+  }
+
+  body .vehicles-found-container > h1 + div {
+    float: right;
+    text-align: right;
+  }
 }
-.service-coupons .service-coupon .service-coupon-body .coupon-offer {
-  border: 0px;
-  border-radius: 3px;
-  height: 70px;
-  margin-bottom: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+body .vehicle-index-row-vfound-vcount {
+  --vehicles-found-background-color: #066FEF;
+  --vehicles-found-color: #ffffff;
 }
-.service-coupon .service-coupon-body .coupon-text p,
-.service-coupon .service-coupon-body .coupon-text h1,
-.service-coupon .service-coupon-body .coupon-text span {
-  font-family: FordAntenna-Regular, "Helvetica Neue", Helvetica, Arial,
-    sans-serif !important;
-  font-weight: normal !important;
-  color: #ffffff !important;
+
+body .vehicle-index-page.has-wishlist .vehicle-index-row-vfound-vcount {
+  --vehicles-found-background-color: #F5F5F5;
+  --vehicles-found-color: #A3A3A3;
 }
-.service-coupon .service-coupon-body .coupon-offer h2 {
-  color: #999999 !important;
-  font-size: 15px !important;
+
+body .listing-page > .vehicle-index-row-vfound-vcount::before,
+body .listing-page > .vehicle-index-row-vfound-vcount::after,
+body .vehicles-found-container,
+body .listing-page > .vehicle-index-row-vfound-vcount,
+body .listing-page .col-lg-12 {
+  color: var(--vehicles-found-color);
+  background-color: var(--vehicles-found-background-color);
+  transition: background-color 0.2s linear;
 }
-.service-coupon > h4.pull-right {
+
+body .vehicles-found-container {
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+}
+
+body .vehicle-index-row-vfound-vcount {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+body .vehicle-index-page .vehicles-search-results-summary {
   display: none;
 }
-.service-coupon .coupon-footer {
-  padding-bottom: 15px;
-}
-.service-coupon .coupon-footer .get-coupon-btn {
-  border: 0px;
-  color: #333333;
-  color: var(--pc);
-  transition: all 0.3s ease;
-}
-.service-coupon .coupon-footer .get-coupon-btn:hover,
-.service-coupon .coupon-footer .get-coupon-btn:active,
-.service-coupon .coupon-footer .get-coupon-btn:focus {
-  border: 0px;
-  color: #999999;
-}
-.service-coupon .coupon-footer .coupon-phone {
-  display: none;
-}
-.service-coupons .directions-btn {
-  display: none;
-}
-.service-coupon .service-coupon-body .coupon-title a,
-.service-coupon .service-coupon-body .coupon-title h3 {
-  color: #333333;
-  color: var(--pc);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.service-coupon .service-coupon-body .coupon-title a:hover,
-.service-coupon .service-coupon-body .coupon-title a:active,
-.service-coupon .service-coupon-body .coupon-title a:focus,
-.service-coupons .service-coupon .service-coupon-body .coupon-offer a:hover,
-.service-coupons .service-coupon .service-coupon-body .coupon-offer a:active,
-.service-coupons .service-coupon .service-coupon-body .coupon-offer a:focus {
-  text-decoration: none;
-}
-.service-coupon .service-coupon-body .coupon-title a:hover h3,
-.service-coupon .service-coupon-body .coupon-title a:active h3,
-.service-coupon .service-coupon-body .coupon-title a:focus h3 {
-  color: #999999;
+
+@media (max-width: 767px) {
+  body .vehicle-index-col-vfound .vehicles-found-heading .srp-title {
+    display: none;
+  }
 }
 
-/* Ford Dark: #00142E */
+/* SRP Sort Menu */
 
-.some-element-selector {
-  color: #000000;
-  color: var(--pcd);
+body .vehicle-index-row-sortmenu {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  background-color: transparent;
+  padding: 0;
+  height: fit-content;
 }
 
-/* Ford Blue: #00095B */
-
-.vehicle-filter-menu .irs-bar,
-button#mobile-refine-results,
-.vehicle-index-container
-  .listing-page
-  .vehicle-filter-menu
-  .sort-menu-container
-  > .row
-  .btn-info,
-#vdp-page #vdp-top,
-#vdp-page .vdp-slider,
-.vehicle-unit-container .vehicle-make-model {
-  background-color: #333333;
-  background-color: var(--pc);
+body .vehicle-index-col-sortmenu > .text-center {
+  text-align: right;
 }
 
-.vehicle-filter-menu .irs-bar {
-  border-color: #333333;
-  border-color: var(--pc);
+body .vehicle-index-col-sortmenu {
+  padding: 0;
 }
 
-.vehicle-filter-menu .panel .panel-heading,
-.vehicle-unit-container .vehicle-year,
-.vehicle-unit-container .vehicle-make-model,
-.vehicle-unit-container .vehicle-sub-title,
-.vdp-container .vehicle-item,
-.vehicle-unit-container * {
-  color: #333333;
-  color: var(--pc);
+body .vehicle-sort-menu-modern .vsm-section {
+  background-color: #efefef;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-/* Ford Gray: #BFBFBF */
-
-.vdp-container .vehicle-item:hover,
-.vdp-container .vehicle-item:active,
-.vdp-container .vehicle-item:focus,
-.vdp-container .reviews-link a {
-  color: #bfbfbf;
+body .vehicle-sort-menu-modern #sortResultsDropdown {
+  background-color: transparent;
+  border: 0;
 }
 
-button#mobile-refine-results:hover,
-button#mobile-refine-results:active,
-button#mobile-refine-results:focus {
-  background-color: #bfbfbf;
+body .vehicle-sort-menu-modern #mobile-refine-results {
+  background-color: transparent;
+  color: var(--sokal-primary-color-dark);
+  border: 0;
 }
 
-/* Ford White: #FFFFFF */
+body .vehicle-sort-menu-modern #mobile-refine-results svg path {
+  stroke: var(--sokal-primary-color-dark);
+}
 
-.vehicle-unit-container .vehicle-make-model *,
-.vehicle-unit-container .toggle-pano-modal {
+body .vehicle-sort-menu-modern #mobile-refine-results:active,
+body .vehicle-sort-menu-modern #mobile-refine-results:focus,
+body .vehicle-sort-menu-modern #sortResultsDropdown:active,
+body .vehicle-sort-menu-modern #sortResultsDropdown:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+body .btn-group.open .dropdown-toggle#sortResultsDropdown {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+body .vehicle-filter-menu a.section-heading {
+  padding-left: 0;
+}
+
+body .vehicle-filter-menu .filter-list label {
+  padding-left: 5px;
+}
+
+body .vehicle-filter-menu .sort-menu-container .sort-menu-mobile-row button.clear-all {
+  background-color: var(--sokal-pcd-ford);
+  border-color: var(--sokal-pcd-ford);
+  border-radius: 7px 0 0 7px;
+}
+
+body .vehicle-filter-menu .sort-menu-container .sort-menu-mobile-row button#mobile-show-results {
+  color: var(--sokal-pcd-ford);
+  border-color: var(--sokal-pcd-ford);
+  border-radius: 0 7px 7px 0;
+}
+
+body .vehicle-sort-menu #sort-results {
+  left: unset;
+  right: 0;
+}
+
+body .vehicle-filter-menu form[action="/vehicles"] {
+  margin-bottom: 10px;
+}
+
+body .vehicle-filter-menu form[action="/vehicles"] input.form-control {
+  border-radius: 7px 0 0 7px;
+  box-shadow: none;
+}
+
+body .vehicle-filter-menu form[action="/vehicles"] input.form-control:not(:focus) {
+  border-right: 0;
+}
+
+body .vehicle-filter-menu form[action="/vehicles"] .input-group-btn button {
+  border-radius: 0 7px 7px 0;
+  color: #066FEF;
+}
+
+@media (max-width: 991px) {
+  body .vehicle-index-col-sortmenu > .text-center {
+    background-color: #efefef;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  body .vehicle-index-col-sortmenu > .text-center {
+    border-radius: 12px;
+  }
+
+  body .vehicle-sort-menu #mobile-refine-results {
+    background-color: transparent;
+    color: var(--sokal-primary-color-dark);
+    border: 0;
+  }
+
+  body .vehicle-sort-menu #mobile-refine-results svg path {
+    stroke: var(--sokal-primary-color-dark);
+  }
+
+  body .vehicle-sort-menu #sortResultsDropdown {
+    background-color: transparent;
+    border: 0;
+  }
+
+  body .vehicle-sort-menu #mobile-refine-results:active,
+  body .vehicle-sort-menu #mobile-refine-results:focus,
+  body .vehicle-sort-menu #sortResultsDropdown:active,
+  body .vehicle-sort-menu #sortResultsDropdown:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  body .btn-group.open .dropdown-toggle#sortResultsDropdown {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 992px) {
+  body .vehicle-index-page .listing-page {
+    position: relative;
+  }
+
+  body .vehicle-index-row-sortmenu ~ .vehicle-index-row-clearfilters-filterlist {
+    position: absolute;
+    left: 0;
+    top: 134px;
+    width: calc(100% - 135px);
+  }
+
+  body .vehicle-index-row-sortmenu {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  body .vehicle-index-row-sortmenu .vehicle-index-col-sortmenu {
+    width: 135px;
+    margin-left: calc(100% - 135px);
+  }
+
+  body .vehicle-index-col-filterlist .srp-filter-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    height: 100%;
+  }
+
+  body .vehicle-index-col-filterlist .srp-filter-list .srp-filter-option {
+    white-space: nowrap;
+    margin-bottom: 0;
+    background-color: #F5F5F5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 7px 15px;
+  }
+
+  body .vehicle-index-row-clearfilters-filterlist {
+    display: flex;
+    align-items: stretch;
+  }
+
+  body .vehicle-sort-menu-modern {
+    align-items: stretch;
+  }
+
+  body .vehicle-sort-menu-modern .vsm-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body .vehicle-index-col-sortmenu #sortResultsDropdown {
+    border: 0;
+  }
+
+  body .vehicle-index-col-sortmenu #sortResultsDropdown:hover,
+  body .vehicle-index-col-sortmenu #sortResultsDropdown:active,
+  body .vehicle-index-col-sortmenu #sortResultsDropdown:focus {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+/* SRP Wishlist */
+
+body .vehicle-sort-menu-modern .wl-section .wishlist-bar {
+  background-color: #066FEF;
+  color: #fff;
+  border-color: #066FEF;
+}
+
+body .vehicle-sort-menu-modern .wl-section .wishlist-bar .wl-box {
+  background-color: #F5F5F5;
+  color: #066FEF;
+}
+
+body .vehicle-sort-menu-modern .wl-section .wishlist-bar a, 
+body .vehicle-sort-menu-modern .wl-section .wishlist-bar a:visited {
   color: #ffffff;
 }
 
-/* Price Block SRP + VDP */
-
-.available-rebates-btn {
-    background: transparent !important;
-    border: none !important;
-    color: #00095b !important;
-    text-decoration: underline !important;
+.vehicle-sort-menu-modern .wl-section .wishlist-bar .wl-linkout svg path {
+  stroke: #ffffff;
 }
 
-.available-rebates-btn:hover,
-.available-rebates-btn:active, 
-.available-rebates-btn:focus {
-    background: transparent !important;
-    color: #00095b !important;
-    text-decoration: underline !important;
+.vehicle-sort-menu-modern .wl-section .wishlist-bar .wl-empty svg path {
+  fill: #ffffff;
 }
+
+body #vehicle-hub-wrapper .vehicle-hub-container .vehicle-hub-title-block svg path {
+  fill: var(--sc);
+}
+
+body .wl-vehicles .wl-vehicle-unit-container .vehicle-thumb-tile a {
+  border-radius: 10px;
+}
+
+body .wl-vehicles .wl-vehicle-unit-container .tile-vehicle-title h5 {
+  display: none;
+}
+
+body .wl-vehicles .wl-vehicle-unit-container .tile-vehicle-title h4 {
+  color: var(--sokal-sc-ford);
+}
+
+body .wl-vehicles .wl-vehicle-unit-container .wl-vehicle-link .sokal-btn-primary:hover * {
+  color: #ffffff;
+}
+
+/* SRP Filter Menu */
+
+body .vehicle-index-page .vehicle-filter-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 0;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel-heading {
+  background-color: transparent;
+  color: #A3A3A3;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 0;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel-heading .col-xs-6.col-sm-8 {
+  text-align: left;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel-heading .col-xs-6.col-sm-4 {
+  display: none;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel {
+  border-radius: 20px;
+  background-color: #F5F5F5;
+  border: solid 2px #E5E5E5;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel-heading-title {
+  color: transparent;
+}
+
+body .vehicle-index-page .vehicle-filter-menu .panel-heading-title::before {
+  content: 'Filters';
+  color: #A3A3A3;
+}
+
+body .vehicle-filter-menu .section-divider {
+  border-color: #E5E5E5;
+}
+
+body .vehicle-index-row-clearfilters-filterlist {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+body .vehicle-index-col-filterlist {
+  display: none;  
+}
+
+body .vehicle-index-col-clearfilters {
+  text-align: center;
+  background-color: #F5F5F5;
+  border-radius: 12px;
+}
+
+body .vehicle-index-col-clearfilters .clear-all {
+  text-decoration: none;
+  display: block;
+}
+
+@media (min-width: 992px) {
+  body .vehicle-index-col-clearfilters {
+    width: var(--sokal-srp-filter-menu-width);
+  }
+
+  body .vehicle-index-col-filterlist {
+    display: block;
+    padding-right: 0;
+    width: calc(100% - var(--sokal-srp-filter-menu-width));
+  }
+}
+
+/* SRP Vehicle Units */
+
+body .vehicle-unit-container,
+body .flexslider-interval-srp-banners {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) { 
+  body #vehicles {
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .vehicle-unit-container,
+  body .flexslider-interval-srp-banners {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  body #vehicles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* To-do: Define selectors here for banners that need to span full-width */
+
+body #vehicles .some-element,
+body .infinite-paginate-ui,
+#dealer_otn_container,
+.flexslider-interval-srp-banners {
+  grid-column: 1 / -1;
+}
+
+/* Options Filter Icons */
+
+body #srp-options-filtering #scrollSrpOptionsFilteringComponent .scroll-horizontal {
+  padding: 0;
+}
+
+body #srp-options-filtering {
+  border: 0;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter {
+  border-radius: 10px;
+  border: solid 2px var(--sokal-core-color-neutral-200);
+  flex-flow: row-reverse nowrap;
+  color: #066FEF;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter span.toggle-vehicle-options-filter-label,
+body #srp-options-filtering .toggle-vehicle-options-filter span.toggle-vehicle-options-filter-count,
+body #srp-options-filtering .toggle-vehicle-options-filter span.toggle-vehicle-options-filter-checkmark {
+  color: var(--sokal-pcd-ford);
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter .toggle-vehicle-options-filter-count, body #srp-options-filtering .toggle-vehicle-options-filter .toggle-vehicle-options-filter-checkmark {
+  display: none;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter-checked {
+  background: #066FEF;
+  border-color: #066FEF;
+  color: #ffffff;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter-checked span.toggle-vehicle-options-filter-label,
+body #srp-options-filtering .toggle-vehicle-options-filter-checked span.toggle-vehicle-options-filter-count,
+body #srp-options-filtering .toggle-vehicle-options-filter-checked span.toggle-vehicle-options-filter-checkmark {
+  color: #ffffff;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter svg path {
+  stroke: #066FEF;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter-checked svg path {
+  stroke: #ffffff;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter-checked:hover {
+  background: #066FEF;
+}
+
+body #srp-options-filtering .toggle-vehicle-options-filter .toggle-vehicle-options-filter-label {
+  color: var(--sokal-pcd-ford);
+}
+
+/* vehicle-unit-container */
+
+body #vehicles .vehicle-unit-container {
+  position: relative;
+  overflow: hidden;
+  border: solid 0.134em var(--sokal-core-color-neutral-150);
+  border-radius: 1.334em;
+  padding: 1em;
+}
+
+body .active-template-vehicle-top-content {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+body .active-template-vehicle-title-block a:hover {
+  text-decoration: none;
+}
+
+body .active-template-featured-image-media-container {
+  padding-top: 75%;
+  border-radius: 1.334em;
+}
+
+body .active-template-featured-image,
+body .active-template-specs-block {
+  margin-bottom: 1em;
+}
+
+body .active-template-specs-block .specs-block-wrapper {
+  border-radius: 0.534em;
+  background-color: var(--sokal-core-color-neutral-125);
+}
+
+body .active-template-specs-block .vehicle-spec-value {
+  max-width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+body .active-template-tabbed-payment-and-features-block .tabbed-payment-block-template-content {
+  min-height: 70px;
+  max-height: 100px;
+}
+
+body .active-template-lease-finance-features .tab-pane--features {
+  margin-top: -1em;
+}
+
+body .active-template-vehicle-buttons .buttons-flex-wrapper {
+  gap: 0.5em;
+}
+
+/* SRP Vehicle Thumbnail */
+
+body .active-template-vehicle-thumb .preview-images img {
+  aspect-ratio: var(--sokal-srp-thumbnail-aspect-ratio);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+body .active-template-vehicle-thumb .wishlist-modal-trigger svg.icon-heart-outline {
+  width: 21px;
+  height: auto;
+}
+
+/* SRP Price Block */
+
+body .active-template-price-block {
+  min-height: 105px;
+}
+
+body .active-template-price-block .vehicle-price-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .active-template-price-block .vehicle-prices {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .active-template-price-block .new-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+
+body .active-template-price-block .new-vehicle-prices .highest-price {
+  order: -1;
+}
+
+body .active-template-price-block .new-vehicle-prices .price-savings {
+  order: -1;
+}
+
+body .active-template-price-block .get-price-btn-container {
+  display: none;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > .price-label {
+  float: left;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > h3,
+body .active-template-price-block .vehicle-prices > [class*="col-"] > h4 {
+  float: right;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] {
+  width: 100%;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > * {
+  font-size: 1.067em;
+  color: var(--sokal-core-color-neutral-400);
+}
+
+body .active-template-price-block .vehicle-prices > .lowest-price[class*="col-"] > * {
+  color: var(--sokal-pcd-ford);
+}
+
+/* SRP Tabbed Payment Block */
+
+body .vehicle-unit-finance-lease[data-payment-props="0 0 0"] .tabbed-payment-block-template-payment-preview,
+body .vehicle-unit-finance-lease[data-payment-props="  "] .tabbed-payment-block-template-payment-preview {
+  display: none;
+}
+
+body .vehicle-unit-finance-lease[data-payment-props="0 0 0"] .tabbed-payment-block-template-contact,
+body .vehicle-unit-finance-lease[data-payment-props="  "] .tabbed-payment-block-template-contact {
+  display: block;
+}
+
+body .active-template-tabbed-payment-and-features-block .sokal-modern-tabs-track-container li:not(.active) a:hover {
+  background-color: var(--sokal-action-color-blue);
+  opacity: 1;
+  color: #ffffff;
+  border-radius: 0.3em;
+}
+
+body .active-template-tabbed-payment-and-features-block .sokal-modern-tabs-track-container li a {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* SRP Vehicle Feature Icons */
+
+body .active-template-vehicle-features-icons .vehicle-features-container {
+  padding: 0;
+}
+
+body .active-template-vehicle-features-icons .vehicle-feature-icons {
+  justify-content: center;
+  margin: 0;
+}
+
+/* Search Result Buttons */
+
+body .active-template-vehicle-buttons .sokal-btn {
+  width: 100%;
+}
+
+body .active-template-vehicle-buttons .sokal-btn,
+body .active-template-vehicle-buttons .sokal-btn.has-border-radius {
+  border-radius: 0.4em;
+}
+
+body .dynamic-search-button-slot .payment-calculator-offer-btn ~ .dynamic-search-button-fallback {
+  display: none;
+}
+
+/* General Button Overrides (To-do: put this somewhere global separate from SRP stuff) */
+
+body .sokal-btn {
+  border-width: 0.15em;
+}
+
+body .sokal-btn-primary {
+  transition: opacity 0.2s ease;
+}
+
+body .sokal-btn-secondary {
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+body .sokal-btn::after,
+body .vehicle-buttons .sokal-btn::after {
+  content: none;
+}
+
+body .sokal-btn-secondary {
+  border-color: var(--sokal-core-color-neutral-200);
+}
+
+body .sokal-btn-primary:hover,
+body .sokal-btn-primary:focus,
+body .vehicle-buttons .sokal-btn-primary:hover,
+body .vehicle-buttons .sokal-btn-primary:focus,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-primary:hover,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-primary:focus,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-primary:hover *,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-primary:focus * {
+  color: var(--sokal-btn-color);
+}
+
+body .sokal-btn-secondary:hover,
+body .sokal-btn-secondary:focus,
+body .vehicle-buttons .sokal-btn-secondary:hover,
+body .vehicle-buttons .sokal-btn-secondary:focus,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-secondary:hover,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-secondary:focus,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-secondary:hover *,
+body .vehicle-unit-container.tile-interval-srp-banners .sokal-btn-secondary:focus * {
+  color: var(--sokal-btn-color);
+}
+
+body .sokal-btn-primary:hover {
+  opacity: 0.9;
+}
+
+body .sokal-btn-secondary:hover {
+  border-color: var(--sokal-primary-color-dark, var(--sokal-pcd-ford));
+}
+
+body .active-template-vehicle-buttons .search-button {
+  font-size: 0.93em;
+  padding: 0.9em 1.34em;
+  border: solid 0.15em var(--sokal-core-color-neutral-200);
+  border-radius: 0.4em;
+  -webkit-transition: color 0.2s ease, border-color 0.2s ease;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+body .active-template-vehicle-buttons .search-button:hover {
+  background: #ffffff;
+  border-color: var(--sokal-primary-color-dark, var(--sokal-pcd-ford));
+}
+
+
+/* Mooresville Ford Specific CSS - DO NOT COPY unless needed for your site */
+.dest-charges-incl {
+    text-align: center;
+}
+
+/* Employee Page Fixes */
+.employee-section .employee-img img {
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+}
+.employee-section .employee-container {
+   min-height: 500px; 
+}
+
+
+/* Adding content on employees page - CD 6/23/25 */
+
+.employee-section .row:nth-of-type(4) .col-sm-3:nth-of-type(3) .employee-detail-cont p:after {
+    content: 'Se habla español';
+}
+
+.employee-section .row:nth-of-type(3) .col-sm-3:nth-of-type(11) .employee-detail-cont p:after {
+    content: 'Se habla español';
+}
+
+.vauto-incentives .tooltip .tooltip-inner {
+    color: white;
+}
+
+.stacked-srp-prices .price-savings h5 {
+    border-bottom: none;
+}
+
 
 .vehicle-prices.new-vehicle-prices {
   display: flex;
@@ -317,58 +847,11 @@ button#mobile-refine-results:focus {
 .vehicle-prices.new-vehicle-prices .lowest-price {
   order: 3;
 }
-.stacked-vehicle-prices,
-.vehicle-prices {
-  padding-bottom: 10px;
-}
-.vehicle-price-block h5.price-label,
-.price-block h5.price-label,
-.stacked-vehicle-prices h5.price-label {
-  float: left;
-}
-
-.vehicle-price-block h3,
-.price-block h3,
-.stacked-vehicle-prices h3,
-.vehicle-price-block h4,
-.price-block h4,
-.stacked-vehicle-prices h3,
-.stacked-vehicle-prices h4 {
-  float: right;
-}
-
-.vehicle-index-price.vehicle-price-block h3,
-.price-block h3,
-.stacked-vehicle-prices h3,
-.vehicle-index-price.vehicle-price-block h4,
-.price-block h4,
-.stacked-vehicle-prices h4,
-.vehicle-index-price.vehicle-price-block h5,
-.price-block h5,
-.stacked-vehicle-prices h5 {
-  margin: 0px 0px 5px 0px;
-  font-size: 13px;
-  color: #999999;
-}
-
-.lowest-price h3,
-.single-price h3,
-.single-stacked-price h3,
-.lowest-price h5,
-.single-price h5,
-.single-stacked-price h5 {
-  font-size: 15px !important;
-  color: #333333 !important;
-  color: var(--pc) !important;
-}
 
 .vehicle-prices > div[class="col-xs-12"] > h3 {
   width: 100%;
   text-align: center;
-  color: #333333;
-  color: var(--pc);
-  font-size: 15px;
-  font-family: FordAntenna-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #00095b;
 }
 
 .single-stacked-price > h3:not([class=""]) {
@@ -392,9 +875,6 @@ button#mobile-refine-results:focus {
 .in-transit-flag {
   display: none;
 }
-.row.stacked-srp-prices .col-xs-6:last-child {
-  width: 100%;
-}
 
 .locked-price-container h3 .locked-price-placeholder,
 .locked-price-container h3 .locked-price-label {
@@ -409,67 +889,115 @@ button#mobile-refine-results:focus {
   float: left;
 }
 
-.stacked-vehicle-prices .locked-price-container h3 {
-  color: #333333;
-  color: var(--pc);
-}
-
-.stacked-vehicle-prices
-  .locked-price-container
-  h3.unlock-modal-toggle
-  span.price-label {
-  float: left;
-}
-
-.stacked-vehicle-prices
-  .locked-price-container
-  h3.unlock-modal-toggle
-  span.price {
-  float: right;
-}
-
-/* Vehicle Thumb */
-
-body .vehicle-thumb-container .preview-image-controls .prev-controls,
-body .vehicle-thumb-container .preview-image-controls .next-controls {
-  opacity: 0.9;
-  background-color: #000000;
-  background-color: var(--pcd);
-}
-
-.vehicle-thumb-container button.change-image {
-  border-radius: 50px;
-  padding: 12px 16px;
-  margin: 10px;
-  border: 0px;
-}
-
-.vehicle-thumb-container button.change-image .fa {
-  color: #ffffff;
-}
-
-/* ePrice Button */
-
-.get-price-btn-container .get-price-button {
+body .active-template-price-block .stacked-srp-prices > .col-xs-6 {
   width: 100%;
 }
 
+.vehicle-price-block h5.price-label,
+.price-block h5.price-label,
+.stacked-vehicle-prices h5.price-label {
+  float: left;
+}
 
-/* Badges */
+.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h3,
+.stacked-vehicle-prices h4 {
+  float: right;
+}
 
-.custom-badge {
-  display: inline-block;
-  margin-bottom: 3px;
-  margin-top: 8px;
-  margin-right: 8px;
-  max-width: 100%;
+body .active-template-price-block {
+  min-height: 105px;
 }
-.custom-badge--img {
-  height: 55px;
+
+body .active-template-price-block .vehicle-price-block {
+  margin-left: auto;
+  margin-right: auto;
 }
-.custom-badge--btn {
-  width: 150px;
+
+body .active-template-price-block .vehicle-prices,
+body .active-template-price-block .stacked-vehicle-prices,
+body .active-template-price-block .stacked-srp-prices {
+  margin-left: auto;
+  margin-right: auto;
 }
+
+body .active-template-price-block .new-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+
+body .active-template-price-block .new-vehicle-prices .highest-price {
+  order: -1;
+}
+
+body .active-template-price-block .new-vehicle-prices .price-savings {
+  order: -1;
+}
+
+body .active-template-price-block .get-price-btn-container {
+  display: none;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > .price-label,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > .price-label {
+  float: none;
+      width: 60%;
+    text-align: left;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > h3,
+body .active-template-price-block .vehicle-prices > [class*="col-"] > h4,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > h3,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > h4 {
+  float: right;
+  /*width: 17%;*/
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"],
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] {
+  width: 100%;
+  text-align: justify;
+}
+
+body .active-template-price-block .vehicle-prices > [class*="col-"] > *,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > * {
+  font-size: 1.067em;
+  color: var(--sokal-core-color-neutral-400);
+}
+
+body .active-template-price-block .vehicle-prices > .lowest-price[class*="col-"] > *,
+body .active-template-price-block .stacked-vehicle-prices > .lowest-price[class*="col-"] > * {
+  color: var(--sokal-pcd-ford);
+}
+
+h5.incentive-label {
+    text-align: left;
+}
+
+.input-group-btn .fa-search:before {
+    color: white;
+}
+
+#contactModal .store-phone {
+    display: block;
+    padding: 10px 12px;
+    margin: 5px auto;
+    border-radius: 30px;
+  	color: #fff;
+    background-color: #00095b;
+    border: 2px solid #00095b;
+}
+
+.available-rebates-btn:hover, .available-rebates-btn:active, .available-rebates-btn:focus {
+    background: transparent !important;
+    color: #00095b !important;
+    text-decoration: underline !important;
+}
+
 
 /* Generic Utility Classes START */
 /*-------------------------------*/
@@ -503,514 +1031,13 @@ body .vehicle-thumb-container .preview-image-controls .next-controls {
 .justify-content-center {
   justify-content: center;
 }
-/* BUTTONS */
-.primary-btn {
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-  margin: 30px 0;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-.primary-btn:hover,
-.primary-btn:active {
-  background-color: #777777;
-  background-color: var(--pch);
-  color: #ffffff;
-  text-decoration: none;
-}
-.primary-btn:focus {
-  color: #ffffff;
-  text-decoration: none;
-}
-.secondary-btn,
-body .vehicle-buttons .payment-calculator-offer-btn {
-  background-color: #ffffff;
-  color: #333333;
-  color: var(--pc);
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-  border: 1px solid #333333;
-  border: 1px solid var(--pc);
-  margin: 0;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-.secondary-btn:hover,
-.secondary-btn:active,
-body .vehicle-buttons .payment-calculator-offer-btn:hover,
-body .vehicle-buttons .payment-calculator-offer-btn:active {
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff !important;
-  text-decoration: none;
-}
-.secondary-btn:focus {
-  color: #ffffff;
-  text-decoration: none;
-}
 
-.alt-color--highlight {
-    color: #1700F4;
-}
 
-.bg--blue-gradient {
-	background: linear-gradient(270deg, rgba(0,9,91,1) 0%, rgba(0,20,46,1) 100%);
-}
-
-.streakform .btn-success.form-submit-button,
-body .vehicle-model-dropdown .search-btns .btn,
-.unlock-price-button,
-.get-price-button,
-.service-coupons
-.col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
-.appointment-btn,
-.btn-success {
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-  margin: 30px 0;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-body .vehicle-model-dropdown .search-btns .btn {
-  margin: 10px auto 15px !important;
-  text-transform: capitalize;
-}
-
-.streakform .btn-success.form-submit-button:hover,
-.streakform .btn-success.form-submit-button:active,
-.unlock-price-button:hover,
-.get-price-button:hover,
-.service-coupons
-  .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
-  .appointment-btn:hover,
-.btn-success:hover {
-  background-color: #777777 !important;
-  background-color: var(--pch) !important;
-  color: #ffffff !important;
-  border-color: #777777 !important;
-  border-color: var(--pch) !important;
-  text-decoration: none !important;
-}
-
-.btn-success:active,
-.btn-success:focus {
-  background-color: #777777 !important;
-  background-color: var(--pch) !important;
-  border-color: #777777 !important;
-  border-color: var(--pch) !important;
-  color: #ffffff !important;
-}
-
-body .vehicle-model-dropdown .search-btns .btn:hover,
-body .vehicle-model-dropdown .search-btns .btn:active {
-  background-color: #777777 !important;
-  background-color: var(--pch) !important;
-  color: #ffffff !important;
-  border-color: #777777 !important;
-  border-color: var(--pch) !important;
-  text-decoration: none;
-}
-#payment-calculator-offer .payment-btn-primary {
-  background-color: #333333 !important;
-  background-color: var(--pc) !important;
-  color: #ffffff !important;
-  border-color: #333333 !important;
-  border-color: var(--pc) !important;
-}
-#payment-calculator-offer .payment-btn-primary:hover,
-#payment-calculator-offer .payment-btn-primary:focus,
-#payment-calculator-offer .payment-btn-primary:active {
-  background-color: #777777 !important;
-  background-color: var(--pch) !important;
-  color: #ffffff !important;
-}
-#payment-calculator-offer .payment-btn-secondary {
-  background-color: #ffffff !important;
-  color: #333333 !important;
-  color: var(--pc) !important;
-  border-color: #333333 !important;
-  border-color: var(--pc) !important;
-}
-#payment-calculator-offer .payment-btn-secondary:hover,
-#payment-calculator-offer .payment-btn-secondary:focus,
-#payment-calculator-offer .payment-btn-secondary:active {
-  background-color: #333333 !important;
-  background-color: var(--pc) !important;
-  color: #ffffff !important;
-}
-.unlock-price-button,
-.get-price-button {
-  display: block;
-  margin: auto;
-  width: 100%;
-}
-.unlock-price-button:hover,
-.get-price-button:hover {
-  /* border: 1px solid #777777; */
-  /*	border: 1px solid var(--pch);*/
-  color: #ffffff !important;
-}
-body .unlock-price-button:focus,
-body .get-price-button:focus {
-  color: #ffffff !important;
-  text-decoration: none;
-}
-/* unlock/eprice modal */
-.unlock-price-modal .btn {
-  border-radius: 0px !important;
-}
-.unlock-price-modal .modal-body,
-.unlock-price-modal .modal-footer {
-  background: #ffffff;
-}
-
-body .vehicle-index-buttons .btn {
-  font-size: 16px;
-  font-weight: 500;
-  margin: 5px auto 0 auto !important;
-}
-body .vehicle-show-buttons .btn {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-/* MEDIA QUERIES */
-@media (min-width: 1400px) {
-  .container-xl {
-    width: 1320px;
-    max-width: 100%;
-  }
-}
-/* Generic Utility Classes END */
-/*-----------------------------*/
-
-/* COUPON STYLING START */
-/*----------------------*/
-
-.service-coupon .coupon-image-section img {
-  max-height: 180px;
-  border-radius: 8px 8px 0 0;
-}
-
-.service-coupons .service-coupon,
-.service-coupon .service-coupon-body,
-.service-coupons .service-coupon .service-coupon-body .coupon-offer {
-  background: #333333;
-  background: var(--pc);
-  color: #ffffff;
-}
-
-.service-coupon .service-coupon-body .coupon-title a,
-.service-coupon .service-coupon-body .coupon-title h3 {
-  color: #ffffff;
-}
-
-.service-coupon .service-coupon-body .coupon-text {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.service-coupon .service-coupon-body .coupon-text li {
-  list-style-type: none;
-}
-
-.service-coupon .service-coupon-body .coupon-text ul {
-  padding: 0;
-}
-
-.service-coupon .coupon-footer .expiration,
-.service-coupon .coupon-footer .disclaimer-link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.service-coupons .service-coupon {
-  padding-top: 0;
-  border-radius: 8px;
-}
-
-.service-coupon .coupon-footer .get-coupon-btn {
-  color: #ffffff;
-  font-size: 1.5rem;
-  padding: 5px;
-}
-
-.service-coupon .service-coupon-body .coupon-offer h2 {
-  color: #ffffff !important;
-  font-size: 1.75rem !important;
-}
-
-.service-coupons .service-buttons-container .appointment-btn {
-  background-color: #333333 !important;
-  background-color: var(--pc) !important;
-  border-bottom: 1px solid #ffffff;
-  width: 75%;
-  margin: 10px auto;
-}
-
-.service-coupons .service-buttons-container .appointment-btn:hover {
-  color: #ffffff;
-  border-bottom-color: #333333;
-  border-bottom-color: var(--pc);
-}
-
-.service-coupon .coupon-footer .disclaimer-link:hover {
-  text-decoration: underline;
-  color: #ffffff;
-}
-.service-coupon-container {
-  margin-right: 0 !important;
-}
-
-@media (min-width: 1200px) {
-  .service-coupon-container {
-    width: 25% !important;
-  }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .service-coupon-container {
-    width: 30% !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .service-coupon-container {
-    width: 41% !important;
-  }
-}
-
-/* show coupon page */
-.show-coupon .service-coupon {
-  max-width: 280px;
-}
-.show-coupon .service-buttons-container {
-  display: none;
-}
-/* COUPON STYLING END */
-/*--------------------*/
-
-/* FORM STYLING START*/
-/*-------------------*/
-
-/* Colors */
-.form--style-base .panel {
-  background-color: #ffffff;
-}
-/* Shadows */
-.form--style-base .panel {
-  -webkit-filter: drop-shadow(0px 0px 20px #ececec);
-  filter: drop-shadow(0px 0px 20px #ececec);
-  box-shadow: none;
-}
-.form--style-base .panel-heading {
-  background-color: transparent;
-}
-/* Transitions */
-.form--style-base .btn {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-}
-/* Form Container */
-.form--style-base {
-  width: 600px;
-  max-width: 100%;
-  margin: 30px auto;
-}
-/* Form Groups */
-.form--style-base .form-group .col-sm-3,
-.form--style-base .form-group .col-sm-9 {
-  width: 100%;
-  text-align: left;
-}
-/* Panel  */
-.form--style-base .panel {
-  padding: 4vw;
-  background-clip: padding-box;
-  border: 0px;
-  border-radius: 6px;
-}
-/* Panel Heading */
-.form--style-base .panel-heading {
-  border: 0px;
-}
-/* Title */
-.form--style-base .form-title {
-  font-size: 2.5rem;
-  font-weight: 500;
-  text-align: center;
-}
-/* Buttons */
-/*
-.btn-group.preferred-contact-method {
-    margin-left: 15px;
-}
-*/
-.form--style-base .ajax-form-submit-btn {
-  display: block;
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-  margin: 30px auto;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-.form--style-base .ajax-form-submit-btn:hover {
-  background-color: #777777;
-  background-color: var(--pch);
-  color: #ffffff;
-  text-decoration: none;
-}
-.contact-method-btn {
-  font-size: 12px;
-}
-.contact-method-btn.active {
-  background: #777777;
-  background: var(--pch);
-  color: #ffffff;
-  border: 1px solid #777777;
-  border: 1px solid var(--pch);
-}
-/* FORM STYLING END*/
-/*-----------------*/
-
-/* MAP & HOURS */
-/***************/
-
-.modern-map-hp-content .map-contact {
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff;
-}
-.modern-map-hp-content .map-contact .content-box {
-  padding: 30px;
-  max-width: 460px;
-  margin: auto;
-}
-.modern-map-hp-content .map-contact h4,
-.modern-map-hp-content .map-contact h5,
-.modern-map-hp-content .map-contact .contact-link {
-  color: #bfbfbf !important;
-  text-transform: uppercase;
-}
-.modern-map-hp-content .map-contact p,
-.modern-map-hp-content .map-contact .contact-link {
-  font-size: 13px;
-  font-weight: 400;
-}
-.modern-map-hp-content .map-contact .dealer-location {
-  margin-top: 0px;
-}
-.modern-map-hp-content .map-contact .dealer-address {
-  margin: 15px 0px;
-}
-.modern-map-hp-content .map-contact .hours-heading {
-  margin-top: 30px;
-}
-.modern-map-hp-content .map-contact .modern-map-icon {
-  height: 13px;
-  margin-right: 3px;
-}
-.modern-map-hp-content .map-contact .contact-hours p,
-.modern-map-hp-content .map-contact h4 {
-  margin-bottom: 5px;
-}
-.modern-map-hp-content .contact-hours--sales .mon-fri,
-.modern-map-hp-content .contact-hours--sales .sat-only,
-.modern-map-hp-content .contact-hours--sales .sunday--closed,
-.modern-map-hp-content .contact-hours--service .mon-fri,
-.modern-map-hp-content .contact-hours--service .sat-only,
-.modern-map-hp-content .contact-hours--service .sunday--closed {
-  display: block !important;
-}
-
-/* NEWER ADDITIONS START */
-
-body .vehicle-index-buttons .btn,
-body .vehicle-show-buttons .btn {
-  background-color: #ffffff;
-  color: #333333;
-  color: var(--pc);
-  font-size: 16px;
-  font-weight: 500;
-  padding: 10px 34px;
-  border-radius: 0px;
-  border: 1px solid #333333;
-  border: 1px solid var(--pc);
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-body .vehicle-index-buttons .btn:hover,
-body .vehicle-index-buttons .btn:focus,
-body .vehicle-index-buttons .btn:active,
-body .vehicle-show-buttons .btn:hover,
-body .vehicle-show-buttons .btn:active,
-body .vehicle-show-buttons .btn:focus {
-  background-color: #333333;
-  background-color: var(--pc);
-  color: #ffffff !important;
-  text-decoration: none;
-}
-.vehicle-index-buttons .cn-btn-bn1,
-.vehicle-show-buttons .cn-btn-bn1{
-  background-color: #ffffff !important;
-  color: #333333 !important;
-  color: var(--pc) !important;
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  margin-top: 5px;
-  border-radius: 0px !important;
-  border: 1px solid #333333 !important;
-  border: 1px solid var(--pc) !important;
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  -moz-transition: all 0.3s ease;
-  transition: 0.3s all ease;
-}
-body .vehicle-index-buttons .cn-btn-bn1:hover,
-body .vehicle-index-buttons .cn-btn-bn1:focus,
-body .vehicle-index-buttons .cn-btn-bn1:active,
-body .vehicle-show-buttons .cn-btn-bn1:hover,
-body .vehicle-show-buttons .cn-btn-bn1:active,
-body .vehicle-show-buttons .cn-btn-bn1:focus {
-  background-color: #333333 !important;
-  background-color: var(--pc) !important;
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
 /* PAGE SPECIFICS */
 .webpage p {
   font-size: 1.75rem;
 }
+
 @media (max-width: 550px) {
   .webpage .hero h1 {
     font-size: 26px;
@@ -1019,141 +1046,4 @@ body .vehicle-show-buttons .cn-btn-bn1:focus {
   .webpage .hero h3 {
     font-size: 14px;
   }
-}
-.mo-offer-content .payment-block {
-  background: #777777;
-  background: var(--pch);
-}
-.mo-offer-content .send-my-offer {
-  background: #333333;
-  background: var(--pc);
-}
-.mo-offer-content .send-my-offer:hover,
-.mo-offer-content .send-my-offer:focus,
-.mo-offer-content .send-my-offer:active {
-  background: #777777;
-  background: var(--pch);
-}
-
-.vehicle-index-buttons .cn-btn-bn1:hover > .cn-btn-bn1--label {
-    color: white !important;
-}
-
-.vehicle-price .locked-price h3 > span:first-of-type {
-    /* width: 60% !important; */
-    margin-top: 17px;
-    float: right;
-}
-
-.vehicle-price .locked-price h3 > span:nth-of-type(2) {
-    float: left;
-}
-
-.nav-right-with-contact header .container .header-wrapper #desktop-menu > li a {
-    display: block;
-    padding: 10px 12px;
-    line-height: 28px;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 0px;
-}
-
-input.event-pageview[data-category*="Specials View"] ~ .template-specials-index .html-specials-page .special-btn-inventory {
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px 34px;
-    border-radius: 0px !important;
-    border-radius: var(--btn-br);
-    background: #ffffff;
-    background-color: #ffffff;
-    color: #333333;
-    color: var(--pc);
-    border: 1px solid #333333;
-    border: 1px solid var(--pc);
-    margin: 10px 0;
-    box-shadow: none;
-    -webkit-transition: 0.3s all ease;
-    -o-transition: 0.3s all ease;
-    -moz-transition: all 0.3s ease;
-    transition: 0.3s all ease;
-}
-
-.stacked-vehicle-prices .locked-price-container h3 {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
-/* NEWER ADDITIONS END */
-
-/* Mooresville Ford Specific CSS - DO NOT COPY unless needed for your site */
-.price-block h4, 
-.stacked-vehicle-prices h4{
-  float: right;
-  width: 40%;
-  text-align: right;
-}
-.price-block h5, 
-.stacked-vehicle-prices h5 {
-  float: left;
-  text-align: left;
-  width: 60%;
-}
-.vauto-incentive h5 {
-    float: left;
-}
-.new-true .active-template-vehicle-badges {
-    min-height: 0px;
-}
-/* Mooresville Ford Specific CSS - DO NOT COPY unless needed for your site */
-.dest-charges-incl {
-    text-align: center;
-}
-
-/* Employee Page Fixes */
-.employee-section .employee-img img {
-    height: 100%;
-    min-height: 300px;
-    object-fit: cover;
-}
-.employee-section .employee-container {
-   min-height: 500px; 
-}
-
-/* Making "Text Us" button only show on mobile */
-
- @media (min-width: 768px) {
-        a.sms-button.car-code-sms-button.btn {
-            display: none;
-        }
-    }
-
-#contactModal .store-phone {
-    display: block;
-    margin: 5px auto;
-    border-radius: 30px;
-}
-
-.available-rebates-btn:hover, .available-rebates-btn:active, .available-rebates-btn:focus {
-    background: transparent !important;
-    color: #00095b !important;
-    text-decoration: underline !important;
-}
-
-/* Adding content on employees page - CD 6/23/25 */
-
-.employee-section .row:nth-of-type(4) .col-sm-3:nth-of-type(3) .employee-detail-cont p:after {
-    content: 'Se habla español';
-}
-
-.employee-section .row:nth-of-type(3) .col-sm-3:nth-of-type(11) .employee-detail-cont p:after {
-    content: 'Se habla español';
-}
-
-.vauto-incentives .tooltip .tooltip-inner {
-    color: white;
-}
-
-.stacked-srp-prices .price-savings h5 {
-    border-bottom: none;
 }
