@@ -1,0 +1,81 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+#before-you-buy,
+.col.left #v-badges {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #00095b;
+    text-decoration: none;
+}
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .secondary-btn {
+    margin: 0px;
+}
+
+.new-price-block-styles .vehicle-price-block h5.price-label, 
+.new-price-block-styles .price-block h5.price-label, 
+.new-price-block-styles .stacked-vehicle-prices h5.price-label {
+    float: none !important;
+}
+.search-result-buttons-and-price-block a#couponModalBtn {
+    background: white;
+    color: #00095b;
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px #00095b;
+    border-radius: var(--btn-br);
+    padding: 12px 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+      margin-bottom: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.search-result-buttons-and-price-block a#couponModalBtn:hover,
+.search-result-buttons-and-price-block a#couponModalBtn:active,
+.search-result-buttons-and-price-block a#couponModalBtn:focus {
+    background: #00095b;
+    color: white;      
+  border: solid 2px #00095b;
+}
+
+.vehicle-top-info.vehicle-overview-and-price-block[data-inventory-type="new"] .unlock-price-button,
+.vehicle-top-info.vehicle-overview-and-price-block[data-inventory-type="new"] .get-price-button {
+  background-color: green;
+    color: #ffffff;
+    border: 1px solid green;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 34px;
+    border-radius: 30px;
+    margin: 0px 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+
+.vehicle-top-info.vehicle-overview-and-price-block[data-inventory-type="new"] .unlock-price-button:hover,
+.vehicle-top-info.vehicle-overview-and-price-block[data-inventory-type="new"] .get-price-button:hover {
+  background-color: #009f00 !important;
+  color: #ffffff !important;
+  border-color: #009f00 !important;
+  text-decoration: none !important;
+}
