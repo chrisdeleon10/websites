@@ -1,0 +1,62 @@
+
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+#before-you-buy {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.description-text .overview-icons a[title="Download Window Sticker"] {
+  display: none;
+}
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .secondary-btn {
+    margin: 0px;
+}
+
+
+@media(max-width: 991px) {
+.split-vdp-with-toolbar .vehicle-features-table table {
+    max-width: 768px;
+    width: 100% !important;
+}
+}
+
+/* Displaying comment section on Contact Us form */
+.form-group.hidden-xs {
+    display: block !important;
+}
+
+.vdp-specials {
+    border: 1px dashed red;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.vehicle-specials-row .row .col-xs-12 {
+    text-align: -webkit-center;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked .get-price-button.get-cap-price {
+    display: none;
+}
+a#couponModalBtn {
+    width: -webkit-fill-available;
+    color: #fff;
+    background-color: #00095b;
+    border: 1px solid #00095b;
+    margin-top: auto;
+}
+
+a#couponModalBtn:hover {
+    color: #00095b !important;
+    background-color: #fff;
+    border: 1px solid #00095b;
+}

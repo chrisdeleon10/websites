@@ -1,0 +1,26 @@
+
+body .FooterGreyLeft {
+  background-color: #ffffff;
+  color: #00095b;
+}
+body .FooterGreyLeft * {
+  color: #00095b !important;
+}
+body .FooterGreyLeft .sokal-white-logo {
+  opacity: 1;
+  background: #00095b;
+  padding: 10px;
+  height: 40px;
+}
+.FooterGreyLeft > .container > .row:nth-of-type(5) {
+  display: none;
+}
+/* MAKE A WISH EDITS - ONLY VALID FOR CAPITAL STORES */
+
+body .FooterGreyLeft .row:nth-child(6) {
+    display: flex;
+    align-items: center;
+}
+.maw-footer-container--logo {
+	margin-left: auto;
+}
