@@ -1,0 +1,69 @@
+<div class="vehicle-unit-container new-{{is_new}}">
+    <div class="vehicle-content">
+      <div class="row row-no-gutters active-template-vehicle-top-content">
+        <div class="active-template-vehicle-title-block">
+          <a href="{{link_to_vehicle}}" class="vehicle-link">
+            <h3 class="vehicle-year-make-model">
+              <span class="year">{{year}}</span> <span class="make">{{make}}</span> <span class="model">{{model}}</span>
+            </h3>
+            <div class="vehicle-sub-title">
+              <p class="vehicle-trim">{{trim}}</p>
+              <p class="vehicle-mileage">{{mileage_delimited}} mi</p>
+            </div>
+          </a>
+        </div>
+        <div class="vehicle-spec vehicle-spec--stock">
+          <h3 class="vehicle-spec-item vehicle-spec-label">Stock</h3>
+          <p class="vehicle-spec-item vehicle-spec-value">#{{stock_number}}</p>
+        </div>
+      </div>    
+      <div class="row row-no-gutters active-template-vehicle-thumbnail-block active-template-full-width-block">
+        <div class="vehicle-thumb">{{{srp_thumb}}}</div>
+      </div>
+      <div class="row row-no-gutters active-template-vehicle-bottom-content">
+        <div class="col-xs-12">
+          <div class="row row-no-gutters active-template-specs-block">
+            <div class="active-template-price-block">
+              <div class="col-xs-12">{{{price_block}}}</div>
+            </div>
+            <div class="vehicle-spec vehicle-spec--options-modal">
+                <p class="vehicle-options-modal-trigger-label sokal-link sokal-link-primary">
+                  <span class="sokal-link-copy">
+                    <span class="link-text">Features</span>
+                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                  </span>
+                </p>
+                <div class="options-modal-trigger">{{{options_modal_link}}}</div>
+              </div>
+            <div class="vehicle-spec vehicle-spec--ext-color primary-vehicle-spec">
+              <div class="col-xs-6">
+                  <p class="vehicle-spec-item vehicle-spec-value">{{color_ext}}</p>
+                  <h3 class="vehicle-spec-item vehicle-spec-label">Exterior Color</h3>
+              </div>
+              <div class="col-xs-6">
+                  <p class="vehicle-spec-item vehicle-spec-value">{{color_int}}</p>
+                  <h3 class="vehicle-spec-item vehicle-spec-label">Interior Color</h3>
+              </div>
+          </div>
+          </div>
+          </div>
+          <div class="row row-no-gutters vehicle-buttons primary-vehicle-buttons">{{{eprice_button}}}</div>
+        </div>
+      </div>
+			<div class="row row-no-gutters active-template-location-block">
+          <div class="col-xs-12">
+            {{{vehicle_transfer_notice}}}
+          </div>
+      </div>
+      <div class="row row-no-gutters vehicle-index-buttons vehicle-buttons active-template-vehicle-buttons">
+        <div class="col-xs-12">
+          {{{index_button_0}}}
+          {{{index_button_1}}}
+          {{{index_button_2}}}
+          {{{index_button_3}}}
+          {{{index_button_4}}}
+        </div>
+      </div>
+      <div class="row row-no-gutters active-template-vehicle-badges">{{{vehicle_badges}}}</div>
+      
+    </div>

@@ -1,0 +1,409 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo,
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a,
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/websites/logos/000/001/141/original/CFH-Logo-2022-Stacked-Web.png?1692811730");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* MAKE A WISH ADDITIONS START */
+
+@media (min-width: 768px) and (max-width: 1214px) {
+  .maw-additional a {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .maw-additional a {
+    max-width: 55px !important;
+    margin-left: 10px;
+  }
+}
+.maw-additional {
+  width: 15%;
+}
+.maw-additional a {
+  display: inline-block;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/366/000/original/CF-SP-121322-StarIcon-02.png?1675286501) !important;
+  height: 60px;
+  width: 115px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .nav-right-with-contact .nav-toolbar-side {
+  width: 75%;
+}
+body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+  max-width: 10%;
+  min-width: 100px !important;
+}
+
+@media (min-width: 1440px) {
+  .maw-additional {
+    width: 12%;
+  }
+  body .nav-right-with-contact .nav-toolbar-side {
+    width: 70%;
+  }
+  body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+    max-width: 18%;
+    min-width: 250px !important;
+  }
+}
+
+/* MAKE A WISH ADDITIONS END */
+
+/* Top Contact Toolbar */
+
+body .nav-right-with-contact .nav-toolbar-side {
+  width: 70%;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+  max-width: 30%;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar {
+  color: #333333;
+  color: var(--pc);
+  background-color: #ffffff;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar a,
+body .nav-right-with-contact .navbar-inverse .navbar-nav > li > a {
+  color: #000000;
+  color: var(--pcd);
+}
+
+body .nav-right-with-contact .nav-contact-toolbar a:hover {
+  color: #333333;
+  color: var(--pc);
+  opacity: 0.7;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar .phone-link {
+  border-right-color: #333333;
+  border-right-color: var(--pc);
+}
+
+body .nav-right-with-contact .nav-contact-toolbar a {
+  font-size: 12px;
+}
+
+/* Desktop Menu */
+
+body .nav-right-with-contact,
+body .nav-right-with-contact .navbar.navbar-inverse,
+body .nav-right-with-contact header,
+body .nav-right-with-contact .nav-contact-toolbar {
+  background-color: #ffffff;
+}
+
+body .nav-right-with-contact .navbar .dropdown-menu > li > a {
+  color: #333333;
+  color: var(--pc);
+}
+
+body .nav-right-with-contact .navbar .dropdown-menu > li > a:hover,
+body .nav-right-with-contact .navbar .dropdown-menu > li > a:focus,
+body .nav-right-with-contact #more-dropdown:hover {
+  background-color: #333333;
+  background-color: var(--pc);
+  color: #ffffff;
+}
+
+body
+  .nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  ul.dropdown-menu {
+  background-color: #ffffff;
+}
+
+body .nav-right-with-contact #dropdown-search {
+  background-color: #ffffff;
+}
+
+.nav-right-with-contact .navbar-inverse .navbar-nav > .open > a,
+.nav-right-with-contact .navbar-inverse .navbar-nav > .open > a:hover,
+.nav-right-with-contact .navbar-inverse .navbar-nav > li > a:hover,
+.nav-right-with-contact .navbar-inverse .navbar-nav > .open > a:focus,
+.nav-right-with-contact .navbar-inverse .navbar-nav > li > a:focus {
+  color: #333333;
+  color: var(--pc);
+  opacity: 0.7;
+}
+
+body .vehicle-model-dropdown .search-btns .btn {
+  background-color: #333333;
+  background-color: var(--pc);
+  border: 2px solid #333333;
+  border: 2px solid var(--pc);
+}
+
+body .vehicle-model-dropdown .search-btns .btn:hover,
+body .vehicle-model-dropdown .search-btns .btn:focus,
+body .vehicle-model-dropdown .search-btns .btn:active {
+  color: #ffffff;
+  background-color: #58595b;
+  border: 2px solid #58595b;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar {
+  padding: 20px 0px 7px 0px;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu {
+  padding: 5px 0px 10px 0px;
+}
+
+body
+  .nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a {
+  font-size: 14px;
+}
+
+body .nav-right-with-contact .navbar.navbar-inverse,
+.mobile-contact-bar {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border-bottom: solid 1px #333333;
+  border-bottom: solid 1px var(--pc);
+}
+
+body .vehicle-model-dropdown .models-wrapper .model-container .model-text {
+  letter-spacing: 0px;
+}
+
+/*
+  body .vehicle-model-dropdown .models-wrapper .model-container img {
+      max-height: 72px;
+  }
+  */
+
+/* Mobile Nav */
+
+body .nav-right-with-contact #desktop-logo::after,
+body .nav-right-with-contact .mobile-dealer-logo::after {
+  color: white;
+  border-left-color: #333333;
+  border-left-color: var(--pc) !important;
+}
+
+body .nav-right-with-contact .mobile-contact-bar {
+  background-color: #ffffff;
+}
+
+body .nav-right-with-contact .mobile-contact-bar .mobile-menu-toggle .icon-bar {
+  background: #333333;
+  background: var(--pc);
+}
+
+body .nav-right-with-contact .mobile-contact-bar .contact-info .contact-item,
+body .click-through-mobile-contact-bar .contact-info .contact-item {
+  color: #333333;
+  color: var(--pc);
+}
+
+body
+  .nav-right-with-contact
+  .mobile-nav-bar
+  .search-bar
+  .input-group-btn
+  button {
+  border-color: #333333;
+  border-color: var(--pc);
+}
+
+body .nav-right-with-contact .mobile-dealer-logo > a {
+  height: 80%;
+}
+
+body .click-through-mobile-contact-bar .contact-info {
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body .click-through-mobile-contact-bar .contact-info .contact-item {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  body .nav-right-with-contact .mobile-contact-bar .contact-info {
+    width: 60px;
+    margin-right: 0px;
+  }
+
+  body .mobile-contact-bar .mobile-dealer-logo img {
+    padding: 3px;
+  }
+
+  body .nav-right-with-contact .mobile-dealer-logo {
+    width: calc(100% - 120px);
+    max-width: unset;
+    justify-content: center;
+  }
+}
+
+/* Additional Nav Styles */
+
+body .nav-right-with-contact header {
+  background-color: #ffffff;
+}
+
+body .nav-right-with-contact #dropdown-search {
+  left: unset;
+  padding: 10px 10px 25px 10px;
+  width: 500px;
+  -moz-box-shadow: 0px 5px 5px 0px #76767627;
+  -webkit-box-shadow: 0px 5px 5px 0px #76767627;
+  box-shadow: 0px 5px 5px 0px #76767627;
+}
+
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li:last-of-type {
+  position: relative;
+}
+
+body #header.nav-right-with-contact #dropdown-search > .container {
+  width: 100%;
+  min-width: 0;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar a,
+body
+  .nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a {
+  text-transform: capitalize;
+  letter-spacing: 0px;
+}
+
+/* Nav Dropdown Search */
+
+body .nav-right-with-contact #dropdown-search {
+  display: block !important;
+  -moz-transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  -webkit-transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+body .nav-right-with-contact #dropdown-search.hidden {
+  visibility: hidden;
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+body .nav-right-with-contact #dropdown-search:not(.hidden) {
+  visibility: visible;
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+/* JD POWER ADDITIONS START */
+@media (min-width: 768px) and (max-width: 1214px) {
+  .jd-power-additional a {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .jd-power-additional a {
+    max-width: 55px !important;
+    margin-left: 10px;
+  }
+}
+.jd-power-additional {
+  width: 15%;
+}
+.jd-power-additional a {
+  display: inline-block;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/722/410/original/2024-DOE_Diamond5yrs.png?1704301213) !important;
+  height: 70px;
+  width: 115px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (min-width: 1440px) {
+  .jd-power-additional {
+    width: 12%;
+  }
+}
+/* JD POWER ADDITIONS END */
+
+/* Sub Nav CSS - MAW and JD Power Logos */
+.sub-nav-links-component .nav-links-container a[href="/jd-power-dealer-of-excellence"],
+.sub-nav-links-component .nav-links-container.nav-links-container--mobile a[href="/jd-power-dealer-of-excellence"] {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/722/410/original/2024-DOE_Diamond5yrs.png?1704301213);
+  height: 50px;
+  width: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 12px;
+}
+.sub-nav-links-component .nav-links-container a[href="https://secure2.wish.org/site/SPageServer/?pagename=gen_homepage"],
+.sub-nav-links-component .nav-links-container.nav-links-container--mobile a[href="https://secure2.wish.org/site/SPageServer/?pagename=gen_homepage"] {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/366/000/original/CF-SP-121322-StarIcon-02.png?1675286501);
+  height: 50px;
+  width: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sub-nav-links-component .nav-links-container.nav-links-container--mobile > .dropdown {
+  display: none;
+}
+@media(min-width: 1200px) {
+  .sub-nav-links-component .nav-links-container {
+    margin-left: 90px;
+  }
+}
+/* Sub Nav CSS - MAW and JD Power Logos END */
+
+
+/* Left Aligning logos on huge screens */
+@media (min-width: 1500px) {
+        body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+            position: absolute !important;
+            left: 75px !important;
+            top: 10px !important;
+        }
+    }
+@media (min-width: 1500px) {
+        .maw-additional {
+    position: absolute !important;
+    left: 320px !important;
+    top: 20px !important;
+}
+    }

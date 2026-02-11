@@ -1,0 +1,81 @@
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.buttons-title.minor-title,
+.buttons-block,
+div[data-name="carfax-badge"] {
+  display: none !important;
+}
+
+.col.left .block.card:nth-child(3) + br {
+    display: none;
+}
+.make-an-offer {
+    display: none;
+}
+.col-xs-12.price-savings h4,
+.col-xs-12.price-savings h5 {
+    color: green;
+}
+
+.col-xs-12.price-savings h4::before {
+    content: '-';    
+}
+a.btn.btn-block.event-click.track-click.btn-default.\.roadster-btn {
+    margin-top: -85px;
+}
+
+.vehicle-show-buttons-stacked .eprice-button {
+    margin-top: 0px;
+}
+/*
+a.toggle-eprice-modal.btn.eprice-button {
+            background: green;
+            color: white;
+            border: 2px solid green;
+        }
+
+a.toggle-eprice-modal.btn.eprice-button:hover,
+a.toggle-eprice-modal.btn.eprice-button:active,
+a.toggle-eprice-modal.btn.eprice-button:focus {
+            background: white;
+            color: green;
+            border: 2px solid green;
+        }
+*/
+.split-vdp-with-toolbar .search-result-buttons .btn,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  border-radius: 0px;
+}
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    border-radius: 0;
+}
+.price-block .get-price-btn-container {
+    padding-right: 10px;
+}
+
+.sokal-btn.search-button.search-button--appointment,
+a#couponModalBtn {
+    min-height: 50px;
+}
+
+@media (max-width: 767px) {
+        a#couponModalBtn {
+            font-size: 13px;
+        padding: 15px 20px
+        }
+    }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+        a#couponModalBtn {
+            padding: 12px 15px;
+        }
+    }

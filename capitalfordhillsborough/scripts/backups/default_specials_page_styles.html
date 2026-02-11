@@ -1,0 +1,892 @@
+<style>
+
+/* IMPORTANT: Update the variables below by brand when adding this */
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials, 
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  ~ .container-fluid {
+  --pc: var(--sokal-pc-ford, #333333);
+  --btn-br: var(--sokal-btn-br-ford, 0);
+}
+
+/* Specials Index */
+
+input.event-pageview[data-category*="Specials View"] ~ .template-specials-index,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll {
+  border-bottom: solid 2px #d7d7d7;
+  padding-bottom: 75px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  *:not(.special-btn-inventory, .special-btn-inventory *),
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  ~ .container-fluid
+  *:not(
+    .special-btn-inventory,
+    .special-btn-inventory *,
+    .preview-image-controls *,
+    .get-price-button,
+    .unlock-price-button,
+    .vehicle-buttons .btn, 
+    #dealer_otn_container #dealer_line, 
+    .vehicles-from-dealer-group, 
+    .modal *
+  ) {
+  color: #333333 !important;
+  color: var(--pc) !important;
+  font-style: normal;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-lower-content {
+  text-align: center;
+}
+
+input.event-pageview[data-category*="All Specials View"]
+  ~ .template-specials-index
+  .special-lower-content,
+input.event-pageview[data-category*="New Vehicle Specials View"]
+  ~ .template-specials-index
+  .special-lower-content {
+  padding-top: 50px;
+  height: unset !important;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-btn-phone,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .ws-print-selection {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  .html-specials-page
+  .special-title {
+  background: none;
+  padding: 0 15px 15px 15px !important;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  .html-specials-page
+  .special-title
+  h1 {
+  font-size: 16px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-unit-block {
+  border: 0;
+  padding: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .template-special-contents {
+  margin: 15px;
+  padding-top: 15px;
+  border-radius: 6px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .template-special-contents:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0px 0px 15px 7px #76767627;
+  box-shadow: 0px 0px 15px 7px #76767627;
+  padding: 15px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-image-container
+  img {
+  height: auto !important;
+  width: 100%;
+  max-width: unset;
+  border-radius: 6px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .template-special-contents:hover
+  .special-image-container
+  img {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  border-radius: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  .fallback-special-content {
+  background-color: transparent;
+  border: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials
+  .html-specials-page
+  .special-title
+  .fallback-special-title-type {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-html-content-block
+  * {
+  text-align: left !important;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0;
+  border-radius: var(--btn-br);
+  background: #ffffff;
+  background-color: #ffffff;
+  color: #333333;
+  color: var(--pc);
+  border: 1px solid #333333;
+  border: 1px solid var(--pc);
+  margin: 10px 0;
+  box-shadow: none;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+
+input.event-pageview[data-category*="All Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form,
+input.event-pageview[data-category*="New Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form,
+input.event-pageview[data-category*="Pre-Owned Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory {
+  background: #333333;
+  background: var(--pc);
+  background-color: #333333;
+  background-color: var(--pc);
+  color: #ffffff;
+  border-radius: 0;
+  border-radius: var(--btn-br);
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:hover,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:active,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:focus {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background: #333333;
+  background: var(--pc);
+  background-color: #333333;
+  background-color: var(--pc);
+  border-color: #333333;
+  border-color: var(--pc);
+  color: #ffffff;
+}
+
+input.event-pageview[data-category*="All Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:hover,
+input.event-pageview[data-category*="All Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:active,
+input.event-pageview[data-category*="All Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:focus,
+input.event-pageview[data-category*="New Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:hover,
+input.event-pageview[data-category*="New Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:active,
+input.event-pageview[data-category*="New Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .load-special-form:focus,
+input.event-pageview[data-category*="Pre-Owned Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:hover,
+input.event-pageview[data-category*="Pre-Owned Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:active,
+input.event-pageview[data-category*="Pre-Owned Vehicle Specials View"]
+  ~ .template-specials-index
+  .html-specials-page
+  .special-btn-inventory:focus {
+  background: #ffffff;
+  background-color: #ffffff;
+  color: #333333;
+  color: var(--pc);
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-index
+  .special-html-content-block
+  .price-label {
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials
+    .html-specials-page
+    .special-title
+    h1 {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-index
+    .template-special-contents:hover
+    .special-title
+    h1 {
+    position: absolute;
+    top: 0;
+    white-space: normal;
+    font-size: 10px;
+    width: calc(100% - 30px);
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials
+    .html-specials-page
+    .special-title {
+    min-height: 43px;
+  }
+}
+
+/* Specials Show */
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-index-summary
+  > *:not(.index-summary-rows, .exterior-color, .interior-color) {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .stacked-srp-prices
+  > .col-xs-6 {
+  width: 100%;
+  text-align: center;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-badges {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .srp-special {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-buttons
+  > [class*="col-"] {
+  width: 100%;
+  max-width: 350px;
+  padding: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > [class*="col-"],
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8 {
+  margin-top: 20px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .stacked-srp-prices
+  > .col-xs-6:nth-child(2)
+  > * {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit-container {
+  width: calc(100% / 3);
+  display: inline-flex;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > [class*="col-"] {
+  width: 100%;
+  padding: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .stacked-srp-prices
+  > .col-xs-6
+  > .toggle-disclaimer-modal {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:nth-child(2) {
+  margin: 10px 15px 0 15px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > [class*="col-"]
+  h5.vdp-link {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  .toggle-vehicle-options {
+  display: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit {
+  min-height: unset;
+  box-shadow: none;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:nth-child(2) {
+  min-height: 45px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > .vehicle-specs
+  h2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit {
+  width: 100%;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit {
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 6px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit-container {
+  padding: 5px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-thumb-container
+  img {
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8 {
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .srp-window-sticker {
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > .vehicle-specs
+  > .row:first-child
+  > .col-sm-12.hidden-xs {
+  display: block !important;
+  min-height: 35px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-4
+  > a.visible-xs {
+  display: none !important;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  .special-btn-inventory {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin: 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: solid 1px #333333;
+  border: solid 1px var(--pc);
+  background-color: #333333;
+  background-color: var(--pc);
+  background: #333333;
+  background: var(--pc);
+  color: #ffffff;
+  padding: 15px 12px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  .special-btn-inventory:hover,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  .special-btn-inventory:active,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  .special-btn-inventory:focus {
+  background-color: transparent;
+  background: transparent;
+  color: #333333;
+  color: var(--pc);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  .html-specials-page
+  > .row
+  > .col-sm-12
+  > .row:nth-child(2) {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .launch-vehicle-video-modal {
+  margin-top: 5px;
+  border-radius: 6px;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > .vehicle-specs {
+  font-weight: normal;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  > .row:first-child
+  > .col-sm-8
+  > .row:first-child
+  > [class*="col-"]
+  > .vehicle-index-price.vehicle-price-block {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-buttons
+  > [class*="col-"]
+  > a,
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .vehicle-buttons
+  > [class*="col-"]
+  > button {
+  margin: 0 auto 10px auto !important;
+}
+
+input.event-pageview[data-category*="Specials View"]
+  ~ .template-specials-show
+  ~ .container-fluid
+  #vehicles-infinite-scroll
+  .vehicle-unit
+  .srp-window-sticker-link
+  * {
+  vertical-align: middle;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit
+    .vehicle-thumb {
+    min-height: 323px;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit
+    .vehicle-index-summary {
+    min-height: 100px;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 0px 15px 7px #76767627;
+    box-shadow: 0px 0px 15px 7px #76767627;
+    padding: 10px;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover
+    .vehicle-thumb-container
+    img {
+    width: calc(100% + 50px);
+    max-width: calc(100% + 50px);
+    margin-left: -25px;
+    margin-top: -10px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover
+    > .row:first-child
+    > .col-sm-8 {
+    padding: 0;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover
+    .srp-window-sticker {
+    margin-left: -20px;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover
+    > .row:first-child
+    > .col-sm-8
+    > .row:first-child
+    > .vehicle-specs
+    h2 {
+    position: absolute;
+    top: 0;
+    white-space: normal;
+    font-size: 12px;
+    width: calc(100% - 30px);
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit:hover
+    .launch-vehicle-video-modal {
+    width: calc(100% + 40px);
+    max-width: calc(100% + 40px);
+    margin-left: -20px;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit
+    .stacked-srp-prices
+    > .col-xs-6
+    .stacked-vehicle-prices {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit-container {
+    width: calc(100% / 2);
+  }
+}
+
+@media (max-width: 767px) {
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit-container {
+    width: 100%;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    > .container {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit
+    > .row:first-child
+    > .col-sm-4,
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    ~ .container-fluid
+    #vehicles-infinite-scroll
+    .vehicle-unit
+    > .row:first-child
+    > .col-sm-8 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 315px) {
+  input.event-pageview[data-category*="Specials View"]
+    ~ .template-specials-show
+    .special-btn-inventory {
+    width: calc(100% - 20px);
+    display: block;
+  }
+}
+
+</style>
