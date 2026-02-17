@@ -1,0 +1,130 @@
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.col.left #v-badges {
+  display: none !important;
+}
+
+.vertical-item.badge-item[data-name="carfax-badge"] {
+    display: none;
+}
+
+
+.vertical-item.badge-item[data-name="custom-vehicle-badges"] .cap-one-custom {
+    margin: 0 auto !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+
+.available-rebates-section {
+	display: block;
+}
+.available-rebates-section .available-rebates-btn {
+	width: 90%;
+  	margin: 0 auto;
+}
+.available-rebates-section .btn-success {
+	border-color: #0F095B;
+}
+.unlock-price-button, .get-price-button {
+    display: block;
+    margin: 6px auto;
+    width: 100%!important;
+    padding: 12px!important;
+}
+
+/*.stacked-vehicle-prices h5.price-label {
+    display: inline-block;
+}*/
+[data-model="F-150 Lightning"] h5.price-label {
+    float: left;
+}
+
+
+/*.split-vdp-with-toolbar #hsVehicleBadgesRow .scroll-horizontal {
+    display: inline-grid;
+}*/
+.ru-link-top-container {
+    position: static;
+}
+@media(min-width: 992px) {
+    .ru-link-top-container {
+        position: static;
+    }
+}
+@media(max-width: 991px) {
+    .split-vdp-with-toolbar #hsVehicleBadgesRow .scroll-horizontal {
+    display: inline-grid;
+    }
+}
+.cap-one-custom {
+    margin: auto;
+  max-width: 100%
+}
+@media(max-width: 767px) {
+.vdp-custom-header .unlock-price-button,
+.vdp-custom-header .get-price-button {
+    text-wrap: pretty;
+    white-space: normal;
+}
+.split-vdp-with-toolbar .sv-name-model {
+    font-size: 20px;
+}
+}
+
+.new-price-block-styles .price-block h5.price-label, .new-price-block-styles .stacked-vehicle-prices h5.price-label {
+    float: none;
+}
+
+.split-vdp-with-toolbar .available-rebates-btn:hover,
+.split-vdp-with-toolbar .available-rebates-btn:active,
+.split-vdp-with-toolbar .available-rebates-btn:focus {
+    padding: 10px;
+}
+
+a.toggle-eprice-modal.btn.eprice-button.event-click.track-click.modal-trigger.btn-default {
+    margin-top: 0px;
+}
+
+@media(min-width: 992px) {
+    .split-vdp-with-toolbar #hsVehicleBadgesRow[data-has-scrollbar="false"] .scroll-horizontal {
+    justify-content: flex-start;
+}
+}
+
+i.fa.fa-newspaper-o {
+    display: none !important;
+}
+.vehicle-info-item.vehicle-info-item--window-sticker a {
+    display: none !important;
+}
+.col-xs-12.price-total-savings h4 {
+    color: green !important;
+}
+.col-xs-12.price-total-savings h5 {
+    color: green !important;
+}
+.row.stacked-vehicle-prices.used-vehicle-prices.ford .col-xs-12.price-total-savings {
+    display: none !important;
+}
+.tooltip {
+  right: 0px !important;
+  left: 0px !important; 
+}
+
+h5.price-label {
+    display: inline !important;
+}
+.asking-price.lowest-price i {
+    float: none !important;
+}
+a.cn-buynow-b1 {
+    display: none !important;
+}
+.col-xs-12.asking-price.lowest-price h3 {
+    font-size: 18px !important;
+}

@@ -1,0 +1,123 @@
+<!-- [vehicles index] - Customize SRP Filter Menu (Show More) -->
+
+<style>
+
+  body .vehicle-index-page .filter-menu-show-more-wrapper {
+    display: none;
+  }
+
+  @media (min-width: 992px) {
+    body .vehicle-index-page #sticky-menu-container #sticky-wrapper .sticky-side-menus {
+      position: relative;
+    }
+
+    /* SRP Filter Menu (Show More) */
+
+    body .vehicle-index-page .filter-menu-show-more-wrapper {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+    }
+
+    body .vehicle-index-page #sticky-menu-container:not(.more-shown) #sticky-wrapper .sticky-side-menus {
+      max-height: 350px !important;
+      overflow-y: hidden;
+    }
+
+    body .vehicle-index-page #sticky-menu-container.more-shown #sticky-wrapper .sticky-side-menus {
+      padding-bottom: 5px;
+    }
+
+    /* Show more button */
+
+    body .vehicle-index-page .filter-menu-show-more-inner {
+      background-color: #F5F5F5;
+      border: solid 2px #E5E5E5;
+      border-top: 0;
+      border-radius: 0 0 20px 20px;
+      padding: 1em 10px;
+    }
+
+    body .vehicle-index-page .filter-menu-show-more-btn {
+      width: 100%;
+      padding: 0.5em 0.25em;
+      background-color: #ffffff;
+      border: none;
+      border-radius: 10px;
+    }
+
+    body .vehicle-index-page #sticky-menu-container.more-shown .visible-less-shown,
+    body .vehicle-index-page #sticky-menu-container:not(.more-shown) .visible-more-shown {
+      display: none;
+    }
+
+    body .vehicle-index-page .filter-menu-show-more-btn .show-more-text {
+      font-size: 0.8em;
+    }
+
+    body .vehicle-index-page .filter-menu-show-more-btn svg {
+      color: #066FEF;
+    }
+  }
+
+</style>
+
+<script>
+  (function(){
+    const s = {
+      init: function() {
+        s.$filterMenu = $('.vehicle-index-page #sticky-menu-container');
+        if (!s.$filterMenu.length) return;
+
+        s.defineProps();
+        s.insertShowMoreBtn();
+      },
+
+      defineProps: function() {
+        s.$filterMenuWrapper = s.$filterMenu.find('#sticky-wrapper');
+      },
+
+      insertShowMoreBtn: function() {
+        const button = s.buildButton();
+        s.$filterMenu.find('.sticky-side-menus').append(button);
+        s.attachEvents();
+      },
+
+      attachEvents: function() {
+        const $button = s.$filterMenu.find('.filter-menu-show-more-btn');
+        
+        $button.on('click', function(){
+          s.$filterMenu.toggleClass('more-shown');
+        });
+      },
+
+      buildButton: function() {
+        return `<div class="filter-menu-show-more-wrapper sokal-modern-styles">
+          <div class="filter-menu-show-more-inner">
+            <button class="filter-menu-show-more-btn" type="button">
+              <div style="gap: 0.5em;" class="visible-less-shown sokal-flex sokal-flex-row sokal-items-center sokal-justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span class="show-more-text">Show More</span>
+              </div>
+              <div style="gap: 0.5em;" class="visible-more-shown sokal-flex sokal-flex-row sokal-items-center sokal-justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span class="show-more-text">Show Less</span>
+              </div>
+            </button>
+          </div>
+        </div>`;
+      }
+    }
+
+    $(document).ready(s.init);
+
+  })(jQuery)
+</script>

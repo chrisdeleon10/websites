@@ -1,0 +1,100 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+ #mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+#before-you-buy,
+.buttons-title,
+.buttons-block,
+.col.left #v-badges {
+  display: none !important;
+} 
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #00095b;
+    text-decoration: none;
+}
+.vehicle-show-buttons .cn-buy-now {
+  display: none !important;
+}
+
+.split-vdp-with-toolbar .eprice-button {
+    margin-top: 0px;
+}
+
+.search-button--savings {
+  width: 100%;
+}
+.price-block .get-price-btn-container {
+    padding: 0 10px 10px 0;
+}
+
+.sokal-profile-video-modal .modal-content {
+    background: transparent;
+}
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked .get-price-button.get-cap-price {
+    display: none !important;
+}
+
+a#couponModalBtn {
+    /* background-color: navy; */
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px transparent;
+    border-radius: var(--btn-br);
+    padding: 12px 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+    border: 2px solid #00095b;
+    margin-bottom: 10px;
+      color: #00095b;
+}
+
+a#couponModalBtn:hover {
+    text-decoration: none !important;
+    color: white;
+    background-color: #00095b;
+}
+a#couponModalBtn {
+    margin-top: 0px;
+      margin-bottom: 0px;
+}
+.col-xs-6.col-sm-5.col-lg-4.custom-header-col.custom-header-col--right .vdp-header-price-button .get-price-btn-container .text-center .search-button--500-coupon {
+    display: none !important;
+}
+
+ button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px transparent;
+    border-radius: var(--btn-br);
+    padding: 12px 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #00095b;
+    color: #00095b;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a#accelerateModalBtn {
+    margin: 0px;
+}
