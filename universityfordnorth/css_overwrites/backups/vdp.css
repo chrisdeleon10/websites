@@ -1,0 +1,98 @@
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title,
+.specials-block,
+.col.left #v-badges {
+  display: none !important;
+}
+
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none;
+}
+
+.vertical-item.badge-item[data-name="custom-vehicle-badges"] .cap-one-custom {
+  margin: 0 auto !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+
+.available-rebates-section {
+  display: block;
+}
+.available-rebates-section .available-rebates-btn {
+  width: 90%;
+  margin: 0 auto;
+}
+.available-rebates-section .btn-success {
+  border-color: #0f095b;
+}
+.unlock-price-button,
+.get-price-button {
+  display: block;
+  margin: 6px auto;
+  /*width: 90% !important;*/
+  padding: 12px !important;
+}
+.make-an-offer-vdp-form {
+  display: none;
+}
+
+.vdp-container #ff_link {
+  display: block !important;
+  margin: 0 auto;
+}
+
+.profile-block a.profile-block-item.profile-block-item--kbb-advisor .profile-block-item__img .pbi-img {
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/002/244/original/PAANI2_comp.png?1697567895) !important;
+}
+
+
+.split-vdp-with-toolbar .available-rebates-btn.show-available-rebates:hover,
+.split-vdp-with-toolbar .available-rebates-btn.show-available-rebates:active,
+.split-vdp-with-toolbar .available-rebates-btn.show-available-rebates:focus {
+    background: none !important;
+    color: #00095b !important;
+    text-decoration-line: underline !important;
+}
+
+.vdp-custom-header {
+    z-index: 1998 !important;
+}
+
+.split-vdp-with-toolbar #hsVehicleBadgesRow[data-has-scrollbar="false"] .scroll-horizontal {
+    justify-content: start;
+}
+
+.used-vehicle-prices .price-savings h4,
+.new-vehicle-prices .price-savings h4 {
+    width: 30%;
+    text-align: right; 
+}
+
+.used-vehicle-prices .price-savings h5,
+.new-vehicle-prices .price-savings h5 {
+    width: 70%;
+    text-align: left;
+}
+
+.search-result-buttons-and-price-block .row.stacked-vehicle-prices.new-vehicle-prices::after {
+    content: 'Price may require additional trade requirements. New Car pricing does not include $897 dealer adds of window tint, Door edge and handle guards & infotainment screen protection.'
+}
+
+.vdp-custom-header .vdp-header-price-block {
+    line-height: normal !important;
+}
+.tooltip {
+  right: 0px !important;
+  left: 0px !important; 
+}
+i.fa.fa-question-circle {
+    float: left;
+    margin-left: 5px;
+}
+.secondary-btn {
+margin: 0px !important;
+}
