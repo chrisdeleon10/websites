@@ -1,0 +1,21 @@
+<!-- [all pages] - SRP move options filter above sort menu -->
+
+<script>
+  (function(){
+    const s = {
+      init: function() {
+        s.$sortMenu = $('.vehicle-index-container .vehicle-index-row-sortmenu');
+        if (!s.$sortMenu.length) return;
+        
+        s.moveOptionsFilter();
+      },
+
+      moveOptionsFilter: function() {
+        $('.vehicle-index-container #srp-options-filtering').insertBefore(s.$sortMenu);
+      }
+    }
+
+    $(document).ready(s.init);
+
+  })(jQuery)
+</script>

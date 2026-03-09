@@ -1,0 +1,128 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+#before-you-buy,
+.col.left #v-badges {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #00095b;
+    text-decoration: none;
+}
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .secondary-btn {
+    margin: 0px;
+}
+/* CTA buttons double text*/
+a.toggle-trade-eval-modal.btn.btn-block.trade-eval-button.event-click.track-click.modal-trigger.btn-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a.toggle-trade-eval-modal.btn.btn-block.trade-eval-button.event-click.track-click.modal-trigger.btn-default:after {
+    content: 'see what your vehicle is worth';
+    font-size: 10px;
+}
+button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click:after {
+    content: 'understand your budget';
+    font-size: 10px;
+}*/
+a.btn.btn-block.btn-default.text-vehicle.event-click.track-click.modal-trigger.btn-default {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a.btn.btn-block.btn-default.text-vehicle.event-click.track-click.modal-trigger.btn-default:after {
+    content: 'Message us';
+    font-size: 10px;
+}
+a.cn-bn-action.btn.btn-block.secondary-btn.event-click.track-click.search-button.search-button--buyhome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a.cn-bn-action.btn.btn-block.secondary-btn.event-click.track-click.search-button.search-button--buyhome:after {
+    content: 'Shop from home with ease';
+    font-size: 10px;
+}
+
+.eprice-button {
+  margin-top: 0px !important;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    margin: 0;
+}
+
+.available-rebates-section {
+    text-align: -webkit-center;
+}
+
+/*Top button full width knp 11/6/24*/
+/*
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .col-xs-6:nth-of-type(1) {
+    width: 100%;
+} */
+.new-vehicle-prices .price-savings h5 {
+    width: 70%;
+}
+
+.new-vehicle-prices .price-savings h4 {
+    width: 30%;
+    text-align: right;
+}
+.search-buttons-wrapper .vdp-header-price-button {
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.price-block .get-price-btn-container a {
+    border: 1px solid green !important;
+    background-color: green !important;
+}
+
+.price-block .get-price-btn-container a:hover,
+.price-block .get-price-btn-container a:active,
+.price-block .get-price-btn-container a:focus {
+    background-color: #ffffff !important;
+    color: green !important;
+    border: 1px solid green !important;
+}
+
+@media(max-width: 1200px) {
+  .vehicle-overview-and-price-block .vehicle-features-row {
+  	display: none; 
+  }
+}
+
+/* Making "Call Us" CTA blue - GR 02/02/26 */
+.primary-btn--call-us {
+ color: #ffffff !important;
+ background-color: #00095b !important;
+}
+
+.primary-btn--call-us:hover,
+.primary-btn--call-us:active,
+.primary-btn--call-us:focus {
+ color: #00095b !important;
+ background-color: #ffffff !important;
+}
