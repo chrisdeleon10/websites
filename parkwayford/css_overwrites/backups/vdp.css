@@ -1,0 +1,233 @@
+/*Gallery Fix*/
+.top-gallery .flex-viewport {
+  max-height: 100%;
+}
+
+/* NEW Ford REDESIGN AND NEW CSS START*/
+
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title,
+.specials-block,
+.vdp-specials {
+  display: none !important;
+}
+
+body .vehicle-show-buttons .search-button--everything {
+  padding: 13px 34px;
+}
+#v-badges {
+  text-align: center;
+}
+body .vehicle-buttons .btn {
+  margin-top: 0;
+}
+
+.search-button > a:hover,
+.search-button a > a:hover {
+  text-decoration: none;
+}
+.minor-title a {
+  color: #4d4d4d;
+}
+.vdp-container .available-rebates-section {
+  margin-top: 5px;
+}
+
+.vdp-container .available-rebates-section .available-rebates-btn {
+  font-size: 13px;
+}
+/*velocity engage needs higher z-index to show over top of the header*/
+#vas-cvdp-container {
+  z-index: 9999999 !important;
+}
+
+#vas-modal-container {
+  z-index: 99999999 !important;
+}
+
+/* NEW Ford REDESIGN AND NEW CSS END*/
+
+.vdp-container .new-vehicle-prices[data-model*="Murano"] h5.price-label {
+  float: none;
+}
+.price-low-middle-savings h4 {
+  clear: left;
+}
+.vdp-container #ff_link {
+  margin: auto;
+  margin-bottom: 4px;
+}
+
+body .profile-block .profile-block-item--badge2149 {
+  background-color: #a5d2ea;
+}
+
+#profile-block .profile-block--wrapper:hover {
+  cursor: pointer;
+}
+
+.search-button--notify:focus {
+  background-color: #c3002f;
+  color: #ffffff;
+}
+.search-button--notify {
+  margin-top: 5px;
+}
+
+.buy-at-home-widget-container {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .col.left .vehicle-buttons {
+    padding-top: 3px;
+  }
+}
+
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none;
+}
+
+.in-transit-flag,
+.in-stock-flag {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.vehicle-show-container .stacked-vehicle-prices .unlock-modal-toggle {
+  flex-direction: row-reverse;
+}
+
+.vdp-subnav--title-trim-mileage-price-block
+  .vdp-header-price-block
+  .unlock-modal-toggle
+  br {
+  display: none;
+}
+
+.split-vdp-with-toolbar .get-price-button:focus {
+  color: #00095b !important;
+}
+.vehicle-info .price-block a.unlock-price-button {
+  width: calc(100% - 10px);
+  margin-bottom: 10px;
+}
+
+.vdp-custom-header .unlock-price-button,
+.vdp-custom-header .get-price-button,
+.split-vdp-with-toolbar .unlock-price-button,
+.split-vdp-with-toolbar .get-price-button,
+.split-vdp-with-toolbar .search-result-buttons .btn,
+.utility-btn {
+  border-radius: 0px;
+  bottom: auto;
+}
+
+/*Hiding New Pricing
+.col-xs-12.middle-price {
+    display: none;
+}
+.col-xs-12.vauto-incentives {
+    display: none;
+}
+.unlock-countdown.show-unlocked-price {
+    display: none !important;
+}
+.row.stacked-vehicle-prices.new-vehicle-prices.ford .asking-price {
+    display: none !important;
+}
+.new-vehicle-prices .locked-price h3 {
+    display: none !important;
+}
+.new-vehicle-prices .locked-price h5 {
+    display: none !important;
+}*/
+
+/* Adjusting Coupon CTA to match the rest of the CTAs with addition of Prequalify by Phone # CTA - GR 01/07/26 */
+a#couponModalBtn {
+  background: #fff;
+  color: #00095b;
+  padding: 12px;
+  width: 100%;
+  /* margin-bottom: 10px;*/
+  font-size: 16px;
+}
+
+a#couponModalBtn:hover,
+a#couponModalBtn:active,
+a#couponModalBtn:focus {
+  background-color: #00095b !important;
+  color: #ffffff !important;
+  border-color: #00095b !important;
+  text-decoration: none !important;
+}
+
+.unlock-price-features {
+  text-align: center;
+}
+
+/*Matching Lexington and University layout KNP 7/21/25*/
+.stacked-srp-prices .price-savings h5 {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.stacked-vehicle-prices .vauto-incentive h4.incentive-amount,
+.stacked-vehicle-prices .vauto-incentive h5.incentive-label {
+  color: green;
+  font-size: 13px;
+}
+
+.stacked-vehicle-prices .highest-price h5.price-label,
+.stacked-vehicle-prices .highest-price h3.strike-through {
+  color: #00095b;
+}
+
+
+/* Fixing Sticky Price Block disappearing issue - GR 01/07/26 */
+body
+  .vdp-custom-header.sticky-nav-element.vdp-subnav--title-trim-mileage-price-block {
+  position: fixed !important;
+  top: auto !important;
+  bottom: auto !important;
+}
+
+
+/* Adjustment to help with the weird CTA length differences - GR 01/07/26  */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 0 -10px 0 0;
+}
+
+.split-vdp-with-toolbar .get-price-button {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 575px) {
+    .split-vdp-with-toolbar .get-price-button {
+        font-size: 16px;
+    }
+}
+.get-price-btn-container .primary-btn {
+    width: 100%;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    margin-top: 0px;
+}
+.vdp-header-price-button .get-price-btn-container .primary-btn {
+    background: #ffffff;
+    color: #00095c;
+    margin-top: 0;
+}
+
+.vdp-header-price-button .get-price-btn-container .primary-btn:hover {
+    background: #00095c;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.primary-btn {
+padding: 12px 20px;
+}
