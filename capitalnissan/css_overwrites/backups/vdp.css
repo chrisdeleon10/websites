@@ -1,0 +1,255 @@
+
+  /*Gallery Fix*/
+  .top-gallery .flex-viewport {
+    max-height: 100%;
+  }
+
+  /* NEW CAP NISSAN REDESIGN AND NEW CSS START*/
+
+  #mobile-actions,
+  #desktop-actions,
+  .vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+  .specials-title,
+  .specials-block,
+  .vdp-specials,
+.search-button--personalize-pmt {
+    display: none !important;
+  }
+  .in-transit-flag {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  body .vehicle-show-buttons .search-button--everything {
+    padding: 13px 34px;
+    margin-bottom: 5px;
+  }
+  #v-badges {
+    text-align: center;
+  }
+  body .vehicle-buttons .btn {
+    margin-top: 0;
+  }
+/*
+  body .buy-at-home-widget-container {
+    margin-bottom: 5px;
+  }
+*/
+  .search-button > a:hover,
+  .search-button a > a:hover {
+    text-decoration: none;
+  }
+  .minor-title a {
+    color: #4d4d4d;
+  }
+  .vdp-container .available-rebates-section {
+    margin-top: 5px;
+  }
+
+  .vdp-container .available-rebates-section .available-rebates-btn {
+    font-size: 13px;
+  }
+  /*velocity engage needs higher z-index to show over top of the header*/
+  #vas-cvdp-container {
+    z-index: 9999999 !important;
+  }
+
+  #vas-modal-container {
+    z-index: 99999999 !important;
+  }
+  /* NEW CAP NISSAN REDESIGN AND NEW CSS END*/
+
+  /*.vdp-container .new-vehicle-prices[data-model="ARIYA"] .col-xs-12.asking-price.lowest-price,
+.vdp-container .new-vehicle-prices[data-model="Titan"] .col-xs-12.asking-price.lowest-price,
+.vdp-container .new-vehicle-prices[data-model="Titan XD"] .col-xs-12.asking-price.lowest-price,
+.vdp-container .new-vehicle-prices[data-model="Armada"] .col-xs-12.asking-price.lowest-price {
+	display: none;
+}*/
+  .vdp-container .new-vehicle-prices[data-model*="Murano"] h5.price-label {
+    float: none;
+  }
+  .price-low-middle-savings h4 {
+    clear: left;
+  }
+  .vdp-container #ff_link {
+    margin: auto;
+    margin-bottom: 4px;
+  }
+
+body .profile-block .profile-block-item--badge2149 {
+    background-color: #a5d2ea;
+}
+
+#profile-block .profile-block--wrapper:hover {
+    cursor: pointer;
+}
+
+.search-button--notify:focus {
+	background-color: #c3002f;
+  	color: #ffffff;
+}
+.search-button--notify {
+	margin-top: 5px;
+}
+
+.buy-at-home-widget-container {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .col.left .vehicle-buttons{
+  	padding-top: 3px;
+  }
+}
+
+.vehicle-show-container .vehicle-buttons-stacked .search-button.search-button--everything {
+    display: block !important;
+}
+
+.used-vehicle-prices .col-xs-12.asking-price.lowest-price h5,
+.used-vehicle-prices .col-xs-12.asking-price.lowest-price h3 {
+    color: green;
+}
+
+.used-vehicle-prices span#locked-name {
+    color: green;
+}
+
+/* Adjusting min height so columns align accordingly */
+/*.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] {
+    min-height: 65px;
+}*/
+body .get-price-button:hover:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.split-vdp-with-toolbar .get-price-button:focus{
+    background-color: #c3002f !important;
+    color: var(--pc);
+    border-color: var(--pc);
+}
+.split-vdp-with-toolbar .get-price-button:hover {
+    color: #ffffff !important;
+    border-color: #900023;
+    background-color: #900023;
+}
+
+body .new-price-block-styles .stacked-vehicle-prices .locked-price-container h3 {
+    color: black;
+}
+
+.split-vdp-with-toolbar .search-button--eprice-price {
+    background: #c3012f !important;
+    color: white !important;
+}
+
+.search-button--eprice-price:hover,
+.search-button--eprice-price:active,
+.search-button--eprice-price:focus {
+    background-color: #900023;
+    color: #ffffff !important;
+    border-color: #900023;
+}
+
+.eprice-button {
+    margin-top: 0px
+}
+
+/*
+.search-button--eprice-price-vdp {
+    background: #c3012f !important;
+    color: white !important;
+}
+
+.search-button--eprice-price-vdp:hover,
+.search-button--eprice-price-vdp:active,
+.search-button--eprice-price-vdp:focus {
+    background-color: #900023 !important;
+    color: #ffffff !important;
+    border-color: #900023 !important;
+    text-decoration: none !important;
+}
+*/
+
+a.toggle-custom-vehicle-form.btn.custom-vehicle-form-button.event-click.track-click.modal-trigger.btn-default.search-button.primary-btn {
+    margin-top: 0px;
+  	margin-bottom: 0px;
+}
+
+.vehicle-show-container a#couponModalBtn {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 575px) {
+    .get-price-btn-container a.get-price-button {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+        font-size: 16px;
+    }
+}
+
+.new-vehicle-prices h3.unlock-modal-toggle {
+    display: none !important;
+}
+
+.compare-vehicle-container {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+    margin-right: 10px;
+}
+.compare-vehicle-container .compare-options {
+    width: fit-content;
+    margin-left: 30px;
+}
+
+/* Hide the tabs & show the label with payment type (if only 1 payment type present - lease/finance) */
+
+body .tabbed-payment-block-nav,
+body .tabbed-payment-block-as-low-as-label {
+  display: none;
+}
+
+body .tabbed-payment-block-as-low-as-label-with-type {
+  display: block;
+}
+.tabbed-payment-block-template-content.tab-content {
+    padding-left: 0;
+    padding-right: 0;
+  border-bottom: 2px solid #dadada;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover, 
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+    color: #ffffff !important;
+}
+
+
+/* Showing Middle Price (Internet Price) before unlock in Lead Actions in Web_Dash */
+body .vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices.row> *.middle-price, body .vdp-custom-header .vdp-header-price-block .middle-price [class*="price-label"] {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.vdp-custom-header {
+    z-index: 99;
+}
+
+/* Adjusting the Margin to get CTAs to fill width of the row properly - GR 02/05/26 */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 7px -10px 0 0;
+}
+
+/* Adjusting "About This Vehicle" Text Color */
+a.insert-velo-anchor a:after {
+    color: #c3002f;
+}
