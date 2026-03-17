@@ -1,0 +1,138 @@
+
+  .vehicle-unit-container .search-result-button--rideshift {
+    display: none;
+  }
+  .vehicle-unit-container .unlock-price-button,
+  .vehicle-unit-container .get-price-button,
+  .vdp-container .unlock-price-button,
+  .vdp-container .get-price-button {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 5px auto;
+    border: 0px;
+    background-color: transparent;
+  }
+  .price-gif-button {
+    width: 100%;
+    max-width: 300px;
+    height: 65px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px auto;
+  }
+  .stacked-vehicle-prices .middle-price h3,
+  .stacked-vehicle-prices .middle-price h5,
+  .stacked-vehicle-prices .asking-price h5 {
+    color: green;
+  }
+
+  .vehicles-found-container .vehicles-found {
+    margin-left: 10px;
+  }
+
+  .srp-phone {
+    margin: 25px 0;
+  }
+  .srp-phone a {
+    background-color: #941711;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #941711;
+  	font-weight: 900;
+  }
+  .srp-phone a:hover,
+  .srp-phone a:active {
+    text-decoration: none;
+    background-color: white;
+    color: #941711;
+  }
+/*Hide Get Price button - 1/11*/
+.vehicle-unit-container.new-false img.get-price-button {
+    display: none;
+}
+
+/* Hiding Get Price Alerts Button - CD 2/29/24 */
+
+.vehicle-unit-container .index-btns .price-alerts-btn {
+    display: none !important;
+}
+
+div#ff_link {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+
+div#ff_link img {
+    max-width: 125px;
+}
+/* fixed alignment issue with flexbox - VG 03/22/24 */
+.applied-rebate {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices h3,
+.row.stacked-vehicle-prices.new-vehicle-prices h4,
+.row.stacked-vehicle-prices.new-vehicle-prices h5 {
+    font-size: 16px;
+    padding: 0px 25px 0px 20px;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices .col-xs-12.asking-price.lowest-price h5 {
+    padding: 30px 0px 25px 20px;    
+}
+
+.new-false .capital-certified-vehicles-container {
+    display: none;
+}
+
+.new-false .vehicle-badges {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-false a#ipacket-web-btn {
+    order: -1;
+}
+
+.new-false span.cg-dealrating-badge {
+    margin-top: 15px;
+}
+
+.vehicle-index-container .get-pre-approved-btn {
+    display: none !important;
+}
+
+@media (min-width: 767px) {
+    .new-false .row.stacked-vehicle-prices.used-vehicle-prices {
+        min-height: 100px;
+    }
+}
+
+.new-false .row.stacked-vehicle-prices.used-vehicle-prices {
+    align-content: center;
+}
+
+@media (max-width: 500px) {
+  .vehicle-index-container .available-rebates-btn {
+    font-size: 14px !important;
+}
+}
+
+.vehicle-index-container .available-rebates-btn {
+    margin-top: 0px !important;
+}
+.vehicle-index-container .available-rebates-btn:hover {
+background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+.row.stacked-vehicle-prices.new-vehicle-prices {
+    min-height: 330px;
+}

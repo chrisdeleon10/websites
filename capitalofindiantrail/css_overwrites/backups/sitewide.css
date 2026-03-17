@@ -1,0 +1,1217 @@
+
+.vehicle-type-display .nav > li.active > a {
+  color: #3876b1 !important;
+  border-bottom: 3px solid #3876b1 !important;
+}
+/*
+.get-price-btn-container:nth-of-type(1) {
+    display: none;
+}
+.row.stacked-srp-prices .col-xs-6:nth-of-type(2) {
+    display: none;
+}*/
+/*cursor*/
+
+/* special srp style thing */
+/*
+    .row.stacked-srp-prices.text-right .col-xs-12.vauto-incentives {
+        display: none;
+    }
+    
+    */
+/*Get rid of xmas tree cursor DM 1/03/20*/
+/*body {
+    cursor: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/044/957/original/CCV-Cursor-112119-ChristmasTree.png?1574473906), auto;
+}
+*/
+.vehicle-buttons .btn > img {
+  margin: 0 auto;
+}
+
+div#desktop-logo {
+  margin-top: 0px;
+}
+
+.vehicle-buttons .btn {
+  /*background-color: #2F8540 !important;*/
+  color: #fff;
+  border: none;
+  border-radius: 5px !important;
+}
+.vehicle-buttons .btn {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 11px 14px;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#sticky-menu-container {
+  z-index: auto !important;
+}
+
+@media (min-width: 1401px) {
+  #desktop-logo {
+    max-width: 592px !important;
+  }
+}
+
+/*
+
+.inventory-type-button-block {
+  text-transform: uppercase;
+  font-weight: 800 !important;
+  background: #2509ae;
+  color: #fff;
+  border: 3px solid #2509ae;
+  border-color: #2509ae;
+  border-radius: 3px;
+  opacity: 0.8;
+  font-size: 2em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+*/
+
+.backdrop-vehicle-row-cjdr .item {
+  margin: 76px auto 0 !important;
+}
+h3.true-price {
+  display: none;
+}
+
+#desktop-actions {
+  position: fixed;
+  top: 36% !important;
+}
+
+div#cncb3 {
+  top: 71% !important;
+}
+
+/* Pricing to Match friendship cjd -mking 11/29/18 */
+/*@media (min-width: 768px){
+      .vehicle-index-page .new-vehicle-unit .vehicle-badges {
+        margin-top: -99px;
+        margin-left: -200px;
+    }
+    }*/
+
+.vehicle-index-container .vehicle-badges {
+  text-align: center;
+}
+
+.autoapr-reaveal-app-link {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-price-btn-container .autoapr-reaveal-app-link {
+  width: 100%;
+}
+
+.show-vehicle-info-new .get-price-btn-container {
+  max-width: unset !important;
+  width: 100% !important;
+}
+
+.row.stacked-srp-prices.text-right > .col-xs-6 {
+  width: 100% !important;
+}
+.get-price-button,
+.unlock-price-button {
+  background-color: #2E8540 !important;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px !important;
+  border-radius: 30px;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.get-price-button:hover,
+.unlock-price-button:hover,
+.get-price-button:active,
+.unlock-price-button:active,
+.get-price-button:focus,
+.unlock-price-button:focus {
+  /* background-color: #52eb06 !important; */
+  background-color: #0080006e !important;
+  color: white !important;
+}
+
+
+
+button.btn.btn-success.btn-block.ajax-form-submit-btn:hover,
+button.btn.btn-success.btn-block.ajax-form-submit-btn:active,
+button.btn.btn-success.btn-block.ajax-form-submit-btn:focus {
+    background: #0080006e !important;
+  border-color: #0080006e !important;
+}
+/*srp btn*/
+.vehicle-index-buttons .trade-btn {
+  background-color: #1d4580;
+  color: #fff;
+}
+
+/* wax vdp */
+
+h5.price-label {
+  text-align: left;
+}
+
+/*
+.row.stacked-vehicle-prices.new-vehicle-prices,
+.row.stacked-vehicle-prices.used-vehicle-prices {
+  margin-right: 15px;
+}
+*/
+.stacked-vehicle-prices h4,
+.stacked-vehicle-prices h3 {
+  float: right !important;
+}
+/*vehicle price block*/
+
+.row.stacked-srp-prices .col-xs-6:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+/*.price-savings h4::before {
+  content: "-";
+}
+
+h5.price-label:after {
+  content: ":";
+}
+*/
+.vehicle-show-container .price-savings h5 {
+  float: left !important;
+}
+
+.show-vehicle-info-new .vehicle-pricing-block .price-savings h5 {
+  color: black;
+  width: 100%;
+  margin-top: -31px;
+}
+
+/* Wax Rebate Style  SRP*/
+
+/*ryan 12-2 hiding $100 rebate */
+
+.col-xs-12.asking-price.lowest-price.show-unlocked-price.collapse {
+  border-top: 1px solid;
+  padding-top: 15px;
+  display: none;
+}
+/*
+.show-unlocked-price.collapse {
+    display: none;
+}*/
+
+.stacked-vehicle-prices h4,
+.stacked-vehicle-prices h3 {
+  float: right !important;
+}
+
+.applied-rebate h4 {
+  margin-left: 10px;
+}
+
+.stacked-srp-prices h3,
+.stacked-srp-prices h4 {
+  margin: 0 0 4px;
+}
+/*
+@media (min-width: 768px) {
+.row.stacked-srp-prices.text-right {
+  width: 114%;
+    }
+}
+*/
+.price-savings h4::before {
+  content: "-";
+}
+
+h4.incentive-amount::before {
+  content: "-";
+}
+
+/*
+h5.price-label {
+  margin-top: 5px;
+}*/
+
+.stacked-srp-prices h5 {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.col-xs-12.conditional-price h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stacked-srp-prices .price-savings {
+  color: white;
+}
+
+.row.stacked-vehicle-prices .used-vehicle-prices .price-savings h5 {
+  padding-bottom: 15px !important;
+  border-bottom: none;
+}
+
+/* price */
+
+.col-xs-12.price-savings h4 {
+  font-size: 18px;
+  text-align: right;
+  font-weight: 300;
+  width: 40%;
+}
+
+/*
+    .col-xs-12.middle-price {
+      display: none;
+    }
+    */
+
+/*End */
+
+/*SHARED - NEW/USED */
+
+/*@media (min-width: 768px) {
+  .vehicle-buttons .btn {
+    height: 50px;
+  }
+}
+
+.vehicle-buttons .btn {
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.btn-default:hover {
+  opacity: 0.8 !important;
+}*/
+
+/*USED SRP - CHANGE BUTTON COLOR */
+.search-list.vehicle-unit.car-srch-box.used-vehicle-unit .vehicle-buttons .btn {
+  /*background-color: #ff4c4c;*/
+  color: white;
+  border-color: transparent !important;
+}
+
+/*USED SRP - PRICING COLOR & LAYOUT
+    .asking-price.single-stacked-price h3 {
+    font-size: 40px;
+    color: green;
+    }
+    
+    .search-list.vehicle-unit.car-srch-box.used-vehicle-unit .stacked-srp-prices .col-xs-6 {
+        width: 100% !important;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    
+    
+    /*PRICING
+    
+    .stacked-srp-prices .price-savings {
+        color: black;
+    }
+    
+
+/*NEW SRP - BUTTON COLOR - kept separate in case they want each button a new color again*/
+.new-srp-button-test {
+  background-color: #c32f2f;
+  color: white;
+  border-color: transparent !important;
+}
+
+.new-srp-button-get {
+  background-color: #c32f2f;
+  color: white;
+  border-color: transparent !important;
+}
+
+.new-srp-button-value {
+  background-color: #ff4c4c;
+  color: white;
+  border-color: transparent !important;
+}
+
+.new-srp-button-drops {
+  background-color: #eada11;
+  color: white;
+  border-color: transparent !important;
+}
+
+.vehicle-buttons .btn {
+  border-radius: 4px;
+}
+
+/*HOMEPAGE*/
+/* BANNER COMPONENT */
+
+.tile-lg-homepage-banners h2 {
+  display: none !important;
+}
+
+.tile-lg-homepage-banners .tile-lg-heading {
+  border: none !important;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .tile-lg-homepage-banners a.flex-prev,
+  .tile-lg-homepage-banners a.flex-next,
+  .tile-lg-homepage-banners .tile-lg-heading {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .tile-lg-homepage-banners .tile-lg-heading {
+    top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tile-lg-homepage-banners .tile-lg-heading {
+    top: 18px;
+  }
+}
+
+/*Edmunds logo*/
+.row.bottom-footer-logos .edmunds-logo {
+  display: none;
+}
+
+/* Coupon sizing is pushing too much whitespace --mking 10/11/18 */
+
+.service-coupon .coupon-image img {
+  min-height: 430px;
+  width: 355px;
+}
+
+/* 'Home of the true price' under search form on desktop view --mking 10/15/18 */
+h3.true-price {
+  text-align: center;
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .true-price-mobile {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-bottom: -35px;
+    margin-top: 15px;
+    width: 55%;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .true-price-mobile {
+    display: none;
+  }
+}
+
+/* hide lower price and display middle price for vehicle 5055207 2019/02/28 julie */
+div[data-vehicle-id="5055207"] .highest-price,
+div[data-vehicle-id="5055207"] .price-high-middle-savings,
+div[data-vehicle-id="5055207"] .lowest-price,
+div[data-vehicle-id="5055207"] .price-low-middle-savings {
+  display: none;
+}
+
+div[data-vehicle-id="5055207"] .middle-price {
+  display: inherit;
+}
+
+.vehicle-show-container
+  .col-sm-2.col-xs-4.no-padding.icon-border-right:nth-of-type(4) {
+  display: none;
+}
+@media (min-width: 767px) {
+  .vehicle-show-container > .row:nth-of-type(6) .col-xs-12 .col-sm-2.col-xs-4 {
+    width: 20%;
+  }
+}
+
+.grey-background {
+  background: #ffffff00 !important;
+}
+/*
+.service-coupon .service-coupon-body .coupon-text {
+  height: 525px;
+}*/
+
+/* SRP Vehicle buttons column **Tim hahahaha** */
+
+#browse-vehicles-search-hero .background-row {
+  top: -93px !important;
+}
+
+/* Homepage Buttons JM 11/19*/
+
+.overlay-content a[data-action="New Vehicles"] {
+  background-image: url("https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/009/475/original/TOW_New_btn.png?1498484864") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Pre-Owned Vehicles"] {
+  background-image: url("https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/009/477/original/TOW_used_btn.png?1498484893") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Service Center"] {
+  background-image: url("https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/009/476/original/TOW_service_btn.png?1498484879") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="What's My Car Worth"] {
+  background-image: url("https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/010/260/original/KEFF_CARworth_Circle_091217.png?1505242686") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Work Trucks"] {
+  background-image: url("https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/009/575/original/Kef_comtruck_btn.png?1499112646") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Toy Drive"] {
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/021/841/original/Keff-TOYDRIVE.png?1544111409") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Buy From Home"] {
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/038/297/original/JM-BTN-091719-BuyFromHome-v2.png?1568989229") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content a[data-action="Why buy here"] {
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/041/598/original/JM-BTN-101719-WhyBuy-KefferJeep.png?1571931172") !important;
+  background-color: transparent !important;
+}
+
+.overlay-content .inventory-type-button-block {
+  border-radius: 0;
+  background: transparent;
+  color: transparent !important;
+  min-height: 190px;
+  white-space: initial;
+  max-height: 215px;
+  max-width: 215px;
+  height: 40vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.8;
+}
+
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .vehicle-browse-ajax {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.overlay-content .inventory-type-button-block:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  opacity: 1;
+}
+
+.model-container a:hover {
+  background-color: white !important;
+}
+
+/* Unlock price placeholder display flex DM 02/05/20 */ /*
+h3.unlock-modal-toggle {
+    float: none !important;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+      margin-top: 5px;
+}*/
+
+/* Snow Homepage Buttons DM 12/4/19*/
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.8;
+  max-height: 215px;
+}
+
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .img-responsive:hover {
+  opacity: 1;
+}
+
+.browse-vechicles {
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+/*Homepage Buttons JM 2/20*/
+
+.browse-vechicles .vehicle-browse-ajax img {
+  max-height: 65px;
+  margin: auto;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.browse-vechicles .vehicle-browse-ajax img:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 992px) {
+  .browse-vechicles .col-md-3.col-sm-6.col-xs-12 {
+    border-right: 1px solid #aaa;
+  }
+}
+
+.browse-vechicles .col-md-3.col-sm-6.col-xs-12 {
+  margin: 15px auto;
+}
+
+@media (min-width: 992px) {
+  .browse-vechicles .col-md-3.col-sm-6.col-xs-6:nth-of-type(-n + 3) {
+    border-right: 1px solid #aaa;
+  }
+}
+
+h2.text-center.step-instructions {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.browse-background-slideshow .slide-body {
+  background-position-y: top !important;
+  background-position-x: right !important;
+}
+
+/*DM*/ /*
+.row.stacked-srp-prices.text-right .unlock-price-btn-container.show-locked-price img.unlock-price-button.unlock-modal-toggle.event-click.track-click.resized {
+    display: none;
+}
+
+.stacked-srp-prices {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    padding: 20px;
+}*/
+
+.stacked-srp-prices .price-savings h5 {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+}
+
+/*edits for changing Capital SRP tile layout IMPORTant JM */
+
+.stacked-srp-prices h3 {
+  margin: 0 0 5px;
+  /*    color: #b94343 !important;*/
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+.col-xs-12.lowest-price.asking-price h5,
+.used-vehicle-prices .col-xs-12.single-stacked-price.asking-price h5,
+.col-xs-12.highest-price.double-stacked-price h5,
+.col-xs-12.middle-price h5.price-label {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*Display None ePrice Button jm 02/20*/
+
+.col-xs-12.conditional-price h3 {
+  color: #7be031 !important;
+}
+
+.col-xs-12.asking-price.lowest-price h3 {
+  color: green !important;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/081/035/original/redmarker1.png?1598370836);
+  /*    padding: 25px !important;*/
+  padding: 30px 25px 25px 20px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stacked-srp-prices[data-inventory-type="used"]
+  .col-xs-12.asking-price.lowest-price
+  h3 {
+  padding: 30px 25px 25px 15px !important;
+}
+
+.col-xs-12.asking-price.lowest-price h5 {
+  text-transform: uppercase;
+}
+/*
+.col-xs-12.highest-price.double-stacked-price h3 {
+    color: #b94343 !important;
+}
+*/
+a.show-applied-rebates-link,
+.col-xs-12.price-savings h5.price-label {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.col-xs-12.conditional-price h5::after,
+.col-xs-12.asking-price.lowest-price h5::after,
+.col-xs-12.highest-price.double-stacked-price h5::after {
+  content: ":";
+}
+
+.stacked-srp-prices h3,
+.stacked-srp-prices h4 {
+  font-weight: 300;
+}
+
+.tooltip h5.price-label {
+  color: white !important;
+}
+
+h5.price-label {
+  color: black;
+}
+.col-xs-12.price-savings h4 {
+  color: black;
+}
+.tooltip-inner h4 {
+  color: white !important;
+}
+
+.vehicle-index-buttons.vehicle-buttons img {
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+  nav.navbar.navbar-inverse.navbar-fixed-top.nav-right.navigation_with_contact
+    .container {
+    max-width: 1215px !important;
+    width: 100%;
+  }
+}
+
+h3.unlock-modal-toggle {
+  width: 100%;
+}
+
+/*span#locked-name {
+  float: left !important;
+  margin-top: -24px;
+      color: black !important;
+}
+
+span#locked-xxx {
+  float: right !important;
+}*/
+
+h3.unlock-modal-toggle {
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+span.style-new {
+    text-align: left !important;
+    width: 100%;
+}
+
+/* Center Disclaimer DM 02/27/20 */
+.row.stacked-srp-prices.text-right > .col-xs-6 p.disclaimer-srp {
+  text-align: center;
+  margin: 10px 15px;
+}
+
+.price-savings h4::before,
+h4.incentive-amount::before {
+  content: "-";
+}
+
+.col-xs-12.middle-price h5:after {
+  content: ":";
+}
+
+@media (min-width: 1201px) {
+  .search-bar-component {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .search-bar {
+    max-width: 799px;
+    margin-left: 22px;
+  }
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices .vauto-incentive {
+  padding-top: 7px;
+}
+.cn-btn-bn1 {
+  display: none !important;
+} /*
+.vehicle-buttons .calculate-pmt-btn-sokal {
+    background-color: #ff6200;
+}
+.vehicle-buttons .value-trade-btn-sokal {
+    background: #d92027;
+}
+.vehicle-buttons .price-alert-button {
+    background-color: gray;
+}
+.vehicle-buttons .pre-approve-btn-sokal {
+    background-color: #a0b800;
+}
+.vehicle-buttons .buy-from-home-btn-sokal {
+    background-color: #3776b2;
+}
+*/
+a.homepage-announcements-link {
+  color: white;
+}
+
+a.homepage-announcements-link:hover {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+.unlock-price-features span.autoapr-reveal-app:last-of-type {
+  display: none;
+}
+
+div#desktop-actions {
+  top: 50% !important;
+}
+
+.employee-container {
+  min-height: 510px;
+}
+
+.sub-navigation-vehicle-search {
+  top: 109px;
+}
+
+/* Employee Pricing Badge - DM 09/23/20 */
+@media only screen and (min-width: 768px) {
+  .vehicle-unit-container .employee-pricing-badge {
+    margin-right: auto;
+  }
+}
+.vehicle-unit-container .employee-pricing-badge,
+.vertical-item.badge-item .employee-pricing-badge {
+  height: 85px;
+}
+/*
+/* Capital One Leads button */ /*
+@media only screen and (min-width: 768px) {
+    .vehicle-unit-container .capital-one-prequalification-button--initialized {
+        max-width: 50% !important;
+      }
+  .new-vehicle-unit .capital-one-prequalification-button--initialized {
+      max-width: 40% !important;
+  }
+}*/
+.col-xs-12.srp-special,
+.vdp-container .specials-title,
+.vdp-container .specials-block {
+  display: none;
+} /*
+.vehicle-unit-container .capital-one-prequalification-button--initialized {
+    margin-top: 13px;
+}*/
+.vehicle-index-container
+  .new-vehicle-unit
+  .vehicle-certification-badge[alt="CCIT-BTN-111920-EmployeePricing"] {
+  float: left;
+  height: 75px !important;
+}
+@media (min-width: 992px) and (max-width: 1105px) {
+  .vehicle-index-container
+    .new-vehicle-unit
+    .vehicle-certification-badge[alt="CCIT-BTN-111920-EmployeePricing"] {
+    height: 65px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 832px) {
+  .vehicle-index-container
+    .new-vehicle-unit
+    .vehicle-certification-badge[alt="CCIT-BTN-111920-EmployeePricing"] {
+    height: 65px !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .vehicle-index-container
+    .new-vehicle-unit
+    .vehicle-certification-badge[alt="CCIT-BTN-111920-EmployeePricing"] {
+    margin-left: 8%;
+  }
+}
+
+/* KBB Price Advisor DM 12/02/20 */
+@media (min-width: 768px) {
+  .vehicle-unit-container .new-vehicle-unit .kbb-price-advisor-srp {
+    width: 45%;
+    float: left;
+    margin-top: -10%;
+  }
+  .vehicle-unit-container .used-vehicle-unit .kbb-price-advisor-srp {
+    float: left;
+    margin-top: -40px;
+    clear: right;
+  }
+  .vehicle-unit-container
+    .used-vehicle-unit
+    .capital-one-prequalification-button--initialized {
+    margin-left: 250px;
+    margin-top: 12px !important;
+    max-width: 45% !important;
+  }
+  .vehicle-unit-container
+    .used-vehicle-unit
+    .col-xs-12.text-center.vehicle-badges
+    img {
+    float: right;
+  }
+}
+/*
+.kbb-price-advisor-srp {
+    display: none;
+}*/
+
+.col-xs-12.price-savings.price-low-middle-savings {
+  color: black !important;
+}
+
+/* Fixing Mobile Homepage CTA buttons (b/c they are not the same sizes per usual)*/ /*
+@media (max-width: 435px) {
+  .vehicle-browse-ajax #first-step img {
+      max-height: 44px;
+  }
+}*/
+
+.vehicle-show-buttons.vehicle-buttons img {
+  margin: auto;
+}
+.get-price-btn-container.show-unlocked-price.collapse {
+  text-align: center;
+}
+.col-xs-12.asking-price.lowest-price h5 {
+  padding: 25px 25px 25px 0px;
+}
+
+.vdp-container .capital-one-wrapper {
+  float: none;
+}
+/*
+.test-drive-btn-sokal {
+    background-color: #2F8540;
+}
+*/
+
+/* Owner Loyalty Badge DM 01/07/21 */
+.vehicle-certification-badge[src="https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/001/492/original/2021-SEBC-OwnerLoyalty_%281%29.png?1610055818"],
+.vehicle-certification-badge[src="https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/001/490/original/2021-SEBC-OwnerLoyalty_%281%29.png?1610056276"],
+.vehicle-certification-badge[src="https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/001/488/original/2021-SEBC-OwnerLoyalty_%281%29.png?1610056197"],
+.vehicle-certification-badge[src="https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/001/487/original/2021-SEBC-OwnerLoyalty_%281%29.png?1610056781"]
+{
+  height: 155px !important;
+}
+
+/* Prevent vehicle badge from linking out 
+.col-xs-12.text-center.vehicle-badges a {
+    pointer-events: none;
+    cursor: default;
+}*/
+.vehicle-unit-container .row.vehicle-index-buttons.vehicle-buttons {
+  margin: 0 -11px;
+}
+.available-rebates-section {
+  /* margin-top: 15px;*/
+  text-align: center;
+}
+
+/* SWITCH TO TILE LAYOUT CHANGES DM 10/22/21 */
+.value-trade-btn-sokal,
+.calculate-pmt-btn-sokal,
+.test-drive-btn-sokal,
+.pre-approve-btn-sokal,
+.buy-from-home-btn-sokal,
+.get-pre-approved-btn,
+.price-alerts-btn,
+.test-drive,
+.payment-calculator-offer-btn,
+.search-button--call {
+  font-size: 16px !important;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: black !important;
+  background-color: white !important;
+  border: 3px solid black !important;
+  padding: 10px !important;
+  margin: 5px auto !important;
+  width: 100% !important;
+  display: block !important;
+  outline: none !important;
+  border-radius: 30px !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+}
+.value-trade-btn-sokal:hover,
+.calculate-pmt-btn-sokal:hover,
+.test-drive-btn-sokal:hover,
+.pre-approve-btn-sokal:hover,
+.get-pre-approved-btn:hover,
+.get-pre-approved-btn:active,
+.get-pre-approved-btn:focus,
+.buy-from-home-btn-sokal:hover,
+.price-alerts-btn:hover,
+.test-drive:hover,
+.payment-calculator-offer-btn:hover,
+.payment-calculator-offer-btn:active,
+.payment-calculator-offer-btn:focus,
+.search-button--call:hover,
+.search-button--call:active,
+.search-button--call:focus,
+.available-rebates-btn:hover,
+.available-rebates-btn:active,
+.available-rebates-btn:focus {
+  background-color: black !important;
+  color: white !important;
+}
+.vehicle-buttons a,
+.index-btns a {
+  color: #ffffff;
+}
+.vehicle-buttons a:hover,
+.vehicle-buttons a:focus,
+.index-btns a:hover,
+.index-btns a:focus {
+  text-decoration: none;
+}
+.vehicle-unit-container .unlock-price-button,
+.vehicle-unit-container .get-price-button {
+  padding: 0px;
+  background-color: transparent;
+  border: 0px;
+  margin: 5px auto;
+  width: 100%;
+  display: block;
+}
+.vehicle-unit-container .price-gif-btn {
+  background-size: 110% !important;
+  background-position: center;
+  height: 65px;
+  margin: 10px auto;
+}
+.vdp-container .price-gif-btn {
+  background-size: 110% !important;
+}
+.available-rebates-section button.btn-success,
+.available-rebates-section button.btn-success:hover,
+.available-rebates-section button.btn-success:focus,
+.available-rebates-section button.btn-success:active {
+  background: #ffffff;
+  color: #941711;
+  border: 0px;
+  border-bottom: solid 2px;
+  border-radius: 0;
+  padding: 0;
+  width: fit-content;
+  margin: 0px auto 5px auto;
+}
+.incentives-block ul {
+  text-align: left;
+}
+.capital-one-wrapper {
+  max-width: 96%;
+  margin: auto auto auto 10px;
+  padding-bottom: 5px;
+}
+img[alt="Show Carfax"] {
+  width: 100px;
+}
+.vehicle-unit-container .tooltip .col-xs-12.vauto-incentives {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.vehicle-filter-menu .panel .panel-heading {
+  background-color: #941711 !important;
+}
+.vehicle-unit-container .get-price-button,
+.vdp-container .get-price-button {
+  width: 300px;
+  max-width: 100%;
+}
+.locked-single-price h3.unlock-modal-toggle {
+  padding: 0 15px;
+}
+
+/* CAPITAL CERTIFIED STYLING ADJUSTMENT INVOLVING SRP/VDP BTN & MODAL */
+
+@media (min-width: 768px) {
+  #capitalCertifiedModal .modal-dialog {
+    width: 60%;
+  }
+}
+.capital-certified-vehicles-container:hover {
+  cursor: pointer;
+}
+#capitalCertifiedModal-title {
+  font-size: 2.5rem;
+}
+.capital-certified-img {
+  max-width: 175px;
+}
+
+.capital-certified-vehicles-container {
+  display: inline-block;
+}
+
+#flexslider-srp-banners {
+  z-index: 999999;
+}
+/* template end  */
+
+/* Changing question mark on Price Block incentives to 'Details' CD 4/13/23 */
+
+.price-label .fa-question-circle:before {
+  content: "Details";
+  margin-left: 10px;
+  color: #337ab7;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+/* Updating HP Ticker - Placing in sitewide in case this is in other places */
+.announcements-row {
+  color: #ffffff;
+}
+
+/* Hiding Unlock Price btn: ticket #31439 KA 10/04/23 */
+.new-false .unlock-price-features {
+  display: none;
+}
+#v-badges #ipacket-web-btn img {
+  max-width: 250px;
+}
+
+#kbb-leaddriver-search-backdrop {
+  z-index: 20000000000 !important;
+}
+/* Mega menu color change */
+.nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:hover {
+    border: 2px solid black !important;
+    color: black !important;
+    background-color: white !important;
+}
+.nav-right-with-contact .vehicle-model-dropdown .search-btns .btn {
+    background-color: black !important;
+    border: 2px solid black !important;
+}
+
+eader.Title_module_header__c87a7c0c {
+    display: none !important;
+}
+
+.visible-sm.visible-xs.text-center.srp-phone {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+  .search-button--call {
+    display: none !important;
+  }
+}
+
+
+    .form-top-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+#unlock-price-form-modal button.btn.btn-success.btn-block.ajax-form-submit-btn:after {
+    content: 'Submit';
+    color: white;
+    font-size: 14px;
+}
+
+#unlock-price-form-modal button.btn.btn-success.btn-block.ajax-form-submit-btn {
+    color: transparent;
+    font-size: 0;
+}
+
+.streakform .contact-method-btn {
+  margin-bottom: 10px;
+}
+
+.vauto-incentive {
+    display: flex;
+    flex-direction: row-reverse;
+  justify-content: space-between;
+}

@@ -1,0 +1,215 @@
+.asking-price.lowest-price {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.asking-price.lowest-price h5.price-label {
+  padding: 0px;
+  width: 50%;
+}
+/* locked price gif btn VDP */
+.vdp-container .unlock-price-button,
+.vdp-container .get-price-button {
+  padding: 0px;
+  background-color: transparent;
+  border: 0px;
+  margin: 5px auto;
+  width: 300px;
+  max-width: 100%;
+  display: block;
+}
+.vdp-container .price-gif-button {
+  background-size: 100%;
+  background-position: center;
+  height: 60px;
+  margin: 10px auto;
+}
+#v-badges {
+  text-align: center;
+}
+.col-xs-12.price-savings.price-low-middle-savings h5 {
+  color: black;
+  display: block;
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 14px;
+}
+.col-xs-12.price-savings.price-low-middle-savings h4 {
+  font-size: 14px;
+  text-align: right;
+  font-weight: 400;
+  width: 40%;
+}
+.stacked-vehicle-prices .middle-price h3 {
+  width: 40%;
+  margin-top: 5px;
+  text-align: right;
+}
+.stacked-vehicle-prices .middle-price h5 {
+  width: 60%;
+}
+.stacked-vehicle-prices .middle-price h3,
+.stacked-vehicle-prices .middle-price h5,
+.stacked-vehicle-prices .asking-price h5 {
+  color: green;
+}
+
+.vdp-container .new-vehicle-prices .col-xs-12.price-savings {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+
+.vdp-container .new-vehicle-prices .col-xs-12.price-savings h5.price-label {
+  width: 65%;
+  text-align: left;
+}
+
+.vdp-container .new-vehicle-prices .col-xs-12.price-savings h4 {
+  width: 35%;
+}
+
+/*Hide get price btn VDP 1//11*/
+.vdp-container
+  .used-vehicle-prices
+  + .get-price-btn-container
+  img.get-price-button {
+  display: none;
+}
+
+/* Hiding mobile action bar */
+#mobile-actions {
+  display: none !important;
+}
+
+/* Hiding desktop action bar */
+#desktop-actions {
+  display: none !important;
+}
+
+.contact-block {
+  text-align: center;
+}
+div#ff_link {
+  margin: 5px auto;
+}
+
+/*Price block adjustments knp 3/23/24*/
+.row.stacked-vehicle-prices.new-vehicle-prices h3,
+.row.stacked-vehicle-prices.new-vehicle-prices h4 {
+  font-size: 16px;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices h3,
+.row.stacked-vehicle-prices.new-vehicle-prices h4,
+.row.stacked-vehicle-prices.new-vehicle-prices h5 {
+  margin: 5px 0px;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices
+  .col-xs-12.asking-price.lowest-price
+  h5 {
+  padding: 30px 0px 25px 0px;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices
+  .col-xs-12.asking-price.lowest-price
+  h3 {
+  margin-right: -25px;
+}
+
+/* This is cancelling the green "Get Our Price" CTA on Used VDP */
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+    /*background-color: #387abc !important;*/
+    color: white;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+    /*background-color: #387abcbf !important;*/
+    color: #ffffff !important;
+    border-color: #ffffff;
+}
+
+
+
+
+/* .split-vdp-with-toolbar #hsVehicleBadgesRow .scroll-horizontal {
+  display: inline-block !important;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
+.split-vdp-with-toolbar.new-price-block-styles
+  #hsVehicleBadgesRow[data-has-scrollbar="false"]
+  .scroll-horizontal {
+  justify-content: flex-start;
+}
+
+.horizontal-scroll-component .scroll-nav-btn {
+      background-size: 45% !important;
+ 
+}
+
+
+/* increasing the size of the circled green price*/
+.col-xs-12.asking-price.lowest-price h3 {
+    font-size: 20px !important;
+  color:#37c637 !important;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button {
+    color: #ffffff;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover {
+    color: #ffffff !important;
+}
+
+
+.bundle-savings-breakdown .vauto-incentive {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.bundle-savings-breakdown .vauto-incentive h5 {
+    text-align: left;
+}
+.vehicle-features-wrapper {
+    display: block;
+}
+
+.split-vdp-with-toolbar .available-rebates-section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+.available-rebates-btn {
+  margin-top: 20px !important;
+}
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    border: 0px;
+}
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:hover {
+    background-color: white !important;
+    color: black !important;
+    text-decoration: underline;
+}
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+	margin: auto;
+}
+
+.split-vdp-with-toolbar .unlock-price-button,
+.split-vdp-with-toolbar .get-price-button {
+    border-color: #337ab7;
+}
+
+.split-vdp-with-toolbar .unlock-price-button:hover, 
+.split-vdp-with-toolbar .get-price-button:hover {
+    border-color: #337ab7;
+}

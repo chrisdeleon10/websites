@@ -1,0 +1,703 @@
+/* Arbitrary Dropdown Hero with Video */
+.brand-logo:hover,
+.brand-logo:focus {
+  background-color: #ffffff !important;
+}
+
+#browse-vehicles-search-hero #buttons-step,
+#browse-vehicles-search-hero .search-row {
+  display: none;
+}
+
+#browse-vehicles-search-hero {
+  background: linear-gradient(90deg, #0d1a25, #374a5a);
+}
+
+@media(min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero #search-step,
+  #browse-vehicles-arbitrary-search-hero,
+  #browse-vehicles-search-hero,
+  #browse-vehicles-arbitrary-search-hero .container,
+  #browse-vehicles-search-hero .background-row,
+  #browse-vehicles-arbitrary-search-hero .row.browse-row.vehicle-browse-row {
+    overflow: visible !important;
+  } 
+}
+
+/* #browse-vehicles-arbitrary-search-hero {
+    padding-bottom: calc(4% + 30px);
+    background: #fff;
+  } */
+#browse-vehicles-search-hero {
+  position: relative;
+  height: 0;
+  padding-bottom: 28.25%;
+}
+@media (min-width: 768px) {
+  #browse-vehicles-search-hero {
+    min-height: unset;
+  }
+}
+#browse-vehicles-search-hero .overlay-content {
+  position: static;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 28vw;
+  height: 28vw;
+  overflow: hidden;
+}
+#browse-vehicles-search-hero .background-row {
+  z-index: 0;
+}
+video#homepage-background-video {
+  position: relative;
+  top: -80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  overflow: hidden;
+}
+#browse-vehicles-search-hero .step-instructions {
+  padding-top: 0px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 50px !important;
+}
+#browse-vehicles-search-hero .browse-vehicles {
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+#browse-vehicles-search-hero .browse-vehicles > .container {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: rgb(0 0 0 / 15%);
+}
+#browse-vehicles-search-hero #search-step {
+  position: absolute;
+  width: 100%;
+  bottom: -37px;
+  left: 0;
+  right: 0;
+}
+#browse-vehicles-search-hero .browse-row {
+  margin: auto;
+}
+#browse-vehicles-search-hero .vehicle-browse-ajax {
+  margin: auto;
+}
+#browse-vehicles-arbitrary-search-hero .col-xs-12 .vehicle-browse-ajax {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0px 0px 16px rgb(16 16 16 / 26%);
+  overflow: visible !important;
+}
+#browse-vehicles-arbitrary-search-hero .vehicle-browse-ajax br {
+  display: none;
+}
+#browse-vehicles-arbitrary-search-hero .vehicle-browse-ajax .form-group {
+  border-radius: 0px;
+}
+#browse-vehicles-arbitrary-search-hero .search-form-btn,
+.hp-button {
+  background: #c53632 !important;
+  color: #fff !important;
+  border: 2px solid #c53632;
+  border-radius: 5px;
+  padding: 12px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+#browse-vehicles-arbitrary-search-hero .search-form-btn:hover,
+#browse-vehicles-arbitrary-search-hero .search-form-btn:active,
+#browse-vehicles-arbitrary-search-hero .search-form-btn:focus,
+.hp-button:hover,
+.hp-button:active,
+.hp-button:focus {
+  background: #b01f2a !important;
+  border: 2px solid #b01f2a !important;
+}
+#browse-vehicles-arbitrary-search-hero .form-control {
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  padding: 6px 12px 6px 0px;
+  text-transform: uppercase;
+  text-align: center;
+  text-align-last: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(4) {
+  flex-basis: 22%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+  flex-basis: 22%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1) {
+  flex-basis: 18%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2) {
+  flex-basis: 18%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group i {
+  line-height: 44px !important;
+}
+
+@media (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group {
+    margin-bottom: 0px;
+  }
+  #browse-vehicles-search-hero .vehicle-search-form {
+    align-items: center;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    margin-right: 0px !important;
+    border-right: 1px solid #999999;
+  }
+  #browse-vehicles-search-hero .browse-vehicles {
+    background-blend-mode: multiply;
+    background-color: rgb(0 0 0 / 0.25) !important;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(4) {
+    flex-basis: 22%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    flex-basis: 28%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1) {
+    flex-basis: 15%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2) {
+    flex-basis: 15%;
+  }
+}
+
+@media (max-width: 991px) {
+  #browse-vehicles-search-hero .step-instructions {
+    font-size: 2.125rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group i {
+    right: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #browse-vehicles-arbitrary-search-hero {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #browse-vehicles-search-hero .step-instructions {
+    margin-bottom: 12vh;
+  }
+  #coa-step h1 {
+    font-size: 40px !important;
+  }
+  /*
+    #browse-vehicles-search-hero {
+      padding-bottom: 93.22916666666667%;
+    }
+    */
+  #browse-vehicles-search-hero .overlay-content {
+    min-height: 93.22916666666667vw;
+    height: 93.22916666666667vw;
+  }
+  #browse-vehicles-search-hero #search-step {
+    bottom: -150px;
+  }
+  #browse-vehicles-arbitrary-search-hero .col-xs-12 .vehicle-browse-ajax {
+    max-width: 360px !important;
+    border-radius: 12px;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group {
+    max-width: 300px;
+    margin: auto;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    padding-bottom: 6px;
+    margin-bottom: 6px !important;
+    border-bottom: 1px solid #999999;
+  }
+  #browse-vehicles-arbitrary-search-hero .search-form-btn {
+    margin-top: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .background-row {
+    background-size: 100% !important;
+  }
+}
+
+#browse-vehicles-arbitrary-search-hero
+  .col-xs-12.vehicle-browse-ajax.vehicle-browse-ajax-by-year {
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  #interactionBarComponent #interactionBar .scroll-horizontal {
+    z-index: 5;
+  }
+}
+
+#tabbedSearchFilterComponent .tabbed-filter-content {
+  padding-top: 70px;
+}
+
+#interactionBarComponent {
+  --pc: var(--sokal-pc-dodge, #000000) !important;
+  --pc-dark: var(--sokal-pc-dark-dodge, #000000) !important;
+}
+/* --- TEMPLATE -- */
+
+@media (min-width: 767px) {
+  #double-image-hero .cta-image-box {
+    max-width: 30% !important;
+  }
+}
+
+#double-image-hero {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/427/379/original/2023-Wagoneer-Gallery-Exterior-G_%281%29.png?1680816339) !important;
+}
+
+#browse-vehicles-search-hero .background-row {
+  background-position: 38% 0% !important;
+}
+body .homepage-components #double-image-hero #video-banner-overlay {
+  display: none;
+}
+
+body
+  .homepage-components
+  #browse-vehicles-arbitrary-search-hero
+  #homepage-background-video {
+  position: relative;
+  top: -60%;
+}
+/* Capital CJDR SEO Content CSS */
+.cdjr-indian-trail-seo-content-hp-component {
+  margin-bottom: 20px;
+}
+.cdjr-indian-trail-seo-content-hp-component__title h3 {
+  font-size: 3rem;
+}
+.cdjr-indian-trail-seo-content-hp-component__content {
+padding: 20px 78px 44px 78px;
+}
+.cdjr-indian-trail-seo-content-hp-component__content p{
+font-size: 2rem;
+}
+.cdjr-indian-trail-seo-content-hp-component__buttons--button a {
+  text-decoration: none;
+  color: black;
+  border: black 2px solid;
+  width: 230px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.cdjr-indian-trail-seo-content-hp-component__buttons--button a:hover {
+  background: black;
+  color: white;
+}
+
+/* Vehicle Filter Section Adjustment for mobile 9/19/23 */
+@media(max-width: 767px) {
+    #browse-vehicles-search-hero .browse-vehicles {
+        height: 40%;
+    }
+}
+
+/* Removing "The best automotive dealer" text */
+.vehicle-type-display#brand-tabbed-white .title-row::before {
+    display: none;
+    content: 'The Best Automotive Dealer in Indian Trail';
+    font-size: 36px;
+    font-weight: 500;
+  	margin: 15px;
+}
+.vehicle-type-display#brand-tabbed-white .title-row h1 {
+    display: none;
+}
+
+/* SHOP & SERVICE FILTER */
+/*************************/
+
+body #hp-shop-service-component .shop-inventory-buttons .btn,
+body #hp-shop-service-component .service-buttons .btn {
+  max-width: 300px;
+}
+
+body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+  text-align: center;
+}
+
+body #hp-shop-service-component .service-buttons .btn {
+  display: inline-block;
+}
+
+body #hp-shop-service-component .shop-inventory-buttons .btn,
+body #hp-shop-service-component .service-buttons .btn {
+  border: 2px solid black;
+  background: black;
+  color: #ffffff;
+  border-radius: 30px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+  text-transform: capitalize;
+}
+
+body #hp-shop-service-component .shop-inventory-buttons .btn:hover,
+body #hp-shop-service-component .service-buttons .btn:hover,
+body #hp-shop-service-component .shop-inventory-buttons .btn:active,
+body #hp-shop-service-component .service-buttons .btn:active,
+body #hp-shop-service-component .shop-inventory-buttons .btn:focus,
+body #hp-shop-service-component .service-buttons .btn:focus {
+  background: #777777;
+  background: transparent;
+  color: #ffffff;
+}
+
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit {
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #ffffff;
+  text-transform: capitalize;
+}
+
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:hover,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:focus,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:active {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+  width: 35%;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active:first-child {
+  border-right: none;
+  border-top-right-radius: 0;
+  width: 65%;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+
+body
+  #hp-shop-service-component
+  .shop-box
+  .nav-tabs
+  li:not(.active):first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 6px;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active:last-child {
+  border-left: none;
+  border-top-left-radius: 0;
+  width: 65%;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 6px;
+}
+
+body #hp-shop-service-component {
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/649/873/original/2023-Grand-Cherokee-4xe-Charge-D_%281%29.jpg?1698778659");
+  background-position: center 65%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+body #hp-shop-service-component .container {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: #ffffff59;
+  padding: 0;
+  border-radius: 6px;
+}
+
+body #hp-shop-service-component .shop-box {
+  background: transparent;
+  color: #333333;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs {
+  background: transparent;
+  border: none;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+  border: 2px solid #ffffff;
+  background-color: #b5b5b5;
+  /*  border-bottom: none;*/
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-bottom: none;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li:hover:not(.active) {
+  background-color: #ebebeb;
+  border-color: transparent;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active a {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li:after {
+  height: 3px;
+  width: 50%;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active:after {
+  background: #ffffff;
+}
+
+body #hp-shop-service-component .tab-pane {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+body #hp-shop-service-component .form-group:not(#search-submit) {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body #hp-shop-service-component .form-control {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+body #hp-shop-service-component .matching-vehicles-found,
+body #hp-shop-service-component #service-filter .service-hours .col-xs-12 p {
+  color: #ffffff;
+}
+
+body #hp-shop-service-component .tab-pane.active,
+body #hp-shop-service-component #shop-filter.active,
+body #hp-shop-service-component #service-filter.active {
+  background-color: transparent;
+  border-top: none;
+  min-height: 250px;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a {
+  color: #333333;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a:hover {
+  color: #333333;
+}
+
+#hp-shop-service-component #service-filter .hours-box {
+  font-size: 1.75rem;
+}
+
+@media (min-width: 1441px) {
+  body #hp-shop-service-component {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hp-shop-service-component #service-filter .hours-box {
+    font-size: 1.35rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body
+    #hp-shop-service-component
+    .tab-pane
+    .shop-inventory-buttons
+    .col-sm-6.col-xs-12 {
+    text-align: right;
+  }
+
+  body #hp-shop-service-component .shop-inventory-buttons .new-vehicles {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  body #hp-shop-service-component .container {
+    width: 75%;
+  }
+
+  body #hp-shop-service-component .shop-inventory-buttons .btn,
+  body #hp-shop-service-component .service-buttons .btn {
+    display: inline-block;
+  }
+
+  body
+    #hp-shop-service-component
+    .tab-pane
+    .shop-inventory-buttons
+    .col-sm-6.col-xs-12,
+  body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+    text-align: center;
+  }
+
+  body #hp-shop-service-component .tab-pane.active,
+  body #hp-shop-service-component #shop-filter.active,
+  body #hp-shop-service-component #service-filter.active {
+    min-height: 600px;
+  }
+
+  body #hp-shop-service-component #service-filter .service-buttons {
+    margin: 35px 0;
+  }
+
+  body #hp-shop-service-component #service-filter .hours-box {
+    margin-bottom: 25px;
+  }
+
+  body #hp-shop-service-component .form-group:not(#search-submit) {
+    width: 75%;
+    margin: 0 auto 15px auto;
+  }
+
+  body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+  #hp-shop-service-component #service-filter .service-hours {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 499px) {
+  body #hp-shop-service-component .container {
+    width: 90%;
+  }
+
+  body #hp-shop-service-component .form-group:not(#search-submit),
+  body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+  #hp-shop-service-component #service-filter .service-hours {
+    width: 85%;
+  }
+
+  #hp-shop-service-component .shop-inventory-buttons .btn,
+  #hp-shop-service-component .service-buttons .btn {
+    font-size: 12px !important;
+  }
+
+  body #hp-shop-service-component .shop-box .nav-tabs li {
+    min-height: 66px;
+  }
+
+  body #hp-shop-service-component .shop-box .nav-tabs li.active {
+    padding-top: 10px;
+  }
+
+  #hp-shop-service-component #service-filter .hours-box {
+    font-size: 1.35rem;
+  }
+}
+
+@media (min-width: 432px) and (max-width: 499px) {
+  body
+    #hp-shop-service-component
+    .shop-box
+    .nav-tabs
+    li:not(.active):first-child {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 354px) and (max-width: 499px) {
+  body
+    #hp-shop-service-component
+    .shop-box
+    .nav-tabs
+    li:not(.active):last-child {
+    padding-top: 10px;
+  }
+}
+
+/* Changes to Video Section on Homepage */
+.youtube-section {
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+@media (max-width: 767px) {
+    .gm-style-iw-d {
+        max-height: 175px !important;
+    }
+    
+    .gm-style-iw.gm-style-iw-c {
+        margin-top: 8px !important;
+        max-height: 219px !important;
+    }
+}
+/* fix carousal image over text */
+.vehicle-type-display#brand-tabbed-white img {
+    mix-blend-mode: multiply;
+}
+
+.scroll-item.scroll-item--default[data-item-name="New Vehicles"] {
+    display: block !important;
+}
+
+.scroll-item.scroll-item--default[data-item-name="Used Vehicles"] {
+    display: block !important;
+}
+
+.scroll-item.scroll-item--default[data-item-name="Cars Under $30K"] {
+    display: none;
+}
+
+.scroll-item.scroll-item--default[data-item-name="All Electric"] {
+    display: none;
+}
