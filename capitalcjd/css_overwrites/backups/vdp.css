@@ -1,0 +1,105 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.buttons-title,
+.buttons-block {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #036fba;
+    text-decoration: none;
+}
+.cn-btn-bn1 {
+    display: none;
+}
+.badge-item[data-name="carfax-badge"] {
+    display: none;
+}
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .secondary-btn {
+    margin: 0px;
+}
+
+.new-price-block-styles .stacked-vehicle-prices .unlock-modal-toggle {
+    flex-direction: row-reverse;
+}
+
+
+/* Hiding the Trade Hound banner on the vdp */
+iframe#cl_inf_1 {
+    display:none;
+}
+
+
+.vehicle-info .get-price-btn-container {
+    padding-right: 10px;
+}
+@media (max-width: 575px) {
+    .split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"],
+  .vehicle-info .get-price-btn-container {
+        padding-right: 0px;
+    }
+}
+
+.stacked-vehicle-prices .locked-price-container h3 span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.stacked-vehicle-prices .locked-price-container h3 span .locked-xxx {
+    justify-content: end;
+}
+
+/* Adding pawprint */
+.col-xs-12.asking-price.lowest-price h3 {
+    background-image: url(	https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/724/148/original/print-3.png?1761078063);
+  height: 55px;
+    width: 55px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.col-xs-12.asking-price.lowest-price .price-label {
+    padding-top: 22px;
+}
+.vdp-custom-header[data-has-color-fill="true"] .vdp-header-price-block * {
+    background: none !important;
+}
+.vdp-template-content .new-vehicle-prices h3.unlock-modal-toggle {
+    display: none !important;
+}
+.vdp-subnav--title-trim-mileage-price-block .custom-header-col--right .vdp-header-price-block .unlock-modal-toggle {
+    display: flex;
+    flex-direction: unset !important;
+}
+.vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+    flex-wrap: unset !important;
+}
+
+/* Showing Middle Price (Internet Price) before unlock in Lead Actions in Web_Dash - KA 11/6/25 */
+/* Also overriding inline display block bc idk where the app is adding it from */
+body .vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices.row> *.middle-price, body .vdp-custom-header .vdp-header-price-block .middle-price [class*="price-label"] {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 15px;
+}
+.vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices .locked-price-container.collapse {
+    display: none !important;
+}
+@media(min-width: 575px) {
+  .vehicle-info .unlock-price-btn-container {
+    margin-right: 10px;
+  }
+}
