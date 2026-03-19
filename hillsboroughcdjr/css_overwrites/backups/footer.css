@@ -1,0 +1,28 @@
+body .FooterGreyLeft {
+  background-color: #ffffff;
+  color: #000000;
+}
+body .FooterGreyLeft * {
+  color: #000000 !important;
+}
+body .FooterGreyLeft .sokal-white-logo {
+  opacity: 1;
+  background: #000000;
+  padding: 10px;
+  height: 40px;
+}
+.FooterGreyLeft > .container > .row:nth-of-type(5) {
+  display: none;
+}
+body .solid-background-map-and-hours-component .map-contact {
+    background-color: #000000;
+}
+
+/* ONLY FOR CAPITAL STORES */
+body .FooterGreyLeft .row:nth-child(6) {
+    display: flex;
+    align-items: center;
+}
+.maw-footer-container--logo {
+	margin-left: auto;
+}

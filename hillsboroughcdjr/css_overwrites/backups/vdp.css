@@ -1,0 +1,157 @@
+/*
+.stacked-vehicle-prices .price-savings h4:first-of-type {
+    margin-top: 10px;
+}
+*/
+
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block {
+  display: none !important;
+}
+
+#v-badges {
+    text-align: center;
+}
+
+/*Fix for alignment issues after discount breakdown added*/
+.vauto-incentive {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+.vehicle-buttons-stacked .secondary-btn {
+    margin: 0px;
+}
+
+.split-vdp-with-toolbar .vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  color: white;
+}
+
+/* Updating VDP Styling - CD 8/26/24 */
+
+a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+    background-color: white !important;
+    border-color: #063e77;
+    max-width: 100%;
+}
+
+body .vdp-custom-header a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger:hover, 
+body .vdp-custom-header a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger:active, 
+body .vdp-custom-header a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger:focus {
+    background: #063e77 !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.col-xs-12.asking-price.lowest-price h3 {
+    color: #37c637 !important;
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/081/035/original/redmarker1.png?1598370836);
+    /* padding: 25px !important; */
+    padding: 30px 25px 25px 20px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.split-vdp-with-toolbar button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    color: #941711;
+}
+
+.split-vdp-with-toolbar .unlock-price-button, 
+.split-vdp-with-toolbar .get-price-button, 
+.split-vdp-with-toolbar .search-result-buttons .btn, 
+.split-vdp-with-toolbar .utility-btn {
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px transparent;
+    border-radius: 30px;
+    padding: 12px 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    border-color: black;
+    color: black;
+    border: 3px solid;
+    max-width: 100%;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:hover, 
+.split-vdp-with-toolbar .search-result-buttons .btn:active, 
+.split-vdp-with-toolbar .search-result-buttons .btn:focus {
+    background-color: black;
+    border-color: black;
+}
+
+.split-vdp-with-toolbar button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:hover,
+.split-vdp-with-toolbar button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:active,
+.split-vdp-with-toolbar button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:focus {
+    color: #941711 !important;
+    text-decoration-line: underline !important;
+}
+
+.split-vdp-with-toolbar.new-price-block-styles #hsVehicleBadgesRow[data-has-scrollbar="false"] .scroll-horizontal {
+    justify-content: center;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  align-items: center;
+}	
+
+
+.vehicle-show-buttons-stacked.vehicle-buttons-stacked {
+    text-align: center;
+}
+
+h3.unlock-modal-toggle {
+    display: flex;
+    flex-flow: row-reverse;
+}
+a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+    color: #063e77;
+    margin-bottom: 10px;
+}
+
+/* Fixing Unlock Price Button 
+.secondary-btn {
+    max-width: 100%;
+}
+
+  @media (max-width: 768px) {
+    .get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+      max-width: 353px !important;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .vehicle-buttons-stacked .col-xs-6:nth-of-type(3) {
+        margin-left:25%;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+    .vehicle-buttons-stacked .col-xs-6:nth-of-type(3) {
+        margin-left:25%;
+    }
+}
+*/
+
+div#edm-eva:first-of-type {
+    display: none !important;
+}
+
+.new-vehicle-prices .price-savings h4, 
+.new-vehicle-prices .price-savings h5 {
+    color: green;
+}

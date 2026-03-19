@@ -1,0 +1,33 @@
+<!-- [homepage] - Add Swipe Functionality to Homepage Carousels -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+
+<script>
+  (function($){
+    const s = {
+      init: function() {
+        s.$carousels = $("#backgroundVideoSlider, #specialsSliderVLuxury");
+        if (!s.$carousels.length) return;
+
+        s.attachSwipeEvents();
+      },
+
+      attachSwipeEvents: function() {
+        s.$carousels.each(function(){
+          $(this).swipe({
+            swipeLeft: function () {
+              $(this).carousel('next');
+            },
+            swipeRight: function () {
+              $(this).carousel('prev');
+            },
+            threshold: 50
+          });
+        });
+      }
+    }
+
+    $(document).ready(s.init);
+
+  })(jQuery)
+</script>
