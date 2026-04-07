@@ -1,0 +1,332 @@
+body .vehicle-buttons .sokal-btn {
+  font-size: 13px;
+  line-height: 13px;
+}
+#desktop-actions {
+  display: none !important;
+}
+.stacked-vehicle-prices {
+  text-align: center;
+}
+.vertical-item.badge-item img {
+  max-width: 100%;
+}
+body .asking-price h3 {
+  color: var(--sokal-color-lincoln-orange, #b45f1a);
+}
+.stacked-vehicle-prices h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.price-savings h4 {
+  width: 40%;
+  text-align: right;
+}
+.price-savings h5 {
+  width: 60%;
+  text-align: left;
+}
+.get-price-btn-container .get-price-button {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: calc(0.875rem + 2px);
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: #000000;
+  /* min-height: 48px;*/
+  width: 100%;
+  padding: 16px 12px;
+  border: 1px solid #000000;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  margin: 5px 0;
+  transition: color ease-in-out 0.15s;
+}
+.get-price-btn-container .get-price-button:hover::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out 0.2s;
+  background: #0077d9;
+}
+.get-price-btn-container .get-price-button::after {
+  background: var(--sokal-btn-color);
+}
+.get-price-btn-container .get-price-button::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width 0.1s ease-in-out;
+}
+.get-price-btn-container .get-price-button:hover {
+  color: #000000;
+}
+
+/*
+@media screen and (min-width: 768px) {
+
+  .get-price-btn-container .get-price-button {
+  	padding: 0px 80px;
+  }
+  
+}
+*/
+
+.vehicle-show-container .available-rebates-btn {
+  font-size: 13px;
+}
+
+/* NEW SPLIT VDP WITH TOOL BAR COLOR CHANGES - GR 01/20/26 */
+.split-vdp-with-toolbar {
+    --pc: #0077d9;
+    --pcd: var(--sokal-pcd-chevrolet, #000000);
+    --btn-br: var(--sokal-btn-br-chevrolet, 0);
+    --search-btn-bg-color: #ffffff;
+    --search-btn-border-color: var(--pc);
+    --search-btn-color: var(--pc);
+}
+
+/* Need to remove and change hover color - temp fix to show text
+.split-vdp-with-toolbar .get-price-button:hover {
+  color: #5a6870 !important;
+} */
+
+.vertical-item.badge-item[data-name="carfax"] {
+  display: none;
+}
+.vertical-item.badge-item[data-name="auto-ipacket-used"] img {
+  width: 100%;
+  max-width: 200px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  line-height: unset;
+}
+
+.split-vdp-with-toolbar
+  .search-result-buttons
+  .vehicle-buttons-stacked
+  > [class*="col-"]
+  a {
+  width: 100%;
+}
+
+h5.incentive-label {
+  text-align: left;
+}
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+  text-decoration: none;
+}
+.split-vdp-with-toolbar ul.avaliable-conditional-rebates {
+  text-align: left;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] {
+  background-color: #0077d9;
+  color: #ffffff;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  color: #0077d9;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/*.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  color: #0077d9;
+} */
+
+.vdp-custom-header {
+  /*background-color: #ffffff;*/
+  border-bottom: 3px solid #0077d9;
+}
+
+.mobile-help-icons .fa {
+  background-color: #ffffff;
+  color: #0077d9;
+  border-color: #ffffff;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  background-color: white !important;
+  color: white;
+}
+
+.split-vdp-with-toolbar .get-price-button:hover {
+  color: #fff !important;
+}
+
+/* Capital One Widget Adjustment */
+iframe#capital-one-prequalification-finance-tool {
+  max-width: 1200px;
+  margin: auto;
+}
+.split-vdp-with-toolbar .sokal-profile-container {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Fixing spacing of the pricing on the sticky bar on mobile 
+
+@media (max-width: 575px) {
+  .vdp-subnav--title-trim-mileage-price-block .custom-header-col {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+*/
+
+@media (max-width: 575px) {
+  .vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+    margin-top: 10px !important;
+  }
+}
+
+/* Adjusting CarFax badge */
+.split-vdp-with-toolbar #hsVehicleBadgesRow .scroll-horizontal {
+  gap: 0px;
+}
+
+.vehicle-specials-row {
+  display: none;
+}
+
+button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: calc(0.875rem + 2px);
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  min-height: 48px;
+  width: 100%;
+  padding: 18px 40px;
+  border: 2px solid #000000;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  transition: color ease-in-out 0.15s;
+}
+
+/* hiding the test drive modal disclaimer */
+.vehicle-disclaimer.text-center {
+  display: none;
+}
+
+.sokal-btn-secondary::after,
+html .vehicle-buttons .sokal-btn-secondary::after {
+  background: #0077d9;
+}
+.search-result-buttons-and-price-block .get-price-btn-container a {
+  background-color: #0077d9;
+  border: 2px solid #0077d9;
+}
+
+.search-result-buttons-and-price-block .get-price-btn-container a:hover,
+.search-result-buttons-and-price-block .get-price-btn-container a:active,
+.search-result-buttons-and-price-block .get-price-btn-container a:focus {
+  background-color: white;
+  color: #0077d9 !important;
+  border: 2px solid #0077d9;
+}
+.search-result-buttons-and-price-block
+  .get-price-btn-container
+  .get-price-button::after {
+  height: 0px;
+  transition: none;
+}
+
+/* REMOVING PADDING FROM CTAs that gives it the weird offset
+.search-result-buttons-and-price-block .get-price-btn-container {
+    padding-right: 10px;
+}
+
+.available-rebates-section {
+    padding-right: 10px;
+} */
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+    background: #0077d9 !important;
+}
+
+/* adding space between badges*/
+.vertical-item.badge-item {
+    padding-left: 15px;
+}
+
+
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: calc(0.875rem + 2px);
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    /* min-height: 48px; */
+    width: 100%;
+    padding: 16px 12px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    margin: 5px 0;
+    transition: color ease-in-out 0.15s;
+    background-color: #0077d9;
+    border: 2px solid #0077d9;
+  color: white !important;
+}
+
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn:hover,
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn:focus {
+    background-color: white;
+    border: 2px solid #0077d9;
+  	color: #0077d9 !important;
+}
+
+/* Adjusting weird Margin issues for CTA block */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 0 -10px 0 0;
+}
+
+/* Adding tooltip after "Dealer Discount" SUP00094911 - GR 01/21/26 */
+body .stacked-vehicle-prices .price-savings .price-label::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    margin-left: 5px;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3Csvg fill='%23000000' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm1 16h-2v-2h2v2zm.976-4.885c-.196.158-.385.309-.535.459-.408.407-.44.777-.441.793v.133h-2v-.167c0-.118.029-1.177 1.026-2.174.195-.195.437-.393.691-.599.734-.595 1.216-1.029 1.216-1.627a1.934 1.934 0 0 0-3.867.001h-2C8.066 7.765 9.831 6 12 6s3.934 1.765 3.934 3.934c0 1.597-1.179 2.55-1.958 3.181z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+body .stacked-vehicle-prices .price-savings .price-label:hover::before {
+    content: "Discounts available to all customers.";
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
+    transform: translateY(-30px);
+}
+
+.vdp-custom-header {
+  z-index: 9 !important;
+}

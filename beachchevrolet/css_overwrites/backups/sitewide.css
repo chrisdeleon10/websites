@@ -1,0 +1,818 @@
+/* Generic Icons */
+
+:root {
+  --sokal-icon-chevron-down-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/707/325/original/genesis-chevron-down-bold-sm.png?1703192172');
+    --sokal-icon-chevron-down-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/707/326/original/genesis-chevron-down-bold-lg.png?1703192172');
+    --sokal-icon-chevron-right-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/239/original/genesis-chevron-right-bold-sm.png?1704205997');
+    --sokal-icon-chevron-right-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/240/original/genesis-chevron-right-bold-lg.png?1704206000');
+    --sokal-icon-search-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/064/original/genesis-search-bold-lg.png?1703619365');
+    --sokal-icon-close-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/076/original/genesis-close-outline-bold-lg.png?1703625322');
+    --sokal-icon-close-solid-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/063/original/genesis-close-solid-bold-lg.png?1703619365');
+    --sokal-icon-arrow-right-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/243/original/genesis-arrow-right-bold-lg.png?1704209728');
+    --sokal-icon-checkmark-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/724/764/original/genesis-checkmark-bold-sm.png?1704482759');
+    --sokal-icon-checkmark-white-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/724/765/original/genesis-checkmark-bold-sm-white.png?1704483103');
+    --sokal-icon-phone-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/728/285/original/genesis-phone-solid-bold.png?1704738104');
+    --sokal-icon-map-marker-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/728/286/original/genesis-geolocation-solid-regular.png?1704738109');
+  }
+
+/* FORM STYLING START*/
+/*-------------------*/
+
+/* Colors */
+.form--style-base .panel {
+    background-color: #ffffff;
+}
+  
+/* Shadows */
+.form--style-base .panel {
+    -webkit-filter: drop-shadow(0px 0px 20px #ececec);
+    filter: drop-shadow(0px 0px 20px #ececec);
+    box-shadow: none;
+}
+  
+.form--style-base .panel-heading {
+    background-color: transparent;
+}
+  
+/* Fonts */
+.form--style-base .form-title {
+    font-family: "Kumbh Sans", sans-serif;
+}
+  
+/* Transitions */
+.form--style-base .btn {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  	font-weight: 500;
+    padding: 10px 34px; 
+    border-radius: 30px;
+    background: #5b6770;
+}
+  
+.form--style-base .btn:hover,
+.form--style-base .btn:active {
+    opacity: .7;
+}
+  
+/* Form Container */
+.form--style-base {
+    width: 600px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+  
+/* Form Groups */
+.form--style-base .form-group .col-sm-3, 
+.form--style-base .form-group .col-sm-9 {
+    width: 100%;
+    text-align: left;
+}
+  
+/* Panel  */
+.form--style-base .panel {
+    padding: 4vw;
+    background-clip: padding-box;
+    border: 0px;
+    border-radius: 6px;
+}
+  
+/* Panel Heading */
+.form--style-base .panel-heading {
+    border: 0px;
+}
+  
+/* Title */
+.form--style-base .form-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+  
+/* Buttons */
+/*
+.btn-group.preferred-contact-method {
+    margin-left: 15px;
+}
+*/
+  
+.form--style-base .ajax-form-submit-btn {
+  	display: block;
+    background-color: #0077d9;
+    color: #ffffff;
+    font-size: 16px; 
+    font-weight: 500;
+    padding: 10px 34px; 
+    border-radius: 30px; 
+    margin: 30px auto; 
+    -webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+  
+.form--style-base .ajax-form-submit-btn:hover {
+    background-color: #1700F4;
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.contact-method-btn {
+	font-size: 12px;
+}
+  
+.contact-method-btn.active {
+    background: #0077d9;
+    color: #ffffff;
+    border: 1px solid #0077d9;
+}
+  
+/* FORM STYLING END*/
+/*-----------------*/
+
+.padding-lg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .padding-sm {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .padding-xs {
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+  }
+  .sokal-5050-component .container-slim {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .sokal-copy {
+    font-size: 16px;
+    line-height: calc(1rem + 8px);
+    margin-bottom: 12px;
+  }
+  
+  .sokal-sub-heading {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: calc(1rem + 8px);
+    color: #6e6e6e;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 0;
+  }
+  
+  .sokal-heading {
+    font-size: 2rem;
+    line-height: calc(2rem + 8px);
+    text-transform: uppercase;
+    display: block;
+    margin-top: 0;
+  }
+  
+  .sokal-5050-heading {
+    font-size: 1.5rem;
+    line-height: calc(1.5rem + 8px);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  
+  .sokal-section-heading {
+    font-size: 2rem;
+    line-height: calc(2rem + 8px);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 0;
+  }
+  
+  .sokal-disclaimer {
+    font-size: .75rem;
+    line-height: calc(0.75rem + 8px);
+    margin-bottom: 12px;
+    display: block;
+  }
+  
+  .sokal-5050-component .grid-layout {
+    padding-bottom: 80px;
+  }
+  
+  .sokal-5050--image {
+    margin: auto;
+  }
+  .sokal-5050-component .sokal-btn {
+    margin-top: 25px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .sokal-heading {
+      font-size: 2.5rem;
+      line-height: calc(2.5rem + 8px);
+    }
+    .sokal-section-heading {
+      font-size: 2.5rem;
+      line-height: calc(2.5rem + 8px);
+    }
+    .sokal-5050-component {
+      padding: 3vh;
+    }
+    .sokal-5050-component .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      align-items: center;
+      margin: auto;
+      column-gap: 5vw;
+      padding-bottom: 120px;
+    }
+    body .sokal-5050-component .grid-layout--left-large {
+      grid-template-columns: 1.25fr 1fr;
+    }
+    body .sokal-5050-component .grid-layout--right-large {
+      grid-template-columns: 1fr 1.25fr;
+    }
+    .sokal-5050-content--left {
+      grid-column: 1/1;
+    }
+  
+    .sokal-5050-content--right {
+      grid-column: 2/2;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .sokal-5050-component .flip-stack {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .sokal-5050-component h1,
+    .sokal-5050-component h2,
+    .sokal-5050-component h3,
+    .sokal-5050-component h4,
+    .sokal-5050-component h5,
+    .sokal-5050-component h6 {
+      margin-top: 15px;
+    }
+    .sokal-5050-component {
+      padding: 1vh;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sokal-5050-component .container-slim {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .sokal-5050-component .container-slim {
+      width: 970px;
+    }
+  }
+
+/* PAGE SPECIFICS */
+.webpage p {
+    font-size: 1.5rem;
+}
+.webpage li {
+   font-size: 1.5rem;
+}
+@media (max-width: 550px) {
+  .webpage .hero h1 {
+     font-size: 26px;
+  }
+  .webpage .hero h3 {
+     font-size: 14px;
+  }
+}
+  
+/* COUPON STYLING START */
+/*----------------------*/
+
+.service-coupon .coupon-image-section img {
+    max-height: 180px;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-coupons .service-coupon, .service-coupon .service-coupon-body, .service-coupons .service-coupon .service-coupon-body .coupon-offer {
+    background: #0077d9;
+    color: #ffffff;
+}
+
+.service-coupon .service-coupon-body .coupon-title a, .service-coupon .service-coupon-body .coupon-title h3 {
+    color: #ffffff;
+}
+
+.service-coupon .service-coupon-body .coupon-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.service-coupon .service-coupon-body .coupon-text li {
+    list-style-type: none;
+}
+
+.service-coupon .service-coupon-body .coupon-text ul {
+    padding: 0;
+}
+
+.service-coupon .coupon-footer .expiration, .service-coupon .coupon-footer .disclaimer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.service-coupons .service-coupon {
+    padding-top: 0;
+    border-radius: 8px;
+}
+
+.service-coupon .coupon-footer .get-coupon-btn {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.service-coupon .service-coupon-body .coupon-offer h2 {
+    color: #ffffff !important;
+    font-size: 1.75rem !important;
+}
+
+.service-coupons .service-buttons-container .appointment-btn {
+    background-color: #0077d9 !important;
+    border-bottom: 1px solid #ffffff;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.service-coupons .service-buttons-container .appointment-btn:hover {
+    color: #ffffff;
+    border-bottom-color: #0077d9;
+}
+
+.service-coupon .coupon-footer .disclaimer-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.service-coupon-container {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .service-coupon-container {
+    width: 25% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-coupon-container {
+    width: 30% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-coupon-container {
+    width: 41% !important;
+  }
+}
+
+/* show coupon page */
+.show-coupon .service-coupon {
+    max-width: 280px;
+}
+.show-coupon .service-buttons-container {
+    display: none;
+}
+/* COUPON STYLING END */
+/*--------------------*/
+
+/* Generic Utility Classes START */
+/*-------------------------------*/
+
+/* COLOR PALETTE */
+.primary-bg--gray {
+  background-color: #5b6770;
+}
+.primary-color--gray {
+  color: #5b6770;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-gray {
+  background-color: #bfbfbf;
+}
+.color-gray {
+  color: #bfbfbf;
+}
+/*
+.sokal-color-light-blue {
+  color: #4298b5;
+}
+*/
+.alt-bg--gray {
+	background-color: #6E6E6E;
+}
+.alt-color--gray {
+	color: #6E6E6E;
+}
+.alt-bg--highlight {
+	background-color: #1700F4;
+}
+.alt-color--highlight {
+    color: #1700F4;
+}
+.bg--blue-gradient {
+	background: linear-gradient(270deg, rgba(0,9,91,1) 0%, rgba(0,20,46,1) 100%);
+}
+h3.unlock-modal-toggle ~ h5 {
+    display: none;
+}
+/*Employee section fixes*/
+.employee-section .employee-img.text-center img {
+    object-fit: contain;
+    object-position: center;
+    height: fit-content;
+}
+@media(min-width: 767px) {
+  .employee-section .col-sm-3.employee-container {
+    min-height: 400px;
+  }
+  .employee-section .col-sm-3.employee-container {
+    width: 33.33%;
+  }
+}
+
+  
+ /* Buttons */
+  
+ html .btn-success:hover, 
+ html .btn-success:focus {
+   outline: none;
+   background-color: var(--sokal-btn-bg);
+   border-color: var(--sokal-btn-bg);
+   color: #0077d9;
+ }
+ 
+ .sokal-btn, 
+html .btn-success, 
+ html .vehicle-buttons .sokal-btn, 
+ html .vehicle-buttons .get-price-button,
+ html .vehicle-buttons .unlock-price-button,
+  .payment-calculator-offer-btn {
+   font-size: 14px;
+   font-weight: normal;
+   line-height: calc(0.875rem + 2px);
+   letter-spacing: 1px;
+   text-align: center;
+   text-decoration: none;
+   min-height: 48px;
+   width: 100%;
+   padding: 16px 40px;
+   border: 1px solid #0077d9;
+   display: inline-block;
+   position: relative;
+   z-index: 0;
+   box-sizing: border-box;
+   transition: color ease-in-out .15s;
+ }
+ 
+ .sokal-btn.dark-theme, 
+ html .btn-success.dark-theme, 
+ html .vehicle-buttons .sokal-btn.dark-theme, 
+ html .vehicle-buttons .dark-theme .get-price-button,
+ html .vehicle-buttons .dark-theme .unlock-price-btn-container {
+   border-color: #ffffff;
+ }
+ 
+ .sokal-btn::after, 
+ html .btn-success::after, 
+ html .vehicle-buttons .sokal-btn::after, 
+ html .vehicle-buttons .get-price-button::after,
+ html .vehicle-buttons .unlock-price-button::after,
+  .payment-calculator-offer-btn::after {
+   content: "";
+   display: block;
+   width: 0px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   box-sizing: border-box;
+   transition: width .1s ease-in-out;
+ }
+ 
+ .sokal-btn:hover, 
+ .sokal-btn:focus, 
+ html .btn-success:hover, 
+ html .btn-success:focus, 
+ html .vehicle-buttons .sokal-btn:hover, 
+ html .vehicle-buttons .sokal-btn:focus, 
+ html .vehicle-buttons .get-price-button:hover, 
+ html .vehicle-buttons .get-price-button:focus,
+ html .vehicle-buttons .unlock-price-button:hover,
+ html .vehicle-buttons .unlock-price-button:focus {
+   text-decoration: none;
+ }
+ 
+ .sokal-btn:hover::after, 
+ .sokal-btn:focus::after, 
+ html .btn-success:hover::after, 
+ html .btn-success:focus::after, 
+ html .vehicle-buttons .sokal-btn:hover::after, 
+ html .vehicle-buttons .sokal-btn:focus::after, 
+ html .vehicle-buttons .get-price-button:hover::after, 
+ html .vehicle-buttons .get-price-button:focus::after,
+ html .vehicle-buttons .unlock-price-button:hover::after,
+ html .vehicle-buttons .unlock-price-button:focus::after,
+  .payment-calculator-offer-btn:hover::after,
+  .payment-calculator-offer-btn:focus::after {
+   width: 100%;
+   left: 0;
+   transition: width ease-in-out .2s;
+ }
+ 
+ @media screen and (min-width: 768px) {
+ 
+   .sokal-btn {
+     width: auto;
+   }
+ 
+ }
+ 
+ /* Primary Button */
+ 
+ .sokal-btn-primary, 
+ html .btn-success, 
+ html .vehicle-buttons .get-price-button , 
+.unlock-price-btn-container {
+   --sokal-btn-bg: #0077d9;
+   --sokal-btn-color: #ffffff;
+ }
+ 
+ .sokal-btn-primary.dark-theme, 
+ html .btn-success.dark-theme, 
+ html .vehicle-buttons .dark-theme .get-price-button,
+ html .vehicle-buttons .dark-theme .unlock-price-button {
+   --sokal-btn-bg: #ffffff;
+   --sokal-btn-color: #0077d9;
+ }
+ 
+ .sokal-btn-primary, 
+ html .btn-success, 
+ html .vehicle-buttons .sokal-btn-primary, 
+ html .vehicle-buttons .get-price-button,
+ html .vehicle-buttons .unlock-price-button {
+   background-color: var(--sokal-btn-bg);
+   color: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-primary::after, 
+ html .btn-success::after, 
+ html .vehicle-buttons .sokal-btn-primary::after, 
+ html .vehicle-buttons .get-price-button::after,
+ html .vehicle-buttons .unlock-price-button::after {
+   background: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-primary:hover, 
+ .sokal-btn-primary:focus, 
+ html .btn-success:hover, 
+ html .btn-success:focus, 
+ html .vehicle-buttons .sokal-btn-primary:hover, 
+ html .vehicle-buttons .sokal-btn-primary:focus, 
+ html .vehicle-buttons .get-price-button:hover, 
+ html .vehicle-buttons .get-price-button:focus,
+ html .vehicle-buttons .unlock-price-button:hover,
+ html .vehicle-buttons .unlock-price-button:focus {
+   color: var(--sokal-btn-bg);
+ }
+ 
+ /* Secondary Button */
+ 
+ .sokal-btn-secondary {
+   --sokal-btn-bg: #ffffff;
+   --sokal-btn-color: #0077d9;
+ }
+ 
+ .sokal-btn-secondary.dark-theme {
+   --sokal-btn-bg: #ffffff;
+   --sokal-btn-color: #0077d9;
+ }
+ 
+ .sokal-btn-secondary, 
+ html .vehicle-buttons .sokal-btn-secondary {
+   background-color: var(--sokal-btn-bg);
+   color: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-secondary::after, 
+ html .vehicle-buttons .sokal-btn-secondary::after {
+   background: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-secondary:hover, 
+ .sokal-btn-secondary:focus, 
+ html .vehicle-buttons .sokal-btn-secondary:hover, 
+ html .vehicle-buttons .sokal-btn-secondary:focus {
+   color: var(--sokal-btn-bg);
+ }
+ 
+ /* Links */
+ 
+ .sokal-link {
+   font-family: Arial;
+   font-size: .875rem;
+   line-height: calc(0.875rem + 2px);
+   letter-spacing: 1px;
+ }
+ 
+ .sokal-link, 
+ .sokal-link:hover, 
+ .sokal-link:focus {
+   color: #000000;
+   text-decoration: none;
+ }
+ 
+ .sokal-link.dark-theme, 
+ .sokal-link.dark-theme:hover, 
+ .sokal-link.dark-theme:focus {
+   color: #ffffff;
+ }
+ 
+ .sokal-link-copy {
+   position: relative;
+ }
+ 
+ .sokal-link-copy::after {
+   content: "";
+   display: block;
+   width: 0px;
+   border-bottom: 1px solid;
+   position: relative;
+   bottom: -3px;
+   left: 0;
+   box-sizing: border-box;
+   transition: width ease-in-out .1s;
+ }
+ 
+ /* Primary Link */
+ 
+ .sokal-link-primary .sokal-link-copy::after {
+   width: 100%;
+ }
+ 
+ /* Secondary Link */
+ 
+ .sokal-link-secondary:hover .sokal-link-copy::after, 
+ .sokal-link-secondary:focus .sokal-link-copy::after {
+   width: 100%;
+ }
+             
+  /* Get Additional Savings Styling on Specials Pages 06/06/24 */ 
+          
+.stacked-srp-prices .get-price-button:hover {
+  color: #0077d9;
+  background-color: #ffffff;
+}
+          
+.stacked-srp-prices .get-price-button {
+  background-color: #0077d9;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: calc(0.875rem + 2px);
+    /*letter-spacing: 1px;*/
+    text-align: center;
+    text-decoration: none;
+    min-height: 34px;
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid #0077d9;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    transition: color ease-in-out .15s;
+}
+          
+div .get-price-container {
+    width: 100%!important;
+}
+          
+.available-rebates-section .btn-success:hover {
+   background-color: #ffffff;
+   border-color: #0077d9;
+ }
+          
+.stacked-srp-prices .get-price-btn-container input.event-pageview[data-category*="Specials View"] ~ .template-specials-show ~ .container-fluid #vehicles-infinite-scroll .vehicle-unit .stacked-srp-prices > .col-xs-6:nth-child(2) > * {
+    width: 100%!important;
+}
+
+ .service-coupons .service-coupon .coupon-footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 35px;
+    max-width: 380px;
+  }
+          
+.service-coupons .service-coupon .service-coupon-body .coupon-text p {
+   color: #ffffff!important;
+}
+
+h4.customized-payment-header {
+    padding-bottom: 15px;
+  }
+
+div#custom_vehicle_form .container-price {
+    display: none;
+}
+
+
+button.payment-calculator-offer-btn:hover::after, button.payment-calculator-offer-btn:focus::after {
+    width: 100%;
+    left: 0;
+    transition: width ease-in-out .2s;
+}
+          
+.payment-calculator-offer-btn::after, html .payment-calculator-offer-btn::after {
+    background: black;
+  color: white;
+}
+
+.payment-calculator-offer-btn:hover {
+   color: white;
+}
+
+/**/
+
+.lhnHocInviteCont {
+    background: #519bf4 !important;
+    color: black !important;
+}
+
+div#lhnHocButton div.lhnHocChatBtnCont {
+    background-color: #519bf4 !important;
+}
+
+.lhnHocChatTxtCont {
+    background: #519bf4 !important;
+}
+
+.lhnHocChatBubbleCont {
+    background: #519bf4 !important;
+}
+          
+/* Footer */
+ body .solid-background-map-and-hours-component .map-contact {
+    background-color: #0077d9;
+ }
+          
+ /* Chat Tool Color Change */
+   a.cn-b13-chat, .cn-b13-x-chat {
+    background-color: #0077d9;
+}
+          
+  body .cn-b13-x-chat {
+    background-color: #0077d9;
+}
+       
+
+/* Footer Color Changes */
+.footer-contact-icon {
+  background: #6e6e6e;
+}
+
+/* Adjusting new inventory specials pages */
+.available-rebates-section .btn-success:hover {
+    color: black !important;
+}
+
+/* centering coupon buttons */
+.coupon-footer .margin-bottom-10 {
+    display: flex;
+    justify-content: center;
+}
+
+.price-savings h4:before {
+    content: '-';
+}
+
+a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+    display: none;
+}
+
+.eprice-button {
+	margin-top: 0px;
+}
+
+/* Universal fix to change header color across the site */
+.header {
+    background-color: #0077d9 !important;
+    color: #fff;
+}

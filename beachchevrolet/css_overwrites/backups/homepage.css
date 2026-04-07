@@ -1,0 +1,523 @@
+/* Component Buttons */
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn {
+  --sokal-btn-bg: #000000;
+  --sokal-btn-color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn {
+  font-size: 0.875rem;
+  line-height: calc(0.875rem + 2px);
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 16px 40px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  transition: color ease-in-out 0.15s;
+}
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn::after,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width 0.1s ease-in-out;
+}
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn:hover::after,
+body .arbitrary-dropdown-search-filter-component .search-form-btn:focus::after,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn:hover::after,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn:focus::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out 0.2s;
+}
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn::after,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn::after {
+  background: #ffffff;
+}
+
+body .arbitrary-dropdown-search-filter-component .search-form-btn:hover,
+body .arbitrary-dropdown-search-filter-component .search-form-btn:focus,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn:hover,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn:active,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn:focus {
+  color: #000000;
+  background-color: #000000;
+}
+
+/* filter any field overflow hero */
+
+body #browse-arbitrary-search-overflow-hero .browse-filter-hero-component {
+  height: 77.5vh;
+}
+
+/* Changes to overflow hero *06/04/24 GR* */
+@media (max-width: 767px) {
+  body #browse-arbitrary-search-overflow-hero .browse-filter-hero-component {
+    height: 69.5vh;
+  }
+}
+
+@media (max-width: 767px) {
+  #browse-arbitrary-search-overflow-hero .overlay-content {
+    justify-content: center !important;
+  }
+}
+
+body #browse-arbitrary-search-overflow-hero .overlay-content {
+  height: 100%;
+}
+
+body #browse-arbitrary-search-overflow-hero .inventory-type-button-block {
+  font-size: 18px;
+}
+
+/* interaction bar w/ search */
+
+body .interaction-bar-with-search-component {
+  --pc: #53565a;
+  --scroll-overlay-gradient-rgba-min: rgb(0 0 0 / 0%);
+  --scroll-overlay-gradient-rgba-max: rgb(0 0 0 / 100%);
+  --search-btn-border-color: #ffffff;
+  --search-btn-bg-color: #000000;
+}
+
+body .interaction-bar-with-search-component {
+  border-top: solid 1px #0077d9;
+}
+
+body .interaction-bar-with-search-component,
+body
+  .interaction-bar-with-search-component.horizontal-scroll-component
+  .scroll-horizontal {
+  background-color: #efefef;
+}
+
+body [class*="interaction-bar"] .scroll-item[data-item-name="Cars Under $30K"] {
+  display: none;
+}
+
+body .interaction-bar-with-search-component .ibar-btn,
+body .interaction-bar-with-search-component .ibar-btn:hover,
+body .interaction-bar-with-search-component .ibar-btn:active,
+body .interaction-bar-with-search-component .ibar-btn:focus {
+  text-shadow: none;
+}
+      
+/* CHANGES THE ICON BAR ICON COLOR 
+.homepage-components
+  .interaction-bar-with-search-component
+  .ibar-btn__icon
+  svg {
+  fill: white;
+} */
+
+body
+  .interaction-bar-with-search-component
+  .ibar-btn:hover
+  .ibar-btn__icon
+  svg {
+  fill: #0077d9 !important;
+} 
+
+body .interaction-bar-with-search-component .ibar-btn {
+  --text-color: #53565a;
+  color: var(--text-color);
+}
+
+body .interaction-bar-with-search-component .ibar-btn:hover,
+body .interaction-bar-with-search-component .ibar-btn:active,
+body .interaction-bar-with-search-component .ibar-btn:focus {
+  --pc: #0077d9;
+  --text-color: #0077d9;
+  color: var(--text-color);
+  opacity: 1;
+}
+
+body .interaction-bar-with-search-component .scroll-nav-btn {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-group-btn:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-search {
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn {
+  border-width: 1px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-group-btn
+  .alternate-btn-text {
+  font-size: 12px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-search::placeholder {
+  color: #53565a;
+}
+
+/* Quick Links */
+
+@media (min-width: 1200px) {
+  body .dynamic-quick-links-square-with-icon::after {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 1130px;
+    height: 2px;
+    background-color: #f3f3f3;
+    margin: 50px auto 0px auto;
+  }
+}
+
+/* Value Blocks Slider */
+
+body .value-blocks-slider-component {
+  margin-bottom: 100px;
+}
+
+body
+  .value-blocks-slider-component.horizontal-scroll-component
+  .scroll-horizontal {
+  background-color: #000000;
+}
+
+body .value-blocks-slider-component .slider-card {
+  border-color: #f3f3f3;
+}
+
+body .value-blocks-slider-component .slider-card-tagline {
+  font-size: 16px;
+}
+
+body .value-blocks-slider-component .slider-card-title {
+  font-size: 40px;
+}
+
+body .value-blocks-slider-component .slider-card-btn {
+  --sokal-btn-bg: #000000;
+  --sokal-btn-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  position: relative;
+  font-size: 14px;
+}
+
+body .value-blocks-slider-component .slider-card-btn::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width 0.1s ease-in-out;
+  background: #ffffff;
+}
+
+body .value-blocks-slider-component .slider-card-btn:hover::after,
+body .value-blocks-slider-component .slider-card-btn:focus::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out 0.2s;
+}
+
+body .value-blocks-slider-component .slider-card-btn:hover,
+body .value-blocks-slider-component .slider-card-btn:focus {
+  background-color: transparent;
+  color: #000000;
+}
+
+body .value-blocks-slider-component .scroll-nav--left {
+  right: unset;
+  left: 15px;
+}
+
+body .value-blocks-slider-component .scroll-nav--right {
+  right: unset;
+  left: 75px;
+}
+
+@media (max-width: 767px) {
+  body .value-blocks-slider-component .slider-card-tagline {
+    font-size: 12px;
+  }
+
+  body .value-blocks-slider-component .slider-card-title {
+    font-size: 25px;
+  }
+
+  body .value-blocks-slider-component .slider-card-btn {
+    font-size: 12px;
+  }
+}
+
+#browse-arbitrary-search-overflow-hero .dropdown-search-filter {
+  display: none;
+}
+body #browse-arbitrary-search-overflow-hero {
+  margin: 0;
+}
+
+/* Fixing buttons on homepage 
+.sokal-btn-primary {
+  background-color: #000000;
+  color: #ffffff;
+}*/
+
+.sokal-btn {
+  font-weight: normal;
+  line-height: calc(0.875rem + 2px);
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  min-height: 48px;
+  /* width: 100%; */
+  padding: 16px 40px;
+  border: 2px solid #0077d9;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  transition: color ease-in-out 0.15s;
+}
+              
+/* Hover Fixes */
+.homepage-components .vehicle-type-display .nav > li > a:hover {
+  background: #fff;
+  border-bottom: 3px solid #0077d9;
+}
+
+/* New Additions */
+
+body .dynamic-quick-links-square-with-icon {
+  padding-top: 0;
+}
+
+.hp-5050-content .sokal-5050-content {
+  height: 100%;
+}
+
+.sokal-5050--image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-contact-icon {
+  background: #6e6e6e;
+  color: #ffffff;
+}
+
+.footer-contact-icon span.sokal-link-copy,
+.footer-contact-icon .icon-box h5 {
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .sokal-5050-content--bg-image {
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/893/156/original/2024-suburban-interior-04.jpg?1715695324);
+    background-size: contain !important;
+    background-position: 50% !important;
+    height: 400px !important;
+  }
+}
+
+/* Homepage Adjustments 05/29/24 */
+.dynamic-quick-links-square-with-icon .sokal-component-title::after {
+  display: none !important;
+}
+
+.dynamic-quick-links-square-with-icon .dynamic-quick-link {
+  height: 175px !important;
+}
+
+body .value-blocks-slider-component .slider-card-tagline {
+  display: none;
+}
+
+.vehicle-type-display .nav > li.active > a {
+  color: #0077d9 !important;
+  border-bottom: 3px solid #0077d9 !important;
+}
+
+body #browse-arbitrary-search-overflow-hero .inventory-type-button-block:hover {
+  color: #0077d9 !important;
+}
+
+@media screen and (max-width: 767px) {
+  body .custom-hp-content-item .genesis-anchor {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body .custom-hp-content-item .bg-image--solo {
+    background-position: center;
+    height: 300px;
+  }
+}
+
+
+
+/* Temp fix for mobile - KA 10/18/24 */
+/* For some reason the hero shows blank when there isnt a bg video on mobile only */
+              
+              
+             
+#browse-arbitrary-search-overflow-hero .bg-layer {
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/102/244/original/homepage-mh-02-v3.png?1728312621) !important;
+}
+
+#browse-arbitrary-search-overflow-hero .bg-layer {
+    position: absolute;
+    width: 100%;
+    height: 88% !important;
+    top: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 1s ease-in-out;
+}
+
+body #browse-arbitrary-search-overflow-hero .overlay-content {
+    height: 88%;
+    bottom: 12%;
+}
+
+
+
+
+/* MOOSE TESTING CLS FIX */
+/*
+#flexslider-home {
+  	width: 100%;
+  	height: auto;
+	aspect-ratio: 3.13;
+}
+@media (max-width: 767px) {
+	#flexslider-home {
+		aspect-ratio: 1.07;
+    }
+}
+              
+              
+#flexslider-home .slider-content {
+  width: 100%;
+  height: 0;
+  padding-top: 32%;
+  position: relative;
+}
+#flexslider-home .slider-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+	#flexslider-home .slider-content {
+		padding-top: 93.16%;
+  }
+}              
+
+#flexslider-home {
+	min-height: auto;
+}
+*/
+
+/* HP Alternate Content Fix */
+.custom-homepage--wrapper {
+    text-align: left;
+}
+
+
+  /* INTERACTION BAR ADJUSTMENTS - GR 10/02/25 SUP00087992 */
+.scroll-item--default[data-item-name="View Specials"] {
+  display: none;
+}
+
+.scroll-item[data-item-name="New Vehicles"] {
+    order: -4;
+}
+.scroll-item[data-item-name="Used Vehicles"] {
+    order: -3;
+}
+.scroll-item[data-item-name="Schedule Service"] {
+    order: -2;
+}
+.scroll-item[data-item-name="View Manager's Specials"] {
+    order: -1;
+    display: none;
+}
