@@ -1,0 +1,26 @@
+body .FooterGreyLeft {
+  background-color: #ffffff;
+  color: #000;
+}
+body .FooterGreyLeft * {
+  color: #393839 !important;
+}
+body .FooterGreyLeft .sokal-white-logo {
+  opacity: 1;
+  background: #000;
+  padding: 10px;
+  height: 40px;
+}
+.FooterGreyLeft > .container > .row:nth-of-type(5) {
+  display: none;
+}
+body .FooterGreyLeft .row:nth-child(6) {
+    display: flex;
+    align-items: center;
+}
+.maw-footer-container--logo {
+	margin-left: auto;
+}
+.container-fluid.footer-contact-icon.sokal-bg-genesis-grey .sokal-link {
+    font-size: 12px;
+}

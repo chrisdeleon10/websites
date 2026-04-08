@@ -1,0 +1,210 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo,
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a,
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/992/693/original/CCVL-LOGO-2026-Stacked-300x151-White.png?1774618419");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* MAKE A WISH ADDITIONS */
+@media (min-width: 768px) and (max-width: 1214px) {
+    .maw-additional a {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 575px) {
+    .maw-additional a {
+        max-width: 55px !important;
+        margin-left: 10px;
+    }
+}
+.maw-additional {
+	width: 12%;
+  margin-bottom: 0;
+    margin-top: 34px;
+}
+.maw-additional a {
+  	display: inline-block;
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/982/427/original/CF-SP-011823-MAW-White-01.png?1721236061) !important;
+  	height: 60px;
+    width: 115px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* nav right contact */
+
+body .nav-right-with-contact {
+  --bg-color: var(--sokal-color-lincoln-black, #000000);
+  --text-color: var(--sokal-color-lincoln-white, #ffffff);
+  --nav-border-bottom-color: var(--sokal-color-lincoln-cool-gray, #53565A);
+  --mobile-hours-bar-border-bottom-color: var(--sokal-color-lincoln-cool-gray, #53565A);
+}
+
+body .nav-right-with-contact .nav-contact-toolbar::after {
+  content: '';
+  display: block;
+  width: 200vw;
+  height: 1px;
+  position: absolute;
+  left: -100vw;
+  bottom: 0;
+  background-color: var(--sokal-color-lincoln-cool-gray, #53565A);
+}
+  
+body .nav-right-with-contact #desktop-logo img {
+  max-height: 60px;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+  height: 132px;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu {
+  padding: 19px 0 16px 0;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu > li > a {
+  font-size: 14px;
+  padding: 10px 25px 10px 15px;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu > li > a[href="#dropdown-search"] {
+  font-size: 15px;
+  padding-right: 10px;
+  opacity: 0.8;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar {
+  padding: 6.5px 0;
+}
+
+body .nav-right-with-contact .nav-contact-toolbar a {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu > li:not(:last-child) {
+  margin-right: 20px;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu > li:not(.dropdown) > a::after {
+  content: none;
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu > li.dropdown > a::after {
+  content: '';
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  left: unset;
+  bottom: unset;
+  top: 50%;
+  right: 0%;
+  width: 10px;
+  height: 15px;
+  opacity: 0.4;
+  transform: translateY(-50%);
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: var(--sokal-icon-chevron-down-sm);
+}
+
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:hover::after, 
+body .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:focus::after {
+  background-color: transparent;
+}
+
+body .nav-right-with-contact #dropdown-search .search-bar {
+  border-color: var(--sokal-color-lincoln-cool-gray, #53565A);
+}
+  
+  
+  /* Nav Bar Changes */
+
+  
+body .nav-right-with-contact .navbar .dropdown-menu>li>a:hover,  
+.nav-right-with-contact #more-dropdown:hover {
+  background: #cd9834;
+  color: #ffffff;
+} 
+  
+.nav-right-with-contact .vehicle-model-dropdown .search-btns .btn {
+    color: #ffffff !important;
+    background-color: #cd9834!important;
+    border: 2px solid;
+    border-color: #cd9834!important;
+  }
+          
+.nav-right-with-contact .vehicle-model-dropdown .search-btns .btn::hover {
+    background-color: transparent!important;
+    border-color: #cd9834!important;
+    color: #cd9834!important;
+}
+  
+  .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:hover, 
+    .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:active, 
+    .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:focus {
+    background: white !important;
+    color: #cd9834 !important;
+}    
+
+/* End of Nav Universal Revamp */
+
+/* Custom CSS for Myrtle Beach Chevy */
+
+/* Combining Service & Parts Numbers in the Nav*/
+a.sales.phone-link.phone-parts.ws-dynamic-number {
+    display: none;
+}
+
+a.sales.phone-link.phone-service.ws-dynamic-number {
+    border: none;
+    margin: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 1200px) {
+    .nav-right-with-contact .nav-contact-toolbar[data-items*="phone-sales"][data-items*="phone-service"]
+  [data-items*="phone-parts"][data-items*="address"][data-items*="hours"]
+  [data-items*="translate"]:not([data-has-matching-phones="true"]) .toolbar-select-language {
+        display: block !important;
+    }
+}
+@media (max-width: 1250px) {
+  .vcenter.toolbar-hours:not(.nav-right-with-contact .mobile-nav-utility-bar .toolbar-hours) {
+    display: none;
+  }
+}
+.dropdown-menu>li>a:focus {
+    outline: none;
+    outline-offset: 0;
+}
+body .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:focus {
+    background: var(--pc);
+    color: #ffffff;
+    outline: none;
+}
+
+/* Making the nav bar full width (monthly audit request) */
+@media (min-width: 1501px) {
+    body #header.nav-right-with-contact .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,314 @@
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.hidden-lg .vdp-specials .special-offer,
+.specials-title,
+.specials-block,
+.vertical-item.badge-item[data-name="carfax-badge"],
+.block.card.buttons-block
+  .vehicle-show-buttons.vehicle-buttons
+  .srp-btn--notify,
+.block.card.buttons-block
+  .vehicle-show-buttons.vehicle-buttons
+  .srp-btn--value {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+
+body .vdp-container .available-rebates-section .available-rebates-btn {
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+.toggle-disclaimer-modal {
+  display: block;
+}
+#v-badges div[data-name="certification-badge"] img {
+  max-width: 200px;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #ff_link img {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1201px) {
+  #ff_link img {
+    margin-top: 10px;
+  }
+}
+
+.before-you-buy-btn {
+  display: block;
+  background-color: #cd9834;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0px;
+  border: 1px solid #cd9834;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.before-you-buy-btn:hover {
+  background-color: #ffffff;
+  color: #cd9834 !important;
+  text-decoration: none;
+  border-color: #cd9834;
+}
+
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  color: #ffffff !important;
+}
+/* Get Additional Savings Button Scripted Button */
+.get-price-btn-container .get-price-button {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: calc(0.875rem + 2px);
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: #000000;
+  /* min-height: 48px;*/
+  width: 100%;
+  padding: 16px 12px;
+  border: 2px solid #000000;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  margin: 5px 0;
+  transition: color ease-in-out 0.15s;
+}
+.get-price-btn-container .get-price-button:hover::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out 0.2s;
+  background: #cd9834;
+}
+.get-price-btn-container .get-price-button::after {
+  background: var(--sokal-btn-color);
+}
+.get-price-btn-container .get-price-button::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width 0.1s ease-in-out;
+}
+.split-vdp-with-toolbar .get-price-button:hover {
+  color: #fff !important;
+  border-color: #cd9834;
+}
+.split-vdp-with-toolbar .get-price-button:active,
+.split-vdp-with-toolbar .get-price-button:focus {
+  background-color: transparent;
+  color: var(--pc) !important;
+  border-color: var(--pc);
+}
+
+div#est-payment {
+  width: 100%;
+}
+.split-vdp-with-toolbar
+  .search-result-buttons
+  .vehicle-buttons-stacked
+  .secondary-btn {
+  margin: 0;
+}
+
+.split-vdp-with-toolbar .available-rebates-btn {
+  margin: auto;
+}
+.stacked-vehicle-prices .asking-price h5.price-label,
+.stacked-vehicle-prices .asking-price h3 {
+  font-size: 14px !important;
+}
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h3,
+.new-price-block-styles .price-block h3,
+.new-price-block-styles .stacked-vehicle-prices h3,
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h4,
+.new-price-block-styles .price-block h4,
+.new-price-block-styles .stacked-vehicle-prices h4,
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h5,
+.new-price-block-styles .price-block h5,
+.new-price-block-styles .stacked-vehicle-prices h5 {
+  font-size: 14px;
+}
+.vauto-incentives {
+  margin-bottom: 15px;
+}
+
+.split-vdp-with-toolbar .available-rebates-section {
+        margin-bottom: 10px;
+    }
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates,
+button.btn.btn-block.btn-success.available-rebates-btn.hide-available-rebates {
+        background-color: #fff !important;
+        color: #cd9834 !important;
+        font-size: 16px;
+  		width: 100%;
+        font-weight: 500;
+        padding: 10px 34px;
+        border-radius: 0px;
+        -webkit-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+        -moz-transition: all 0.3s ease;
+        transition: 0.3s all ease;
+        border-color: #cd9834;
+        border: 2px solid;
+    }
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:hover,
+button.btn.btn-block.btn-success.available-rebates-btn.hide-available-rebates:hover {
+    background-color: #cd9834 !important;
+    color: #fff !important;
+    border-color: #cd9834;
+    text-decoration: none;
+    }
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:active,
+    button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:focus,
+    button.btn.btn-block.btn-success.available-rebates-btn.hide-available-rebates:active,
+button.btn.btn-block.btn-success.available-rebates-btn.hide-available-rebates:focus {
+    background-color: #ffffff !important;
+    border-color: #393839 !important;
+    color: #393839 !important;
+    }
+
+
+
+.available-rebates-section:hover button {
+    color: white !important;
+    background: #cd9834 !important;
+}
+
+.search-button--coupon {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: calc(0.875rem + 2px);
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    /* min-height: 48px; */
+    width: 100%;
+    padding: 16px 12px;
+    border: 2px solid #000000;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    transition: color ease-in-out 0.15s;
+}
+
+.search-button--coupon:hover,
+.search-button--coupon:active,
+.search-button--coupon:focus {
+    color: #fff !important;
+    border-color: #cd9834;
+  background: transparent;
+}
+
+.search-button--coupon:hover::after {
+    width: 100%;
+    left: 0;
+    transition: width ease-in-out 0.2s;
+    background: #cd9834;
+}
+
+.search-button--coupon::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-sizing: border-box;
+    transition: width 0.1s ease-in-out;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    color: #000000;
+    border-color: #000000;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:hover {
+    border-color: #000000;
+    background-color: transparent;
+}
+
+.vehicle-features-wrapper .sokal-bg-cover {
+    border-color: #333;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__btn,
+.split-vdp-with-toolbar .vdp-section-title::after,
+.split-vdp-with-toolbar .vehicle-features-title::after {
+    background-color: #333;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__name,
+.vehicle-spec-display__content .content-value {
+    color: #333;
+}
+
+.split-vdp-with-toolbar {
+    --pc: #333333;
+}
+    
+    .available-rebates-section {
+    display: none;
+}
+    
+.vdp-custom-header.sticky-nav-element.vdp-subnav--title-trim-mileage-price-block {
+    position: relative !important;
+    top: 0px !important;
+} 
+    .new-price-block-styles .price-block h4 {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+    
+    .new-price-block-styles .price-block h5.price-label, 
+    .new-price-block-styles .stacked-vehicle-prices h5.price-label {
+          float: left;
+    width: 60%;
+}
+    
+.search-buttons-wrapper .col-xs-6 {
+  width: 100%;
+}
+    
+    .split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] {
+    padding: 0 0px 10px 0 !important;
+}
+
+.split-vdp-with-toolbar .search-result-buttons {
+      padding: 0px !important;
+    }
+
+a#couponModalBtn {
+    padding-top: 16px;
+}

@@ -1,0 +1,1349 @@
+ /* NEW CHEVY REDESIGN AND NEW CSS START*/
+
+/* Default ADA page logo */
+
+img[src="https://d2v1gjawtegg5z.cloudfront.net/assets/ada_logo-60d19c3b4c537e0f6dd75513ad8275a434ac418291f443fbae24be71a1cf6e7b.png"]
+{
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+:root {
+  --sokal-icon-chevron-down-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/707/325/original/genesis-chevron-down-bold-sm.png?1703192172');
+    --sokal-icon-chevron-down-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/707/326/original/genesis-chevron-down-bold-lg.png?1703192172');
+    --sokal-icon-chevron-right-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/239/original/genesis-chevron-right-bold-sm.png?1704205997');
+    --sokal-icon-chevron-right-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/240/original/genesis-chevron-right-bold-lg.png?1704206000');
+    --sokal-icon-search-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/064/original/genesis-search-bold-lg.png?1703619365');
+    --sokal-icon-close-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/076/original/genesis-close-outline-bold-lg.png?1703625322');
+    --sokal-icon-close-solid-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/713/063/original/genesis-close-solid-bold-lg.png?1703619365');
+    --sokal-icon-arrow-right-lg: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/721/243/original/genesis-arrow-right-bold-lg.png?1704209728');
+    --sokal-icon-checkmark-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/724/764/original/genesis-checkmark-bold-sm.png?1704482759');
+    --sokal-icon-checkmark-white-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/724/765/original/genesis-checkmark-bold-sm-white.png?1704483103');
+    --sokal-icon-phone-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/728/285/original/genesis-phone-solid-bold.png?1704738104');
+    --sokal-icon-map-marker-sm: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/728/286/original/genesis-geolocation-solid-regular.png?1704738109');
+  }
+
+/* Site Map Links */
+
+.site-map-container a,
+.row > .col-xs-12 > ul > li > a,
+.row > .col-md-4 > ul > a,
+.row > .col-md-4 > ul > a + ul > li > a,
+.row > .col-xs-12 > .row > .col-xs-6 > a,
+.row > .col-xs-12 > .row > .col-xs-4 > a {
+  color: #000000;
+}
+
+/* Default Form Styles */
+
+input[type="checkbox"] {
+  position: relative !important;
+}
+input[type="checkbox"][name="okay_to_contact"] {
+  margin-right: 8px;
+}
+.streakform .radio label,
+.streakform .checkbox label {
+  padding-left: 25px;
+}
+.streakform .radio input[type="radio"],
+.streakform .radio-inline input[type="radio"],
+.streakform .checkbox input[type="checkbox"],
+.streakform .checkbox-inline input[type="checkbox"] {
+  margin-left: -25px;
+}
+input[type="checkbox"] {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+input[type="radio"]::before,
+input[type="radio"]::after,
+input[type="checkbox"]::before,
+input[type="checkbox"]::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type="radio"]::before,
+input[type="radio"]::after {
+  border-radius: 100%;
+}
+input[type="checkbox"]::before,
+input[type="checkbox"]::after {
+  border-radius: 3px;
+}
+input[type="radio"]::before,
+input[type="checkbox"]::before {
+  border: solid 1px #d5d5d5;
+  background-color: #ffffff;
+}
+input[type="radio"]::before {
+  width: 22px;
+  height: 22px;
+}
+input[type="radio"]::after,
+input[type="checkbox"]::after {
+  background-color: transparent;
+}
+input[type="radio"]::after {
+  width: 8px;
+  height: 8px;
+}
+input[type="checkbox"]::before,
+input[type="checkbox"]::after {
+  width: 22px;
+  height: 22px;
+}
+input.compare-vehicle-id[type="checkbox"] {
+  top: 0;
+}
+input[type="radio"]:checked::after,
+input[type="checkbox"]:checked::after {
+  background-color: #000000;
+}
+input[type="checkbox"]:checked::after {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/228/768/original/ss-gizmo-check-sm--white.png?1659970343);
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+input[type="radio"]:disabled::before,
+input[type="checkbox"]:disabled::before {
+  border-color: #999999;
+}
+input[type="radio"]:disabled::before,
+input[type="checkbox"]:disabled::after {
+  background-color: #999999;
+}
+input:disabled {
+  opacity: 0.4 !important;
+}
+.has-error input,
+.has-error select,
+.has-error textarea {
+  background-color: #999999 !important;
+  border: solid 2px #000000 !important;
+  color: #000000 !important;
+}
+.has-error input::placeholder,
+.has-error select::placeholder,
+.has-error textarea::placeholder {
+  color: #000000 !important;
+}
+.has-error label,
+.has-error .field-error-message {
+  color: #000000 !important;
+}
+.streakform > .col-md-push-6 > .form-top-text + .row {
+  margin-top: 45px;
+}
+.streakform
+  > .col-md-push-6
+  > .form-top-text
+  + .row
+  > .col-sm-6:nth-of-type(1)
+  > .form-group:nth-of-type(2)
+  > input:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+.streakform .btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff !important;
+  display: inline-block;
+  border: 0px;
+  border-radius: 3px !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.streakform .btn-group[name="has_a_trade_in"] .btn-primary {
+  width: 49%;
+  margin: 0;
+}
+.streakform .btn-group[name="has_a_trade_in"] .btn-primary:nth-of-type(1) {
+  margin-right: 2%;
+}
+.streakform .btn-primary.active,
+.streakform .btn-primary.focus,
+.streakform .btn-primary.active.focus,
+.streakform .btn-primary:hover,
+.streakform .btn-primary:active,
+.streakform .btn-primary:focus {
+  background-color: #ffffff;
+  border-color: #000000;
+  border: 1px solid;
+  color: #000000 !important;
+}
+@media (max-width: 991px) {
+  .streakform > .col-md-push-6 {
+    margin-bottom: 150px;
+  }
+}
+
+/* Default Service Coupons */
+
+.service-coupons .service-coupon {
+  min-height: 540px !important;
+  padding-top: 15px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  border: 0px;
+}
+.service-coupons .service-coupon .service-coupon-body .coupon-offer {
+  border: 0px;
+  border-radius: 3px;
+  height: 70px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-coupon .service-coupon-body .coupon-text {
+  display: none;
+}
+.service-coupon .service-coupon-body .coupon-text p,
+.service-coupon .service-coupon-body .coupon-text h1,
+.service-coupon .service-coupon-body .coupon-text span {
+  font-weight: normal !important;
+  color: #000000 !important;
+}
+.service-coupon > h4.pull-right {
+  display: none;
+}
+.service-coupon .coupon-footer {
+  padding-bottom: 15px;
+}
+.service-coupon .coupon-footer .get-coupon-btn {
+  border: 0px;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.service-coupon .coupon-footer .get-coupon-btn:hover,
+.service-coupon .coupon-footer .get-coupon-btn:active,
+.service-coupon .coupon-footer .get-coupon-btn:focus {
+  border: 0px;
+  color: #999999;
+}
+
+.service-coupons .directions-btn {
+  display: none;
+}
+
+.service-coupon .service-coupon-body .coupon-title a,
+.service-coupon .service-coupon-body .coupon-title h3 {
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service-coupon .service-coupon-body .coupon-title a:hover,
+.service-coupon .service-coupon-body .coupon-title a:active,
+.service-coupon .service-coupon-body .coupon-title a:focus,
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:hover,
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:active,
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:focus {
+  text-decoration: none;
+}
+.service-coupon .service-coupon-body .coupon-title a:hover h3,
+.service-coupon .service-coupon-body .coupon-title a:active h3,
+.service-coupon .service-coupon-body .coupon-title a:focus h3 {
+  color: #999999;
+}
+.service-coupons .service-coupon {
+  min-height: 715px;
+}
+.some-element-selector {
+  color: #000000;
+}
+
+.vehicle-filter-menu .irs-bar,
+button#mobile-refine-results,
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  .sort-menu-container
+  > .row
+  .btn-info,
+#vdp-page #vdp-top,
+#vdp-page .vdp-slider {
+  background-color: #000000;
+}
+
+.vehicle-filter-menu .irs-bar {
+  border-color: #000000;
+}
+
+.vehicle-filter-menu .panel .panel-heading,
+.vehicle-unit-container
+  .vehicle-year
+  .vehicle-unit-container
+  .vehicle-sub-title,
+.vdp-container .vehicle-item,
+.vehicle-unit-container *{
+  color: #000000;
+}
+body .phone-number-badge a:hover {
+    color: red !important;
+}
+.sms-button.car-code-sms-button.btn {
+    color: white;
+    padding-left: 6px;
+}
+
+.sms-button.car-code-sms-button.btn:hover,
+.sms-button.car-code-sms-button.btn:active,
+.sms-button.car-code-sms-button.btn:focus {
+    color: #333;
+    padding-left: 6px;
+}
+
+.vdp-container .vehicle-item:hover,
+.vdp-container .vehicle-item:active,
+.vdp-container .vehicle-item:focus,
+.vdp-container .reviews-link a {
+  color: #efefef;
+}
+
+button#mobile-refine-results:hover,
+button#mobile-refine-results:active,
+button#mobile-refine-results:focus {
+  background-color: #efefef;
+}
+
+.vehicle-unit-container .toggle-pano-modal {
+  color: #ffffff;
+}
+
+/* Price Block SRP + VDP */
+
+.vehicle-prices.new-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+.vehicle-prices.new-vehicle-prices .highest-price {
+  order: 1;
+}
+.vehicle-prices.new-vehicle-prices .price-savings {
+  order: 2;
+}
+.vehicle-prices.new-vehicle-prices .lowest-price {
+  order: 3;
+}
+.stacked-vehicle-prices,
+.vehicle-prices {
+  padding-bottom: 10px;
+}
+
+.vehicle-price-block h5.price-label,
+.price-block h5.price-label,
+.stacked-vehicle-prices h5.price-label {
+  float: left;
+}
+
+.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h3,
+.stacked-vehicle-prices h4 {
+  float: right;
+}
+
+.vehicle-index-price.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-index-price.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h4,
+.vehicle-index-price.vehicle-price-block h5,
+.price-block h5,
+.stacked-vehicle-prices h5 {
+  margin: 0px 0px 5px 0px;
+  font-size: 13px;
+  color: #999999;
+}
+
+.lowest-price h3,
+.single-price h3,
+.single-stacked-price h3,
+.lowest-price h5,
+.single-price h5,
+.single-stacked-price h5 {
+  font-size: 15px !important;
+  color: #4e4e4e !important;
+}
+
+.vehicle-prices > div[class="col-xs-12"] > h3 {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+}
+
+.new-vehicle-prices .price-add-ons h4::before {
+  content: "+";
+}
+
+.locked-price-container h3 {
+  width: 100%;
+}
+
+.row.stacked-srp-prices .col-xs-6:last-child {
+  width: 100%;
+}
+
+.locked-price-container h3 .locked-price-placeholder,
+.locked-price-container h3 .locked-price-label {
+  display: block;
+}
+
+.locked-price-container h3 .locked-price-placeholder {
+  float: right;
+}
+
+.locked-price-container h3 .locked-price-label {
+  float: left;
+}
+
+.stacked-vehicle-prices .locked-price-container h3 {
+  color: #000000;
+}
+
+.new-vehicle-prices .highest-price.double-stacked-price h3,
+.new-vehicle-prices .highest-price.double-stacked-price .price-label {
+  color: #4e4e4e;
+}
+/* Vehicle Thumb */
+
+body .vehicle-thumb-container .preview-image-controls .prev-controls,
+body .vehicle-thumb-container .preview-image-controls .next-controls {
+  opacity: 0.9;
+  background-color: #000000;
+}
+
+.vehicle-thumb-container button.change-image {
+  border-radius: 50px;
+  padding: 12px 16px;
+  margin: 10px;
+  border: 0px;
+}
+
+.vehicle-thumb-container button.change-image .fa {
+  color: #ffffff;
+}
+
+/* ePrice Button */
+
+.get-price-btn-container .get-price-button {
+  width: 100%;
+}
+
+/* Badges */
+
+.custom-badge {
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-right: 8px;
+  max-width: 100%;
+}
+.custom-badge--img {
+  height: 55px;
+}
+.custom-badge--btn {
+  width: 150px;
+}
+
+/* Generic Utility Classes START */
+/*-------------------------------*/
+
+/* COLOR PALETTE */
+.primary-bg--gray {
+  background-color: #5b6770;
+}
+.primary-color--gray {
+  color: #5b6770;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-gray {
+  background-color: #bfbfbf;
+}
+.color-gray {
+  color: #bfbfbf;
+}
+  .secondary-bg--gold {
+  background-color: #cd9834;
+}
+/*
+.sokal-color-light-blue {
+  color: #4298b5;
+}
+*/
+  .bg-primary-color {
+  background-color: #cd9834;
+}
+.alt-bg--gray {
+	background-color: #6E6E6E;
+}
+.alt-color--gray {
+	color: #6E6E6E;
+}
+.alt-bg--highlight {
+	background-color: #1700F4;
+}
+.alt-color--highlight {
+    color: #1700F4;
+}
+.bg--blue-gradient {
+	background: linear-gradient(270deg, rgba(0,9,91,1) 0%, rgba(0,20,46,1) 100%);
+}
+h3.unlock-modal-toggle ~ h5 {
+    display: none;
+}
+/*Employee section fixes*/
+.employee-section .employee-img.text-center img {
+    object-fit: cover;
+    object-position: 30%
+}
+
+.employee-section .col-sm-3.employee-container {
+    height: 510px;
+}
+  
+  /* SPACING */
+.padding-lg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.padding-sm {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.padding-xs {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-only {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+  
+ /* Buttons */
+  
+ html .btn-success:hover, 
+ html .btn-success:focus {
+   outline: none;
+   background-color: var(--sokal-btn-bg);
+   border-color: var(--sokal-btn-bg);
+ }
+ 
+ .sokal-btn, 
+ html .btn-success, 
+ html .vehicle-buttons .sokal-btn, 
+ html .vehicle-buttons .get-price-button,
+ html .vehicle-buttons .unlock-price-button,
+  .payment-calculator-offer-btn {
+   font-size: 14px;
+   font-weight: normal;
+   /*line-height: calc(0.875rem + 2px);*/
+   letter-spacing: 1px;
+   text-align: center;
+   text-decoration: none;
+   min-height: 48px;
+   width: 100%;
+   padding: 16px 40px;
+   border: 1px solid #000000;
+   display: inline-block;
+   position: relative;
+   z-index: 0;
+   box-sizing: border-box;
+   transition: color ease-in-out .15s;
+ }
+ 
+ .sokal-btn.dark-theme, 
+ html .btn-success.dark-theme, 
+ html .vehicle-buttons .sokal-btn.dark-theme, 
+ html .vehicle-buttons .dark-theme .get-price-button,
+ html .vehicle-buttons .dark-theme .unlock-price-btn-container {
+   border-color: #ffffff;
+ }
+ 
+ .sokal-btn::after, 
+ html .btn-success::after, 
+ html .vehicle-buttons .sokal-btn::after, 
+ html .vehicle-buttons .get-price-button::after,
+ html .vehicle-buttons .unlock-price-button::after,
+  .payment-calculator-offer-btn::after {
+   content: "";
+   display: block;
+   width: 0px;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   box-sizing: border-box;
+   transition: width .1s ease-in-out;
+ }
+ 
+ .sokal-btn:hover, 
+ .sokal-btn:focus, 
+ html .btn-success:hover, 
+ html .btn-success:focus, 
+ html .vehicle-buttons .sokal-btn:hover, 
+ html .vehicle-buttons .sokal-btn:focus, 
+ html .vehicle-buttons .get-price-button:hover, 
+ html .vehicle-buttons .get-price-button:focus,
+ html .vehicle-buttons .unlock-price-button:hover,
+ html .vehicle-buttons .unlock-price-button:focus {
+   text-decoration: none;
+ }
+ 
+ .sokal-btn:hover::after, 
+ .sokal-btn:focus::after, 
+ html .btn-success:hover::after, 
+ html .btn-success:focus::after, 
+ html .vehicle-buttons .sokal-btn:hover::after, 
+ html .vehicle-buttons .sokal-btn:focus::after, 
+ html .vehicle-buttons .get-price-button:hover::after, 
+ html .vehicle-buttons .get-price-button:focus::after,
+ html .vehicle-buttons .unlock-price-button:hover::after,
+ html .vehicle-buttons .unlock-price-button:focus::after,
+  .payment-calculator-offer-btn:hover::after,
+  .payment-calculator-offer-btn:focus::after {
+   width: 100%;
+   left: 0;
+   transition: width ease-in-out .2s;
+ }
+ 
+ @media screen and (min-width: 768px) {
+ 
+   .sokal-btn {
+     width: auto;
+   }
+ 
+ }
+ 
+ /* Primary Button */
+  
+  .primary-btn {
+  background-color: #fff;
+  color: #cd9834;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0px;
+  border: 1px solid #cd9834;
+  /*margin: 30px 0;*/
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+  .btn-primary:hover {
+    background: white !important;
+    color: #cd9834;
+    border: 1px solid #cd9834;
+}
+
+ 
+.primary-btn:focus {
+  color: #ffffff;
+}
+.secondary-btn:focus {
+  color: #000000;
+}
+.vehicle-index-page .primary-btn:hover {
+    color: #fff;
+}
+.primary-btn:hover,
+.primary-btn:active {
+  background-color: #cd9834;
+  border-color: #cd9834;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+ .sokal-btn-primary, 
+ html .btn-success, 
+ html .vehicle-buttons .get-price-button , 
+.unlock-price-btn-container {
+   --sokal-btn-bg: #000000;
+   --sokal-btn-color: #ffffff;
+ }
+ 
+ .sokal-btn-primary.dark-theme, 
+ html .btn-success.dark-theme, 
+ html .vehicle-buttons .dark-theme .get-price-button,
+ html .vehicle-buttons .dark-theme .unlock-price-button {
+   --sokal-btn-bg: #ffffff;
+   --sokal-btn-color: #000000;
+ }
+ 
+ .sokal-btn-primary, 
+ html .btn-success, 
+ html .vehicle-buttons .sokal-btn-primary, 
+ html .vehicle-buttons .get-price-button,
+ html .vehicle-buttons .unlock-price-button {
+   background-color: var(--sokal-btn-bg);
+   color: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-primary::after, 
+ html .btn-success::after, 
+ html .vehicle-buttons .sokal-btn-primary::after, 
+ html .vehicle-buttons .get-price-button::after,
+ html .vehicle-buttons .unlock-price-button::after {
+   background: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-primary:hover, 
+ .sokal-btn-primary:focus, 
+ html .btn-success:hover, 
+ html .btn-success:focus, 
+ html .vehicle-buttons .sokal-btn-primary:hover, 
+ html .vehicle-buttons .sokal-btn-primary:focus, 
+ html .vehicle-buttons .get-price-button:hover, 
+ html .vehicle-buttons .get-price-button:focus,
+ html .vehicle-buttons .unlock-price-button:hover,
+ html .vehicle-buttons .unlock-price-button:focus {
+   color: var(--sokal-btn-bg);
+ }
+ 
+ /* Secondary Button */
+ 
+ .sokal-btn-secondary {
+   --sokal-btn-bg: #ffffff;
+   --sokal-btn-color: #000000;
+ }
+ 
+ .sokal-btn-secondary.dark-theme {
+   --sokal-btn-bg: #000000;
+   --sokal-btn-color: #ffffff;
+ }
+ 
+ .sokal-btn-secondary, 
+ html .vehicle-buttons .sokal-btn-secondary {
+   background-color: var(--sokal-btn-bg);
+   color: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-secondary::after, 
+ html .vehicle-buttons .sokal-btn-secondary::after {
+   background: var(--sokal-btn-color);
+ }
+ 
+ .sokal-btn-secondary:hover, 
+ .sokal-btn-secondary:focus, 
+ html .vehicle-buttons .sokal-btn-secondary:hover, 
+ html .vehicle-buttons .sokal-btn-secondary:focus {
+   color: var(--sokal-btn-bg);
+ }
+          
+.footer-contact-icon {
+  background: #6e6e6e;
+  color: #ffffff;
+}
+
+.get-price-button .price-gif-button {
+  width: 100%;
+  max-width: 300px;
+  height: 70px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+
+.btn-success:active,
+.btn-success:focus {
+  background-color: #ffffff !important;
+  border-color: #393839 !important;
+  color: #393839 !important;
+}
+
+body .vehicle-model-dropdown .search-btns .btn:hover,
+body .vehicle-model-dropdown .search-btns .btn:active {
+  background-color: #cd9834 !important;
+  color: #fff !important;
+  border-color: #cd9834 !important;
+  text-decoration: none;
+}
+#payment-calculator-offer .payment-btn-primary {
+  background-color: #393839 !important;
+  color: #ffffff !important;
+  border-color: #393839 !important;
+}
+#payment-calculator-offer .payment-btn-primary:hover,
+#payment-calculator-offer .payment-btn-primary:focus,
+#payment-calculator-offer .payment-btn-primary:active {
+  background-color: #ffffff !important;
+  color: #393839 !important;
+}
+#payment-calculator-offer .payment-btn-secondary {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+}
+#payment-calculator-offer .payment-btn-secondary:hover,
+#payment-calculator-offer .payment-btn-secondary:focus,
+#payment-calculator-offer .payment-btn-secondary:active {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+body .unlock-price-button,
+body .get-price-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+body .unlock-price-button:focus,
+body .get-price-button:focus {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+body .unlock-price-button:hover:focus,
+body .get-price-button:hover:focus {
+  color: #000000 !important;
+  text-decoration: none;
+}
+/* unlock/eprice modal */
+.unlock-price-modal .btn {
+  border-radius: 0px !important;
+}
+.unlock-price-modal .modal-body,
+.unlock-price-modal .modal-footer {
+  background: #ffffff;
+}
+
+body .vehicle-index-buttons .btn {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .container-xl {
+    width: 1320px;
+    max-width: 100%;
+  }
+}
+/* Generic Utility Classes END */
+/*-----------------------------*/
+
+/* COUPON STYLING START */
+/*----------------------*/
+
+.service-coupon .coupon-image-section img {
+    max-height: 180px;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-coupons .service-coupon, .service-coupon .service-coupon-body, .service-coupons .service-coupon .service-coupon-body .coupon-offer {
+    background: #cd9834;
+    color: #ffffff;
+}
+
+.service-coupon .service-coupon-body .coupon-title a, .service-coupon .service-coupon-body .coupon-title h3 {
+    color: #ffffff;
+}
+
+.service-coupon .service-coupon-body .coupon-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.service-coupon .service-coupon-body .coupon-text li {
+    list-style-type: none;
+}
+
+.service-coupon .service-coupon-body .coupon-text ul {
+    padding: 0;
+}
+
+.service-coupon .coupon-footer .expiration, .service-coupon .coupon-footer .disclaimer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.service-coupons .service-coupon {
+    padding-top: 0;
+    border-radius: 8px;
+}
+
+.service-coupon .coupon-footer .get-coupon-btn {
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0px;
+}
+
+.service-coupon .service-coupon-body .coupon-offer h2 {
+    color: #ffffff !important;
+    font-size: 1.75rem !important;
+}
+
+.service-coupons .service-buttons-container .appointment-btn {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #000000;
+    width: 75%;
+    margin: 10px auto;
+    color: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.service-coupons .service-buttons-container .appointment-btn:hover {
+    color: #000;
+    border-bottom-color: #000;
+    background: white !important;
+}
+
+.service-coupon .coupon-footer .disclaimer-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.service-coupon-container {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .service-coupon-container {
+    width: 25% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-coupon-container {
+    width: 30% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-coupon-container {
+    width: 41% !important;
+  }
+}
+
+/* show coupon page */
+.show-coupon .service-coupon {
+    max-width: 280px;
+}
+.show-coupon .service-buttons-container {
+    display: none;
+}
+/* COUPON STYLING END */
+/*--------------------*/
+
+/* PAGE SPECIFICS */
+.webpage p {
+  font-size: 1.75rem;
+}
+.webpage li {
+  font-size: 1.5rem;
+}
+.webpage .nissan-link {
+  color: #393839;
+}
+.webpage .primary-btn {
+  max-width: 270px;
+}
+@media (max-width: 550px) {
+  .webpage .hero h1 {
+    font-size: 26px;
+  }
+
+  .webpage .hero h3,
+  .webpage .hero h2 {
+    font-size: 14px;
+  }
+}
+/* FORM STYLING START*/
+/*-------------------*/
+
+/* Colors */
+.form--style-base .panel {
+    background-color: #ffffff;
+}
+/* Shadows */
+.form--style-base .panel {
+    -webkit-filter: drop-shadow(0px 0px 20px #ececec);
+    filter: drop-shadow(0px 0px 20px #ececec);
+    box-shadow: none;
+}
+.form--style-base .panel-heading {
+    background-color: transparent;
+}
+/* Fonts */
+.form--style-base .form-title {
+    font-family: "Kumbh Sans", sans-serif;
+}
+/* Transitions */
+.form--style-base .btn {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  	font-weight: 500;
+    padding: 10px 34px;
+    border: 1px solid;
+    border-radius: 30px;
+    background: #5b6770;
+}
+.form--style-base .btn:hover,
+.form--style-base .btn:active {
+    opacity: .7;
+}
+/* Form Container */
+.form--style-base {
+    width: 600px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+/* Form Groups */
+.form--style-base .form-group .col-sm-3, 
+.form--style-base .form-group .col-sm-9 {
+    width: 100%;
+    text-align: left;
+}
+/* Panel  */
+.form--style-base .panel {
+    padding: 4vw;
+    background-clip: padding-box;
+    border: 0px;
+    border-radius: 6px;
+}
+/* Panel Heading */
+.form--style-base .panel-heading {
+    border: 0px;
+}
+/* Title */
+.form--style-base .form-title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+/* Buttons */
+/*
+.btn-group.preferred-contact-method {
+    margin-left: 15px;
+}
+*/
+.form--style-base .ajax-form-submit-btn {
+  	display: block;
+    background-color: #00095B;
+    color: #ffffff;
+    font-size: 16px; 
+    font-weight: 500;
+    padding: 10px 34px; 
+    border-radius: 30px; 
+    margin: 30px auto; 
+    -webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+.form--style-base .ajax-form-submit-btn:hover {
+    background-color: #1700F4;
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-method-btn {
+	font-size: 12px;
+}
+.contact-method-btn.active {
+    background: #cd9834;
+    color: #ffffff;
+    border: 1px solid #cd9834;
+}
+/* adjusting velocity engage tool */
+.insert-velo-anchor img {
+  display: none;
+}
+a.insert-velo-anchor a {
+  display: block;
+  height: 22px;
+}
+a.insert-velo-anchor a:after {
+  content: "About This Vehicle";
+  color: #ffffff;
+}
+a.insert-velo-anchor {
+  text-align: center;
+}
+/* FORM STYLING END*/
+/*-----------------*/
+
+/* Service page button formatting */
+/*START*/
+.service-btn {
+  background-color: #cd9834 !important;
+  color: #fff !important;
+  border-radius: 12px;
+}
+.service-btn a {
+  color: white !important;
+}
+.coupon-dotted {
+  border: 5px dotted #f80f13;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+.service-btn:hover {
+  color: white !important;
+  opacity: 0.8;
+  text-decoration: none !important;
+}
+.service-btn a:hover {
+  text-decoration: none !important;
+}
+.bg--red-gradient {
+  background: linear-gradient(
+    270deg,
+    rgba(195, 0, 47, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+.vehicle-index-buttons a[alt="Buy @ Home"] img,
+.vehicle-show-buttons a[alt="Buy @ Home"] img {
+  margin: auto;
+}
+
+/*END*/
+
+/* NEW CHEVY REDESIGN AND NEW CSS END*/
+
+
+/* Specials Page Style Changes */
+body .special-buy-quadrant big, 
+body .special-apr-percent big sup, 
+body .special-discount-quadrant big {
+  color: #cd9834 !important;
+}
+
+span.cn-btn-bn1--label {
+    color: #cd9834;
+}
+
+span.cn-btn-bn1--label:hover,
+span.cn-btn-bn1--label:active,
+span.cn-btn-bn1--label:focus,
+.search-button--calc-payment:hover span.cn-btn-bn1--label,
+.search-button--calc-payment:active span.cn-btn-bn1--label,
+.search-button--calc-payment:focus span.cn-btn-bn1--label {
+    color: #ffffff !important;
+}
+
+
+/* Employee page Adjustments */
+
+@media (min-width: 768px) {
+  .col-sm-3.employee-container {
+      width: 33.3333333333%;
+      min-height: 540px !important;
+  }
+  
+  .employee-section .employee-img {
+      min-height: 170px;
+  }
+  
+  .employee-section .employee-detail-cont {
+      min-height: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-sm-3.employee-container {
+      min-height: 540px !important;
+  }
+  .employee-section .employee-img {
+      min-height: 275px;
+  }
+  
+  .employee-section .employee-detail-cont {
+      min-height: 200px;
+  }
+}
+
+.employee-section .employee-img img {
+      height: auto !important;
+  }
+
+.cn-bn1.demo-cta {
+    display: none;
+}
+
+h5.incentive-label {
+    text-align: left;
+}
+
+.stacked-srp-prices .vauto-incentives h4 {
+    margin-bottom: 0px;
+}
+
+
+.locked-price-container .locked-price span#locked-xxx {
+    float: right;
+}
+
+.locked-price-container .locked-price span#locked-name {
+    float: left;
+}
+
+.stacked-vehicle-prices .unlock-modal-toggle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+/* Changing title of eprice form so there can be a 'submit' button - CD 5/17/24 */
+
+h4#eprice-modal-label {
+    color: transparent;
+}
+
+h4#eprice-modal-label:before {
+    content: 'Check for Discounts';
+    color: #000000;
+}
+
+h4.customized-payment-header {
+    padding-bottom: 15px;
+  }
+
+a.ipacket-btn img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+          
+/*to get Hummer EV nav tab to say title correct*/
+          /*
+.model-container:last-of-type .model-text h3 {
+    display: none;
+}
+
+
+.model-container:last-of-type .model-text:before {
+    content: 'Hummer EV SUV';
+    color: black;
+    font-weight: 200;
+    display: block;
+    margin-bottom: 7px;
+    margin-top: 6px;
+}
+*/
+
+h5.incentive-label, 
+  h4.incentive-amount {
+    color: green;
+}
+
+.applied-rebate h5, 
+.applied-rebate h4 {
+    color: green !important;
+}
+
+.col-xs-12.price-savings h4,
+.col-xs-12.price-savings h5 {
+    color: green;
+}
+
+@media (max-width: 450px) {
+        button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+            font-size: 12px;
+        }
+    }
+
+.vehicle-unit-container .vehicle-buttons {
+    padding-top: 0px;
+}
+   
+.service-coupons .appointment-btn {
+    background: white;
+    color: black;
+    border: 1px solid #000000;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+          
+.service-coupons .appointment-btn:hover,
+.service-coupons .appointment-btn:focus,
+.service-coupons .appointment-btn:hover {
+   background: black;
+   color: white;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+          }
+          
+          button.payment-calculator-offer-btn:hover::after {
+    width: 100%;
+    left: 0;
+    transition: width ease-in-out .2s;
+}
+
+button.payment-calculator-offer-btn::after {
+    background: black;
+    color: white;
+}
+
+button.payment-calculator-offer-btn:hover {
+    color: white;
+}
+          .hidden {
+          display: none;
+          }
+          
+   .service-coupons .coupon-footer {
+    display: flex;
+    flex-direction: column;
+}
+          
+  .service-coupons .coupon-footer .row.margin-bottom-10 {
+    margin-left: 19.666667%;
+    order: 1
+}
+          
+  .service-coupons .index-coupon-disclaimer.text-center {
+    order: 2;
+}
+          
+  .service-coupon .coupon-footer .coupon-phone {
+    background-color: black;
+}
+          
+  .service-coupon .coupon-footer .coupon-phone:hover,
+  .service-coupon .coupon-footer .coupon-phone:active,
+  .service-coupon .coupon-footer .coupon-phone:focus {
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+}

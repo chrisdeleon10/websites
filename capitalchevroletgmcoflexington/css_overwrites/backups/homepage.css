@@ -1,0 +1,788 @@
+/* NEW REDESIGN AND NEW CSS START*/
+
+/* BROWSE VEHICLE SEARCH HERO CSS START */
+.inventory-type-button-block {
+  background: #ffffff;
+  opacity: 1;
+  border: #036fba;
+  color: black;
+  border: 1px solid #fff;
+}
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit {
+  background: transparent;
+  border: 1px solid #fff;
+}
+div#search-step {
+  margin-top: 50px;
+}
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit:active,
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit:focus,
+.inventory-type-button-block:hover,
+.inventory-type-button-block:active,
+.inventory-type-button-block:focus {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.6em;
+}
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit {
+  background: transparent;
+  border: 1px solid #fff;
+}
+div#search-step {
+  margin-top: 50px;
+}
+
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit:hover,
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit:active,
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .search-form-btn.vehicle-search-submit:focus {
+  font-size: 20px;
+  background: transparent;
+}
+
+#browse-vehicles-search-hero button.btn.btn-default.no-border-left {
+  background: transparent;
+}
+
+#browse-vehicles-search-hero
+  .vehicle-browse-ajax
+  .form-group:not(#search-submit) {
+  background: transparent;
+  color: white;
+}
+
+#browse-vehicles-search-hero .vehicle-browse-ajax .form-control {
+  color: #ffffff;
+}
+
+#browse-vehicles-search-hero i.fa.fa-search {
+  color: #ffffff;
+}
+#browse-vehicles-search-hero .search-bar .input-group input {
+  color: #ffffff !important;
+}
+#browse-vehicles-search-hero .search-instructions {
+    display: none;
+}
+#browse-vehicles-search-hero .step-instructions {
+    display: none;
+}
+/* BROWSE VEHICLE SEARCH HERO CSS END */
+/* SHOP & SERVICE FILTER */
+
+body #hp-shop-service-component .shop-inventory-buttons .btn,
+body #hp-shop-service-component .service-buttons .btn {
+   	max-width: 300px;
+}
+body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+   	text-align: center;
+}
+body #hp-shop-service-component .service-buttons .btn {
+	display: inline-block;
+}
+body #hp-shop-service-component .shop-inventory-buttons .btn, 
+body #hp-shop-service-component .service-buttons .btn {
+  border: 2px solid transparent;
+  background: #cd9834;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+  text-transform: capitalize;
+}
+body #hp-shop-service-component .shop-inventory-buttons .btn:hover, 
+body #hp-shop-service-component .service-buttons .btn:hover,
+body #hp-shop-service-component .shop-inventory-buttons .btn:active, 
+body #hp-shop-service-component .service-buttons .btn:active,
+body #hp-shop-service-component .shop-inventory-buttons .btn:focus, 
+body #hp-shop-service-component .service-buttons .btn:focus {
+  background: #ffffff;
+  color: #cd9834;
+}
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  text-transform: capitalize;
+}
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:hover,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:focus,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:active {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+	width: 35%;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active:first-child {
+    border-right: none;
+    border-top-right-radius: 0;
+    width: 65%;
+  	-webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):first-child {
+    border-top-right-radius: 0;	  
+    border-bottom-right-radius: 6px;  
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active:last-child {
+    border-left: none;
+    border-top-left-radius: 0;
+    width: 65%;
+    -webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):last-child {
+    border-top-left-radius: 0;	
+    border-bottom-left-radius: 6px;
+}
+
+body #hp-shop-service-component {
+  background: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/657/692/original/2023-silverado-mcm-gallery-ext-0_%281%29.png?1699367884');
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+body #hp-shop-service-component .container {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: #ffffff59;
+  padding: 0;
+  border-radius: 6px;
+}
+
+body #hp-shop-service-component .shop-box {
+  background: transparent;
+  color: #cd9834;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs {
+  background: transparent;
+  border: none;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+  border: 2px solid #ffffff;
+  background-color: #bfbfbf;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-bottom: none;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:hover:not(.active) {
+	background-color: #EBEBEB;
+  	border-color: transparent;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active a {
+  color: #ffffff;
+  background-color: transparent;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:after {
+	height: 3px;
+  	width: 50%
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active:after {
+  background: #ffffff;
+}
+
+body #hp-shop-service-component .tab-pane {
+    border: 2px solid #ffffff;
+  	background-color: transparent;
+}
+
+body #hp-shop-service-component .form-group:not(#search-submit) {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body #hp-shop-service-component .form-control {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+body #hp-shop-service-component .matching-vehicles-found,
+body #hp-shop-service-component #service-filter .service-hours .col-xs-12 p {
+  color: #ffffff;
+}
+body #hp-shop-service-component .tab-pane.active,
+body #hp-shop-service-component #shop-filter.active,
+body #hp-shop-service-component #service-filter.active {
+	background-color: transparent;
+  	border-top: none;
+    min-height: 250px;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a {
+	color: #000000;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a:hover {
+	color: #000000;
+}
+#hp-shop-service-component #service-filter .hours-box {
+    font-size: 1.75rem;
+}
+
+@media (min-width: 1441px) {
+	body #hp-shop-service-component {
+	    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hp-shop-service-component #service-filter .hours-box {
+      font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+	body #hp-shop-service-component .tab-pane .shop-inventory-buttons .col-sm-6.col-xs-12 {
+    	text-align: right;
+	}
+  	body #hp-shop-service-component .shop-inventory-buttons .new-vehicles {
+    	display: inline-block;
+	}
+}
+@media (max-width: 767px) {
+  body #hp-shop-service-component .container {
+  	width: 75%;
+  }
+	body #hp-shop-service-component .shop-inventory-buttons .btn,
+  	body #hp-shop-service-component .service-buttons .btn {
+    	display: inline-block;    	
+	}
+  	body #hp-shop-service-component .tab-pane .shop-inventory-buttons .col-sm-6.col-xs-12,
+  	body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+    	text-align: center;
+	}
+  	body #hp-shop-service-component .tab-pane.active, 
+  	body #hp-shop-service-component #shop-filter.active, 
+  	body #hp-shop-service-component #service-filter.active {
+  		min-height: 600px;
+  }
+  	body #hp-shop-service-component #service-filter .service-buttons {
+  		margin: 35px 0;
+  }
+	body #hp-shop-service-component #service-filter .hours-box {
+    	margin-bottom: 25px;
+	}
+  	body #hp-shop-service-component .form-group:not(#search-submit) {
+	    width: 75%;
+	    margin: 0 auto 15px auto;
+  	}
+  	body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+  	#hp-shop-service-component #service-filter .service-hours {
+    	width: 75%;
+    	margin: auto;
+	}
+}
+@media (max-width: 499px) {
+	body #hp-shop-service-component .container {
+  		width: 90%;
+  }
+  	body #hp-shop-service-component .form-group:not(#search-submit),
+   	body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+	#hp-shop-service-component #service-filter .service-hours {
+	    width: 85%;
+  	}
+  	#hp-shop-service-component .shop-inventory-buttons .btn, 
+  	#hp-shop-service-component .service-buttons .btn {
+  		font-size: 12px !important;
+  	}
+  	body #hp-shop-service-component .shop-box .nav-tabs li {
+    	min-height: 66px;
+	}
+
+	body #hp-shop-service-component .shop-box .nav-tabs li.active {
+    	padding-top: 10px;
+	}
+  	#hp-shop-service-component #service-filter .hours-box {
+      	font-size: 1.5rem;
+  }
+}
+@media (min-width: 432px) and (max-width: 499px) {
+	body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):first-child {
+  		padding-top: 10px
+  	}
+}
+@media (min-width: 354px) and (max-width: 499px) {
+	body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):last-child {
+  		padding-top: 10px
+  	}
+}
+
+/* MAP & HOURS */
+
+.modern-map-hp-content .map-contact {
+  background-color: #000000;
+  color: #ffffff;
+}
+.modern-map-hp-content .map-contact .content-box {
+  padding: 30px;
+  max-width: 460px;
+  margin: auto;
+}
+.modern-map-hp-content .map-contact h4,
+.modern-map-hp-content .map-contact h5,
+.modern-map-hp-content .map-contact .contact-link {
+  color: #bfbfbf !important;
+  text-transform: uppercase;
+}
+.modern-map-hp-content .map-contact p,
+.modern-map-hp-content .map-contact .contact-link {
+  font-size: 13px;
+  font-weight: 400;
+}
+.modern-map-hp-content .map-contact .dealer-location {
+  margin-top: 0px;
+}
+.modern-map-hp-content .map-contact .dealer-address {
+  margin: 15px 0px;
+}
+.modern-map-hp-content .map-contact .hours-heading {
+  margin-top: 30px;
+}
+.modern-map-hp-content .map-contact .modern-map-icon {
+  height: 13px;
+  margin-right: 3px;
+}
+.modern-map-hp-content .map-contact .contact-hours p, 
+.modern-map-hp-content .map-contact h4 {
+  margin-bottom: 5px;
+}
+.contact-hours--service .mon-fri,
+.contact-hours--service .sat-only,
+.contact-hours--service .sunday--closed {
+	display: block !important;
+}
+.contact-hours--sales  .mon-fri.hidden, 
+.contact-hours--sales .sat-only.hidden, 
+.contact-hours--sales .sunday--closed.hidden {
+  display: block !important;
+}
+
+/* FEATURED VEHICLES */
+
+#featured-vehicles-component .wrapper {
+    border: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 !important;
+  	width: 100%;
+  	display: inline-block !important;
+}
+.featured-vehicle-block:hover .featured-car-data {
+	padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.featured-vehicle-block .featured-car-data {
+  transition: padding 0.2s ease;
+  padding: 0 !important;
+  height: auto !important;
+}
+#featured-vehicles-component .wrapper:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 0px 15px 7px #76767627;
+    box-shadow: 0px 0px 15px 7px #76767627;
+}
+#featured-vehicles-component .wrapper .featured-car-img img {
+    border-radius: 6px;
+}
+#featured-vehicles-component .featured-vehicle-block:hover .featured-car-img img {
+  border-radius: 6px 6px 0px 0px;
+}
+.FeaturedHeading {
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.featured-vehicle-vin,
+.ribbon-wrapper-green,
+.FeaturedHeading,
+.FeaturedPriceTag {
+    display: none;
+}
+/* ADDING ON */
+.spects {
+  	display: flex;
+  	flex-direction: column;
+    color: #000000;
+}
+.feat-year {
+    font-size: 16px;
+}
+
+.feat-model {
+    font-size: 16px;
+  	font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.feat-color--ext {
+  	border-top: solid 1px #777777;
+    padding-top: 5px;
+  	padding-bottom: 10px;
+}
+
+.feat-color--ext span, 
+.feat-mileage span {
+    font-weight: lighter;
+    color: #767676;
+}
+.feat-mileage, 
+.feat-color--ext {
+    font-size: 13px;
+    font-weight: bold;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  	margin-bottom: 5px;
+}
+.feat-price::before {
+    content: "Retail Price";
+}
+
+.feat-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#featured-vehicles-component .btn {
+  display: none;
+  background-color: #cd9834;
+  color: #ffffff;
+  border: 1px solid #cd9834;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0px;
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+}
+#featured-vehicles-component .btn:hover, 
+#featured-vehicles-component .btn:active, 
+#featured-vehicles-component .btn:focus {
+  color: #cd9834;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #cd9834;
+}
+
+@media (min-width: 768px) {
+    #featured-vehicles-component .container-fluid {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    #featured-vehicles-component .container-fluid {
+        width: 970px;
+    }
+  	.featured-car-img {
+    	height: 200px;
+	    max-width: 275px;
+        margin: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+    #featured-vehicles-component .container-fluid {
+        width: 1170px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featured-vehicle-block {
+  		width: 50%;
+  }
+  .featured-car-img {
+    	height: 275px;
+    	max-width: 345px;
+        margin: auto;
+	}
+}
+@media (max-width: 767px) {
+  .featured-vehicle-block {
+  	width: 100%;
+  }
+	#featured-vehicles-component .wrapper {
+    	margin-bottom: 5% !important;
+	    width: 95%;
+	}
+  #featured-vehicles-component .wrapper .featured-car-img img {
+        border-radius: 6px 6px 0px 0px;
+    }
+}
+
+
+/*Newer additional additions*/
+
+.quick-link__btn.secondary-btn {
+    background: #ffffff;
+    color: #000000;
+}
+.quick-links-component a {
+    text-decoration: none;
+}
+.homepage-components #specialsSlider6040 .btn-branded {
+    border-radius: 0px;
+}
+.quick-link .quick-link__title {
+    min-height: 53px;
+}
+.modern-map-hp-content .map-contact .embed-responsive.embed-responsive-16by9 {
+  border: 1px solid;
+}
+.modern-map-hp-content .map-contact {
+    background: #efefef;
+    color: #000000;
+}
+.modern-map-hp-content .map-contact h4, .modern-map-hp-content .map-contact h5, .modern-map-hp-content .map-contact .contact-link {
+    color: #333333 !important;
+}
+
+/* Revamping homepage requested by Chris Brown - CD 6/5/25 */
+
+ /* interaction bar w/ search */
+
+ body .interaction-bar-with-search-component {
+  --pc: #53565a;
+  --scroll-overlay-gradient-rgba-min: rgb(0 0 0 / 0%);
+  --scroll-overlay-gradient-rgba-max: rgb(0 0 0 / 100%);
+  --search-btn-border-color: #ffffff;
+  --search-btn-bg-color: #000000;
+}
+
+body .interaction-bar-with-search-component {
+  border-top: solid 1px #cd9834;
+}
+
+body .interaction-bar-with-search-component,
+body
+  .interaction-bar-with-search-component.horizontal-scroll-component
+  .scroll-horizontal {
+  background-color: #000000;
+}
+
+body [class*="interaction-bar"] .scroll-item[data-item-name="Cars Under $30K"] {
+  display: none;
+}
+
+body .interaction-bar-with-search-component .ibar-btn,
+body .interaction-bar-with-search-component .ibar-btn:hover,
+body .interaction-bar-with-search-component .ibar-btn:active,
+body .interaction-bar-with-search-component .ibar-btn:focus {
+  text-shadow: none;
+}
+.homepage-components
+  .interaction-bar-with-search-component
+  .ibar-btn__icon
+  svg {
+  fill: white;
+}
+body
+  .interaction-bar-with-search-component
+  .ibar-btn:hover
+  .ibar-btn__icon
+  svg {
+  fill: #cd9833 !important;
+}
+
+body .interaction-bar-with-search-component .ibar-btn {
+  --text-color: #ffffff;
+  color: var(--text-color);
+}
+
+body .interaction-bar-with-search-component .ibar-btn:hover,
+body .interaction-bar-with-search-component .ibar-btn:active,
+body .interaction-bar-with-search-component .ibar-btn:focus {
+  --pc: #cd9834;
+  --text-color: #cd9834;
+  color: var(--text-color);
+  opacity: 1;
+}
+
+body .interaction-bar-with-search-component .scroll-nav-btn {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn,
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-group-btn:last-child
+  > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-search {
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .search-submit-btn {
+  border-width: 1px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-group-btn
+  .alternate-btn-text {
+  font-size: 12px;
+}
+
+body
+  .interaction-bar-with-search-component
+  .interaction-bar-search-bar
+  .input-search::placeholder {
+  color: #53565a;
+}
+
+/* Value Blocks Slider */
+
+body .value-blocks-slider-component {
+  margin-bottom: 100px;
+}
+
+body
+  .value-blocks-slider-component.horizontal-scroll-component
+  .scroll-horizontal {
+  background-color: #000000;
+}
+
+body .value-blocks-slider-component .slider-card {
+  border-color: #f3f3f3;
+}
+
+body .value-blocks-slider-component .slider-card-tagline,
+body .value-blocks-slider-component .slider-card-title {
+  font-family: Lincoln-Proxima-Nova-Bold, Arial;
+}
+
+body .value-blocks-slider-component .slider-card-tagline {
+  font-size: 16px;
+}
+
+body .value-blocks-slider-component .slider-card-title {
+  font-size: 40px;
+}
+
+body .value-blocks-slider-component .slider-card-btn {
+  --sokal-btn-bg: #000000;
+  --sokal-btn-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  position: relative;
+  font-size: 14px;
+}
+
+body .value-blocks-slider-component .slider-card-btn::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width 0.1s ease-in-out;
+  background: #ffffff;
+}
+
+body .value-blocks-slider-component .slider-card-btn:hover::after,
+body .value-blocks-slider-component .slider-card-btn:focus::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out 0.2s;
+}
+
+body .value-blocks-slider-component .slider-card-btn:hover,
+body .value-blocks-slider-component .slider-card-btn:focus {
+  background-color: transparent;
+  color: #000000;
+}
+
+body .value-blocks-slider-component .scroll-nav--left {
+  right: unset;
+  left: 15px;
+}
+
+body .value-blocks-slider-component .scroll-nav--right {
+  right: unset;
+  left: 75px;
+}
+
+@media (max-width: 767px) {
+  body .value-blocks-slider-component .slider-card-tagline {
+    font-size: 12px;
+  }
+
+  body .value-blocks-slider-component .slider-card-title {
+    font-size: 25px;
+  }
+
+  body .value-blocks-slider-component .slider-card-btn {
+    font-size: 12px;
+  }
+}
+            
+.sokal-5050-component {
+    margin-top: 100px;
+}
+            
+.interaction-bar-with-search-component .ibar-btn__icon .cls-3 {
+  stroke: white !important;
+}
+/*Newer additional additions end*/
+/* NEW REDESIGN AND NEW CSS END*/
+
+.container.vehicle-browse-ajax {
+            display: none;
+        }
