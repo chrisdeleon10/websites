@@ -1,0 +1,195 @@
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  margin: 0 0 10px;
+}
+
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:hover,
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:active,
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:focus {
+  background-color: black;
+  color: white !important;
+}
+
+/*Hiding Locked price for now 3/8/24 knp*/
+.locked-price-container {
+  display: none !important;
+}
+
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title,
+.specials-block {
+  display: none !important;
+}
+/*button.payment-calculator-offer-btn, 
+.search-button--pricedrop, 
+.search-button--trade, 
+.search-button--preapproved {
+  display: none;
+}*/
+#v-badges {
+  text-align: center;
+}
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none;
+}
+.available-rebates-section .available-rebates-btn {
+  font-size: 17px;
+}
+
+div.get-price-btn-container
+  a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+/* DJ Specific CSS */
+.col.right
+  .vehicle-show-buttons
+  .buy-at-home-widget-container.index-btn--buy-home {
+  min-height: 67px;
+}
+
+/*get price color change knp 2/23/24*/
+a.get-price-button[data-inventorytype="new"] {
+  background-color: green;
+  border-color: green;
+}
+
+a.get-price-button[data-inventorytype="new"]:hover,
+a.get-price-button[data-inventorytype="new"]:active,
+a.get-price-button[data-inventorytype="new"]:focus {
+  color: white !important;
+  background-color: #ffffff;
+}
+
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .unlock-price-button:hover,
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .unlock-price-button:active,
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .unlock-price-button:focus,
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .get-price-button:hover,
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .get-price-button:active,
+.split-vdp-with-toolbar
+  .vdp-custom-header[data-has-color-fill="true"]
+  .get-price-button:focus {
+  color: #ffffff !important;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  color: black;
+}
+
+iframe#capital-one-prequalification-finance-tool {
+  max-width: 1000px;
+  margin: auto;
+}
+.fixed-top-subnav.vdp-custom-header.navbar-fixed-top.vdp-subnav--title-trim-mileage-price-block {
+  background-color: black;
+  border-bottom: grey;
+}
+.fixed-top-subnav.vdp-custom-header.navbar-fixed-top.vdp-subnav--title-trim-mileage-price-block
+  .mobile-help-icons
+  .fa {
+  color: BLACK;
+  border: black;
+}
+.fixed-top-subnav.vdp-custom-header.navbar-fixed-top.vdp-subnav--title-trim-mileage-price-block
+  .mobile-help-icons
+  .fa:hover {
+  color: white;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  border-color: black;
+  color: black;
+}
+
+.split-vdp-with-toolbar
+  .vehicle-overview-side
+  .vehicle-info
+  .search-result-buttons
+  .btn:hover {
+  border-color: black !important;
+  background-color: black !important;
+  color: white !important;
+}
+.split-vdp-with-toolbar .vehicle-features-row .vehicle-features-title {
+  background-color: black;
+}
+.split-vdp-with-toolbar .vehicle-spec-display__content .content-value {
+  color: black;
+}
+.split-vdp-with-toolbar
+  .vehicle-spec-display:hover
+  .vehicle-spec-display__icon {
+  border-color: black;
+}
+.split-vdp-with-toolbar .info-item__value,
+.split-vdp-with-toolbar .info-item__value {
+  color: black;
+}
+.split-vdp-with-toolbar .vehicle-features-title::after {
+  background-color: black;
+}
+.split-vdp-with-toolbar .similar-vehicle__text .sv-name-year-make-trim,
+.split-vdp-with-toolbar .similar-vehicle__text .sv-name-model {
+  color: black;
+}
+body a.get-price-button[data-inventorytype="new"]:hover,
+body a.get-price-button[data-inventorytype="new"]:active,
+body a.get-price-button[data-inventorytype="new"]:focus {
+  color: #018000 !important;
+}
+
+/*VDP Claim Coupon Modal CTA Style Changes*/
+.vehicle-show-container a#couponModalBtn {
+	margin-bottom: 10px;
+  	background-color: green;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    border: solid 2px transparent;
+    border-radius: var(--btn-br);
+    padding: 12px 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    -webkit-transition: all 0.3s 
+ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s 
+ease;
+}
+.vehicle-show-container a#couponModalBtn:hover,
+.vehicle-show-container a#couponModalBtn:active,
+.vehicle-show-container a#couponModalBtn:focus {
+	background-color: white!important;
+  	color: green!important;
+  	border-color: green!important;
+}
+
+/*CTA Adjustments KNP 2/18/26*/
+.vehicle-show-buttons-stacked .col-xs-6 {
+    width: 100%;
+    padding: 0 !important;
+    margin-bottom: 5px;
+}
+
+.tp-btn-payment {
+    display: none;
+}

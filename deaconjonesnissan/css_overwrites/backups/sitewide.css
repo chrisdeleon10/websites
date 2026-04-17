@@ -1,0 +1,1186 @@
+/* NEW NISSAN REDESIGN AND NEW CSS START*/
+body, 
+.footer-disclaimer, 
+.weight-normal {
+  font-family: "Nissan Brand Regular", Verdana, Arial, sans-serif;
+}
+.weight-light {
+  font-family: "Nissan Brand Regular", Verdana, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, strong, footer, .FooterGrey, .FooterBlack, .weight-bold {
+  font-family: "Nissan Brand Bold", Verdana, Arial, sans-serif;
+}
+.nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:not([href="#dropdown-search"]) {
+  font-family: "Nissan Brand Bold", Verdana, Arial, sans-serif;
+}
+.text-bold, 
+.vehicle-unit-container .vehicle-make-model .model,
+.vehicle-unit-container.new-false .vehicle-make-model,
+.lowest-price,
+.single-price {
+  font-family: "Nissan Brand Bold", Verdana, Arial, sans-serif;
+}
+
+/* Default ADA page logo */
+
+img[src="https://d2v1gjawtegg5z.cloudfront.net/assets/ada_logo-60d19c3b4c537e0f6dd75513ad8275a434ac418291f443fbae24be71a1cf6e7b.png"] {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+/* Site Map Links */
+
+.site-map-container a, 
+.row > .col-xs-12 > ul > li > a, 
+.row > .col-md-4 > ul > a, 
+.row > .col-md-4 > ul > a + ul > li > a, 
+.row > .col-xs-12 > .row > .col-xs-6 > a, 
+.row > .col-xs-12 > .row > .col-xs-4 > a {
+  color: #000000;
+}
+
+/* Default Form Styles */
+/*
+.form-group label {
+    display: flex;
+    align-items: center;
+}
+*/
+input[type="checkbox"] {
+  position: relative !important;
+}
+input[type="checkbox"][name="okay_to_contact"] {
+	margin-right: 8px;
+}
+.streakform .radio label, 
+.streakform .checkbox label {
+  padding-left: 25px;
+}
+.streakform .radio input[type="radio"], 
+.streakform .radio-inline input[type="radio"], 
+.streakform .checkbox input[type="checkbox"], 
+.streakform .checkbox-inline input[type="checkbox"] {
+  margin-left: -25px;
+}
+input[type="checkbox"] {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+input[type="radio"]::before, 
+input[type="radio"]::after, 
+input[type="checkbox"]::before, 
+input[type="checkbox"]::after {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input[type="radio"]::before, 
+input[type="radio"]::after {
+  border-radius: 100%;
+}
+input[type="checkbox"]::before, 
+input[type="checkbox"]::after {
+  border-radius: 3px;
+}
+input[type="radio"]::before, 
+input[type="checkbox"]::before {
+  border: solid 1px #D5D5D5;
+  background-color: #ffffff;
+}
+input[type="radio"]::before {
+  width: 22px;
+  height: 22px;
+}
+input[type="radio"]::after, 
+input[type="checkbox"]::after {
+  background-color: transparent;
+}
+input[type="radio"]::after {
+  width: 8px;
+  height: 8px;
+}
+input[type="checkbox"]::before, 
+input[type="checkbox"]::after {
+  width: 22px;
+  height: 22px;
+}
+input.compare-vehicle-id[type="checkbox"] {
+  top: 0;
+}
+input[type="radio"]:checked::after, 
+input[type="checkbox"]:checked::after {
+  background-color: #000000;
+}
+input[type="checkbox"]:checked::after {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/228/768/original/ss-gizmo-check-sm--white.png?1659970343);
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+input[type="radio"]:disabled::before, 
+input[type="checkbox"]:disabled::before {
+  border-color: #999999;
+}
+input[type="radio"]:disabled::before, 
+input[type="checkbox"]:disabled::after {
+  background-color: #999999; 
+}
+input:disabled {
+  opacity: 0.4 !important;
+}
+.has-error input, 
+.has-error select, 
+.has-error textarea {
+  background-color: #999999 !important;
+  border: solid 2px #000000 !important;
+  color: #000000 !important;
+}
+.has-error input::placeholder, 
+.has-error select::placeholder, 
+.has-error textarea::placeholder {
+  color: #000000 !important;
+}
+.has-error label, 
+.has-error .field-error-message {
+  color: #000000 !important;
+}
+.streakform > .col-md-push-6 > .form-top-text + .row {
+  margin-top: 45px;
+}
+.streakform > .col-md-push-6 > .form-top-text + .row > .col-sm-6:nth-of-type(1) > .form-group:nth-of-type(2) > input:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+.streakform .btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff !important;
+  display: inline-block;
+  border: 0px;
+  border-radius: 3px !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.streakform .btn-group[name="has_a_trade_in"] .btn-primary {
+  width: 49%;
+  margin: 0;
+}
+.streakform .btn-group[name="has_a_trade_in"] .btn-primary:nth-of-type(1) {
+  margin-right: 2%;
+}
+.streakform .btn-primary.active, 
+.streakform .btn-primary.focus, 
+.streakform .btn-primary.active.focus, 
+.streakform .btn-primary:hover, 
+.streakform .btn-primary:active, 
+.streakform .btn-primary:focus {
+  background-color: #ffffff;
+  border-color: #000000;
+  color: #000000 !important;
+}
+@media (max-width: 991px) {
+  .streakform > .col-md-push-6 {
+      margin-bottom: 150px;
+  }
+}
+
+/* Default Service Coupons */
+
+.service-coupons .service-coupon {
+  min-height: 625px;
+  padding-top: 15px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  border: 0px;
+}
+.service-coupons .service-coupon .service-coupon-body .coupon-offer {
+  border: 0px;
+  border-radius: 3px;
+  height: 70px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-coupon .service-coupon-body .coupon-text p, 
+.service-coupon .service-coupon-body .coupon-text h1, 
+.service-coupon .service-coupon-body .coupon-text span {
+  font-weight: normal !important;
+  color: #000000 !important;
+}
+.service-coupon > h4.pull-right {
+  display: none;
+}
+.service-coupon .coupon-footer {
+  padding-bottom: 15px;
+}
+.service-coupon .coupon-footer .get-coupon-btn {
+  border: 0px;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.service-coupon .coupon-footer .get-coupon-btn:hover, 
+.service-coupon .coupon-footer .get-coupon-btn:active, 
+.service-coupon .coupon-footer .get-coupon-btn:focus {
+  border: 0px;
+  color: #999999;
+}
+.service-coupon .coupon-footer .coupon-phone {
+  display: none;
+}
+.service-coupons .directions-btn {
+  display: none;
+}
+.service-coupon .service-coupon-body .coupon-title a, 
+.service-coupon .service-coupon-body .coupon-title h3 {
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.service-coupon .service-coupon-body .coupon-title a:hover, 
+.service-coupon .service-coupon-body .coupon-title a:active, 
+.service-coupon .service-coupon-body .coupon-title a:focus, 
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:hover, 
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:active, 
+.service-coupons .service-coupon .service-coupon-body .coupon-offer a:focus {
+  text-decoration: none;
+}
+.service-coupon .service-coupon-body .coupon-title a:hover h3, 
+.service-coupon .service-coupon-body .coupon-title a:active h3, 
+.service-coupon .service-coupon-body .coupon-title a:focus h3 {
+  color: #999999;
+}
+.service-coupons .service-coupon {
+    min-height: 715px;
+}
+.some-element-selector {
+  color: #000000;
+}
+
+.vehicle-filter-menu .irs-bar,
+button#mobile-refine-results,
+.vehicle-index-container .listing-page .vehicle-filter-menu .sort-menu-container>.row .btn-info,
+#vdp-page #vdp-top, 
+#vdp-page .vdp-slider {
+  background-color: #000000;
+}
+
+.vehicle-filter-menu .irs-bar {
+  border-color: #000000;
+}
+
+.vehicle-filter-menu .panel .panel-heading,
+.vehicle-unit-container .vehicle-year
+.vehicle-unit-container .vehicle-sub-title,
+.vdp-container .vehicle-item, 
+.vehicle-unit-container *:not(
+      .reveal_cta_button *,
+      .lease_cta_button *,
+      .approve_cta_button *,
+      .test_drive_cta_button *,
+      .get-price-btn-container *, 
+      .available-rebates-section *
+    ) {
+  color: #000000;
+}
+
+.vdp-container .vehicle-item:hover,
+.vdp-container .vehicle-item:active,
+.vdp-container .vehicle-item:focus,
+.vdp-container .reviews-link a {
+  color: #efefef;
+}
+
+button#mobile-refine-results:hover,
+button#mobile-refine-results:active,
+button#mobile-refine-results:focus {
+  background-color: #efefef;
+}
+
+ 
+.vehicle-unit-container .toggle-pano-modal {
+  color: #ffffff;
+}
+
+/* Price Block SRP + VDP */
+
+.vehicle-prices.new-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+.vehicle-prices.new-vehicle-prices .highest-price {
+  order: 1;
+}
+.vehicle-prices.new-vehicle-prices .price-savings {
+  order: 2;
+}
+.vehicle-prices.new-vehicle-prices .lowest-price {
+  order: 3;
+}
+.stacked-vehicle-prices,
+.vehicle-prices {
+  padding-bottom: 10px;
+}
+
+.vehicle-price-block h5.price-label,
+.price-block h5.price-label,
+.stacked-vehicle-prices h5.price-label {
+  float: left;
+}
+
+
+.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h3, 
+.stacked-vehicle-prices h4 {
+  float: right;
+}
+
+.vehicle-index-price.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-index-price.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h4,
+.vehicle-index-price.vehicle-price-block h5,
+.price-block h5,
+.stacked-vehicle-prices h5 {
+  margin: 0px 0px 5px 0px;
+  font-size: 13px;
+  color: #999999;
+}
+
+.lowest-price h3,
+.single-price h3,
+.single-stacked-price h3,
+.lowest-price h5,
+.single-price h5,
+.single-stacked-price h5 {
+  font-size: 15px !important;
+  color: #000000 !important;
+}
+
+.vehicle-prices > div[class="col-xs-12"] > h3 {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+}
+
+.new-vehicle-prices .price-add-ons h4::before {
+  content: "+";
+}
+
+.locked-price-container h3 {
+  width: 100%;
+}
+/*
+.new-true .price-add-ons, 
+.new-true .middle-price,
+.vdp-container .stacked-vehicle-prices[data-inventory-type="new"] .price-add-ons {
+    display: none;
+}
+*/
+.row.stacked-srp-prices .col-xs-6:last-child {
+	width: 100%;
+}
+
+.locked-price-container h3 .locked-price-placeholder, 
+.locked-price-container h3 .locked-price-label {
+  display: block;
+}
+
+.locked-price-container h3 .locked-price-placeholder {
+  float: right;
+}
+
+.locked-price-container h3 .locked-price-label {
+  float: left;
+}
+
+.stacked-vehicle-prices .locked-price-container h3 {
+  color: #000000;
+}
+
+.new-vehicle-prices .highest-price.double-stacked-price h3, 
+.new-vehicle-prices .highest-price.double-stacked-price .price-label,
+.new-vehicle-prices .middle-price h3, 
+.new-vehicle-prices .middle-price .price-label {
+  color: #000000;
+}
+/* Vehicle Thumb */
+
+body .vehicle-thumb-container .preview-image-controls .prev-controls, 
+body .vehicle-thumb-container .preview-image-controls .next-controls {
+  opacity: 0.9;
+  background-color: #000000;
+}
+
+.vehicle-thumb-container button.change-image {
+  border-radius: 50px;
+  padding: 12px 16px;
+  margin: 10px;
+  border: 0px;
+}
+
+.vehicle-thumb-container button.change-image .fa {
+  color: #ffffff;
+}
+
+/* ePrice Button */
+
+.get-price-btn-container .get-price-button {
+  width: 100%;
+}
+
+/* Badges */
+
+.custom-badge {
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-right: 8px;
+  max-width: 100%;
+}
+.custom-badge--img {
+  height: 55px;
+}
+.custom-badge--btn {
+  width: 150px;
+}
+
+
+/* Generic Utility Classes START */
+/*-------------------------------*/
+
+/* COLOR PALETTE */
+.primary-bg--red {
+  background-color: #c3002f;
+}
+.primary-color--red {
+  color: #c3002f;
+}
+.bg-black {
+  background-color: #000000;
+}
+.color--black {
+  color: #000000;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-gray {
+  background-color: #efefef;
+}
+.color-gray {
+  color: #efefef;
+}
+/*
+.sokal-color-light-blue {
+  color: #4298b5;
+}
+*/
+.bg--red-gradient {
+	background: linear-gradient(270deg, rgba(195,0,47,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+/* SPACING */
+.padding-lg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.padding-sm {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.padding-xs {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-only {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+/* BUTTONS */
+.primary-btn {
+  background-color: #c3002f;
+  color: #ffffff;
+  font-size: 16px; 
+  font-weight: 500;
+  padding: 10px 34px; 
+  border-radius: 0px;
+  border: 1px solid #c3002f;
+  margin: 30px 0; 
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+}
+.primary-btn:focus {
+	color: #ffffff;
+}
+.secondary-btn:focus {
+	color: #000000;
+}
+.primary-btn:hover, 
+.primary-btn:active {
+  background-color: #900023;
+  border-color: #900023;
+  color: #ffffff;
+  text-decoration: none;
+}
+.secondary-btn,
+.unlock-price-button,
+.get-price-button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px; 
+  font-weight: 500; 
+  padding: 10px 34px; 
+  border-radius: 0px; 
+  border: 1px solid #000000; 
+  margin: 30px 0; 
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease; 
+  transition: .3s all ease;
+}
+.secondary-btn:hover, 
+.secondary-btn:active, 
+body .vehicle-buttons .payment-calculator-offer-btn:hover,
+body .vehicle-buttons .payment-calculator-offer-btn:active,
+.unlock-price-button:hover,
+.unlock-price-button:active,
+.get-price-button:hover,
+.get-price-button:active {
+  background-color: #ffffff;
+  color: #000000 !important;
+  text-decoration: none;
+  border-color: #000000;
+}
+
+.streakform .btn-success.form-submit-button,
+body .vehicle-model-dropdown .search-btns .btn,
+.service-coupons .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4 .appointment-btn,
+.btn-success,
+body .vehicle-index-buttons .search-button,
+body .vehicle-show-buttons .search-button,
+.search-button {
+  background-color: #c3002f;
+  color: #ffffff;
+  font-size: 16px; 
+  font-weight: 500;
+  padding: 10px 34px; 
+  border-radius: 0px; 
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+  border-color: #c3002f;
+}
+body .vehicle-model-dropdown .search-btns .btn {
+	margin: 10px auto 15px !important;
+  text-transform: capitalize;
+}
+
+.streakform .btn-success.form-submit-button:hover,
+.streakform .btn-success.form-submit-button:active,
+.service-coupons .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4 .appointment-btn:hover,
+.btn-success:hover,
+body .vehicle-index-buttons .search-button:hover,
+body .vehicle-show-buttons .search-button:hover,
+.search-button:hover {
+  background-color: #900023 !important;
+  color: #ffffff !important;
+  border-color: #900023 !important;
+  text-decoration: none !important;
+}
+
+.btn-success:active,
+.btn-success:focus {
+	background-color: #900023 !important;
+  	border-color: #900023 !important;
+  	color: #ffffff !important;
+}
+
+body .vehicle-model-dropdown .search-btns .btn:hover,
+body .vehicle-model-dropdown .search-btns .btn:active {
+  background-color: #900023 !important;
+  color: #ffffff !important;
+  border-color: #900023 !important;
+  text-decoration: none;
+}
+#payment-calculator-offer .payment-btn-primary {
+	background-color: #c3002f !important;
+  	color: #ffffff !important;
+  	border-color: #c3002f !important;
+}
+#payment-calculator-offer .payment-btn-primary:hover,
+#payment-calculator-offer .payment-btn-primary:focus,
+#payment-calculator-offer .payment-btn-primary:active {
+	background-color: #900023 !important;
+  	color: #ffffff !important;
+}
+#payment-calculator-offer .payment-btn-secondary {
+	background-color: #000000 !important;
+  	color: #ffffff !important;
+	border-color: #000000 !important;
+}
+#payment-calculator-offer .payment-btn-secondary:hover,
+#payment-calculator-offer .payment-btn-secondary:focus,
+#payment-calculator-offer .payment-btn-secondary:active {
+	background-color: #ffffff !important;
+  	color: #000000 !important;
+}
+
+body .unlock-price-button,
+body .get-price-button {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+/*
+.get-price-btn-container .get-price-button,
+.unlock-price-btn-container .unlock-price-button {
+    background: #000000;
+    color: #ffffff;
+}
+.unlock-price-button:hover,
+.get-price-button:hover {
+	border: 1px solid #000000;
+	color: #000000;
+  	background-color: #ffffff;
+}
+*/
+body .unlock-price-button:focus,
+body .get-price-button:focus {
+	color: #ffffff !important;
+  	text-decoration: none;
+}
+body .unlock-price-button:hover:focus,
+body .get-price-button:hover:focus {
+	color: #000000 !important;
+  	text-decoration: none;
+}
+/* unlock/eprice modal */
+.unlock-price-modal .btn {
+	border-radius: 0px !important;
+}
+.unlock-price-modal .modal-body, 
+.unlock-price-modal .modal-footer {
+    background: #ffffff;
+}
+
+body .vehicle-index-buttons .btn {
+  	font-size: 16px;
+  	font-weight: 500;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .container-xl {
+      width: 1320px;
+      max-width: 100%;
+  	}
+}
+/* Generic Utility Classes END */
+/*-----------------------------*/
+
+
+
+
+
+
+/* COUPON STYLING START */
+/*----------------------*/
+
+.service-coupon .coupon-image-section img {
+    max-height: 180px;
+    border-radius: 8px 8px 0 0;
+}
+
+.service-coupons .service-coupon, .service-coupon .service-coupon-body, .service-coupons .service-coupon .service-coupon-body .coupon-offer {
+    background: #ffffff;
+    color: #000000;
+}
+
+.service-coupon .service-coupon-body .coupon-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.service-coupon .service-coupon-body .coupon-text li {
+    list-style-type: none;
+}
+
+.service-coupon .service-coupon-body .coupon-text ul {
+    padding: 0;
+}
+
+.service-coupon .coupon-footer .expiration, .service-coupon .coupon-footer .disclaimer-link {
+    text-decoration: none;
+}
+
+.service-coupons .service-coupon {
+    padding-top: 0;
+    border-radius: 8px;
+}
+
+.service-coupon .coupon-footer .get-coupon-btn {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.service-coupon .service-coupon-body .coupon-offer h2 {
+    color: #000000 !important;
+    font-size: 1.75rem !important;
+}
+
+.service-coupons .service-buttons-container .appointment-btn {
+    background-color: #c3002f !important;
+    border-bottom: 1px solid #ffffff;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.service-coupons .service-buttons-container .appointment-btn:hover {
+    background-color: #900023 !important;
+}
+
+.service-coupon .coupon-footer .disclaimer-link:hover {
+    text-decoration: underline;
+}
+.service-coupon-container {
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .service-coupon-container {
+    width: 25% !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-coupon-container {
+    width: 30% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-coupon-container {
+    width: 41% !important;
+  }
+}
+
+/* show coupon page */
+.show-coupon .service-coupon {
+    max-width: 280px;
+}
+.show-coupon .service-buttons-container {
+    display: none;
+}
+/* COUPON STYLING END */
+/*--------------------*/
+
+/* PAGE SPECIFICS */
+.webpage p {
+    font-size: 1.75rem;
+}
+.webpage li {
+    font-size: 1.5rem;
+}
+.webpage .nissan-link {
+    color: #c3002f;
+}
+.webpage .primary-btn {
+	max-width: 270px;
+}
+@media (max-width: 550px) {
+  .webpage .hero h1 {
+     font-size: 26px;
+  }
+  
+  .webpage .hero h3 {
+     font-size: 14px;
+  }
+}
+/* FORM STYLING START*/
+/*-------------------*/
+
+/* Colors */
+.form--style-base .panel {
+    background-color: #ffffff;
+}
+/* Shadows */
+.form--style-base .panel {
+    -webkit-filter: drop-shadow(0px 0px 20px #ececec);
+    filter: drop-shadow(0px 0px 20px #ececec);
+    box-shadow: none;
+}
+.form--style-base .panel-heading {
+    background-color: transparent;
+}
+/* Fonts */
+.form--style-base .form-title {
+    font-family: "Kumbh Sans", sans-serif;
+}
+/* Transitions */
+.form--style-base .btn {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  	font-weight: 500;
+    padding: 10px 34px; 
+    border-radius: 30px;
+}
+/* Form Container */
+.form--style-base {
+    width: 600px;
+    max-width: 100%;
+    margin: 30px auto;
+}
+/* Form Groups */
+.form--style-base .form-group .col-sm-3, 
+.form--style-base .form-group .col-sm-9 {
+    width: 100%;
+    text-align: left;
+}
+/* Panel  */
+.form--style-base .panel {
+    padding: 4vw;
+    background-clip: padding-box;
+    border: 0px;
+    border-radius: 6px;
+}
+/* Panel Heading */
+.form--style-base .panel-heading {
+    border: 0px;
+}
+/* Title */
+.form--style-base .form-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+/* Buttons */
+.form--style-base .ajax-form-submit-btn {
+    background-color: #c3002f;
+    color: #ffffff;
+    font-size: 16px; 
+    font-weight: 500;
+    padding: 10px 34px; 
+    border-radius: 0px; 
+    margin: 30px 0; 
+    -webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+.form--style-base .ajax-form-submit-btn:hover,
+.form--style-base .ajax-form-submit-btn:active {
+    background-color: #900023;
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-method-btn {
+	font-size: 12px;
+}
+.contact-method-btn.active {
+    background: #c3002f;
+    color: #ffffff;
+    border: 1px solid #c3002f;
+}
+/* adjusting velocity engage tool */
+.insert-velo-anchor img {
+    display: none;
+}
+a.insert-velo-anchor a {
+    display: block;
+    height: 22px;
+}
+a.insert-velo-anchor a:after {
+    content: "About This Vehicle";
+    color: #ffffff;
+}
+a.insert-velo-anchor {
+    text-align: center;
+}
+/* FORM STYLING END*/
+/*-----------------*/
+
+/* SRP Compare Vehicle Feature */
+.active-template-compare-vehicle-widget {
+  margin-top: 10px;
+  padding-top: 12px;
+  border-top: solid 1px #999999;
+}
+.active-template-compare-vehicle-widget .compare-vehicle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.active-template-compare-vehicle-widget .compare-vehicle-container .compare-vehicle-id {
+  width: 14px;
+  margin: 0px;
+}
+.active-template-compare-vehicle-widget .compare-vehicle-container .compare-label {
+  display: inline-block;
+  width: calc(50% - 7px);
+  text-align: left;
+  padding-left: 5px;
+  color: #000000;
+}
+.compare-vehicle-container .compare-options {
+  display: inline-block;
+  margin: 0;
+  width: calc(50% - 7px);
+  text-align: right;
+}
+.compare-vehicle-container .compare-options > a {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0px 0px 9px 0px;
+  margin: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: rgba(195 0 47 / 75%);
+  border-bottom: solid 2px rgba(195 0 47 / 75%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.compare-vehicle-container .compare-options > a:hover, 
+.compare-vehicle-container .compare-options > a:active, 
+.compare-vehicle-container .compare-options > a:focus {
+  color: #c3002f;
+  border-color: #c3002f;
+  padding-bottom: 7px;
+  text-decoration: none;
+}
+.car-srch-box .vehicle-specs a:hover {
+  text-decoration: none;
+}
+
+/* Vehicle Comparison Page */
+
+.vehicle-coparation-table {
+  text-align: center;
+  font-size: 13px;
+  color: #000000;
+  max-width: 1340px;
+  margin: auto;
+}
+.vehicle-coparation-table,
+.vehicle-coparation-table >thead>tr>th, 
+.vehicle-coparation-table >thead>tr>td, 
+.vehicle-coparation-table >tbody>tr>th, 
+.vehicle-coparation-table >tbody>tr>td, 
+.vehicle-coparation-table >tfoot>tr>th, 
+.vehicle-coparation-table >tfoot>tr>td {
+  border: none !important;
+}
+.vehicle-coparation-table td:first-of-type {
+  width: 100%;
+  background: rgba(0 0 0 / 15%);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.vehicle-coparation-table tr:nth-of-type(1) td,
+.vehicle-coparation-table tr:nth-of-type(2) td {
+  background: #ffffff;
+}
+.vehicle-coparation-table tr {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vehicle-coparation-table tr:nth-of-type(2) {
+  flex-wrap: nowrap;
+}
+.vehicle-coparation-table tr:nth-of-type(2) td:first-of-type {
+  display: none;
+}
+.vehicle-coparation-table [class*="column-"] {
+  flex-grow: 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.vehicle-coparation-table .vehicle-thumb-tile img {
+  margin: auto auto 30px;
+}
+.vehicle-coparation-table .options-list {
+  border-bottom: 2px solid #e7e7e7;
+  background: #f5f5f5;
+  padding: 5px;
+}
+.vehicle-coparation-table .compare-label, a.remove-vehicle-id {
+  color: #c3002f;
+  transition: all 300ms ease-out;
+}
+.vehicle-coparation-table .compare-label, a.remove-vehicle-id:hover {
+  color: #999;
+}
+
+@media (min-width: 768px) {
+  .vehicle-coparation-table .stacked-vehicle-prices h3, 
+  .vehicle-coparation-table .stacked-vehicle-prices h5 {
+    display: inline;
+  }
+  /*
+  .vehicle-coparation-table .stacked-vehicle-prices h3:after {
+  content: " -";
+  margin-right: 5px;
+}
+  .vehicle-coparation-table .stacked-vehicle-prices h3:not(:first-of-type):before {
+  content: "\A";
+  white-space: pre;
+}
+  .vehicle-coparation-table .stacked-vehicle-prices h5::after {
+  content: "\A";
+  white-space: pre;
+}
+  */
+}
+
+@media (max-width: 767px) {
+  .vehicle-coparation-table .stacked-vehicle-prices h3, 
+  .vehicle-coparation-table .stacked-vehicle-prices h5 {
+    font-size: 13px !important;
+  }
+  .vehicle-coparation-table .options-list {
+    max-height: 200px;
+  }
+  
+  body .vehicle-coparation-table tr:nth-of-type(2) {
+    flex-wrap: wrap;
+  }   
+  .vehicle-coparation-table [class*="column-"] {
+    width: 50%;
+  }
+  .vehicle-coparation-table [class*="column-"]::before {
+    font-weight: 700;
+  }
+  .vehicle-coparation-table .column-0::before {
+    content: "1) ";
+  }
+  .vehicle-coparation-table .column-1::before {
+    content: "2) ";
+  }
+  .vehicle-coparation-table .column-2::before {
+    content: "3) ";
+  }
+  .vehicle-coparation-table .column-3::before {
+    content: "4) ";
+  }
+}
+
+@media (max-width: 575px) {
+  .vehicle-coparation-table,
+  .vehicle-coparation-table .stacked-vehicle-prices h3, 
+  .vehicle-coparation-table .stacked-vehicle-prices h5 {
+    font-size: 12px !important;
+    letter-spacing: 0px;
+  }
+}
+
+/* NEW NISSAN REDESIGN AND NEW CSS END*/
+
+/* DJ Nissan Specific CSS Below */
+.buy-at-home-widget-container cs-buy-widget-v2 {
+    max-height: 50px !important;
+    display: block;
+}
+.vehicle-badges img.autocheck-btn {
+    max-width: 80px;
+    margin: 0 auto;
+}
+.vertical-item.badge-item[data-name="autocheck-badge"],
+img.autocheck-btn {
+    display: none;
+}
+.buy-at-home-widget-container.index-btn--buy-home {
+    background: #c3012f;
+}
+
+.get-price-btn-container a.get-price-button {
+    background: green;
+    border-color: green;
+}
+
+.get-price-btn-container a.get-price-button:hover {
+    background: white;
+    color: green !important;
+    border-color: green;
+}
+/* Third party buttons */
+
+.vertical-item.badge-item[data-name="capital-one-estimate-financing-button"] {
+    min-width: 275px !important;
+}
+.vertical-item.badge-item[data-name="schedule-at-home-test-drive-vdp-new"] img {
+    max-width: 200px;
+    border-radius: 5px;
+    height: 66px;
+    width: 200px;
+}
+
+/*Hide Buttons on desktop*/
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+.qw-btn-main-18213-srpButton,
+.qw-btn-main-18213-vdpButton {
+    background: #C3002F!important;
+    border-color: #C3002F!important;
+    border: 1px solid #C3002F!important;
+}
+
+.qw-btn-main-18213-srpButton:hover .qw-lines .qw-line-1,
+.qw-btn-main-18213-srpButton:hover .qw-lines .qw-line-2,
+.qw-btn-main-18213-srpButton:hover .qw-lines .qw-line-3,
+.qw-btn-main-18213-srpButton:active .qw-lines .qw-line-1,
+.qw-btn-main-18213-srpButton:active .qw-lines .qw-line-2,
+.qw-btn-main-18213-srpButton:active .qw-lines .qw-line-3,
+.qw-btn-main-18213-srpButton:focus .qw-lines .qw-line-1,
+.qw-btn-main-18213-srpButton:focus .qw-lines .qw-line-2,
+.qw-btn-main-18213-srpButton:focus .qw-lines .qw-line-3,
+.qw-btn-main-18213-vdpButton:hover .qw-lines .qw-line-1,
+.qw-btn-main-18213-vdpButton:hover .qw-lines .qw-line-2,
+.qw-btn-main-18213-vdpButton:hover .qw-lines .qw-line-3,
+.qw-btn-main-18213-vdpButton:active .qw-lines .qw-line-1,
+.qw-btn-main-18213-vdpButton:active .qw-lines .qw-line-2,
+.qw-btn-main-18213-vdpButton:active .qw-lines .qw-line-3,
+.qw-btn-main-18213-vdpButton:focus .qw-lines .qw-line-1,
+.qw-btn-main-18213-vdpButton:focus .qw-lines .qw-line-2,
+.qw-btn-main-18213-vdpButton:focus .qw-lines .qw-line-3{
+    background-color: white!important;
+    color: #C3002F!important;
+}

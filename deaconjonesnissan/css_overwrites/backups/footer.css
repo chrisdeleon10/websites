@@ -1,0 +1,4 @@
+body .FooterGreyLeft .row:nth-child(7) {
+  display: flex;
+  align-items: center;
+}
