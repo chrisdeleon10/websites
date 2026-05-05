@@ -1,0 +1,130 @@
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.hidden-lg .vdp-specials .special-offer,
+.specials-title,
+.specials-block,
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+
+body .vdp-container .available-rebates-section .available-rebates-btn {
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+.toggle-disclaimer-modal {
+  display: block;
+}
+#v-badges div[data-name="certification-badge"] img{
+  max-width: 200px;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+        #ff_link img {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (min-width: 1201px) {
+        #ff_link img {
+            margin-top: 10px;
+        }
+    }
+
+.split-vdp-with-toolbar .vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover {
+    color: #ffffff !important;
+}
+
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .primary-btn {
+    margin: 0px;
+}
+
+.stacked-vehicle-prices .unlock-modal-toggle {
+    flex-direction: row-reverse;
+}
+
+.split-vdp-with-toolbar .vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+    color: #ffffff !important;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover {
+    color: #ffffff !important;
+}
+
+/* Adjusting the Margin to get CTAs to fill width of the row properly - GR 01/30/26 */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 0 -10px 0 0;
+}
+
+.inventory-fees-block {
+    padding: 0px 15px 0px 15px;
+    /*border-top: 2px solid #E5E5E5;*/
+    order: 1;
+}
+.inventory-fees-block h4, .inventory-fees-block h5 {
+    font-size: 16px;
+    color: #00142e;
+}
+.inventory-fees-block h4 {
+    color: #bfc4cb;
+}
+.inventory-fees-block > .col-xs-12 {
+    padding: 0;
+}
+.price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices>.col-xs-12:last-child {
+    order: 2;
+}
+
+.stacked-vehicle-prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.lowest-price {
+    order: 2;
+}
+
+/*.inventory-fees-block h5 {
+    color: black !important;
+}*/
+
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h3, 
+.new-price-block-styles .price-block h3, 
+.new-price-block-styles .stacked-vehicle-prices h3, 
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h4, 
+.new-price-block-styles .price-block h4, 
+.new-price-block-styles .stacked-vehicle-prices h4, 
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h5, 
+.new-price-block-styles .price-block h5, .new-price-block-styles .stacked-vehicle-prices h5 {
+    font-size: 16px;
+}
+
+/*.price-block .price-savings h5 {
+    color: black;
+}
+
+.stacked-vehicle-prices.used-vehicle-prices h5.price-label {
+    color: black;
+}*/
+
+
+.asking-price.lowest-price h3, 
+.asking-price.lowest-price h5 {
+    text-shadow: 0.7px 0 0 #000;
+}
+
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h3, 
+.new-price-block-styles .price-block h3, 
+.new-price-block-styles .stacked-vehicle-prices h3, 
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h4, 
+.new-price-block-styles .price-block h4, .new-price-block-styles .stacked-vehicle-prices h4, 
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h5, 
+.new-price-block-styles .price-block h5, 
+.new-price-block-styles .stacked-vehicle-prices h5,
+.price-block .highest-price.double-stacked-price .price-label {
+  color: var(--sokal-core-color-neutral-400);
+}
