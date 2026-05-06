@@ -1,0 +1,365 @@
+.vdp-subnav--title-trim-mileage-price-block .custom-header-col--right .vdp-header-price-block .unlock-modal-toggle {
+    display: flex;
+    flex-direction: unset !important;
+}
+.vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+    flex-wrap: unset !important;
+}
+.new-vehicle-prices .middle-price {
+    padding: 0px 15px;
+}
+html {
+  font-size: 10px;
+}
+
+body .vehicle-buttons .sokal-btn {
+  font-size: 13px;
+  line-height: 13px;
+}
+#desktop-actions {
+    display: none !important;
+}
+.stacked-vehicle-prices {
+    text-align: center;
+}
+.vertical-item.badge-item img {
+    max-width: 100%;
+}
+body .asking-price h3 {
+    color: var(--sokal-color-lincoln-orange, #b45f1a);
+}
+.stacked-vehicle-prices h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.price-savings h4 {
+    width: 40%;
+    text-align: right;
+}
+.price-savings h5 {
+    width: 60%;
+    text-align: left;
+}
+.get-price-btn-container .get-price-button {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: calc(0.875rem + 2px);
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    width: 100%;
+    padding: 16px 12px;
+    border: 2px solid #000000;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+.get-price-btn-container .get-price-button:hover::after {
+  width: 100%;
+  left: 0;
+  transition: width ease-in-out .2s;
+  background: #fff;
+}
+.get-price-btn-container .get-price-button::after {
+  background: var(--sokal-btn-color);
+}
+.get-price-btn-container .get-price-button::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box;
+  transition: width .1s ease-in-out;
+}
+.get-price-btn-container .get-price-button:hover {
+  color: #000000;
+}
+
+.vehicle-show-container .available-rebates-btn {
+  font-size: 13px;
+}
+
+.vertical-item.badge-item[data-name="carfax"] {
+  display: none;
+}
+.vertical-item.badge-item[data-name="auto-ipacket-used"] img {
+  width: 100%;
+  max-width: 200px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  line-height: unset;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] a {
+    width: 100%;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:hover {
+  color: #ffffff !important;
+}
+
+h5.incentive-label {
+    text-align: left;
+}
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+    text-decoration: none;
+}
+.split-vdp-with-toolbar ul.avaliable-conditional-rebates {
+    text-align: left;
+}
+
+.vdp-custom-header {
+    /*background-color: #ffffff;*/
+    border-bottom: 3px solid #cd9834;
+}
+
+.mobile-help-icons .fa {
+    background-color: #ffffff;
+    color: #cd9834;
+    border-color: #ffffff;
+}
+
+/* Capital One Widget Adjustment */
+iframe#capital-one-prequalification-finance-tool {
+    max-width: 1200px;
+    margin: auto;
+}
+.split-vdp-with-toolbar .sokal-profile-container {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Fixing spacing of the pricing on the sticky bar on mobile */
+
+@media (max-width: 575px) {
+    .vdp-subnav--title-trim-mileage-price-block .custom-header-col {
+        margin: 0 auto;
+        /*width: 50%;*/
+    }
+}
+
+@media (max-width: 575px) {
+    .vdp-subnav--title-trim-mileage-price-block .custom-header-col--right {
+        margin-top: 10px !important;
+  }
+}
+
+/* Adjusting CarFax badge */
+.split-vdp-with-toolbar #hsVehicleBadgesRow .scroll-horizontal {
+    gap: 0px;
+}
+
+.vdp-specials {
+    border: 1px dashed red;
+    max-width: 300px;
+    text-align: center;
+}
+
+.vehicle-specials-row .row .col-xs-12 {
+    text-align: -webkit-center;
+}
+
+button.payment-calculator-offer-btn.btn.btn-block.btn-default.search-button.event-click.track-click {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: calc(0.875rem + 2px);
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    min-height: 48px;
+    width: 100%;
+    padding: 18px 40px;
+    border: 2px solid #000000;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  	margin-top: 5px;
+}
+
+/* hiding the test drive modal disclaimer */
+.vehicle-disclaimer.text-center {
+    display: none;
+}
+
+
+
+div#popover610025 {
+    margin-top: 76px !important;
+    bottom: -160px !important;
+}
+
+.vdp-custom-header .popover {
+    margin-top: 143px !important;
+}
+
+.vdp-custom-header .arrow {
+    bottom: 105px !important;
+  transform: rotate(180deg);
+}
+
+p.disclaimer-vdp {
+    display: inline-block;
+}
+
+img.unlock-price-button.unlock-modal-toggle.event-click.track-click.resized {
+    padding: 0px !important;
+}
+
+/*
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button, .vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+    background: green;
+    color: #ffffff;
+} */
+
+button#rev-cw-btn {
+    border: 2px solid black;
+}
+.el-dialog.is-align-center {
+    margin-top: 115px;
+}
+
+.used-vehicle-prices .highest-price h5.price-label {
+    text-align: left;
+   width: 100%;
+}
+
+.asking-price.lowest-price:not(.collapse) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+i.fa.fa-question-circle {
+    width: 100%;
+    float: left;
+    text-align: left;
+  margin-left: 1%;
+}
+
+.used-vehicle-prices i.fa.fa-question-circle {
+    width: 60%;
+    float: left;
+    text-align: left;
+  margin-left: 1%;
+}
+.new-vehicle-prices .double-stacked-price {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+h5.price-label {
+    order: 2;
+}
+button#rev-cw-btn {
+    border: 2px solid black !important;
+    border-radius: 0 !important;
+}
+  @media(min-width:765px) {
+    a.click-to-call-btn.btn.btn-block.event-click.track-click.btn-default.btn-default.sokal-btn.sokal-btn-secondary {
+    	display: none;
+    }
+  }
+.el-overlay {
+    z-index: 9999999 !important;
+}
+
+/* Showing Middle Price (Internet Price) before unlock in Lead Actions in Web_Dash - KA 11/6/25 */
+/* Also overriding inline display block bc idk where the app is adding it from */
+body .vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices.row> *.middle-price, body .vdp-custom-header .vdp-header-price-block .middle-price [class*="price-label"] {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 15px;
+}
+.vdp-custom-header .vdp-header-price-block .stacked-vehicle-prices .locked-price-container.collapse {
+    display: none !important;
+}
+
+.vehicle-overview-and-price-block[data-inventory-type="new"] iframe#cl_inf_1 {
+    margin-top: 15px !important;
+}
+
+
+/* Fixing Color on Hover - GR 02/13/26 */
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-buttons-wrapper .btn:hover,
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-buttons-wrapper .btn:active,
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-buttons-wrapper .btn:focus {
+    background-color: #1A1A1A;
+}
+
+
+/* Fixing CTA Issues on Used VDP - GR 04/22/26 */
+.get-price-btn-container .get-price-button {
+        font-size: 16px;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 0 -10px 0 0;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] {
+    padding: 0 10px 5px 0;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] {
+    background-color: #cd9834;
+    color: #ffffff;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+    background-color: #cd9834;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+ 
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active, 
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+    background-color: transparent;
+    color: #cd9834;
+    border-color: #cd9834;
+}
+
+
+/*FTC Price Block updates KNP 4/22/26*/
+.inventory-fees-block {
+    order: 1;
+}
+body .stacked-vehicle-prices > [class*="col-"]:last-of-type {
+    order: 2;
+}
+.stacked-vehicle-prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-savings h4::before,
+.vauto-incentives h4::before {
+    content: '-';
+}
+.stacked-vehicle-prices .price-add-ons h4::before {
+    content: '+';
+}
+
+/*Making the Admin fee be at the bottom. - AD 5/5/2026*/
+.inventory-fees-block .col-xs-12{
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory-fees-block .inventory-fee:first-child {
+    order: 1;
+}
