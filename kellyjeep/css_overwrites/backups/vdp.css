@@ -1,0 +1,266 @@
+#v-badges {
+  text-align: center;
+}
+.search-button-container--webbuy {
+  pointer-events: none;
+}
+.search-button-container--webbuy:hover {
+  color: #eb0a1e;
+  background-color: #ffffff;
+  border: 2px solid #eb0a1e;
+}
+.search-button-container--webbuy .search-button-tool {
+  pointer-events: auto;
+}
+.vehicle-atts.visible-xs.visible-sm .vehicle-name,
+.vehicle-atts.visible-xs.visible-sm .sub-name {
+  color: #ffffff;
+}
+
+:not(#masterShifu):not(#masterOogway) .autofi-modal-container {
+  z-index: 99999999 !important;
+}
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none;
+}
+img.vehicle-certification-badge[src="https://d2v1gjawtegg5z.cloudfront.net/vehicle_badges/images/000/001/976/original/KAG-Logo-031723-KellyAdvantagePackage.png?1679070507"]
+{
+  height: 100px;
+}
+.block.card.buttons-block {
+  display: inline-block;
+}
+.block.info-lead .block.card.buttons-block {
+  padding: 0;
+  box-shadow: none;
+}
+.vdp-container .search-button--text {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+body .cta-button-widget-max-width {
+  margin: auto !important;
+}
+
+div#sokal-profile {
+  display: none;
+}
+/* Unlock Price Color Change */
+.unlock-price-button {
+  background-color: #4fa945;
+  border: 3px solid #4fa945 !important;
+  border-radius: 50px !important;
+}
+
+/* Adding icon before 'Click for More Discounts - CD 6/10/24
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:before {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:after {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+.available-rebates-section {
+    text-align: -webkit-center;
+}*/
+
+.available-rebates-section {
+  margin-top: 5px;
+}
+.price-savings h5.price-label {
+  width: 60%;
+}
+.price-savings h4 {
+  width: 40%;
+  text-align: right;
+}
+
+.vehicle-show-buttons.vehicle-buttons a {
+  border-radius: 25px;
+}
+
+/*CTA/price block changes knp 1/27/25*/
+.unlock-price-features a {
+  background-color: #4fa945;
+  border: 3px solid #4fa945;
+}
+
+.unlock-price-features a:hover,
+.unlock-price-features a:active,
+.unlock-price-features a:focus {
+  background-color: #ffffff !important;
+  color: #4fa945 !important;
+  border: 3px solid #4fa945 !important;
+}
+.conditional-price h3,
+.conditional-price h5 {
+  font-size: 18px;
+}
+
+.stacked-vehicle-prices .lowest-price h3,
+.stacked-vehicle-prices .lowest-price h5 {
+  font-size: 15px !important;
+}
+
+/*Hiding most CTA's per request ticket #70765*/
+.get-price-btn-container a {
+  background-color: green;
+  border: 1px green solid;
+  border-radius: 50px;
+}
+
+.get-price-btn-container a:hover,
+.get-price-btn-container a:active,
+.get-price-btn-container a:focus {
+  color: green !important;
+  border: 1px green solid !important;
+}
+.split-vdp-with-toolbar .unlock-price-button,
+.split-vdp-with-toolbar .get-price-button {
+  background-color: #4fa945;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  background-color: #4fa945;
+  color: white;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  background-color: white;
+  color: #4fa945;
+}
+.search-result-buttons-and-price-block .unlock-price-btn-container {
+  padding: 0 10px 10px 0;
+}
+body .video-btn {
+  margin: 0px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  padding: 13px 20px;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  color: white;
+  border: 2px solid #000080;
+  background-color: #000080;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:hover,
+.split-vdp-with-toolbar .search-result-buttons .btn:focus,
+.split-vdp-with-toolbar .search-result-buttons .btn:active {
+  color: #000080;
+  background: white;
+  border: 2px solid #000080;
+}
+div#les_video {
+  width: 450px;
+}
+
+@media (min-width: 1500px) {
+  div#les_video {
+    width: 700px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 991px) {
+  div#les_video {
+    width: 700px;
+  }
+}
+
+/*Displaying conditionals before unlock KNP 10/22/25*/
+.stacked-vehicle-prices .applied-conditional-rebates {
+  display: block;
+}
+
+.search-result-buttons-and-price-block .vehicle-buttons-stacked .half-button {
+  width: 100%;
+  padding: 11px 5px;
+  font-size: 14px !important;
+  background-color: #4fa945!important;
+  border-color: #4fa945!important;
+  border-radius: 25px;
+}
+
+.search-result-buttons-and-price-block .vehicle-buttons-stacked .half-button:hover,
+.search-result-buttons-and-price-block .vehicle-buttons-stacked .half-button:active,
+.search-result-buttons-and-price-block .vehicle-buttons-stacked .half-button:focus {
+  color: #4fa945!important;
+  background-color: #ffffff !important;
+}
+
+/*Low price font adjustment KNP 1/27/26*/
+.search-result-buttons-and-price-block .stacked-vehicle-prices .lowest-price h5,
+.search-result-buttons-and-price-block .stacked-vehicle-prices .lowest-price h3 {
+ font-weight: bold;
+ font-size: 16px !important;
+}
+
+/*Fixing Capital One tools KNP 4/27/26*/
+div#cap-one-calc-wrapper {
+    width: 70%;
+    margin-left: 15%;
+}
+
+/*Changing Doc Fee to be above Final Price*/
+.middle-price {
+    order: 3;
+}
+
+.inventory-fees-block{
+ 	order: 1; 
+}
+
+.price-savings {
+    order: 2;
+}
+
+.vauto-incentives{
+ 	order: 4; 
+}
+
+.locked-price-container {
+    order: 5;
+}
+
+.lowest-price {
+    order: 6;
+}
+
+.applied-conditional-rebates {
+    order: 7;
+}
+
+.new-price-block-styles .lowest-price h3, .new-price-block-styles .single-price h3, .new-price-block-styles .single-stacked-price h3, .new-price-block-styles .lowest-price h5, .new-price-block-styles .single-price h5, .new-price-block-styles .single-stacked-price h5 {
+    color: #000000;
+}
+
+/*Hiding Trade Pending Widget and Send to Mobile Widget - AD 6/9/2026 Ticket#:103052*/
+.tp-banner-trade-widget {
+    display: none;
+}
+
+div#sendToMobile{
+    display: none;
+}
+
+/*Making the Talk to Steven Button similar to other buttons. - AD 6/9/2026 Ticket#:103052*/
+.split-vdp-with-toolbar .search-result-buttons .search-button.search-button-manager {
+    border-radius: 50px;
+    text-align: left;
+}
+
+/*Adding "-" before price savings. - AD 6/9/2026*/
+.price-savings h4::before {
+    content: "-";
+}

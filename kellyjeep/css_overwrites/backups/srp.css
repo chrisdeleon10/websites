@@ -1,0 +1,1123 @@
+#toggle-model-search {
+  display: none;
+}
+
+.vehicle-index-container .search-button--value,
+.vehicle-index-container .search-button--approved {
+  display: none;
+}
+
+/* Vehicles Found Banner */
+
+@media (min-width: 768px) {
+  .vehicles-found-container > h1,
+  .vehicles-found-container > h1 + div {
+    display: block;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+
+  .vehicles-found-container > h1 {
+    float: left;
+    text-align: left;
+  }
+
+  .vehicles-found-container > h1 + div {
+    float: right;
+    text-align: right;
+  }
+}
+
+/* Refine Results / Clear Filters */
+
+.vehicle-index-container .listing-page .vehicle-filter-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.vehicle-index-container .listing-page .vehicle-filter-menu .panel {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0px;
+}
+
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  form[action="/vehicles"]
+  input {
+  border-right: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  form[action="/vehicles"]
+  .btn-default {
+  border-left: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-color: #cccccc;
+  height: 34px;
+}
+
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  .sort-menu-container
+  > .row
+  .btn {
+  border-radius: 6px;
+}
+
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  .sort-menu-container
+  > .row
+  .btn-info {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .vehicle-index-container
+    .listing-page
+    > .vehicle-sort-menu
+    > .col-md-3
+    > .text-center {
+    text-align: right;
+  }
+
+  .srp-filter-list-clear {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .vehicle-index-container .listing-page > .row:nth-of-type(3) {
+    text-align: center;
+  }
+}
+
+/* Vehicle Index Container */
+
+body .vehicle-index-page,
+body .vehicle-filter-menu .filter-list {
+  background-color: #ffffff;
+}
+
+.vehicle-index-container {
+  max-width: 1440px;
+  margin: auto;
+  width: 98%;
+}
+
+/* Vehicle Unit Container */
+
+.vehicle-unit-container {
+  border-radius: 6px;
+  padding-bottom: 0px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .vehicle-unit-container:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 0px 15px 7px #76767627;
+    box-shadow: 0px 0px 15px 7px #76767627;
+  }
+
+  .vehicle-unit-container:hover .vehicle-content {
+    border-color: transparent;
+  }
+
+  .vehicle-unit-container:hover .vehicle-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .vehicle-unit-container:hover .vehicle-thumb-container img {
+    border-radius: 6px 6px 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .vehicle-index-page #vehicles > .vehicle-unit-container {
+    margin-bottom: 50px;
+  }
+}
+
+/* Active Template Vehicle Title Block */
+
+.vehicle-unit-container .vehicle-year {
+  margin-bottom: 0px;
+}
+
+.vehicle-unit-container .vehicle-year,
+.vehicle-unit-container .vehicle-make-model {
+  font-size: 16px;
+}
+
+.vehicle-unit-container .vehicle-make-model {
+  width: fit-content;
+  padding: 0 10px;
+}
+
+.vehicle-unit-container .vehicle-sub-title {
+  font-size: 13px;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+  padding: 7px 0px;
+}
+
+.vehicle-unit-container .vehicle-sub-title p {
+  margin: 0px;
+}
+
+/* Active Template Vehicle Specs Block */
+
+.vehicle-unit-container .active-template-specs-block {
+  margin-top: 10px;
+  border-bottom: solid 1px #999999;
+}
+
+.vehicle-unit-container .active-template-specs-block .vehicle-spec {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.vehicle-spec--options-modal {
+  opacity: 0.4;
+}
+
+.vehicle-spec--options-modal:hover {
+  opacity: 1;
+}
+
+.vehicle-unit-container .active-template-specs-block .vehicle-spec a {
+  color: #00095b;
+}
+
+.vehicle-spec__icon {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/201/742/original/ss-gizmo-check-sm.png?1651242721);
+  background-size: 40% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #00095b;
+  color: #ffffff;
+  border-radius: 100%;
+}
+
+.vehicle-spec__icon--has-content {
+  background-image: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.vehicle-spec--options-modal .vehicle-spec__icon--has-content {
+  align-items: flex-end;
+}
+
+.vehicle-unit-container .active-template-specs-block .vehicle-spec__label {
+  font-weight: bold;
+}
+
+/* Active Template Vehicle Price Block */
+
+.active-template-price-block .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.vehicle-index-price.vehicle-price-block {
+  padding: 20px 0px 0px 0px;
+  margin: 0 auto;
+}
+
+/* TOOLTIP */
+.tooltip-inner .bundle-savings-breakdown p {
+  color: #ffffff;
+}
+
+.tooltip-inner .price-savings {
+  padding: 10px;
+}
+
+.tooltip-inner .price-savings h4,
+.tooltip-inner .price-savings h5 {
+  color: #ffffff;
+}
+
+/* Vehicle Thumb */
+
+.vehicle-thumb-container {
+  text-align: center;
+}
+
+/* Vehicle Content - New Vehicles */
+
+.vehicle-unit-container.new-true .vehicle-make-model .make {
+  display: none;
+}
+
+/* Vehicle Features Modal */
+
+#vehicle-options-modal .vehicle-options-block h2 {
+  background-color: transparent;
+  color: #00095b;
+  text-align: left;
+}
+
+#vehicle-options-modal .table > tbody > tr > td {
+  border: 0px;
+}
+
+#vehicle-options-modal .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+/* Vehicle Badges */
+
+.active-template-vehicle-badges {
+  border-top: solid 1px #999999;
+  margin-top: 12px;
+}
+
+@media (min-width: 768px) {
+  .vehicle-index-price.vehicle-price-block .vehicle-prices {
+    min-height: 53px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-true .new-vehicle-prices {
+    min-height: 91px;
+  }
+
+  .new-false .active-template-vehicle-badges {
+    min-height: 77px;
+  }
+
+  /*
+  .new-true .active-template-vehicle-badges {
+    min-height: 20px;
+  }
+  .vehicle-index-buttons {
+      min-height: 70px;
+  }
+  */
+}
+
+/* SRP Filter Menu*/
+
+.vehicle-filter-menu .panel .panel-heading {
+  border-bottom: 0px;
+  background-color: transparent;
+  text-align: left;
+}
+
+.sort-menu-container .fa-check:before {
+  font-family: "Material Icons";
+  content: "\e313";
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sort-menu-container .fa-plus:before {
+  font-family: "Material Icons";
+  content: "\e313";
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sort-menu-container a.filter-button.section-heading {
+  color: #333 !important;
+  font-size: 15px;
+  border-bottom: solid 1px #d2d2d2;
+  padding: 5px 0px 15px 0px;
+  margin-left: 3px;
+}
+
+.vehicle-filter-menu .filter-section .filter-list label {
+  padding-left: 5px;
+}
+
+.sort-menu-container > .row.visible-xs.visible-sm {
+  margin-top: 15px;
+}
+
+.sort-menu-container > form[action="/vehicles"] {
+  margin-bottom: 10px;
+}
+
+body .vehicle-filter-menu .panel .panel-body,
+body .vehicle-search-menu .panel .panel-body {
+  padding: 0 25px 50px 10px;
+}
+
+.sort-menu-container a.filter-button.section-heading.active i {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.sort-menu-container a.filter-button.section-heading.active i {
+  transform: rotate(180deg);
+}
+
+button#mobile-refine-results {
+  border: 0px;
+  color: #ffffff;
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+button#mobile-refine-results:hover,
+button#mobile-refine-results:active,
+button#mobile-refine-results:focus {
+  color: #ffffff;
+  outline: none;
+}
+
+@media (max-width: 991px) {
+  .sort-menu-container {
+    position: relative;
+  }
+
+  .listing-page .col-lg-12 {
+    padding: 0px;
+  }
+
+  .sort-menu-container button {
+    color: rgba(0, 0, 0, 0.87);
+    border-color: rgba(0, 0, 0, 0.87);
+    background-color: transparent;
+    font-weight: 700;
+    max-width: 250px;
+    margin: 0px auto;
+  }
+
+  .sort-menu-container button:hover,
+  .sort-menu-container button:focus {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-color: rgba(0, 0, 0, 0.87);
+    outline: none;
+  }
+
+  .vehicle-filter-menu.hidden-sm.hidden-xs {
+    display: block !important;
+    height: 0;
+  }
+}
+
+.listing-page > .row {
+  position: relative;
+}
+
+.listing-page > .row:first-child {
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+.listing-page > .row:first-child::before,
+.listing-page > .row:first-child::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.listing-page > .row:first-child::before {
+  left: -100%;
+}
+
+.listing-page > .row:first-child::after {
+  right: -100%;
+}
+
+@media (min-width: 992px) {
+  .sticky-side-menus {
+    width: 100%;
+  }
+
+  .filer-panel {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .vehicle-sort-menu::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(10px - 5%);
+    width: calc(220px + 5%);
+    height: 100%;
+  }
+
+  .listing-page > .row:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .listing-page > .row:last-child::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(10px - 5%);
+    width: calc(10px + 5%);
+    height: 100%;
+  }
+
+  .row.vehicle-sort-menu + .row > div[class*="col-"] {
+    display: inline-grid;
+  }
+
+  .row.vehicle-sort-menu + .row > div[class*="col-"]:first-child {
+    width: 230px;
+    padding-right: 0;
+  }
+
+  .row.vehicle-sort-menu + .row > div[class*="col-"]:last-child {
+    width: calc(100% - 230px);
+    padding-left: 48px;
+  }
+
+  .vehicle-filter-menu a.section-heading .selected-icon {
+    float: right;
+    color: #333333;
+  }
+}
+
+#sticky-menu-container {
+  z-index: 99999998;
+}
+
+.listing-page {
+  padding-top: 0;
+}
+
+.mobile-shortcut-btns {
+  display: none !important;
+}
+
+.vehicles-found-container .vehicles-found {
+  font-weight: bolder;
+}
+
+span.vehicles-found + span {
+  font-weight: 400;
+}
+
+.vehicle-index-page a:hover,
+.vehicle-index-page a:focus {
+  color: #23527c;
+  text-decoration: none;
+  outline: none;
+}
+
+.vehicle-index-page {
+  position: relative;
+  background: #f2f2f2;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+.listing-page {
+  background: transparent !important;
+}
+
+.listing-page .col-lg-12 {
+  padding: 0;
+}
+
+.listing-page > .row:first-child::before,
+.listing-page > .row:first-child::after,
+.vehicles-found-container,
+.listing-page > .row:first-child,
+.listing-page .col-lg-12 {
+  background: #005a9c;
+  color: #ffffff;
+}
+
+.vehicles-found-container {
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+}
+
+#sortResultsDropdown {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.vehicle-filter-menu .section-divider {
+  border-bottom: none;
+  min-height: 1px;
+  clear: both;
+  width: 100%;
+  height: 1px;
+}
+
+/* Sort Results Dropdown */
+
+.vehicle-sort-menu #sortResultsDropdown {
+  color: #005a9c;
+  font-weight: 500;
+}
+
+span.caret {
+  display: none;
+}
+
+.vehicle-sort-menu .dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.vehicle-sort-menu .dropdown-menu > li > a {
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+.vehicle-sort-menu .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-image: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Vehicle Card Style */
+
+.vehicle-toggle-btn {
+  display: none;
+}
+
+.vehicle-index-summary span.pull-right {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.vehicle-index-summary span {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+}
+
+.vdp-link {
+  display: none;
+}
+
+/* Vehicle Price Block */
+
+.row.stacked-srp-prices .col-xs-6:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.new-true .row.stacked-srp-prices .col-xs-6:first-child {
+  padding: 0px 0px 15px;
+}
+
+.vehicle-price-block .vehicle-prices .col-xs-6 {
+  width: 100%;
+}
+
+/* Back To Top */
+
+.section-heading[onclick="window.scrollTo(0, 0);"] {
+  position: fixed;
+  height: 56px;
+  padding: 16px !important;
+  width: 56px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  z-index: 99999999;
+  background-color: #333;
+  color: #fff !important;
+  -webkit-box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12),
+    0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12),
+    0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-heading[onclick="window.scrollTo(0, 0);"] > span {
+  display: none;
+}
+
+/* SRP Sort Dropdown */
+
+.vehicle-sort-menu {
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+#sortResultsDropdown {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* SRP Grid View */
+
+#vehicles {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding-top: 3px;
+}
+
+#vehicles > .vehicle-unit-container,
+.active-template-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 20px);
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .vehicle-index-summary {
+    padding-top: 65px;
+  }
+
+  #call-to-action-overlay {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #vehicles > .vehicle-unit-container,
+  .active-template-wrapper {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 1200px) {
+  #vehicles > .vehicle-unit-container,
+  .active-template-wrapper {
+    width: calc(33.333% - 20px);
+  }
+}
+
+@media (min-width: 1500px) {
+  .vehicle-index-container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .vehicle-index-page {
+    padding: 0;
+  }
+}
+
+.vehicle-bottom {
+  margin-top: auto;
+  padding: 0 10px;
+}
+
+.infinite-paginate > .row {
+  display: none;
+}
+
+/* SRP Grid View */
+
+.vehicle-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: solid 1px #58595B; */
+  border-radius: 0 0 6px 6px;
+  transition: padding 0.2s ease;
+}
+
+.vehicle-thumb-container img {
+  border-radius: 6px;
+}
+
+#sort-results.dropdown-menu {
+  left: unset;
+  right: 0;
+}
+
+body .vehicle-sort-menu #sortResultsDropdown:focus {
+  outline: none;
+}
+
+.vehicle-badges {
+  margin-top: 10px;
+}
+/* Fix WebBuy Button */
+.search-button-container--webbuy .search-button-tool {
+  opacity: 0;
+  position: absolute;
+  top: 57px;
+  left: 12px;
+  width: 93%;
+  height: 46.84px;
+}
+.search-button-container--webbuy {
+  pointer-events: none;
+}
+
+.search-button-container--webbuy:hover {
+  color: #eb0a1e;
+  background-color: #ffffff;
+  border: 2px solid #eb0a1e;
+}
+.search-button-container--webbuy .search-button-tool {
+  pointer-events: auto;
+}
+/* Fixing Vehicle Count Container */
+@media (min-width: 992px) {
+  .listing-page > .row:nth-child(2)::before,
+  .listing-page > .row:nth-child(2)::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 55.7px;
+    background-color: transparent;
+  }
+
+  .listing-page > .row:nth-child(2)::before {
+    left: -100%;
+  }
+
+  .listing-page > .row:nth-child(2)::after {
+    right: -100%;
+  }
+}
+/* This is already in here but updating child being targeted bc of autofi and tp banners being added */
+.listing-page > .row:nth-child(2) {
+  display: table;
+  width: 100%;
+  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.listing-page > .row:nth-of-child(2):before,
+.listing-page > .row:nth-of-child(2):after {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.listing-page > .row:nth-of-child(2):before {
+  left: -100%;
+}
+.listing-page > .row:nth-of-child(2):after {
+  right: -100%;
+}
+.listing-page > .row:nth-of-child(2):before,
+.listing-page > .row:nth-of-child(2):after,
+.vehicles-found-container,
+.listing-page > .row:nth-child(2),
+.listing-page .col-lg-12 {
+  background: #005a9c;
+  color: #ffffff;
+}
+/* Making the Auto-Fi modal infiniti z-index  */
+.autofi-modal-container {
+  z-index: 9991220091 !important;
+}
+/* End Auto-Fi modal infiniti z-index */
+@media (min-width: 992px) {
+  .vehicle-index-buttons .search-button--text {
+    display: none;
+  }
+}
+
+/* Site Specific CSS Kelly Jeep */
+.les_video {
+  min-height: 38px;
+  margin-top: 10px;
+}
+.vehicle-thumb .tp-superlative-root {
+  margin: 0 auto !important;
+  max-width: 100% !important;
+}
+/* Unlock Price Color Change */
+.unlock-price-button {
+  background-color: #4fa945;
+  border: 3px solid #4fa945 !important;
+}
+
+/*Unhiding rebate button without affecting other sites using sitewide css knp 9/10/24*/
+.available-rebates-section {
+  margin-top: 5px;
+}
+
+a.toggle-custom-vehicle-form.btn.custom-vehicle-form-button.event-click.track-click.modal-trigger.btn-default.video-btn.col-sm-3.search-button.search-button-see-vehicle {
+  display: none;
+}
+
+.vehicle-index-buttons.vehicle-buttons a {
+  border-radius: 25px;
+}
+
+/*CTA/price block changes knp 1/27/25*/
+.unlock-price-features a {
+  background-color: #4fa945;
+  border: 3px solid #4fa945;
+}
+
+.unlock-price-features a:hover,
+.unlock-price-features a:active,
+.unlock-price-features a:focus {
+  background-color: #ffffff !important;
+  color: #4fa945 !important;
+  border: 3px solid #4fa945 !important;
+}
+.conditional-price h3,
+.conditional-price h5 {
+  font-size: 18px;
+}
+
+.stacked-vehicle-prices .lowest-price h3,
+.stacked-vehicle-prices .lowest-price h5,
+.stacked-vehicle-prices .price-savings h3,
+.stacked-vehicle-prices .price-savings h5,
+.stacked-vehicle-prices .highest-price h3,
+.stacked-vehicle-prices .highest-price h5 {
+  font-size: 14px !important;
+}
+
+.applied-rebate h5 {
+  text-align: left;
+}
+
+.applied-rebate h4 {
+  text-align: right;
+}
+
+.applied-rebate h4 {
+  width: 30%;
+}
+.applied-rebate h5 {
+  width: 70%;
+}
+
+html.translated-ltr
+  .vehicle-unit-container
+  .unlock-price-button:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-unit-container
+  .get-price-button:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-unit-container
+  .available-rebates-btn:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-buttons
+  .search-button:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-unit-container
+  .vehicle-make-model:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-unit-container
+  div.tp-autobio-wrapper
+  .tp-autobio-link:not(:hover):not(:focus):not(:active)
+  *,
+html.translated-ltr
+  .vehicle-spec--options-modal
+  .vehicle-spec__icon--has-content:not(:hover):not(:focus):not(:active)
+  * {
+  color: #ffffff;
+}
+
+/*Hiding all CTA's per request ticket #70765*/
+.get-price-btn-container a {
+  background-color: green;
+  border: 1px green solid;
+}
+
+.get-price-btn-container a:hover,
+.get-price-btn-container a:active,
+.get-price-btn-container a:focus {
+  color: green !important;
+  border: 1px green solid !important;
+}
+.color-tooltip {
+  display: inline-block;
+}
+
+/*Incentive fixes KNP 10/22/25*/
+.stacked-vehicle-prices .vauto-incentives .vauto-incentive {
+  text-align: left;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/*Displaying conditionals before unlock KNP 10/22/25*/
+.stacked-vehicle-prices .applied-conditional-rebates {
+  display: block;
+}
+.vehicle-index-buttons .notify-me-if-price-drops,
+.vehicle-index-buttons .get-pre-approved {
+  display: none;
+}
+#tradepending-container .payment_explorer_banner {
+  display: none;
+}
+a.notify-me-if-price-drops.toggle-price-alert-modal.search-button.btn-block.tp-style-btn {
+  display: none !important;
+}
+.vehicle-index-buttons .half-button:nth-last-of-type(1) {
+  float: left;
+}
+.vehicle-index-buttons .half-button:nth-last-of-type(2) {
+  float: right;
+}
+body .vehicle-unit-container .vehicle-index-buttons .half-button {
+  width: 49%;
+  padding: 11px 5px;
+  font-size: 14px !important;
+  background-color: #4fa945 !important;
+  border-color: #4fa945 !important;
+}
+body .vehicle-unit-container .vehicle-index-buttons .half-button:hover,
+body .vehicle-unit-container .vehicle-index-buttons .half-button:active,
+body .vehicle-unit-container .vehicle-index-buttons .half-button:focus {
+  background-color: white !important;
+  color: #4fa945 !important;
+}
+
+/*Low price font adjustment KNP 1/27/26*/
+.stacked-srp-prices .stacked-vehicle-prices .lowest-price h5,
+.stacked-srp-prices .stacked-vehicle-prices .lowest-price h3 {
+  font-weight: bold;
+  font-size: 16px !important;
+}
+
+.applied-conditional-rebates h4.incentive-amount {
+  font-size: 14px;
+}
+.vehicle-unit-container .tp-superlative-root {
+  display: none !important;
+}
+
+/*Changing Doc fee to match other prices font size.*/
+.inventory-fee h4,
+.inventory-fee h5{
+  font-size: 14px; 
+}
+
+/*Changing Doc Fee color to be Gray.*/
+.inventory-fees-block .inventory-fee {
+    color: gray;
+}
+
+.middle-price h5.price-label, .middle-price h3.price-amount {
+    color: grey;
+}
+
+/*Changing Doc Fee to be above Final Price*/
+.middle-price {
+    order: 3;
+}
+
+.inventory-fees-block{
+ 	order: 1; 
+}
+
+.price-savings {
+    order: 2;
+}
+
+.vauto-incentives{
+ 	order: 4; 
+}
+
+.locked-price-container {
+    order: 5;
+}
+
+.lowest-price {
+    order: 6;
+}
+
+.applied-conditional-rebates {
+    order: 7;
+}
+
+/*Getting rid of padding under Savings*/
+.price-savings h5 {
+    padding-bottom: 0px !important;
+}
+
+/*Hiding Cap One LN button on used KNP 5/1/26*/
+.vehicle-unit-container.new-false .capital-one-wrapper {
+    display: none;
+}
+
+/*Hiding Trade Pending widget. - AD 6/9/2026 Ticket#:103052*/
+div#tradepending-container {
+    display: none;
+}
+
+.payment_explorer_banner {
+    display: none;
+}
+
+/*Adding "-" before price savings. - AD 6/9/2026*/
+.price-savings h4::before {
+    content: "-";
+}
