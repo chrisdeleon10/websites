@@ -1,0 +1,171 @@
+.vdp-container .search-button--payments {
+	display: block !important;
+}
+
+/*.reveal_cta_button {
+        display: none !important;
+    }*/
+
+/* NEW */
+#mobile-actions, 
+#desktop-actions {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title, 
+.specials-block, 
+.vdp-specials
+{
+  display: none;
+}
+
+.vertical-item.badge-item[data-name="custom-vehicle-badges"] a {
+    pointer-events: none;
+}
+.col.left .block.card:nth-child(3) + br {
+    display: none;
+}
+.block-heading.minor-title.buttons-title, 
+.buttons-block {
+    display: none;
+}
+div#before-you-buy {
+    display: none !important;
+}
+.vdp-side-coupon {
+    display: none;
+}
+
+/* Helping text fit inside conditional rebates button CD 2/6/24 */
+
+.btn-success.available-rebates-btn.show-available-rebates {
+    padding: 13px 5px;
+  	font-size: 15px;
+}
+
+@media (max-width: 424px) {
+    .btn-success.available-rebates-btn.show-available-rebates {
+        font-size: 13px;
+    }
+}
+.price-block .vehicle-show-buttons a {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.vehicle-show-container .kia-secondary-btn {
+    margin: 0px;
+  }
+
+.vdp-custom-header-height {
+  display: none;
+  height: 0 !important;
+}
+.vdp-custom-header.navbar-fixed-top {
+    position: static;
+}
+
+.applied-conditional-rebates .col-xs-12.conditional-price {
+    display: none;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  color: white !important;
+}
+
+/* Adding icon before 'Click for More Discounts - CD 6/10/24 */
+/*
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:before {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:after {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+*/
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] {
+    width: 100%;
+}
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] > a {
+    border-radius: 30px;
+}
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    border-radius: 30px;
+}
+
+/* Fixing Eprice/Unlock Price Btn and Border issues - KA (3/27/26) */
+.split-vdp-with-toolbar .available-rebates-section button {
+    background-color: var(--pc);
+    color: #ffffff;
+    border-color: var(--pc);
+    width: 100%;
+    padding: 10px 34px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: var(--pc) solid;
+}
+.split-vdp-with-toolbar .available-rebates-section {
+    margin-bottom: 0;
+}
+.split-vdp-with-toolbar .available-rebates-section button:hover {
+    border: var(--pc) solid;
+}
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    border: 2px solid var(--pc);
+    border-radius: 30px;
+}
+.split-vdp-with-toolbar .unlock-price-button:hover, 
+.split-vdp-with-toolbar .unlock-price-button:active, 
+.split-vdp-with-toolbar .unlock-price-button:focus, 
+.split-vdp-with-toolbar .get-price-button:hover, 
+.split-vdp-with-toolbar .get-price-button:active, 
+.split-vdp-with-toolbar .get-price-button:focus {
+    border: 2px solid;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  border: 2px solid #ffffff;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:focus,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+  color: #ffffff !important;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    padding-top: 5px;
+}
+.tp-btn-trade .tp-cta-button-widget .tp-cta-button-btn {
+    margin-top: 0px !important;
+}
+
+/*Conditional offers changes KNP 4/7/26*/
+.applied-conditional-rebates::before {
+  content: "Conditional Offers";
+  display: inline-block;
+  text-align: left;
+  width: fit-content;
+  float: left;
+  margin: 0px 0px 5px 15px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
