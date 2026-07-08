@@ -1,0 +1,25 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/798/759/original/JTKG-Logo-121823-RGB-Horz-WHT.png?1709654369");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#desktop-header #desktop-logo > a {
+  background-position: center 15px;
+}
+
+.vcenter.toolbar-select-language {
+    display: inline !important;
+}
