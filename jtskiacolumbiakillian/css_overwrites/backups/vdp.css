@@ -1,0 +1,91 @@
+/* margin: auto !important; */
+.vdp-container .search-button--payments {
+  display: block !important;
+}
+
+/* NEW */
+#mobile-actions,
+#desktop-actions {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title,
+.specials-block,
+.vdp-specials
+{
+  display: none;
+}
+
+.col.left .block.card:nth-child(3) + br {
+  display: none;
+}
+.block-heading.minor-title.buttons-title,
+.buttons-block {
+  display: none;
+}
+
+/* Fixing Eprice/Unlock Price Btn and Border issues - KA (3/27/26) */
+.split-vdp-with-toolbar .available-rebates-section button {
+    background-color: var(--pc);
+    color: #ffffff;
+    border-color: var(--pc);
+    width: 100%;
+    padding: 10px 34px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: var(--pc) solid;
+}
+.split-vdp-with-toolbar .available-rebates-section {
+    margin-bottom: 0;
+}
+.split-vdp-with-toolbar .available-rebates-section button:hover {
+    border: var(--pc) solid;
+}
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    border: 2px solid var(--pc);
+    border-radius: 30px;
+}
+.split-vdp-with-toolbar .unlock-price-button:hover, 
+.split-vdp-with-toolbar .unlock-price-button:active, 
+.split-vdp-with-toolbar .unlock-price-button:focus, 
+.split-vdp-with-toolbar .get-price-button:hover, 
+.split-vdp-with-toolbar .get-price-button:active, 
+.split-vdp-with-toolbar .get-price-button:focus {
+    border: 2px solid;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  border: 2px solid #ffffff;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:focus,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+  color: #ffffff !important;
+}
+
+/*Conditional offers changes KNP 4/7/26*/
+.applied-conditional-rebates::before {
+  content: "Conditional Offers";
+  display: inline-block;
+  text-align: left;
+  width: fit-content;
+  float: left;
+  margin: 0px 0px 5px 15px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+/* Price block style adjustments - MW (4/20/26) */
+.price-block .stacked-vehicle-prices.used-vehicle-prices .price-add-ons h4::before {
+  content: "+"
+}

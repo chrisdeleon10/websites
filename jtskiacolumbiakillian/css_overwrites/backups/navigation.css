@@ -1,0 +1,30 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/703/802/original/JTKK-Logo-121523-RGB-Horz-WHT.png?1702911208");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#desktop-header #desktop-logo > a {
+  background-position: center 15px;
+}
+.dropdown-menu>li>a:focus {
+    outline: none;
+    outline-offset: 0;
+}
+body .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:focus {
+    background: var(--pc);
+    color: #ffffff;
+    outline: none;
+}
