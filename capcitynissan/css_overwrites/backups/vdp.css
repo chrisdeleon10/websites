@@ -1,0 +1,170 @@
+.unlock-price-btn-container[data-inventory-type="new"] a.unlock-price-button.unlock-modal-toggle.event-click.track-click {
+    background-color: green;
+    border: 1px solid green;
+    margin: 0 0 10px;
+}
+
+.unlock-price-btn-container[data-inventory-type="new"] a.unlock-price-button.unlock-modal-toggle.event-click.track-click:hover,
+.unlock-price-btn-container[data-inventory-type="new"] a.unlock-price-button.unlock-modal-toggle.event-click.track-click:active,
+.unlock-price-btn-container[data-inventory-type="new"] a.unlock-price-button.unlock-modal-toggle.event-click.track-click:focus {
+    background-color: white;
+    color: green !important;
+}
+
+
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block {
+  display: none !important;
+}
+button.payment-calculator-offer-btn, 
+.search-button--pricedrop, 
+.search-button--trade, 
+.search-button--preapproved {
+    display: none;
+}
+#v-badges {
+  text-align: center;
+}
+/*
+.vertical-item.badge-item[data-name="carfax-badge"]{
+    display: none;
+}
+*/
+.available-rebates-section .available-rebates-btn {
+    font-size: 13px;
+}
+
+div.get-price-btn-container a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+        margin-bottom: 5px;
+    font-size: 14px;
+}
+/* DJ Specific CSS */
+.col.right .vehicle-show-buttons .buy-at-home-widget-container.index-btn--buy-home {
+    min-height: 67px;
+}
+
+.vdp-template-content .prodigy-pricing-button-group .prodigy-button-large {
+    padding: 0 !important;
+    margin-bottom: 0;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.vdp-template-content .prodigy-standalone-tradein-button .prodigy-button {
+    padding: 18px 0;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.vdp-header-price-block,
+.vdp-header-price-button .get-price-btn-container {
+    display: none;
+}
+
+
+/* Subnav fixes */
+.vdp-custom-header-height {
+  display: none;
+}
+.vdp-custom-header.navbar-fixed-top {
+  position: static;
+  margin: 15px -15px 0 -15px;
+}
+/*
+.vertical-item.badge-item[data-name="carfax"] {
+  display: none;
+}
+*/
+.vertical-item.badge-item[data-name="auto-ipacket-used"] img {
+  width: 100%;
+  max-width: 200px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  line-height: unset;
+}
+body .vdp-custom-header[data-has-color-fill="true"], body .vdp-custom-header {
+    background: #eeeeee;
+    color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .vehicle-trim-mileage .trim {
+    color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-txt {
+    color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:hover, .vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:active, .vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:focus {
+    background-color: #c3012f;
+    border-color: #c3012f;
+}
+
+
+.split-vdp-with-toolbar .search-result-buttons .btn.search-button {
+    background: #c3032f;
+    color: white;
+    border: #c3032f;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+div#hsVehicleBadgesRow:before {
+    content: 'click below to learn more';
+    text-align: center;
+    margin: auto;
+    text-decoration-line: underline;
+    font-size: 20px;
+    margin-top: 25px;
+    text-decoration-color: #c3022f;
+  display: none; 
+}
+
+a.get-price-button {
+    border-radius: 30px !important;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    background: #c3032f;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+  font-size: 14px;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.hide-available-rebates {
+    width: 100%;
+    padding: 12px 20px;
+  font-size: 14px;
+}
+
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    background-color: #248000;
+    color: #ffffff;
+    border-color: #248000;
+}
+
+.split-vdp-with-toolbar .unlock-price-button:hover,
+.split-vdp-with-toolbar .unlock-price-button:active,
+.split-vdp-with-toolbar .unlock-price-button:focus,
+.split-vdp-with-toolbar .get-price-button:hover,
+.split-vdp-with-toolbar .get-price-button:active,
+.split-vdp-with-toolbar .get-price-button:focus {
+    background-color: #ffffff;
+    color: #248000;
+    border-color: #248000;
+}
+
+.vehicle-overview-and-price-block[data-inventory-type="used"] p.lifetime-para {
+    display: none;
+}
+
+.stacked-vehicle-prices::after {
+    content: 'Fully transparent pricing. No hidden fees.';
+    margin: auto;
+    padding-top: 15px;
+    font-size: 13px;
+    font-family: ToyotaType-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  color: #c4002f;
+}
