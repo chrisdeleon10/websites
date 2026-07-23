@@ -1,0 +1,265 @@
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click {
+  background-color: green;
+  border: 1px solid green;
+  margin: 0 0 10px;
+}
+
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:hover,
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:active,
+.unlock-price-btn-container[data-inventory-type="new"]
+  a.unlock-price-button.unlock-modal-toggle.event-click.track-click:focus {
+  background-color: white;
+  color: green !important;
+}
+
+/*Hiding Locked price for now 3/8/24 knp*/
+.locked-price-container {
+  display: none !important;
+}
+
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title,
+.specials-block {
+  display: none !important;
+}
+button.payment-calculator-offer-btn,
+.search-button--pricedrop,
+.search-button--trade,
+.search-button--preapproved {
+  display: none;
+}
+#v-badges {
+  text-align: center;
+}
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none;
+}
+.available-rebates-section .available-rebates-btn {
+  font-size: 15px;
+}
+
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+  text-decoration: none;
+}
+
+div.get-price-btn-container
+  a.get-price-button.toggle-eprice-modal.event-click.track-click.modal-trigger {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+/* DJ Specific CSS */
+.col.right
+  .vehicle-show-buttons
+  .buy-at-home-widget-container.index-btn--buy-home {
+  min-height: 67px;
+}
+
+.vdp-template-content .prodigy-pricing-button-group .prodigy-button-large {
+  margin-bottom: 0;
+  margin-top: 0;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #ffffff !important;
+  background: #c3032f;
+  border: 2px solid #c3032f;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.vdp-template-content
+  .prodigy-pricing-button-group
+  .prodigy-button-large:hover {
+  background-color: #900023 !important;
+  color: #ffffff !important;
+  border-color: #900023 !important;
+  text-decoration: none !important;
+}
+.vdp-template-content .prodigy-standalone-tradein-button .prodigy-button {
+  padding: 18px 0;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+/* Subnav fixes */
+.vdp-custom-header-height {
+  display: none;
+}
+/* .vdp-custom-header.navbar-fixed-top {
+  position: static;
+} */
+.vertical-item.badge-item[data-name="carfax"] {
+  display: none;
+}
+.vertical-item.badge-item[data-name="auto-ipacket-used"] img {
+  width: 100%;
+  max-width: 200px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  line-height: unset;
+}
+body .vdp-custom-header[data-has-color-fill="true"],
+body .vdp-custom-header {
+  background: #eeeeee;
+  color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .vehicle-trim-mileage .trim {
+  color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-txt {
+  color: #000000;
+}
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:hover,
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:active,
+.vdp-custom-header[data-has-color-fill="true"] .mobile-help-icons .fa:focus {
+  background-color: #c3012f;
+  border-color: #c3012f;
+}
+
+/* .split-vdp-with-toolbar .available-rebates-section {
+  display: none;
+} */
+
+.btn.search-button.search-button--explore {
+  background: #c3012f;
+  color: white;
+  border: #c3012f;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+/* Removed 12/24/24 by GR
+div#hsVehicleBadgesRow:before {
+  content: 'click below to learn more';
+  text-align: center;
+  margin: auto;
+  text-decoration-line: underline;
+  font-size: 20px;
+  margin-top: 25px;
+  text-decoration-color: #c3022f;
+} */
+
+.vdp-custom-header[data-has-color-fill="true"] .vdp-header-price-block * {
+  color: #000000 !important;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  color: #000000 !important;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  border-color: #000000;
+}
+
+.vdp-custom-header .mobile-help-icons .fa {
+  color: #c3002f;
+  border-color: #c3002f;
+}
+.vdp-custom-header {
+  border-bottom: #c3002f 3px solid;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  border-color: #c3012f;
+}
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:focus,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+  background: #c3012f;
+  color: #ffffff !important;
+  border: 2px solid #c3012f;
+}
+.fixed-top-subnav.vdp-custom-header {
+  top: 10em !important;
+}
+.split-vdp-with-toolbar {
+  margin-top: 10rem;
+}
+@media (max-width: 540px) {
+  .split-vdp-with-toolbar {
+    margin-top: 13rem;
+  }
+}
+@media (max-width: 1024px) {
+  .fixed-top-subnav.vdp-custom-header {
+    top: 8em !important;
+  }
+}
+
+/* Adding Rebates Section */
+
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+  width: 100%;
+    color: white !important;
+    padding: 12px 20px;
+    background-color: #c3032f;
+    color: #333333;
+}
+
+.split-vdp-with-toolbar .unlock-price-button, 
+.split-vdp-with-toolbar .get-price-button {
+  background: #248000;
+  color: #ffffff;
+  border-color:#248000;
+}
+
+.split-vdp-with-toolbar .unlock-price-button:hover,
+.split-vdp-with-toolbar .unlock-price-button:active,
+.split-vdp-with-toolbar .unlock-price-button:focus,
+.split-vdp-with-toolbar .get-price-button:hover,
+.split-vdp-with-toolbar .get-price-button:active,
+.split-vdp-with-toolbar .get-price-button:focus {
+  background: #ffffff;
+  color: #248000;
+  border-color: #248000;
+}
+
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-button {
+  background:#c3032f !important;
+  color: white !important;
+  border-color: #c3032f;
+}
+
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-button:hover,
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-button:active,
+body .split-vdp-with-toolbar .search-result-buttons-and-price-block .search-button:focus {
+  background: #900023 !important;
+  border-color: #900023;
+  color: white;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button, 
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+    background: #248000;
+    color: white !important;
+    border-color: #248000;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button:focus,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:active,
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:focus {
+    background: white;
+    color: #248000 !important;
+    border: 2px solid #248000;
+}
+
+.stacked-vehicle-prices::after {
+    content: 'Fully transparent pricing. No hidden fees.';
+    margin: auto;
+    padding-top: 15px;
+    font-size: 13px;
+    font-family: ToyotaType-Semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  color: #c4002f;
+}

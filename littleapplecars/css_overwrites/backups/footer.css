@@ -1,0 +1,40 @@
+body .FooterGreyLeft .row:nth-child(7) {
+  display: flex;
+  align-items: center;
+}
+body .solid-background-map-and-hours-component .map-contact {
+  background: #c3002f;
+}
+.nav-hour .hour {
+  letter-spacing: 3px;
+}
+
+
+body .solid-background-map-and-hours-component .map-contact,
+body .solid-background-map-and-hours-component .nav-hour .category-name,
+body .solid-background-map-and-hours-component .utility-link,
+body .solid-background-map-and-hours-component .contact-link,
+body .solid-background-map-and-hours-component .search-bar .input-search,
+body .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn,
+body .solid-background-map-and-hours-component .search-bar .input-search::placeholder {
+    color: #000000;
+}
+body .solid-background-map-and-hours-component .contact-link {
+    border-color: inherit;
+}
+body .solid-background-map-and-hours-component .search-bar .input-search, .solid-background-map-and-hours-component .search-bar button {
+    border-color: inherit;
+}
+body .solid-background-map-and-hours-component .flex-row {
+    flex-direction: row-reverse;
+}
+body .solid-background-map-and-hours-component .utility-link {
+    border-bottom-color: inherit;
+}
+body .solid-background-map-and-hours-component .map-contact {
+    background: #ffffff;
+    border-top: 1px solid #eeeeee;
+}
+body .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn {
+    border-color: #000000;
+}
