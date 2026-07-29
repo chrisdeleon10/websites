@@ -1,0 +1,36 @@
+#mobile-actions, 
+#desktop-actions {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title, 
+.specials-block, 
+.vdp-specials {
+  display: none;
+}
+
+img.trustmark-image {
+    width: 100%;
+    max-width: 200px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    margin: auto;
+}
+.get-price-btn-container, .unlock-price-btn-container {
+    padding-right: 10px;
+}
+h5.incentive-label {
+    color: green !important;
+}
+h4.incentive-amount {
+    color: green !important;
+}
+.split-vdp-with-toolbar .available-rebates-btn:focus, .split-vdp-with-toolbar .available-rebates-btn.focus {
+    background: unset !important;
+    color: var(--pcd, #000000) !important;
+}

@@ -1,0 +1,22 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  /*background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/352/044/original/kia-logo-mainstreet-dealer-black-v4-2x.png?1673974909");*/
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/304/884/original/HK-Logo-100324-Horizontal-White0.png?1739309060");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#desktop-header #desktop-logo > a {
+  background-position: center 15px;
+}
