@@ -1,0 +1,30 @@
+<!-- ACTIVE TEMPLATE -->
+<div class="vehicle-unit-container new-{{is_new}}" data-locked-inventory="false">
+  <div class="set-thumb-block">
+    <div class="vehicle-thumb">{{{srp_thumb}}} {{{wish_button}}}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="title-container">
+        <a href="{{link_to_vehicle}}" target="_blank" class="vehicle-link vehicle-link-desktop hidden-xs">
+          <h4 class="vehicle-title">{{vehicle_title}}</h4>
+        </a>
+        <a data-toggle="modal" data-target="#vdpModal" data-vdp-link="{{link_to_vehicle}}" class="vehicle-link vehicle-link-mobile visible-xs">
+          <h4 class="vehicle-title">{{vehicle_title}}</h4>
+        </a>
+        <div class="stock-number text-center">
+          Stock# {{stock_number}}
+          <br>
+          Mileage: {{mileage_delimited}}
+        </div>
+        <br>
+      </div>
+      <div class="vehicle-price">{{{price_block}}}</div>
+    </div>
+  </div>
+  <div class="row row-no-gutters vehicle-index-buttons vehicle-buttons">
+    <div class="col-xs-offset-1 col-xs-10">
+        {{{index_button_0}}} {{{index_button_1}}} {{{index_button_2}}} {{{index_button_3}}} {{{index_button_4}}} {{{index_button_5}}}
+    </div>
+  </div>
+</div>

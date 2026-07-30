@@ -1,0 +1,671 @@
+@media (min-width: 1201px) {
+  #browse-vehicles-search-hero .step-instructions {
+    color: #fff;
+    padding: 0;
+    margin: 0 0 5px 0;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    background: transparent !important;
+  }
+  #browse-vehicles-search-hero .step-instructions {
+    font-size: 2em;
+  }
+  .browse-vehicles-background-component .overlay-content {
+    padding: 0 !important;
+  }
+  /*
+    .full-banner-image {
+        max-height: 325px !important;
+    }
+  
+    #flexslider-home {
+        max-height: 325px !important;
+    } */
+}
+
+@media (min-width: 1201px) {
+  #browse-vehicles-search-hero {
+    min-height: unset !important;
+    /*    max-height: 115px;*/
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #browse-vehicles-search-hero #coa-step .step-instructions {
+    padding: 8px 0;
+    margin-top: 50px !important;
+  }
+  .browse-vehicles-background-component .overlay-content {
+    padding: 0 !important;
+  }
+  #browse-vehicles-search-hero {
+    /*      max-height: 135px;*/
+    min-height: unset;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    min-height: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #header.nav-right-expand-search .nav-height {
+    height: 55px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #browse-vehicles-search-hero {
+    min-height: unset !important;
+    /*      max-height: 150px;*/
+  }
+  .browse-vehicles-background-component .overlay-content {
+    padding: 0 !important;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    min-height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  #browse-vehicles-search-hero .search-row {
+    padding: 0 12px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #browse-vehicles-search-hero {
+    min-height: unset;
+    /*      max-height: 150px;*/
+  }
+  .browse-vehicles-background-component .overlay-content {
+    padding: 0 !important;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    min-height: unset !important;
+    padding: 0;
+  }
+  #search-step {
+    padding-bottom: 15px;
+  }
+  #browse-vehicles-search-hero #coa-step .step-instructions {
+    padding: 0 !important;
+    margin-top: 50px !important;
+    font-size: 2.25rem;
+  }
+  .browse-vechicles .inventory-type-button-block {
+    margin-bottom: 15px !important;
+  }
+  .browse-step#first-step {
+    padding: 0;
+  }
+}
+
+/* BROWSE VEHICLE COMPONENT BUTTON STYLING */
+/*-----------------------------------------*/
+.browse-vechicles .inventory-type-button-block {
+  background-color: #367be2;
+  color: #ffffff;
+  border-radius: 35px;
+  margin-bottom: 1.25em;
+}
+.browse-vechicles .inventory-type-button-block:hover {
+  background-color: #ffffff;
+  color: #367be2;
+  border: 2px solid #367be2;
+  transform: scale(1.1);
+  transition: transform 0.35s ease-in-out;
+  transition-timing-function: ease-in;
+}
+.browse-vechicles .inventory-type-button-block {
+  font-size: 1.7rem;
+}
+#browse-vehicles-search-hero #coa-step .step-instructions {
+  text-transform: capitalize;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+#browse-vehicles-search-hero .browse-row {
+  margin: 0 !important;
+}
+#browse-vehicles-search-hero {
+  background: linear-gradient(#1d1d1d78, #1818194d);
+}
+.browse-vechicles {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.browse-vechicles .step-instructions {
+  display: none;
+}
+
+.col-sm-6.animation-element.slide-right.in-view,
+.col-sm-6.animation-element.slide-left.in-view {
+  text-align: center;
+}
+
+/*--- TEMPLATE STYLING STARTS ---*/
+/*-------------------------------*/
+
+/* Arbitrary Dropdown Hero with Video */
+.brand-logo:hover,
+.brand-logo:focus {
+  background-color: #ffffff !important;
+}
+
+#browse-vehicles-search-hero #buttons-step {
+  display: none;
+}
+
+#browse-vehicles-search-hero {
+  background: linear-gradient(90deg, #0d1a25, #374a5a);
+}
+#browse-vehicles-arbitrary-search-hero #search-step,
+#browse-vehicles-arbitrary-search-hero,
+#browse-vehicles-search-hero,
+#browse-vehicles-arbitrary-search-hero .container,
+#browse-vehicles-search-hero .background-row,
+#browse-vehicles-arbitrary-search-hero .row.browse-row.vehicle-browse-row {
+  overflow: visible !important;
+}
+/* #browse-vehicles-arbitrary-search-hero {
+    padding-bottom: calc(4% + 30px);
+    background: #fff;
+  } */
+#browse-vehicles-search-hero {
+  position: relative;
+  height: 0;
+  padding-bottom: 35%;
+}
+@media (max-width: 767px) {
+  #browse-vehicles-search-hero {
+    padding-bottom: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #browse-vehicles-search-hero {
+    min-height: unset;
+  }
+}
+#browse-vehicles-search-hero .overlay-content {
+  position: static;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 28vw;
+  height: 28vw;
+  overflow: hidden;
+}
+#browse-vehicles-search-hero .background-row {
+  z-index: 0;
+}
+video#homepage-background-video {
+  position: relative;
+  top: -80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  overflow: hidden;
+}
+#browse-vehicles-search-hero .step-instructions {
+  padding-top: 0px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 50px !important;
+}
+#browse-vehicles-search-hero .browse-vehicles {
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+#browse-vehicles-search-hero .browse-vehicles > .container {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  background: transparent linear-gradient(0deg, #0369f464 0%, #0f1f3100 40%) 0%
+    0% no-repeat padding-box;
+}
+#browse-vehicles-search-hero #search-step {
+  position: absolute;
+  width: 100%;
+  bottom: -37px;
+  left: 0;
+  right: 0;
+}
+#browse-vehicles-search-hero .browse-row {
+  margin: auto;
+}
+#browse-vehicles-search-hero .vehicle-browse-ajax {
+  margin: auto;
+}
+#browse-vehicles-arbitrary-search-hero .col-xs-12 .vehicle-browse-ajax {
+  padding: 15px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 0px 0px 16px rgb(16 16 16 / 26%);
+  overflow: visible !important;
+}
+#browse-vehicles-arbitrary-search-hero .vehicle-browse-ajax br {
+  display: none;
+}
+#browse-vehicles-arbitrary-search-hero .vehicle-browse-ajax .form-group {
+  border-radius: 0px;
+}
+#browse-vehicles-arbitrary-search-hero .form-control {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 6px 12px 6px 0px;
+  text-transform: uppercase;
+  text-align: center;
+  text-align-last: center;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  #browse-vehicles-arbitrary-search-hero .form-control {
+    padding-left: 15px;
+  }
+}
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  #browse-vehicles-arbitrary-search-hero .form-control {
+    padding-left: 15px;
+  }
+}
+
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(4) {
+  flex-basis: 22%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+  flex-basis: 22%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1) {
+  flex-basis: 18%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2) {
+  flex-basis: 18%;
+}
+#browse-vehicles-arbitrary-search-hero .form-group i {
+  line-height: 44px !important;
+}
+
+@media (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group {
+    margin-bottom: 0px;
+  }
+  #browse-vehicles-search-hero .vehicle-search-form {
+    align-items: center;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    margin-right: 0px !important;
+    border-right: 1px solid #999999;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(4) {
+    flex-basis: 22%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    flex-basis: 28%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1) {
+    flex-basis: 15%;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2) {
+    flex-basis: 15%;
+  }
+}
+
+@media (max-width: 991px) {
+  #browse-vehicles-search-hero .step-instructions {
+    font-size: 2.125rem;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #browse-vehicles-arbitrary-search-hero .form-group i {
+    right: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #browse-vehicles-arbitrary-search-hero {
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 767px) {
+  #browse-vehicles-search-hero .step-instructions {
+    margin-bottom: 12vh;
+  }
+  #coa-step h1 {
+    font-size: 40px !important;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    min-height: 93.22916666666667vw;
+    height: 93.22916666666667vw;
+  }
+  #browse-vehicles-search-hero #search-step {
+    bottom: -150px;
+  }
+  #browse-vehicles-arbitrary-search-hero .col-xs-12 .vehicle-browse-ajax {
+    max-width: 360px !important;
+    border-radius: 12px;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group {
+    max-width: 300px;
+    margin: auto;
+  }
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(1),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(2),
+  #browse-vehicles-arbitrary-search-hero .form-group:nth-of-type(3) {
+    padding-bottom: 6px;
+    margin-bottom: 6px !important;
+    border-bottom: 1px solid #999999;
+  }
+  #browse-vehicles-arbitrary-search-hero .search-form-btn {
+    margin-top: 12px;
+  }
+}
+
+#browse-vehicles-arbitrary-search-hero
+  .col-xs-12.vehicle-browse-ajax.vehicle-browse-ajax-by-year {
+  padding: 0px;
+}
+
+/*--- TEMPLATE STYLING ENDS ---*/
+/*-----------------------------*/
+
+/* Speakin Deacon Specific Styles */
+#coa-step h1::after {
+  content: "Your Eastern NC Dealer";
+  display: block;
+  font-size: 16px;
+}
+.quick-link .link-box .box-overlay {
+  background: linear-gradient(0deg, #0369f4, transparent);
+  background-color: rgb(0 0 0 / 0.6);
+  background-blend-mode: normal;
+}
+.quick-link__btn.webpage-btn.webpage-btn--white {
+  margin: 26px 0px 15px 0px;
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  padding: 14px 4px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.quick-link .link-box {
+  background-color: rgba(0, 0, 0, 0.95);
+  background-blend-mode: luminosity;
+}
+.quick-link .link-box .box-overlay {
+  background: transparent linear-gradient(0deg, #0569f4d1 0%, #0f1f3100 100%) 0%
+    0% no-repeat padding-box;
+}
+span.text-diff-color {
+  color: #0569f4;
+  text-transform: uppercase;
+}
+.homepage-component.hp-content-on-image .background-img {
+  background-color: rgb(3 105 244 / 0.38);
+}
+.homepage-components #browse-vehicles-arbitrary-search-hero::after {
+  content: "";
+  text-align: center;
+  padding: 3vw;
+  background: transparent;
+  color: silver;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  width: 100%;
+  display: block;
+}
+
+.homepage-components
+  #interactionBarComponent
+  #interactionBar[data-has-scrollbar="false"]
+  .scroll-horizontal {
+  background: #eeeeee;
+}
+/*.hp-5050-content-rows::after {
+      content: '';
+      background: linear-gradient(to right, #C7DAE4, #2A5794);
+      height: 5px;
+      margin: 100px auto;
+      display: block;
+      max-width: 1170px;
+  }*/
+.browse-by-payment-block > .container-fluid {
+  background: #f7f8f8;
+}
+/*.quick-links-component h2.themed-underline::after {
+      content: '';
+      background: linear-gradient(to right, #C7DAE4, #2A5794);
+      height: 5px;
+      width: 100%;
+      display: block;
+      margin: 50px auto;
+  }*/
+.homepage-components #interactionBarComponent .scroll-horizontal {
+  background: #f7f8f8;
+}
+.homepage-components input.search-form-btn.vehicle-search-submit-arbitrary {
+  background: #0369f4;
+  color: #ffffff;
+  border-radius: 100px;
+}
+.homepage-components
+  input.search-form-btn.vehicle-search-submit-arbitrary:hover {
+  opacity: 0.8;
+}
+.homepage-components div#store-locations-by-zip-map {
+  border: 2px solid;
+  border-radius: 10px;
+}
+.homepage-components .location-details .location-details-box {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.homepage-components .locations-section .blue-btn:hover {
+  opacity: 0.8;
+}
+.homepage-components .locations-section .blue-btn {
+  background: #0669f4;
+}
+.homepage-components .homepage-component.hp-map-embed {
+  background: #eeeeee;
+}
+.homepage-components .locations-section h3 {
+  margin-top: 0;
+  font-weight: 400;
+  color: #7c7c7c;
+}
+.homepage-components h3.browse-by-text {
+  font-family: "Proxima Nova", regular;
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+}
+.homepage-components .quick-link-col .quick-link__btn:hover {
+  box-shadow: 0px 0px 10px 15px rgb(255 255 255 / 50%);
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.homepage-components .quick-link-col .quick-link__btn {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+
+/* NEW UPDATES 06/22/23 */
+@media (min-width: 1201px) {
+  #interactionBarComponent #interactionBar .scroll-horizontal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #interactionBarComponent .scroll-overlay,
+  #interactionBarComponent .scroll-nav {
+    display: none;
+  }
+}
+
+/* HERO SEARCH BAR */
+@media (min-width: 768px) {
+  #browse-vehicles-search-hero .search-row .input-group {
+    width: 550px;
+    margin: 15px auto;
+  }
+}
+
+#browse-vehicles-search-hero .search-bar .input-search,
+#browse-vehicles-search-hero .search-bar button {
+  height: 60px;
+  outline: none;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: #ffffff59;
+}
+#browse-vehicles-search-hero .search-bar {
+  margin-bottom: 75px;
+}
+
+#browse-vehicles-search-hero .search-row input {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 10px 35px;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #fff;
+  border-right: 0px solid transparent !important;
+  box-shadow: none !important;
+}
+
+#browse-vehicles-search-hero .search-row input::placeholder,
+#browse-vehicles-search-hero .search-row .btn {
+  color: #ffffff;
+}
+
+#browse-vehicles-search-hero .search-row .btn {
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  padding: 10px 35px 10px 20px;
+  background-color: transparent !important;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-left: 0px solid transparent;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  box-shadow: none !important;
+  color: #ffffff;
+}
+#browse-vehicles-search-hero .background-row {
+  background-color: rgb(16 37 109 / 0.35);
+  background-blend-mode: multiply;
+  /*top: -200px;*/
+}
+#browse-vehicles-search-hero {
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  #browse-vehicles-search-hero {
+    height: 725px;
+  }
+  #browse-vehicles-search-hero .search-row .input-group {
+    max-width: 85%;
+    margin: auto;
+  }
+}
+
+/* HOMEPAGE TICKER */
+body .announcements-row {
+  position: fixed;
+  width: 100%;
+  top: 89px;
+  z-index: 1;
+}
+
+body .announcements-row,
+body .announcements-row .ticker-wrapper,
+body .announcements-row .ticker-wrapper .ticker,
+body .announcements-row .ticker-wrapper .ticker-title,
+body .announcements-row .ticker-wrapper .ticker-content {
+  background-color: #0369f4 !important;
+}
+body .announcements-row .ticker-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 1em;
+  font-size: 16px;
+  height: 0 !important;
+}
+
+body .announcements-row .ticker-wrapper .ticker-content {
+  text-wrap: inherit;
+  padding-top: 0;
+}
+
+body .announcements-row .ticker-wrapper .ticker-title {
+  padding-top: 0;
+}
+@media (max-width: 768px) {
+  body .announcements-row .ticker-wrapper {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  body .announcements-row {
+    top: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .announcements-row {
+    top: 55px;
+  }
+}
+
+/*section#interactionBarComponent {
+    display: none!important;
+}*/
+
+
+/*Hiding ibar button for model research KNP 6/2/25*/
+.scroll-item--default[data-item-name="Model Research"] {
+    display: none;
+}
+.scroll-item--default.hidden-lg[data-item-name="Used Inventory"] {
+	display: inline-block!important;
+}
+.scroll-item--default[data-item-name="Cars Under $30K"],
+.scroll-item--default[data-item-name="New Inventory"],
+.scroll-item--default[data-item-name="All Electric"]{
+	display: none;
+}

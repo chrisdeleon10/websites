@@ -1,0 +1,2010 @@
+/* NEW SPEAKIN DEACON LAYOUT - 1/18/24 */
+/*=====================================*/
+/**** UTILITY CLASSES START ****/
+/* --------------------- */
+.padding-sm {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.padding-md {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.padding-lg {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+.padding-sides {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.padding-bottom-md {
+  padding-bottom: 5em;
+}
+.padding-bottom-lg {
+  padding-bottom: 7em;
+}
+.flex-only {
+  display: flex;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jc-center {
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .fd-col-reverse {
+    flex-direction: column-reverse;
+  }
+}
+/* Line Gradient w/ Icon Utility Classes - the following divs can be added anywhere on the site */
+
+/* <div class="deacon-line-gradient icon-start"><div class="dj-icon icon-left"></div></div> */
+/* <div class="deacon-line-gradient icon-middle"><div class="dj-icon icon-middle"></div></div> */
+/* <div class="deacon-line-gradient icon-end"><div class="dj-icon icon-right"></div></div> */
+.deacon-line-gradient.icon-start {
+  justify-content: flex-start;
+}
+.deacon-line-gradient.icon-middle {
+  justify-content: center;
+}
+.deacon-line-gradient.icon-end {
+  justify-content: flex-end;
+}
+.deacon-line-gradient {
+  background: linear-gradient(to right, #c7dae4, #0369f4, #2a5794);
+  height: 3px;
+  margin: 70px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.dj-icon {
+  height: 64px;
+  width: 64px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
+}
+.dj-icon.icon-left {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/467/934/original/SD-light_300x.png?1684267864);
+  margin-left: 60px;
+}
+.dj-icon.icon-middle {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/467/935/original/SD-regular_300x.png?1684267864);
+}
+.dj-icon.icon-right {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/467/933/original/SD-dark_300x.png?1684267864);
+  margin-right: 60px;
+}
+.dj-icon.icon-dark {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/467/936/original/SD-white-icon_300x.png?1684267865);
+}
+/* End of line gradient w/ icon css */
+/**** UTILITY CLASSES END ****/
+/* --------------------- */
+
+#browse-vehicles-search-hero .step-instructions {
+  font-size: 2.3em;
+}
+
+#browse-vehicles-search-hero #coa-step {
+  margin-top: 1%;
+}
+
+/* made browse vehicles edits */
+
+p.search-instructions {
+  display: none;
+}
+
+#filter-welcome-bg .content-container {
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  #coa-step {
+    margin-top: 4%;
+  }
+}
+.modal-coupon-form.modal.fade.in {
+  height: 95%;
+}
+@media (max-width: 768px) {
+  .coupon-modal .modal-content {
+    width: 100% !important;
+  }
+}
+
+.vehicle-certification-badge {
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-right: 8px;
+  height: 67px !important;
+  cursor: pointer;
+}
+
+div#filter-welcome-bg {
+  background-position: center bottom;
+  justify-content: unset !important;
+  padding: 0px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #filter-welcome-bg .content-container {
+    padding: 0;
+    margin: 0 auto !important;
+    margin-top: 100px;
+  }
+}
+
+.coupon-modal .modal-content {
+  /* margin-top: 16.5%; */
+  width: 95%;
+  height: auto;
+}
+
+/*Homepage Browse Vehicles Background*/
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .vehicle-browse-ajax {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+@media (max-width: 767px) {
+  .browse-vehicles-background-component
+    .background-image-overlay
+    .overlay-content {
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .browse-vehicles-background-component
+    .background-image-overlay
+    .overlay-content {
+    padding-top: 5% !important;
+  }
+}
+
+/*hide mobile call*/
+.mobile-contact-bar .contact-info .contact-item .fa-phone {
+  display: none;
+}
+
+/*begin sub-nav align middle*/
+.sub-navigation-vehicle-search .col-sm-5 {
+  position: relative;
+  top: 17px;
+}
+.sub-navigation-vehicle-search .col-sm-4 {
+  position: relative;
+  top: 17px;
+}
+/*end sub-nav align middle*/
+
+.background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  #tradepending-container {
+  display: none !important;
+}
+
+/*Homepage - TradePending*/
+#tradepending-wrapper {
+  margin-bottom: 0 !important;
+}
+
+/* Homepage Background Component */
+.home-buttons-with-filter-component {
+  display: table;
+  width: 100%;
+  margin: auto;
+}
+.home-buttons-with-filter-component .background-image-overlay .overlay-content {
+  padding-top: 5%;
+}
+.home-buttons-with-filter-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vehicles-container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dealer-featured-image {
+  display: none;
+}
+
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .vehicle-browse-ajax {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+#video-banner #video-banner-overlay .overlay-content #call-to-action-overlay {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Montserrat", Helvetica, Arial, san-serif;
+  text-transform: capitalize;
+}
+
+.overlay-search-bar,
+.overlay-search-divider {
+  display: none;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-option {
+  max-width: 115px !important;
+  margin-left: 5px;
+}
+
+.mobile-contact-bar .contact-info .contact-item {
+  color: #fff !important;
+}
+
+.mobile-contact-bar .mobile-menu-toggle .icon-bar {
+  background-color: #fff;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn
+  .btn {
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 16px;
+  height: 48px;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+  background: #fca037;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn
+  .btn:hover {
+  background: #fcae55;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-option
+  .vehicle-search {
+  background: #d92027;
+  color: white;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-option
+  .vehicle-search:hover {
+  background-color: #e0383e;
+}
+
+#video-banner #video-banner-overlay .overlay-content {
+  vertical-align: top;
+  padding-top: 100px;
+}
+
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-search-bar
+  .search-bar
+  .btn:hover {
+  background: #47b7eb !important;
+}
+
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-inventory-buttons
+  .btn {
+  display: inline-block;
+  background: white;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-search-form
+  .vehicle-search {
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  max-height: 40px;
+  background: #fff
+    url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+    no-repeat 98% center;
+  opacity: 0.8;
+}
+
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-search-form
+  .btn:hover {
+  background: #e0383e;
+}
+
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-search-form
+  .btn {
+  background: #d92027;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  height: 40px;
+}
+
+#video-banner
+  #video-banner-overlay
+  .overlay-content
+  .overlay-search-section
+  .overlay-search-bar
+  .search-bar
+  .btn {
+  background: #30aee8;
+  color: white;
+  height: 40px;
+  border: none;
+}
+
+.sub-navigation-vehicle-search.sticky-fixed-top
+  .col-sm-4
+  .btn.btn-default.no-border-left {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+button.btn.btn-default.no-border-left:hover {
+  background-color: #5ec0ed;
+}
+
+#header.search-header .sub-navigation-vehicle-search {
+  height: auto;
+  padding-bottom: 10px;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn {
+  height: 50px;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn
+  .btn {
+  height: 48px;
+}
+/*navigation*/
+.nav-address {
+  display: none;
+}
+
+header {
+  background: #fff;
+}
+
+.dealer-logo {
+  width: inherit !important;
+}
+
+.nav-dropdown .caret {
+  border-top-color: #000;
+  border-bottom-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #eaeaea;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #eaeaea;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: none;
+  font-weight: 4px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #eaeaea;
+}
+
+.navbar-toggle {
+  background-color: #333333;
+}
+
+.click-to-call {
+  color: #333;
+  background-color: #eaeaea;
+}
+
+/*subnavigation*/
+
+.sub-navigation {
+  padding-top: 20px;
+  background: #f5f5f5;
+}
+
+header {
+  background: #f5f5f5;
+}
+
+.phone,
+.address,
+.social-media-icons {
+  color: #000000;
+}
+
+.phone,
+.address,
+.social-media-icons a {
+  color: #000000;
+}
+
+.home-seo {
+  background: #fff !important;
+}
+
+/* Featured Vehicles */
+.FeaturedHeading {
+  width: 238px;
+  float: left;
+  color: #002571;
+  font-size: 16px;
+  line-height: 26px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.featured-vehicle-block > .wrapper {
+  border-radius: 4px;
+  opacity: 0.9;
+  border: 1px solid #d2d2d2;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  background-color: #fff;
+  max-width: 100%;
+  display: table;
+}
+
+.featured-vehicle-block {
+  margin-top: 60px;
+}
+
+.featured-car-bg {
+  width: 100%;
+  background-color: #fff;
+  padding: 56px 0px 56px 0px;
+}
+
+.featured-car-bg .btn-default {
+  border-radius: 0 !important;
+  background-color: #e3e3e3;
+  background-image: none;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+  font-weight: bold;
+  margin: auto;
+  padding: 8px 14px;
+  background-color: #d92027 !important;
+  border: 1px solid #d92027;
+  border-radius: 2px !important;
+  margin-top: 10px;
+  font-size: 15px;
+  white-space: normal;
+}
+
+.featured-car-bg .btn-default:hover {
+  text-decoration: none;
+  color: #fff !important;
+  background: #e0383e !important;
+  border: 1px solid #e0383e !important;
+}
+
+.featured-car-border > h2 {
+  display: none;
+  color: #2c3e50;
+  font-size: 30px;
+  margin-bottom: 36px;
+  font-weight: 300;
+  font-family: helvetica;
+}
+
+.featured-car-img img {
+  max-height: 165px;
+}
+
+/*youtube section*/
+.youtube-section {
+  background-color: #fff !important;
+}
+
+.home-video-contain {
+  background-color: #fff;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+/*showroom models*/
+.feature-links-slider {
+  background: #fff !important;
+}
+
+.car-row-border {
+  color: #2c3e50;
+  font-size: 30px;
+  margin-bottom: 36px;
+  font-weight: 300;
+  font-family: helvetica;
+  padding-top: 56px;
+  padding-bottom: 36px;
+}
+
+/*Responsive*/
+.browse-step#first-step {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+@media (min-width: 992px) {
+  .vehicle-filter-menu {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mobile-nav-bar .side-nav > li > ul.dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  .contact-info {
+    max-width: 1140px;
+    font-size: 14px !important;
+  }
+
+  .mobile-contact-bar .mobile-menu-toggle .icon-bar {
+    background-color: #161e4a;
+  }
+  .mobile-contact-bar .contact-info .contact-item {
+    color: #161e4a !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .dealer-logo {
+    max-height: 63px !important;
+  }
+}
+@media (max-width: 650px) {
+  .featured-vehicle-block {
+    margin-top: 30px !important;
+  }
+  .featured-car-img img {
+    max-height: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .featured-vehicle-block .wrapper {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+  .featured-vehicle-block .wrapper:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .FeaturedHeading {
+    width: 238px;
+  }
+  .vehicle-filter-menu {
+    width: 200px;
+  }
+  .vehicle-filter-menu .panel-heading {
+    background-image: none;
+    background-color: #2a4782 !important;
+    color: #fff;
+  }
+  .vehicle-search-menu .panel-heading {
+    background-image: none;
+    background-color: #2a4782 !important;
+    color: #fff;
+  }
+}
+@media (min-width: 1100px) {
+  .FeaturedHeading {
+    width: 238px;
+  }
+
+  .featured-vehicle-block > .wrapper {
+    width: 270px;
+    padding: 10px;
+    display: table;
+  }
+}
+
+@media (max-width: 768px) {
+  .browse-vehicles-background-component
+    .background-image-overlay
+    .overlay-content {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .browse-vehicles-background-component
+    .background-image-overlay
+    .overlay-content {
+    padding-top: 4%;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-contact-bar .contact-info {
+    font-size: 1em !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .featured-car-bg > .container-fluid {
+    width: 768px;
+  }
+
+  .featured-vehicle-block {
+    width: 50%;
+  }
+
+  .featured-vehicle-block > .wrapper {
+    width: 260px;
+  }
+}
+
+/*mobile subnav search*/
+@media (min-width: 1201px) {
+  body > header {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sub-navigation .col-sm-4,
+  .sub-navigation .col-sm-3 {
+    display: none;
+  }
+  .sub-navigation .col-sm-5 {
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+  }
+}
+
+/*new homepage layout ends*/
+/* Special Tags */
+
+.srp-special .special-title {
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.find-my-car-button {
+  border-radius: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.inventory-type-button-block.active {
+  background-color: #1b6eb4 !important;
+  border-radius: 0;
+  color: #fff;
+}
+.navbar-toggle {
+  background-color: #000;
+}
+
+/* Labels */
+
+.vehicle-price-block .price-savings {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #call-to-action-overlay {
+    margin-top: 140px;
+  }
+}
+
+.default-form-fields {
+  margin: 0 auto;
+}
+
+.browse-vehicles-background-component #buttons-step {
+  display: none;
+}
+.browse-vehicles-background-component .overlay-content {
+  padding-top: 3.5% !important;
+}
+#hero-logorows-img-desktop {
+  display: block;
+  position: relative;
+  top: 20px;
+  float: none;
+  margin: 0 auto;
+}
+#hero-logorows-img-mobile {
+  display: none;
+  float: none;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  #hero-logorows-img-desktop {
+    display: none;
+  }
+  #hero-logorows-img-mobile {
+    display: block;
+  }
+  .browse-vehicles-background-component .overlay-content {
+    padding-top: 15% !important;
+  }
+}
+
+.nav-right-expand-search header {
+  background-color: white;
+}
+
+#header .hidden-sm.hidden-xs .navbar-nav {
+  padding-right: 8vh !important;
+}
+
+#desktop-logo {
+  padding-left: 10vh;
+}
+
+.mobile-dealer-logo.pull-left {
+  padding-top: 5px !important;
+}
+@media (max-width: 1200px) {
+  .side-nav a[href="/"]:before,
+  .navbar-fixed-top .navbar-nav > li:first-child a:before {
+    color: #fff;
+  }
+}
+
+.vehicle-unit-container .col-sm-4.vehicle-inventory-tile {
+  width: 100%;
+}
+.badge__location-phone {
+  display: inline-block;
+}
+/* PAGE SPECIFICS */
+.webpage p {
+  font-size: 1.75rem;
+}
+.webpage li {
+  font-size: 1.5rem;
+}
+.webpage .primary-link {
+  color: #0369f4;
+}
+.webpage .primary-btn {
+  max-width: 270px;
+}
+@media (max-width: 550px) {
+  .webpage .hero h1 {
+    font-size: 26px;
+  }
+
+  .webpage .hero h3,
+  .webpage .hero h2 {
+    font-size: 14px;
+  }
+}
+/* COLOR PALETTE */
+.primary-bg--blue {
+  background-color: #0369f4;
+}
+.primary-color--blue {
+  color: #0369f4;
+}
+.bg-black {
+  background-color: #000000;
+}
+.color--black {
+  color: #000000;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-gray {
+  background-color: #efefef;
+}
+.color-gray {
+  color: #efefef;
+}
+/*
+.sokal-color-light-blue {
+  color: #4298b5;
+}
+*/
+.bg--blue-gradient,
+.bg-gradient {
+  background: transparent
+    linear-gradient(90deg, rgba(3, 105, 244, 1) 0%, rgba(1, 79, 185, 1) 100%);
+}
+
+/* SPACING */
+.padding-lg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.padding-sm {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.padding-xs {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+/* NEW SPEAKIN DEACON LAYOUT END - 1/18/24 */
+/*=========================================*/
+
+.vehicle-buttons a {
+  margin-top: 0px !important;
+}
+a.cn-b13-btn.cn-b13-chat {
+  position: fixed;
+  right: 133px;
+}
+a.cn-b13-btn.cn-b13-text {
+  position: fixed;
+  right: 271px;
+}
+.cn-b13-chat,
+.cn-b13-x-chat {
+  background-color: #0369f4 !important;
+}
+.stacked-inv-btn-1 {
+  background: #367be2 !important;
+  border: solid 2px #367be2 !important;
+  color: #fff !important;
+}
+
+.stacked-inv-btn-1:hover {
+  opacity: 0.9;
+  color: #367be2 !important;
+  background: #fff !important;
+}
+
+.stacked-inv-btn-3 {
+  width: 100%;
+  max-width: 300px;
+  border: solid 2px #092a46 !important;
+  background: #092a46;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: -3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.stacked-inv-btn-3:hover {
+  background-color: #ffffff !important;
+  color: #092a46 !important;
+}
+
+#desktop-actions {
+  top: 64% !important;
+}
+
+/* Price button   sa 2/13/19 */
+
+.get-price-button,
+.unlock-price-button {
+  width: 141px;
+}
+
+h4#eprice-modal-label {
+  text-align: center;
+}
+
+/* end */
+
+/* New HP Buttons --mking 12/14/18 */
+.overlay-content a[data-action="Pre-Owned Vehicles"] {
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/021/796/original/pre-owned.png?1543951991") !important;
+}
+.overlay-content a[data-action="Value Your Trade"] {
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/022/051/original/worth.png?1544800822") !important;
+}
+
+.overlay-content a[data-action="Contact Us"] {
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/022/050/original/contact.png?1544800787") !important;
+}
+
+a.track-click.btn.btn-lg.inventory-type-button-block {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+}
+
+.home-buttons-with-filter-component
+  a.btn.btn-lg
+  .overlay-content
+  .inventory-type-button-block.track-click {
+  padding-top: 80px;
+}
+
+.overlay-content .inventory-type-button-block {
+  border-radius: 0;
+  color: transparent !important;
+  white-space: initial;
+  max-height: 215px;
+  max-width: 215px;
+  height: 40vw;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+  opacity: 0.8;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .vehicle-browse-ajax {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background-color: transparent !important;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .browse-vehicles-background-component
+    .browse-step
+    > .row
+    > .col-lg-3.col-md-6 {
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+.home-buttons-with-filter-component {
+  display: table;
+  width: 100%;
+  margin: auto;
+}
+.home-buttons-with-filter-component .background-image-overlay .overlay-content {
+  padding-top: 5%;
+}
+.home-buttons-with-filter-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vehicles-container {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dealer-featured-image {
+  display: none;
+}
+
+/*Edits to spruce up website - 10/08/18 jackie*/
+
+.contact-toolbar-dark-component {
+  width: 100%;
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+  body > div.homepage-components-bg > div > div.dealer-focus-block > div {
+    max-width: 80%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width: 429px) and (min-width: 150px) {
+  body > div.homepage-components-bg > div > div.dealer-focus-block > div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .shortcut-button img {
+    margin: 0 auto;
+    max-height: 262px;
+  }
+}
+
+/*end edits*/
+
+/*begin new layout*/
+#header.search-header .sub-navigation-vehicle-search {
+  height: 115px;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-option
+  .vehicle-search {
+  background: #0369f4;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-option
+  .vehicle-search:hover {
+  background-color: #0a2d60;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn
+  .btn {
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 16px;
+  height: 46px;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+  background: #bbb;
+}
+
+#header.search-header
+  .sub-navigation-vehicle-search
+  .search-form
+  .search-form-btn
+  .btn:hover {
+  background: #0a2d60;
+}
+
+/*.browse-vehicles-background-component .background-image-overlay .overlay-content .browse-vechicles .vehicle-browse-ajax {
+     box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     background-color: transparent !important;
+ }
+ 
+ .overlay-content .inventory-type-button-block {
+   border-radius: 0;
+   background-color: #0369F4;
+   color: #fff !important;
+   height: 200px;
+   padding: 85px 16px;
+   white-space: initial;
+   box-shadow: 0px 0px 5px 3px rgba(0,0,0, 0.3);
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8)
+ }
+ 
+ .overlay-content .inventory-type-button-block:hover {
+     background: #313131!important;
+     color: #fff !important;
+ }
+ 
+ .overlay-content .inventory-type-button-block.active:hover {
+     background: #2A4782;
+     color: #FFF !important;
+ }
+ 
+ .overlay-content a[data-action="Contact Us"] {
+    background: url('https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/008/556/original/phonebutton.jpg?1491576552') !important;
+ }
+ 
+ .overlay-content button[data-action="Pre-Owned Vehicles"] {
+    background: url('https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/007/654/original/CFW_used.png?1487951716') !important;
+ }
+ 
+ .overlay-content a[data-action="Value Your Trade"] {
+   background-image: url('https://d18zm77o7qzu1y.cloudfront.net/uploads/files/000/008/529/original/RPO_dollarsign.jpg?1491422613') !important;
+ }
+ */
+
+@media (max-width: 1200px) {
+  .navbar {
+    background: #f9f9f9 !important;
+  }
+  .mobile-contact-bar .mobile-menu-toggle .icon-bar {
+    background-color: #161e4a;
+  }
+  .mobile-contact-bar .contact-info .contact-item {
+    color: #161e4a !important;
+  }
+}
+/*end new layout*/
+
+/*navigation*/
+.nav-contact-desktop {
+  display: none;
+}
+
+header {
+  background: #fff;
+}
+
+.navbar {
+  background: #0369f4;
+}
+
+.nav-dropdown .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #999999;
+}
+
+.dealer-logo {
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.navbar li a:hover {
+  background-color: #fff !important;
+  color: #0369f4 !important;
+  filter: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #fff;
+}
+.dropdown-menu > li > a:hover {
+  background-color: #0369f4 !important;
+  color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #fff;
+  color: #0369f4 !important;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+.navbar li.nav-dropdown ul li a {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+/*subnavigation*/
+.dealer-contact-section {
+  font-size: 18px;
+}
+
+.social-media-icons a {
+  color: #0369f4 !important;
+}
+
+.social-media-icons a:hover {
+  color: #2d96cd !important;
+}
+
+.click-to-call {
+  background-color: #2d96cd;
+}
+
+.phone,
+.address,
+.social-media-icons {
+  color: #000;
+}
+
+.phone,
+.address,
+.social-media-icons a {
+  color: #000;
+}
+
+a.phone:hover,
+a.address:hover,
+a.social-media-icons:hover {
+  color: #000;
+}
+
+/* index page: browse vehicles */
+.browse-vehicles {
+  background-color: #eeeeee;
+  /*background: TODO: handle background images in DB; */
+}
+
+.browse-vehicles h2 {
+  color: #ffffff;
+}
+
+.browse-vechicles h2 {
+  color: #000 !important;
+}
+
+.featured-car-bg {
+  background-color: #e2e2e2 !important;
+}
+
+#arrow {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0px;
+  border-top: 15px solid #d92027;
+  border-right: 15px solid #f0f0f0;
+  border-bottom: 0px solid #f0f0f0;
+  border-left: 15px solid #f0f0f0;
+  margin-left: 30px;
+}
+
+/*buttons*/
+/*
+ .eprice-button, .vehicle-buttons a {
+   background-color: #0369F4 !important;
+   border-radius: 0;
+   color: #FFF !important;
+   background-image: none !important;
+ }
+ 
+ .Trade-In-Evaluation .btn {
+   background-color: red !important;
+  }
+ */
+
+.employee-section .employee-img img {
+  max-width: 100% !important;
+  height: 150px;
+}
+/*
+ .eprice-button:hover, .vehicle-buttons a:hover {
+   opacity: .8;
+ }
+ */
+.find-my-car-button {
+  border-radius: 0;
+  background-color: #0369f4 !important;
+  color: #fff;
+}
+
+.find-my-car-button:hover {
+  background-color: #0369f4 !important;
+  color: #2d96cd;
+}
+
+.inventory-type-button-block {
+  background-color: #0369f4 !important;
+  border-radius: 0;
+  color: #fff;
+  background-image: none !important;
+}
+
+.inventory-type-button-block:hover {
+  background-color: #0369f4;
+  color: #2d96cd;
+  background-image: none !important;
+}
+
+.inventory-type-button-block.active {
+  background-color: #2d96cd !important;
+  border-radius: 0;
+  color: #fff;
+  background-image: none !important;
+}
+
+/*
+ .btn-default{
+   border-radius: 0 !important;
+   background-color: #E3E3E3;
+   background-image: none;
+ }
+ 
+ a.btn-default:hover {
+   color: #2D96CD;
+   text-shadow: none;
+ }
+ */
+
+.navbar-toggle {
+  background-color: #000;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #0369f4;
+}
+
+.tooltip-inner {
+  background-color: #0369f4;
+}
+
+/* index page: browse vehicles */
+.browse-vehicles {
+  background-color: #eeeeee;
+  /*background: TODO: handle background images in DB; */
+}
+
+.browse-vehicles h2 {
+  color: #ffffff;
+}
+
+.browse-vechicles h2 {
+  color: #000 !important;
+}
+
+.featured-car-bg {
+  background-color: #e2e2e2 !important;
+}
+
+.dealer-focus-block,
+.FooterGrey {
+  background-color: #1c394f !important;
+}
+
+#arrow {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0px;
+  border-top: 15px solid #d92027;
+  border-right: 15px solid #f0f0f0;
+  border-bottom: 0px solid #f0f0f0;
+  border-left: 15px solid #f0f0f0;
+  margin-left: 30px;
+}
+
+/*remove red VDP default action icon buttons - 12/19/18 jackie*/
+.col-sm-2.col-xs-4.no-padding.icon-border-right {
+  display: none;
+}
+
+.col-sm-2.col-xs-4.no-padding.last-icon {
+  display: none;
+}
+
+/*Custom Sparkle Buttons*/
+
+.stacked-inv-btn-2 {
+  background-color: #e7b24a !important;
+  background-image: -webkit-linear-gradient(0deg, #e7b24a, #b28839) !important;
+  background-image: -moz-linear-gradient(0deg, #e7b24a, #b28839) !important;
+  background-image: -o-linear-gradient(0deg, #e7b24a, #b28839) !important;
+  background-image: linear-gradient(0deg, #e7b24a, #b28839) !important;
+  border: none;
+  color: #fff !important;
+  padding: 0 0 !important;
+}
+
+.stacked-inv-btn-2:hover {
+  background-color: #ce9b38 !important;
+  background-image: -webkit-linear-gradient(0deg, #ce9b38, #8a6622) !important;
+  background-image: -moz-linear-gradient(0deg, #ce9b38, #8a6622) !important;
+  background-image: -o-linear-gradient(0deg, #ce9b38, #8a6622) !important;
+  background-image: linear-gradient(0deg, #ce9b38, #8a6622) !important;
+}
+
+.stacked-inv-btn-2 img {
+  display: block;
+  margin: auto;
+  max-height: 74px;
+}
+
+.stacked-inv-btn-4 {
+  /*
+   background-color: #94344f !important;
+   background-image: -webkit-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:    -moz-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:      -o-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:         linear-gradient(2deg, red, #6a141b) !important;
+   */
+  background: #005596;
+  border-radius: 5px;
+  border: none;
+  color: #fff !important;
+  padding: 0 0 !important;
+}
+
+.stacked-inv-btn-4:hover {
+  /*
+     background-color: #84213d !important;
+     background-image: -webkit-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: -moz-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: -o-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: linear-gradient(2deg, #f22, #951c26) !important;
+       */
+  background: #004172;
+}
+
+.stacked-inv-btn-4 img {
+  display: block;
+  margin: auto;
+  max-height: 74px;
+  min-height: 40px !important;
+}
+
+.stacked-inv-btn-5 {
+  /*
+   background-color: #8a1d28 !important;
+   background-image: -webkit-linear-gradient(0deg, #41465c, black) !important;
+   background-image:    -moz-linear-gradient(0deg, #41465c, black) !important;
+   background-image:      -o-linear-gradient(0deg, #41465c, black) !important;
+   background-image:         linear-gradient(0deg, #41465c, black) !important;
+   */
+  background: black;
+  border-radius: 5px;
+  border: none;
+  color: #fff !important;
+  padding: 0 0 !important;
+}
+
+.stacked-inv-btn-5:hover {
+  /*
+     background-color: #b53340 !important;
+     background-image: -webkit-linear-gradient(0deg, #50575f, #2a2a2a) !important;
+     background-image: -moz-linear-gradient(0deg, #50575f, #2a2a2a) !important;
+     background-image: -o-linear-gradient(0deg, #50575f, #2a2a2a) !important;
+     background-image: linear-gradient(0deg, #50575f, #2a2a2a) !important;
+       */
+  background: #232323;
+}
+
+.stacked-inv-btn-5 img {
+  display: block;
+  margin: auto;
+  max-height: 74px;
+  min-height: 40px !important;
+}
+
+.stacked-inv-btn-6 {
+  /*
+   background-color: #31353a !important;
+   background-image: -webkit-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:    -moz-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:      -o-linear-gradient(2deg, red, #6a141b) !important;
+   background-image:         linear-gradient(2deg, red, #6a141b) !important;
+   */
+  background: grey;
+  border-radius: 5px;
+  border: none;
+  color: #fff !important;
+  padding: 0 0 !important;
+}
+
+.stacked-inv-btn-6:hover {
+  /*
+     background-color: #20242d !important;
+     background-image: -webkit-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: -moz-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: -o-linear-gradient(2deg, #f22, #951c26) !important;
+     background-image: linear-gradient(2deg, #f22, #951c26) !important;
+       */
+  background-color: #20242d !important;
+  background-image: -webkit-linear-gradient(0deg, #20242d, #374352) !important;
+  background-image: -moz-linear-gradient(0deg, #20242d, #374352) !important;
+  background-image: -o-linear-gradient(0deg, #20242d, #374352) !important;
+  background-image: linear-gradient(0deg, #20242d, #374352) !important;
+}
+
+.stacked-inv-btn-6 img {
+  display: block;
+  margin: auto;
+  max-height: 74px;
+  min-height: 40px !important;
+}
+
+.vehicle-show-buttons > .sparkle-button {
+  display: inline-block;
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+
+/* BUTTONS */
+.primary-btn {
+  background-color: #1d4580;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 30px;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.primary-btn:hover,
+.primary-btn:active {
+  background-color: #1700f4;
+  color: #ffffff;
+  text-decoration: none;
+}
+.primary-btn:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.secondary-btn,
+body .vehicle-buttons .payment-calculator-offer-btn {
+  background-color: #ffffff;
+  color: #1d4580;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 30px;
+  border: 1px solid #1d4580;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.secondary-btn:hover,
+.secondary-btn:active,
+body .vehicle-buttons .payment-calculator-offer-btn:hover,
+body .vehicle-buttons .payment-calculator-offer-btn:active {
+  background-color: #1d4580;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+.secondary-btn:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.streakform .btn-success.form-submit-button,
+body .vehicle-model-dropdown .search-btns .btn,
+.unlock-price-button,
+.get-price-button,
+.service-coupons
+  .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
+  .appointment-btn,
+.btn-success {
+  background-color: #1d4580;
+  border: 3px solid #1d4580;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 30px;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+body .vehicle-model-dropdown .search-btns .btn {
+  margin: 10px auto 15px !important;
+  text-transform: capitalize;
+}
+
+.streakform .btn-success.form-submit-button:hover,
+.streakform .btn-success.form-submit-button:active,
+.unlock-price-button:hover,
+.get-price-button:hover,
+.service-coupons
+  .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
+  .appointment-btn:hover,
+.btn-success:hover {
+  /* background-color: #1700F4 !important;*/
+  color: #ffffff !important;
+  border-color: #1700f4 !important;
+  text-decoration: none !important;
+}
+
+.btn-success:active,
+.btn-success:focus {
+  background-color: #1700f4 !important;
+  border-color: #1700f4 !important;
+  color: #ffffff !important;
+}
+
+body .vehicle-model-dropdown .search-btns .btn:hover,
+body .vehicle-model-dropdown .search-btns .btn:active {
+  background-color: #1700f4 !important;
+  color: #ffffff !important;
+  border-color: #1700f4 !important;
+  text-decoration: none;
+}
+#payment-calculator-offer .payment-btn-primary {
+  background-color: #1d4580 !important;
+  color: #ffffff !important;
+  border-color: #1d4580 !important;
+}
+#payment-calculator-offer .payment-btn-primary:hover,
+#payment-calculator-offer .payment-btn-primary:focus,
+#payment-calculator-offer .payment-btn-primary:active {
+  background-color: #1700f4 !important;
+  color: #ffffff !important;
+}
+#payment-calculator-offer .payment-btn-secondary {
+  background-color: #ffffff !important;
+  color: #1d4580 !important;
+  border-color: #1d4580 !important;
+}
+#payment-calculator-offer .payment-btn-secondary:hover,
+#payment-calculator-offer .payment-btn-secondary:focus,
+#payment-calculator-offer .payment-btn-secondary:active {
+  background-color: #1d4580 !important;
+  color: #ffffff !important;
+}
+.unlock-price-button,
+.get-price-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.unlock-price-button:hover,
+.get-price-button:hover {
+  /*	border: 1px solid #1700F4;*/
+  color: #ffffff !important;
+}
+body .unlock-price-button:focus,
+body .get-price-button:focus {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+/* unlock/eprice modal */
+.unlock-price-modal .btn {
+  border-radius: 30px !important;
+}
+.unlock-price-modal .modal-body,
+.unlock-price-modal .modal-footer {
+  background: #ffffff;
+}
+
+body .vehicle-index-buttons .btn {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px auto 18px auto !important;
+}
+
+.vehicle-buttons .btn {
+  width: 95%;
+}
+
+body .vehicle-show-buttons .btn {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px auto 10px auto !important;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .container-xl {
+    width: 1320px;
+    max-width: 100%;
+  }
+}
+.navbar-toggle {
+  background-color: #000;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #0369f4;
+}
+
+.tooltip-inner {
+  background-color: #0369f4;
+}
+
+@media (min-width: 992px) {
+  .featured-car-img img {
+    max-height: 167px;
+  }
+  .vehicle-filter-menu {
+    width: 200px;
+  }
+  .vehicle-filter-menu .panel-heading {
+    background-image: none;
+    background-color: #0369f4 !important;
+    color: #fff;
+  }
+  .vehicle-search-menu .panel-heading {
+    background-image: none;
+    background-color: #0369f4 !important;
+    color: #fff;
+  }
+}
+
+.browse-step .img-responsive {
+  margin: auto;
+}
+
+/* home buttons */
+@media (max-width: 991px) {
+  .browse-vehicles-background-component
+    .browse-step#first-step
+    > .row
+    > .col-md-4.col-xs-12 {
+    width: 33%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 650px) {
+  .browse-vehicles-background-component
+    .browse-step#first-step
+    > .row
+    > .col-md-4.col-xs-12 {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .browse-vehicles-background-component
+    .browse-step
+    > .row
+    > .col-md-4.col-xs-12:last-of-type {
+    margin-left: 25%;
+  }
+}
+
+/* center nav bar */
+@media (min-width: 768px) {
+  .navbar-left {
+    float: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 825px) {
+  .featured-vehicle-block {
+    width: 50%;
+  }
+}
+
+.col-xs-12.asking-price.single-stacked-price {
+  text-align: center;
+}
+
+.stacked-srp-prices h3 {
+  /* font-size: 34px; */
+}
+
+.cn-button-container {
+  margin-bottom: 10px;
+}
+/* SRP Update -McCarty 2/15/22 (Grid style layout overwrites) */
+.vehicle-unit-container .price-gif-button,
+.vdp-container .price-gif-button {
+  background-size: 100%;
+  background-position: center;
+  height: 67px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+.stacked-srp-prices > .col-xs-6 {
+  width: 100%;
+}
+.index-btns.center-block {
+  width: 100%;
+  max-width: 300px;
+}
+.index-btns.center-block .eprice-button {
+  border-radius: 4px;
+  background-color: #092a46 !important;
+  border-color: #092a46 !important;
+  font-size: 15px;
+}
+.index-btns.center-block .cn-btn-bn1,
+.cn-btn-bn1 .cn-btn-bn1--lab {
+  border-radius: 4px !important;
+  background-color: #092a46 !important;
+  border: solid 2px #092a46;
+}
+.btn-block.btn-default.srp-btn-4,
+.vehicle-buttons .cn-button-container .cn-btn-bn1 {
+  background: #092a46 !important;
+  border: solid 2px #092a46 !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -3px;
+}
+.vehicle-buttons .cn-button-container .cn-btn-bn1 {
+  width: 100%;
+  max-width: 300px;
+  margin: 5px auto;
+}
+
+.contact-block.hidden-lg,
+div#v-badges,
+.price-block {
+  text-align: center;
+}
+.index-btns.center-block .eprice-button:hover,
+.index-btns.center-block .cn-btn-bn1:hover,
+.btn-block.btn-default.srp-btn-4:hover {
+  background-color: #ffffff !important;
+  color: #092a46 !important;
+}
+/* NEW ADDS */
+.stacked-srp-prices .col-xs-6 {
+  width: 100%;
+}
+/* Price Gif Button */
+.price-gif-button {
+  width: 100%;
+  max-width: 300px;
+  height: 65px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+.vehicle-unit-container .unlock-price-button,
+.vehicle-unit-container .get-price-button,
+.vdp-container .unlock-price-button,
+.vdp-container .get-price-button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  margin: 5px auto;
+  border: 0px;
+}
+.vehicle-unit-container .vehicle-title {
+  min-height: 50px;
+  text-align: center;
+}
+
+.asking-price.single-stacked-price h5.price-label,
+.highest-price h5.price-label,
+.asking-price.lowest-price h5 {
+  font-size: 1.75rem;
+}
+.asking-price.single-stacked-price h3,
+.highest-price h3,
+.asking-price.lowest-price h3 {
+  /* font-size: 2.75rem; */
+}
+.vehicle-unit-container .price-savings {
+  display: none;
+}
+.asking-price.lowest-price {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (min-width: 768px) {
+  .highest-price {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .vehicle-unit-container .vehicle-title {
+    font-size: 1.75rem;
+  }
+  /* .highest-price,
+   .asking-price.single-stacked-price {
+     padding: 0 10px;
+   } */
+  .highest-price h3,
+  .asking-price.single-stacked-price h3 {
+    /* font-size: 2.25rem; */
+    text-align: right;
+    float: right;
+  }
+  .highest-price h5.price-label,
+  .asking-price.single-stacked-price h5.price-label {
+    text-align: left;
+    font-size: 1.25rem;
+    float: left;
+  }
+}
+@media (max-width: 500px) {
+  .highest-price h3,
+  .asking-price.single-stacked-price h3 {
+    font-size: 2.25rem;
+  }
+  .highest-price h5.price-label,
+  .asking-price.single-stacked-price h5.price-label {
+    font-size: 2rem;
+  }
+  .highest-price,
+  .asking-price.single-stacked-price {
+    padding: 0 10.5px;
+  }
+}
+.col-xs-12.asking-price.single-stacked-price {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+#desktop-actions,
+#mobile-actions {
+  display: none !important;
+}
+img[class="autocheck-btn"] {
+  display: none;
+}
+
+/* END NEW ADDS */
+
+@media (max-width: 450px) {
+  .eprice-modal
+    button.btn.btn-success.btn-block.ajax-form-submit-btn.eprice-form-title {
+    font-size: 1em;
+  }
+}
+.vehicle-index-buttons .search-button {
+  color: #1d4580;
+  border: 3px solid #1d4580;
+  background-color: white;
+  padding: 8px;
+  transition: 0.3s all;
+  max-width: 300px;
+  border-radius: 50px;
+}
+.vehicle-index-buttons .search-button:hover,
+.vehicle-index-buttons .search-button:active,
+.vehicle-index-buttons .search-button:focus {
+  color: white;
+  background-color: #1d4580;
+}
+.inventory-fees-block .inventory-fee {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.inventory-fees-block .inventory-fee h5{
+  margin: 10px 0px;
+}
