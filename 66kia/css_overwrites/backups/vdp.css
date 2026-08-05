@@ -1,0 +1,93 @@
+/* NEW */
+#mobile-actions, 
+#desktop-actions,
+#before-you-buy {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title, 
+.specials-block, 
+.vdp-specials
+{
+  display: none;
+}
+
+/*Remove CarNow Banner on VDP*/
+.cn-wrap.cn-btn_bar {
+	display: none!important;
+}
+
+@media (min-width: 767px)  {
+    .mobile-only-btn {
+        display: none;
+    }    
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    margin: 0;
+}
+.block-heading.major-title {
+    text-align: center;
+}
+.vehicle-info 
+.get-price-btn-container {
+    padding-right: 10px;
+  padding-bottom: 10px;
+}
+.split-vdp-with-toolbar .search-result-buttons .btn {
+    min-height: 70px;
+    align-content: center;
+}
+
+/*TP Button changes KNP 10/15/2025*/
+body .tp-cta-button-widget .tp-cta-button-btn-title span,
+.tp-style-btn span {
+    font-weight: 700 !important;
+}
+.col-xs-12.vehicle-description p {
+    font-size: 1.25em;
+}
+
+/*Making the "Calculate Your Payment" button visible. - AD 4/4/2026*/
+button.tp-btn.tp-cta-button-btn {
+    border: solid 2px #05141F !important;
+}
+
+.search-result-buttons-and-price-block .inventory-fees-block {
+    order: 1;
+}
+
+.search-result-buttons-and-price-block .asking-price.lowest-price {
+    order: 2;
+}
+
+.split-vdp-with-toolbar .available-rebates-btn {
+    padding: 12px;
+    width: 100%;
+    background-color: white !important;
+    color: #05141f !important;
+    border-radius: 0;
+    border: 2px solid #05141f;
+    margin: 0px 0px;
+  text-decoration: none;
+}
+
+.split-vdp-with-toolbar .available-rebates-btn:hover, 
+.split-vdp-with-toolbar .available-rebates-btn:active, 
+.split-vdp-with-toolbar .available-rebates-btn:focus {
+    background-color: #05141f !important;
+    color: white !important;
+}
+
+.split-vdp-with-toolbar .available-rebates-section {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.split-vdp-with-toolbar .available-rebates-section {
+    margin-bottom: 0px;
+}
