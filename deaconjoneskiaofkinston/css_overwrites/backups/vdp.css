@@ -1,0 +1,90 @@
+.vdp-container .search-button--payments {
+  display: block !important;
+}
+
+/* NEW */
+#mobile-actions,
+#desktop-actions {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title,
+.specials-block,
+.vdp-specials
+{
+  display: none;
+}
+
+.col.left .block.card:nth-child(3) + br {
+  display: none;
+}
+.block-heading.minor-title.buttons-title,
+.buttons-block {
+  display: none;
+}
+
+.available-rebates-section
+  button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+  font-size: 12px;
+}
+
+/*Sticky price block adjust KNP 6/13/24*/
+.available-rebates-btn {
+  margin: 5px 0px;
+}
+
+div#v-badges {
+  margin-top: 0px !important;
+}
+
+.price-block .get-price-button:hover,
+.price-block .get-price-button:active,
+.price-block .get-price-button:focus {
+  border: 2px solid green;
+}
+
+.vdp-header-price-button a.get-price-button.toggle-eprice-modal:hover,
+.vdp-header-price-button a.get-price-button.toggle-eprice-modal:active,
+.vdp-header-price-button a.get-price-button.toggle-eprice-modal:focus {
+  color: #ffffff !important;
+}
+.vehicle-top-info
+  .horizontal-scroll-component--vdp-vehicle-badges
+  div#hsVehicleBadgesRow
+  .scroll-horizontal {
+  justify-content: initial;
+}
+.badge-item[data-name="capital-one-leads-navigator"] {
+  order: -2;
+}
+.cap-one-wrapper {
+  min-width: 350px;
+}
+.kia-secondary-btn {
+  margin: 0px;
+}
+
+body .vehicle-show-buttons-stacked {
+    display: flex;
+    flex-wrap: wrap;
+}
+body .vehicle-show-buttons-stacked .col-xs-6:has(.cta-coupon-btn) {
+    width: 100%;
+}
+
+/* Adjusting Button Block CTA width - GR 04/22/26 */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    margin: 0 -10px 0 0;
+}
+
+
+@media (max-width: 575px) {
+    .split-vdp-with-toolbar .unlock-price-button {
+        font-size: 16px;
+    }
+}

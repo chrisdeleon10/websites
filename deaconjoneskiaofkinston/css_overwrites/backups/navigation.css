@@ -1,0 +1,26 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 350px; 
+  height: 110px; 
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/002/040/356/original/DJKK-Logo-042426-Update-White_%281%29.png?1777314681");
+  background-size: 100% auto; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Position the Logo to be not too high/low on desktop/tablet/mobile view. - Alan Dang 4/27/2026*/
+#desktop-header #desktop-logo > a {
+  background-position: center 43%;
+}
+
+.mobile-dealer-logo > a {
+    background-position: center 47% !important;
+}
