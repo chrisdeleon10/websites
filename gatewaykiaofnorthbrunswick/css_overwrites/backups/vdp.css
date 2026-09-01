@@ -1,0 +1,171 @@
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.buttons-title {
+  display: none !important;
+}
+
+#v-badges {
+    text-align: center;
+}
+
+.row .col-xs-12.asking-price.single-stacked-price {
+    justify-content: center;
+}
+
+.col-xs-12.asking-price.single-stacked-price {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+
+.vdp-container a.unlock-price-button.unlock-modal-toggle.event-click.track-click {
+    font-size: 14px;
+}
+.col.left .block.card:nth-child(3) + br {
+    display: none;
+}
+
+
+.vehicle-buttons-stacked .kia-secondary-btn {
+    margin: 0px;
+}
+
+.split-vdp-with-toolbar .vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+    color: #ffffff !important;
+}
+
+/*Price Block KNP 6/12/24*/
+.new-price-block-styles .vehicle-price-block h5.price-label, .new-price-block-styles .price-block h5.price-label, .new-price-block-styles .stacked-vehicle-prices h5.price-label {
+    float: left;
+    width: 60%;
+}
+.new-price-block-styles .vehicle-price-block h3, .new-price-block-styles .price-block h3, .new-price-block-styles .stacked-vehicle-prices h3, .new-price-block-styles .vehicle-price-block h4, .new-price-block-styles .price-block h4, .new-price-block-styles .stacked-vehicle-prices h3, .new-price-block-styles .stacked-vehicle-prices h4 {
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+/*.col-xs-12.highest-price.double-stacked-price::after {
+    content: 'AVAILABLE SAVINGS';
+    color: #999999;
+    font-weight: bold;
+    font-size: 13px;
+}*/
+
+.col-xs-12.price-savings {
+    margin-top: 5px;
+}
+
+a.btn.btn-block.event-click.track-click.btn-default.search-button.search-button--callnow.kia-secondary-btn {
+    color: #ffffff;
+    background-color: green;
+    border: 1px solid green;
+}
+
+a.btn.btn-block.event-click.track-click.btn-default.search-button.search-button--callnow.kia-secondary-btn:hover,
+a.btn.btn-block.event-click.track-click.btn-default.search-button.search-button--callnow.kia-secondary-btn:active,
+a.btn.btn-block.event-click.track-click.btn-default.search-button.search-button--callnow.kia-secondary-btn:focus {
+    color: green !important;
+    background-color: #ffffff;    
+}
+
+.vdp-header-price-button .get-price-button:hover,
+.vdp-header-price-button .get-price-button:active,
+.vdp-header-price-button .get-price-button:focus {
+    color: #ffffff !important;
+}
+
+div#kbb-leaddriver-search {
+    margin-top: 5px !important;
+}
+
+.get-price-btn-container {
+    padding-right: 10px;
+}
+
+/*GREEN BUTTON*/
+.get-price-btn-container .get-price-button {
+    background-color: green !important;
+    border-color: green !important;
+  	color: #ffffff !important
+}
+
+.get-price-btn-container .get-price-button:hover,
+.get-price-btn-container .get-price-button:active,
+.get-price-btn-container .get-price-button:focus {
+    color: green !important;
+    background-color: #ffffff !important;
+  
+}
+
+.payment-calculator-offer-btn {
+    margin: 0;
+}
+
+.asking-price h5,
+.highest-price h5 {
+    order: 3;
+    width: auto !important;
+    margin-right: 3px !important;
+}
+.asking-price i.fa.fa-question-circle,
+.highest-price i.fa.fa-question-circle {
+    order: 2;
+    float: left;
+}
+.asking-price,
+.highest-price {
+    display: inline-block !important;;
+}
+
+
+/*Price block adjustment*/
+
+/*.applied-conditional-rebates::before {
+    content: 'Price has additional finance requirements, such as financing through KFA.';
+    margin: 0 0 5px 15px;
+    display: inline-block;
+    text-align: left;
+}/*
+
+.price-savings a.show-applied-rebates-link {
+ display: none;
+}
+
+/*Fixing alignment issues with buttons - Alan Dang (3/27/2026)*/
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*So text size of get price button matches on mobile view. - Alan Dang (3/27/2026)*/
+@media (max-width: 575px) {
+    .split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+        font-size: 16px;
+    }
+}
+
+/*Changing rebates to green. - Alan Dang 4/14/2026 Ticket#:99493*/
+.applied-rebate .incentive-amount {
+    color: green !important;
+}
+
+.applied-rebate .incentive-label {
+    color: green !important;
+}
+
+.applied-rebate h4.incentive-amount::before {
+    content: '-';
+}
+
+/*Moving disclaimer to bottom. - AD 6/11/2026.*/
+.conditional-price::after {
+    content: 'Price has additional finance requirements, such as financing through KFA.';
+}
+
+/*Removing middle price per ticket #103469 KNP 6/16/26*/
+.new-vehicle-prices .lowest-price {
+    display: none !important;
+}

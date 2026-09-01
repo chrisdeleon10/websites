@@ -1,0 +1,787 @@
+/* Kia Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+/*
+    font-family: 'Inter', sans-serif;
+
+    font-weight: 300; - LIGHT
+    font-weight: 400 - REGULAR
+    font-weight: 700 - BOLD
+*/
+
+body,
+.footer-disclaimer,
+.weight-normal {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.weight-light {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+footer,
+.FooterGrey,
+.FooterBlack,
+.weight-bold {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a:not([href="#dropdown-search"]) {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* FONTS END */
+
+/* PAGE SPECIFICS */
+.webpage p {
+  font-size: 1.75rem;
+}
+@media (max-width: 550px) {
+  .webpage .hero h1 {
+    font-size: 26px;
+  }
+
+  .webpage .hero h3 {
+    font-size: 14px;
+  }
+}
+.kia-compliant-anchor {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.kia-compliant-anchor:hover,
+.kia-compliant-anchor:active,
+.kia-compliant-anchor:focus {
+  color: #000000;
+}
+
+/* PAGE SPECIFICS END */
+
+/* Price Gif Button */
+.price-gif-button {
+  width: 100%;
+  max-width: 300px;
+  height: 65px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+.price-gif-button.price-gif-button--eprice {
+  background-size: 100%;
+}
+.row.vehicle-prices.new-vehicle-prices,
+.row.vehicle-prices.used-vehicle-prices {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.vehicle-unit-container .stacked-srp-prices .col-xs-6:nth-of-type(2) {
+  width: 100%;
+}
+
+/* Price Block SRP */
+.stacked-srp-prices .col-xs-6 {
+  width: 40%;
+}
+.vehicle-unit-container .stacked-srp-prices .price-savings h5 {
+  border-bottom: 0px;
+}
+
+/* Price Block VDP */
+
+.vdp-container .price-block h3:not(.unlock-modal-toggle),
+.vdp-container .price-block h4 {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.price-block h5 {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  /*text-align: center;*/
+}
+.vdp-container .contact-block.hidden-lg {
+  text-align: center;
+}
+
+/* Price Block SRP + VDP */
+.stacked-vehicle-prices h3.unlock-modal-toggle {
+  display: none;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.stacked-vehicle-prices h3.unlock-modal-toggle + h5 {
+  display: none;
+}
+.stacked-vehicle-prices .price-savings {
+  color: green;
+}
+.stacked-vehicle-prices .lowest-price h3,
+.stacked-vehicle-prices .lowest-price h5 {
+  color: #05141f;
+  font-weight: bold;
+}
+/* SRP Badges */
+.vehicle-unit-container .vehicle-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.vehicle-unit-container .vehicle-badges .badge-item {
+  width: 200px;
+  max-width: 100%;
+}
+#v-badges {
+  text-align: center;
+}
+
+/* Search Results Buttons */
+
+/* Generic Utility Classes START */
+/*-------------------------------*/
+
+/* COLOR PALETTE */
+.primary-background-black {
+  background-color: #05141f;
+}
+.primary-color-black {
+  color: #05141f;
+}
+.secondary-background-white {
+  background-color: #ffffff;
+}
+.secondary-color-white {
+  color: #ffffff;
+}
+.alt-background-gray {
+  background-color: #b5b5b5;
+}
+.alt-color-gray {
+  color: #b5b5b5;
+}
+.alt-color-blue {
+  color: #37414d;
+}
+.secondary-alt-background-gray {
+  background-color: #697279;
+}
+.secondary-blue-bg {
+  background-color: #1f2c35;
+}
+.secondary-light-blue-bg {
+  background-color: #37434d;
+}
+.bg-kia-black-gradient {
+  background: linear-gradient(90deg, rgb(5 20 31) 50%, rgb(60 60 60) 100%);
+}
+.sokal-color-light-blue {
+  color: #4298b5;
+}
+
+/* SPACING */
+.padding-lg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.padding-sm {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.padding-xs {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-only {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+/* BUTTONS */
+.kia-primary-btn,
+.unlock-price-button,
+.get-price-button,
+.service-coupons
+  .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
+  .appointment-btn,
+.btn-success {
+  background-color: #05141f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 11px 34px;
+  border-radius: 0;
+  border: 1px solid #05141f;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.kia-primary-btn:hover,
+.kia-primary-btn:active,
+.kia-primary-btn:focus,
+.unlock-price-button:hover,
+.unlock-price-button:active,
+.unlock-price-button:focus,
+.get-price-button:hover,
+.get-price-button:active,
+.get-price-button:focus,
+.service-coupons
+  .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
+  .appointment-btn:hover,
+.btn-success:hover {
+  background-color: #ffffff;
+  color: #05141f;
+  text-decoration: none;
+}
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+  border-color: #05141f;
+}
+.kia-secondary-btn,
+.payment-calculator-offer-btn {
+  background-color: #ffffff;
+  color: #05141f;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0;
+  border: 1px solid #05141f;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.kia-secondary-btn:hover,
+.kia-secondary-btn:active,
+.kia-secondary-btn:focus,
+.payment-calculator-offer-btn:hover,
+.payment-calculator-offer-btn:active {
+  background-color: #05141f;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.streakform .btn-success.form-submit-button,
+body .vehicle-model-dropdown .search-btns .btn {
+  background-color: #05141f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0;
+  margin: 30px 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+body .vehicle-model-dropdown .search-btns .btn {
+  margin: 10px auto 15px !important;
+  text-transform: capitalize;
+}
+
+.btn-success:active,
+.btn-success:focus {
+  background-color: #05141f !important;
+  border-color: #05141f !important;
+  color: #ffffff !important;
+}
+
+.streakform .btn-success.form-submit-button:hover,
+.streakform .btn-success.form-submit-button:focus,
+.streakform .btn-success.form-submit-button:active {
+  background-color: #ffffff;
+  color: #05141f;
+  border-color: #05141f;
+  text-decoration: none;
+}
+body .vehicle-model-dropdown .search-btns .btn:hover,
+body .vehicle-model-dropdown .search-btns .btn:active {
+  background-color: #ffffff !important;
+  color: #05141f !important;
+  border-color: #05141f !important;
+  text-decoration: none;
+}
+#payment-calculator-offer .payment-btn-primary {
+  background-color: #05141f !important;
+  color: #ffffff !important;
+  border-color: #05141f !important;
+}
+#payment-calculator-offer .payment-btn-primary:hover,
+#payment-calculator-offer .payment-btn-primary:focus,
+#payment-calculator-offer .payment-btn-primary:active {
+  background-color: #ffffff !important;
+  color: #05141f !important;
+}
+#payment-calculator-offer .payment-btn-secondary {
+  background-color: #ffffff !important;
+  color: #05141f !important;
+  border-color: #05141f !important;
+}
+#payment-calculator-offer .payment-btn-secondary:hover,
+#payment-calculator-offer .payment-btn-secondary:focus,
+#payment-calculator-offer .payment-btn-secondary:active {
+  background-color: #05141f !important;
+  color: #ffffff !important;
+}
+.unlock-price-button,
+.get-price-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.unlock-price-button:hover,
+.get-price-button:hover {
+  border: 1px solid #05141f;
+  color: #05141f !important;
+}
+body .unlock-price-button:focus,
+body .get-price-button:focus {
+  text-decoration: none;
+}
+
+/* unlock/eprice modal */
+.unlock-price-modal .btn {
+  border-radius: 0 !important;
+}
+.unlock-price-modal .modal-body,
+.unlock-price-modal .modal-footer {
+  background: #ffffff;
+}
+
+body .vehicle-index-buttons .btn {
+  font-size: 16px;
+  font-weight: 500;
+  /*margin: auto !important;*/
+}
+body .vehicle-show-buttons .btn {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px auto !important;
+}
+@media (min-width: 768px) {
+  .new-false .active-template-vehicle-badges {
+    min-height: 70px;
+  }
+  .new-true .active-template-vehicle-badges {
+    min-height: 35px;
+  }
+  .vehicle-index-buttons,
+  .new-used-srp .new-false .active-template-vehicle-badges,
+  .new-used-srp .new-true .active-template-vehicle-badges {
+    min-height: 70px;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1400px) {
+  .container-xl {
+    width: 1320px;
+    max-width: 100%;
+  }
+}
+/* Generic Utility Classes END */
+/*-----------------------------*/
+
+/* FORM STYLING START*/
+/*-------------------*/
+
+/* Colors */
+.form--style-base .panel {
+  background-color: #ffffff;
+}
+/* Shadows */
+.form--style-base .panel {
+  -webkit-filter: drop-shadow(0px 0px 20px #ececec);
+  filter: drop-shadow(0px 0px 20px #ececec);
+  box-shadow: none;
+}
+.form--style-base .panel-heading {
+  background-color: transparent;
+}
+/* Fonts */
+.form--style-base .form-title {
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* Transitions */
+.form--style-base .btn {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-weight: 500;
+  padding: 10px 34px;
+}
+/* Form Container */
+.form--style-base {
+  width: 600px;
+  max-width: 100%;
+  margin: 30px auto;
+}
+/* Form Groups */
+.form--style-base .form-group .col-sm-3,
+.form--style-base .form-group .col-sm-9 {
+  width: 100%;
+  text-align: left;
+}
+/* Panel  */
+.form--style-base .panel {
+  padding: 4vw;
+  background-clip: padding-box;
+  border: 0px;
+  border-radius: 6px;
+}
+/* Panel Heading */
+.form--style-base .panel-heading {
+  border: 0px;
+}
+/* Title */
+.form--style-base .form-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+/* Buttons */
+/*
+.btn-group.preferred-contact-method {
+    margin-left: 15px;
+}
+*/
+.form--style-base .ajax-form-submit-btn {
+  display: block;
+  background-color: #05141f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  margin: 30px auto;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -moz-transition: all 0.3s ease;
+  transition: 0.3s all ease;
+}
+.form--style-base .ajax-form-submit-btn:hover {
+  background-color: #05141f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-method-btn {
+  font-size: 12px;
+}
+.contact-method-btn.active {
+  background: #05141f;
+  color: #ffffff;
+  border: 1px solid #05141f;
+}
+/* FORM STYLING END*/
+/*-----------------*/
+
+.vehicle-filter-menu .irs-bar,
+button#mobile-refine-results,
+.vehicle-index-container
+  .listing-page
+  .vehicle-filter-menu
+  .sort-menu-container
+  > .row
+  .btn-info,
+#vdp-page #vdp-top,
+#vdp-page .vdp-slider,
+.vehicle-unit-container .vehicle-make-model {
+  background-color: #05141f;
+}
+
+.vehicle-filter-menu .irs-bar {
+  border-color: #05141f;
+}
+
+.vehicle-filter-menu .panel .panel-heading,
+.vehicle-unit-container .vehicle-year,
+.vehicle-unit-container .vehicle-make-model,
+.vehicle-unit-container .vehicle-sub-title,
+.vdp-container .vehicle-item * {
+  color: #05141f;
+}
+
+.vehicle-unit-container .vehicle-make-model * {
+  color: #ffffff;
+}
+
+/* Price Block SRP + VDP */
+
+.vehicle-prices.new-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+.vehicle-prices.new-vehicle-prices .highest-price {
+  order: 1;
+}
+.vehicle-prices.new-vehicle-prices .price-savings {
+  order: 2;
+}
+.vehicle-prices.new-vehicle-prices .lowest-price {
+  order: 3;
+}
+.stacked-vehicle-prices,
+.vehicle-prices {
+  padding-bottom: 10px;
+}
+.vehicle-index-price.vehicle-price-block .vehicle-prices {
+  padding-bottom: 25px;
+}
+.vehicle-price-block h5.price-label,
+.price-block h5.price-label,
+.stacked-vehicle-prices h5.price-label {
+  float: left;
+}
+
+.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h3 {
+  float: right;
+}
+
+.vehicle-index-price.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-index-price.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h4,
+.vehicle-index-price.vehicle-price-block h5,
+.price-block h5,
+.stacked-vehicle-prices h5 {
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+  color: #05141f;
+}
+
+/*.lowest-price h3,
+.single-price h3,
+.single-stacked-price h3,
+.lowest-price h5,
+.single-price h5,
+.single-stacked-price h5 {
+  font-size: 16px !important;
+  color: #05141F !important;
+}*/
+
+.vehicle-prices > div[class="col-xs-12"] > h3 {
+  width: 100%;
+  text-align: center;
+  color: #05141f;
+  font-size: 16px;
+}
+
+/*.single-stacked-price > h3:not([class=""]) {
+  text-align: center;
+  width: 100%;
+}
+
+.single-stacked-price > h3:not([class=""]) {
+  text-align: end;
+  width: 100%;
+}
+*/
+.row.stacked-srp-prices .col-xs-6:last-child {
+  width: 100%;
+}
+
+/* New Template ENDS */
+
+h4.unlock-price-form-label.pull-left {
+  font-weight: 500;
+}
+
+/*.col-xs-12.asking-price.single-stacked-price {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.new-true .row .col-xs-12.asking-price.single-stacked-price {
+    justify-content: center;
+}*/
+
+@media (max-width: 424px) {
+  button.btn.btn-success.btn-block.ajax-form-submit-btn {
+    font-size: 8px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  button.btn.btn-success.btn-block.ajax-form-submit-btn {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
+
+/* Vehicle Thumb */
+
+body .vehicle-thumb-container .preview-image-controls .prev-controls,
+body .vehicle-thumb-container .preview-image-controls .next-controls {
+  opacity: 0.9;
+  background-color: #05141f;
+}
+
+.vehicle-thumb-container button.change-image {
+  border-radius: 50px;
+  padding: 12px 16px;
+  margin: 10px;
+  border: 0px;
+}
+
+.vehicle-thumb-container button.change-image .fa {
+  color: #ffffff;
+}
+
+/* ePrice Button */
+
+.get-price-btn-container .get-price-button {
+  width: 100%;
+}
+
+.locked-price-container h3 .locked-price-placeholder,
+.locked-price-container h3 .locked-price-label {
+  display: block;
+}
+
+.locked-price-container h3 .locked-price-placeholder {
+  float: right;
+}
+
+.locked-price-container h3 .locked-price-label {
+  float: left;
+}
+.locked-price-container h3 {
+  width: 100%;
+}
+.active-template-price-block .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.stacked-vehicle-prices .locked-price-container h3 {
+  color: #000000;
+}
+/*.vehicle-index-container .search-button--value, 
+.vehicle-index-container .search-button--approved {
+	display: none;
+}*/
+
+/* Badges */
+
+.custom-badge {
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-right: 8px;
+  max-width: 100%;
+}
+.custom-badge--img {
+  height: 55px;
+}
+.custom-badge--btn {
+  width: 150px;
+}
+.autocheck-btn,
+.kia_certified {
+  display: none;
+}
+
+
+
+/* Adjusting price block format CD 12/01/23 */
+
+.vehicle-index-page .new-true .col-xs-12.asking-price.single-stacked-price {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.vehicle-index-page i.fa.fa-question-circle {
+  order: 3;
+}
+
+.consumer-report-badge {
+  margin: 10px auto;
+}
+
+.consumer-report-badge > :not(:first-child) {
+  display: none;
+}
+
+img.trustmark-image {
+  max-width: 250px;
+}
+
+.sokal-btn,
+.vehicle-buttons .sokal-btn {
+  font-size: 16px !important;
+}
+.cn-chat-container,
+.cn-chat-container[role="dialog"] {
+  z-index: 99999999999;
+}
+
+.template-special-contents
+  .fallback-special-content
+  .applied-conditional-rebates
+  .applied-rebate {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: left;
+}
+body .fallback-special-content .asking-price h3 {
+  font-size: 16px;
+}
+body .template-special-contents
+  .fallback-special-content
+  .applied-conditional-rebates
+  .applied-rebate .tooltip-inner{
+    color: white !important;
+  }
+

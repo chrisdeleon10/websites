@@ -1,0 +1,16 @@
+body .FooterGreyLeft {
+  background-color: #ffffff;
+  color: #05141F;
+}
+body .FooterGreyLeft * {
+  color: #05141F !important;
+}
+body .FooterGreyLeft .sokal-white-logo {
+  opacity: 1;
+  background: #05141F;
+  padding: 10px;
+  height: 40px;
+}
+.FooterGreyLeft > .container > .row:nth-of-type(5) {
+  display: none;
+}
