@@ -1,0 +1,127 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  /*background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/684/417/original/UNK-Logo-113023-RGB-LargeText-Equal-WHT.png?1701465421");*/
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/002/088/807/original/UNK-Logos-051926-Social-Custom_White-1200x300.png?1779989349");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#desktop-header #desktop-logo > a {
+  background-position: center 15px;
+}
+
+/* MAKE A WISH ADDITIONS */
+@media (min-width: 768px) and (max-width: 1214px) {
+    .maw-additional a {
+        margin-left: 15px;
+    }
+}
+@media (max-width: 575px) {
+    .maw-additional a {
+        max-width: 55px !important;
+        margin-left: 10px;
+    }
+}
+.maw-additional {
+	width: 12%;
+}
+.maw-additional a {
+  	display: inline-block;
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/366/000/original/CF-SP-121322-StarIcon-02.png?1675286501) !important;
+  	height: 60px;
+    width: 90px;
+    margin-left: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+/* MAKE A WISH ADDITIONS END */
+
+@media(max-width: 768px){
+  div#interactionBarWithSearch.scroll-parent {
+	width: 100%;
+}
+}
+.dropdown-menu>li>a:focus {
+    outline: none;
+    outline-offset: 0;
+}
+body .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:focus {
+    background: var(--pc);
+    color: #ffffff;
+    outline: none;
+}
+
+.hurricanes-logo-img.maw-logo {
+    display: inline-block;
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+
+
+/* Adding Third Logo to the nav - GR 02/09/26 */
+@media (min-width: 1200px) and (max-width: 1325px) {
+    div#desktop-logo {
+        min-width: 150px !important;
+    }
+    
+    #desktop-header #desktop-logo > a, .mobile-dealer-logo > a {
+        margin-top: 25px;
+    }
+    
+    .hurricanes-logo-img.maw-logo {
+        height: 28px;
+    }
+  
+  .maw-additional a {
+    width: 70px;
+  }
+}
+
+@media (min-width: 1480px) and (max-width: 1635px) {
+    div#desktop-logo {
+        min-width: 150px !important;
+    }
+    
+    #desktop-header #desktop-logo > a, .mobile-dealer-logo > a {
+        margin-top: 25px;
+    }
+    
+    .hurricanes-logo-img.maw-logo {
+        height: 25px;
+    	margin-right: 5px;
+    }
+}
+
+
+/* Adjusting Header Width to Fit MAW and Hurricanes Logos 
+@media (min-width: 1501px) {
+    #header.nav-right-with-contact .container {
+        width: 1650px;
+    }
+}
+
+@media (max-width: 1512px) {
+    .maw-additional a {
+      width: 90px;
+    }
+}*/
+
+body .nav-right-with-contact[data-theme="kia"] header .container .header-wrapper #desktop-menu {
+    padding: 20px 20px;
+}

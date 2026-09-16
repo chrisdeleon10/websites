@@ -1,0 +1,149 @@
+.vdp-container .search-button--payments {
+  display: block !important;
+}
+
+/* NEW */
+#mobile-actions,
+#desktop-actions {
+  display: none !important;
+}
+#v-badges {
+  text-align: center;
+}
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+.specials-title,
+.specials-block,
+.vdp-specials {
+  display: none;
+}
+
+.vertical-item.badge-item[data-name="custom-vehicle-badges"] a {
+  pointer-events: none;
+}
+.col.left .block.card:nth-child(3) + br {
+  display: none;
+}
+.block-heading.minor-title.buttons-title,
+.buttons-block {
+  display: none;
+}
+/*Show Test Drive Button, Hide Others*/
+.vdp-container .right .block-heading.minor-title.buttons-title,
+.vdp-container .right .buttons-block {
+  display: block;
+}
+
+/*a.btn.btn-block.srp-btn-worth,
+a.btn.btn-block.btn.kia-btn--approved,
+a.btn.btn-block.cn-buynow-b1.cn-bn-action.cn-buynow-pw.cn-www-bn {
+    display: none!important;
+}*/
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .kia-secondary-btn {
+  margin: 0px;
+}
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  color: #ffffff !important;
+}
+
+#sendToMobile {
+  left: 10px;
+}
+
+/*click to call icon*/
+@media (max-width: 569px) {
+  a.click-to-call-icon {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  a.click-to-call-icon:hover {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 569px) {
+  a.click-to-call-icon {
+    display: none;
+  }
+}
+
+.row.vehicle-show-buttons-stacked .col-xs-6:first-of-type {
+  width: 100%;
+}
+
+.click-to-call-icon img {
+  width: 20px;
+}
+
+p.disclaimer-vdp {
+  padding-left: 15px;
+}
+
+p.added-comments {
+  padding-left: 15px;
+}
+
+.vehicle-show-container .vehicle-disclaimer {
+  display: none;
+}
+
+.added-comments i {
+  font-style: normal;
+}
+
+p.added-comments {
+  padding-left: 15px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: 700;
+  font-style: normal !important;
+}
+.price-block-sticky
+  .vehicle-overview-side
+  .price-block
+  .stacked-vehicle-prices
+  > .col-xs-12:last-child {
+  order: 2;
+}
+.inventory-fees-block h4 {
+  color: #bfc4cb;
+  font-size: 16px;
+}
+.inventory-fees-block h5,
+.applied-rebate h5 {
+  font-size: 16px;
+  color: #00142e;
+}
+.search-result-buttons-and-price-block .stacked-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}
+.search-result-buttons-and-price-block .inventory-fees-block {
+  order: 1;
+}
+.search-result-buttons-and-price-block .lowest-price {
+  order: 2;
+}
+
+
+.inventory-fee {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.inventory-fees-block .col-xs-12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory-fee:first-of-type {
+    order: 1;
+}
