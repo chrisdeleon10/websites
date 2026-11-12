@@ -1,0 +1,199 @@
+.vdp-container .search-button--payments {
+  display: block !important;
+}
+
+/* NEW */
+#mobile-actions,
+#desktop-actions {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg {
+  display: none !important;
+}
+
+.specials-title,
+.specials-block,
+.vdp-specials {
+  display: none;
+}
+
+.vertical-item.badge-item[data-name="custom-vehicle-badges"] a {
+  pointer-events: none;
+}
+
+.col.left .block.card:nth-child(3)+br {
+  display: none;
+}
+
+.block-heading.minor-title.buttons-title,
+.buttons-block {
+  display: none;
+}
+
+/*Show Test Drive Button, Hide Others*/
+.vdp-container .right .block-heading.minor-title.buttons-title,
+.vdp-container .right .buttons-block {
+  display: block;
+}
+
+/*a.btn.btn-block.srp-btn-worth,
+a.btn.btn-block.btn.kia-btn--approved,
+a.btn.btn-block.cn-buynow-b1.cn-bn-action.cn-buynow-pw.cn-www-bn {
+    display: none!important;
+}*/
+
+.row.vehicle-show-buttons-stacked.vehicle-buttons-stacked .kia-secondary-btn {
+  margin: 0px;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button:hover {
+  color: #ffffff !important;
+}
+
+#sendToMobile {
+  left: 10px;
+}
+
+/*click to call icon*/
+@media (max-width: 569px) {
+  a.click-to-call-icon {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  a.click-to-call-icon:hover {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 569px) {
+  a.click-to-call-icon {
+    display: none;
+  }
+}
+
+.row.vehicle-show-buttons-stacked .col-xs-6 {
+  width: 100%;
+}
+
+.click-to-call-icon img {
+  width: 20px;
+}
+
+p.disclaimer-vdp {
+  padding-left: 15px;
+}
+
+p.added-comments {
+  padding-left: 15px;
+}
+
+.vehicle-show-container .vehicle-disclaimer {
+  display: none;
+}
+
+.added-comments i {
+  font-style: normal;
+}
+
+p.added-comments {
+  padding-left: 15px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: 700;
+  font-style: normal !important;
+}
+
+.split-vdp-with-toolbar .applied-conditional-rebates::before {
+  margin-left: 15px;
+}
+
+.incentive-amount::before,
+.price-savings h4::before {
+  content: "-";
+  color: green;
+}
+
+body .price-savings h4,
+body .incentive-amount {
+  color: green !important;
+}
+
+/* Making Featured Options and iPacket into split content - MW (4/28/26) req #100289 */
+@media (min-width: 991px) {
+  .vehicle-show-container .autoipacket-modules-display-container {
+    width: 50%;
+    float: right;
+    margin: 60px auto;
+  }
+
+  .row.vehicle-features-wrapper {
+    width: 48%;
+    float: left;
+  }
+
+  .vdp-vehicle-specs.vdp-vehicle-specs--mobile.visible-xs.visible-sm.visible-md {
+    clear: both;
+    padding-top: 50px;
+  }
+
+  .vehicle-features-wrapper .sokal-md-flex.sokal-items-center.sokal-justify-center {
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 70px;
+  }
+
+  .vehicle-features-wrapper .text-left h2.sokal-m-0 {
+    text-align: left;
+  }
+
+  .vehicle-features-wrapper .sokal-relative .row-no-gutters .sokal-md-flex .col-xs-12.col-md-4:first-of-type {
+    width: 90%;
+    margin: auto;
+  }
+
+  .vehicle-features-wrapper .sokal-relative .row-no-gutters .sokal-md-flex .col-xs-12.col-md-8 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .vehicle-features-wrapper .sokal-vertical-space {
+    display: none;
+  }
+}
+
+/* Price block style adjustments - MW (8/27/26) */
+.price-block .inventory-fees-block .col-xs-12 {
+  display: flex;
+  flex-direction: column;
+}
+
+.vehicle-info #hsVehicleBadgesRow .vehicle-certification-badge.kia_certified:hover {
+  cursor: default;
+}
+
+/* Compare Label and Radio Changes START */
+.compare-label,
+a.remove-vehicle-id {
+  margin-left: 10px;
+}
+
+.compare-vehicle-container {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+input.compare-vehicle-id[type="checkbox"] {
+  top: 4px;
+}
+/* Compare Label and Radio Changes END */
